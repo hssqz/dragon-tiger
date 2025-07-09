@@ -1,0 +1,155 @@
+{
+  "stock_info": {
+    "ts_code": "600967.SH",
+    "name": "内蒙一机",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+      ],
+      "interpretation": "该股票因日收盘价格跌幅偏离值达到7%而上榜，表明其跌幅远超市场平均水平，反映出强烈的抛售压力和投资者对该股票的悲观情绪加剧。这凸显了剧烈的多空分歧，其中空头力量占据主导，可能源于公司基本面恶化、行业负面消息或整体市场风险偏好下降，暗示短期内存在较高风险并可能吸引抄底资金博弈。"
+    },
+    "overall_assessment": {
+      "verdict": "空方主导",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "价格跌幅达9.99%，换手率9.06%较高，显示恐慌性抛售情绪。"
+      },
+      "capital_confrontation": {
+        "level": "空方强力控盘",
+        "interpretation": "主力净卖出1.67亿元（卖出额3.65亿元远超买入额1.97亿元），净率-6.09%，结合流通市值295.74亿元，控盘力度强且对抗激烈。"
+      },
+      "key_takeaway": "主力大额净卖出引发股价暴跌近10%，市场恐慌情绪蔓延。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.58亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.58亿元",
+          "buy_rate": "2.12%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓",
+          "style_profile": {
+            "summary": "执行互联互通机制标准战法，今日建仓，后市可能继续流入或稳定持有。",
+            "time_horizon": "中长期",
+            "preferred_setup": "跨境投资通道",
+            "typical_exit": "长期持有或逐步减持"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.48亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.48亿元",
+          "buy_rate": "1.73%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "执行标准做T战法，今日买入，后市可能高抛低吸。",
+            "time_horizon": "短期",
+            "preferred_setup": "日内交易",
+            "typical_exit": "逢高卖出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.37亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.37亿元",
+          "buy_rate": "1.35%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "执行标准做T战法，今日买入，后市可能高抛低吸。",
+            "time_horizon": "短期",
+            "preferred_setup": "日内交易",
+            "typical_exit": "逢高卖出"
+          }
+        },
+        {
+          "seat_name": "瑞银证券有限责任公司上海浦东新区花园石桥路第二证券营业部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.26亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.26亿元",
+          "buy_rate": "0.96%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "执行量化做T战法，今日买入，后市可能助涨并做T。",
+            "time_horizon": "短期",
+            "preferred_setup": "量化模型驱动",
+            "typical_exit": "信号触发卖出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.47亿元",
+          "net_amount": "-4,740.82万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.73%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "机构出货，可能调仓，后市可能继续减持。",
+            "time_horizon": "中长期",
+            "preferred_setup": "投资组合管理",
+            "typical_exit": "逐步减持"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "1.36亿元",
+          "net_amount": "-13,555.39万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "4.93%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "量化基金出货，可能止盈或止损，后市可能助跌。",
+            "time_horizon": "短期",
+            "preferred_setup": "量化策略",
+            "typical_exit": "信号触发卖出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位中最高买入占比为2.12%，其余席位占比均在0.96%至1.73%之间，分布较为均匀，无单一席位占主导地位。",
+      "synergy_analysis": "存在协同作战迹象，多个知名游资席位（东方财富拉萨团结路第一证券营业部和东方财富拉萨金融城南环路证券营业部）同时上榜，均标注为'T王'风格，属于'东方财富拉萨天团'，表明可能协同行动。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要源于量化基金国泰海通证券总部的大额卖出（1.36亿元，占比4.93%），该席位类型为量化，策略涉及频繁做T和助涨助跌，显示出特定主力的集中出货行为；其他席位如机构专用和普通席位虽有贡献，但金额较小且分散，非主导因素。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前股价处于上涨末期阶段。在量价关系上，上榜日（2025-07-02）放量下跌，成交量154.17万手，高于平均108.28万手，价跌量增显示抛压沉重；前一日（2025-07-01）放量高开低走，成交量276.22万手，价跌量增进一步确认资金出逃。关键信号包括7月1日的长上影阴线（最高20.64，收盘19.31）显示高位阻力，以及7月2日的大阴线（跌幅-9.99%）放量突破下跌，形成顶部反转信号。"
+    },
+    "final_verdict": {
+      "outlook": "基于分析，当前市场空方主导，恐慌情绪蔓延，股价大幅下跌形成顶部反转信号。后市展望偏悲观，短期内可能继续承压，反弹机会有限，需关注买方协同行为但警惕卖方持续出货。",
+      "strategy": "操作策略建议：散户投资者应保持观望，避免盲目抄底。如果持有该股票，设定止损点控制风险；不推荐开新仓。关注短期波动机会但以轻仓为主，优先考虑风险控制。",
+      "risk_warning": "风险提示：股价波动剧烈，存在进一步下跌风险。市场情绪不稳定，基本面恶化或行业负面消息可能加剧损失。投资需高度谨慎，注意资金安全，避免追高杀跌。"
+    }
+  },
+  "generated_at": "2025-07-03 15:45:17"
+}

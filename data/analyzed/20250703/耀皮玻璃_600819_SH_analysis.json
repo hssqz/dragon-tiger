@@ -1,0 +1,155 @@
+{
+  "stock_info": {
+    "ts_code": "600819.SH",
+    "name": "耀皮玻璃",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+      ],
+      "interpretation": "该上榜原因表明该股票在短期内经历了显著的价格上涨，偏离值累计达20%，反映出市场存在强烈的多头共识和乐观情绪；这通常由持续的买方压力驱动，可能源于利好消息、资金流入或市场炒作，暗示投资者对股票前景高度看好，博弈状态偏向一致看涨，而非剧烈的多空分歧。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜出",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "股价涨幅高达9.97%，接近涨停板，表明市场情绪高度亢奋；换手率9.87%显示活跃但未达极端分歧水平。"
+      },
+      "capital_confrontation": {
+        "level": "中等",
+        "interpretation": "主力净买入0.26亿元，买卖金额接近（买入0.99亿元 vs 卖出0.74亿元），净买入率3.89%，表明多空对抗存在但多方略占优；相对于流通市值53.40亿元，控盘力度有限。"
+      },
+      "key_takeaway": "主力资金净买入推动股价强势涨停，凸显短期多头主导格局。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.29亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.29亿元",
+          "buy_rate": "4.38%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封",
+          "style_profile": {
+            "summary": "执行标准量化打板战法买入首板或二板，后市可能次日开盘兑现一半仓位，若上板则纠错买回，否则清仓",
+            "time_horizon": "短线",
+            "preferred_setup": "首板、二板",
+            "typical_exit": "次日不能秒板开盘兑现一半，上板纠错买回，不能走强直接清仓"
+          }
+        },
+        {
+          "seat_name": "甬兴证券有限公司宁波和源路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "宁波和源路",
+          "buy_amount": "0.20亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.20亿元",
+          "buy_rate": "3.05%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "高位接力",
+          "style_profile": {
+            "summary": "执行标准高位接力战法，后市可能根据情绪节点果断出货",
+            "time_horizon": "短线",
+            "preferred_setup": "日内情绪节点、排一字板",
+            "typical_exit": "一旦个股预期走弱，出货毫不拖泥带水"
+          }
+        },
+        {
+          "seat_name": "财通证券股份有限公司台州临海杜桥滨海西路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "秋千",
+          "buy_amount": "0.13亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.13亿元",
+          "buy_rate": "2.02%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "连板接力",
+          "style_profile": {
+            "summary": "执行标准连板接力战法，后市可能继续持有或在次新高点退出",
+            "time_horizon": "短线",
+            "preferred_setup": "次新、跌停翘板",
+            "typical_exit": "高点退出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "华鑫证券有限责任公司上海新松江路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "炒股养家",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.12亿元",
+          "net_amount": "-1,236.47万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.87%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "执行标准隔日高位离场战法，后市可能挖掘新题材龙头",
+            "time_horizon": "短线",
+            "preferred_setup": "龙头、一字板",
+            "typical_exit": "隔日高位逐步离场"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.14亿元",
+          "net_amount": "-1,377.94万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.08%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "机构调仓或获利了结，后市可能观望或布局中长线",
+            "time_horizon": "中长线",
+            "preferred_setup": "",
+            "typical_exit": "逐步卖出"
+          }
+        },
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.18亿元",
+          "net_amount": "-1,769.56万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.67%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "执行纪律性风控清仓，后市可能完全退出或等待新机会",
+            "time_horizon": "短线",
+            "preferred_setup": "首板、二板",
+            "typical_exit": "不能走强直接清仓"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位买入比例分布较为均匀，最高买入率为4.38%（开源证券西安西大街），最低为1.78%（华泰证券上海浦东），无单一席位主导。",
+      "synergy_analysis": "存在协同作战迹象，多个知名游资同时上榜：开源证券西安西大街（量化打板）、甬兴证券宁波和源路（高位接力）、财通证券台州临海（秋千），表明可能合作操作。"
+    },
+    "seller_analysis": {
+      "pressure_level": "获利了结",
+      "pressure_desc": "卖压主要来自多个席位共同行为，包括知名游资（如炒股养家和量化打板）和机构专用席位，其交易风格（如高位逐步离场、纪律性兑现）表明为普遍的获利了结，而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于短期上涨趋势的加速阶段。量价关系显示，上榜日（2025-07-03）及前一日（2025-07-02）均放量大涨，成交量分别为73.78万手和23.11万手，远高于平均11.76万手，形成价涨量增的健康配合，表明买方力量强劲。关键信号包括7月2日的大阳线突破前期整理平台（约5.6-5.8元区间），以及7月3日的涨停板，确认了趋势加速的有效性。"
+    },
+    "final_verdict": {
+      "outlook": "基于连续三日涨幅偏离20%上榜、市场情绪亢奋及趋势加速分析，后市短期内有望延续上涨势头，主要受多头主导和游资协同推动；但需警惕获利回吐风险，尤其游资短线操作可能引发快速回调。",
+      "strategy": "建议短线投资者逢低轻仓参与，设置止损位（如股价跌破5.8元支撑位）；密切关注开盘表现，若次日不能强势封板则及时退出，避免追高。",
+      "risk_warning": "风险包括高波动性（游资可能快速兑现利润导致股价暴跌）、市场情绪反转（亢奋后易回调）、机构卖出暗示长线压力、以及高位接力失败风险；散户应严格仓位管理，避免过度杠杆。"
+    }
+  },
+  "generated_at": "2025-07-03 19:01:34"
+}

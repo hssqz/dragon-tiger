@@ -1,0 +1,106 @@
+{
+  "stock_info": {
+    "ts_code": "000701.SZ",
+    "name": "厦门信达",
+    "trade_date": "20250617"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日跌幅偏离值达到7%"
+      ],
+      "signal_strength": "最强信号",
+      "interpretation": "反映资金最强烈的做空意愿，表明市场抛压巨大，需警惕个股的持续下跌风险。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "net_amount": "407.51万元",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法，后市可能继续做T操作，导致股价短期波动。",
+            "time_horizon": "短期",
+            "preferred_setup": "高流动性股票",
+            "typical_exit": "盘中或次日卖出部分仓位获利"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "net_amount": "327.63万元",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法，后市可能继续做T操作，导致股价短期波动。",
+            "time_horizon": "短期",
+            "preferred_setup": "高流动性股票",
+            "typical_exit": "盘中或次日卖出部分仓位获利"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "net_amount": "299.61万元",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法，后市可能继续做T操作，导致股价短期波动。",
+            "time_horizon": "短期",
+            "preferred_setup": "高流动性股票",
+            "typical_exit": "盘中或次日卖出部分仓位获利"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "net_amount": "7.85万元",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法，后市可能继续做T操作，导致股价短期波动。",
+            "time_horizon": "短期",
+            "preferred_setup": "高流动性股票",
+            "typical_exit": "盘中或次日卖出部分仓位获利"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "net_amount": "-2,868.35万元",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今天大额卖出，可能执行调仓或获利了结；后市若持续卖出，可能打压股价。",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面稳健的蓝筹股",
+            "typical_exit": "基于估值或市场条件退出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "买方高度集中在东方财富拉萨天团，其四个席位（金融城南环路、团结路第一、东环路第一、东环路第二）占总买入额的76.32%，且均来自同一游资团体。",
+      "synergy_analysis": "存在协同作战迹象，多个知名游资席位（东方财富拉萨金融城南环路、团结路第一、东环路第一、东环路第二）同时上榜，均属于'东方财富拉萨天团'，并共享相同的交易风格（每天做T），表明可能协同操作。"
+    },
+    "seller_analysis": {
+      "pressure_level": "显著",
+      "pressure_desc": "卖压主要来自特定主力（机构专用席位）的集中出货，普通席位有少量获利了结。"
+    },
+    "historical_context": {
+      "behavior_type": "高位放量下跌，主力出货信号",
+      "trend_interpretation": "股价经历快速上涨（从5.33元至8.35元，涨幅56.6%），成交量显著放大；龙虎榜日出现10.04%大跌，高位高量显示获利了结压力，预示短期趋势可能反转进入调整阶段。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望偏空。日跌幅偏离值达到7%反映强烈做空意愿，机构大额出货和股价高位放量下跌预示短期可能继续调整或下跌。游资做T操作可能导致波动，但整体抛压巨大，趋势反转风险高。",
+      "strategy": "操作策略建议谨慎观望。散户投资者避免追涨杀跌；持仓者逢高减仓控制风险；空仓者等待企稳信号后再考虑介入，不宜盲目抄底。",
+      "risk_warning": "风险提示：股价面临持续下跌风险；机构出货可能进一步打压股价；游资协同做T增加短期波动性；历史高位反转信号强烈，调整阶段可能延长，需警惕流动性风险和意外事件影响。"
+    }
+  },
+  "generated_at": "2025-07-01 14:00:49"
+}

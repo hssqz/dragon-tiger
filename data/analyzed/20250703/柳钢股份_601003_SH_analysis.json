@@ -1,0 +1,138 @@
+{
+  "stock_info": {
+    "ts_code": "601003.SH",
+    "name": "柳钢股份",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券"
+      ],
+      "interpretation": "该上榜原因表明该股票当日收盘价格涨幅显著偏离市场平均水平7个百分点以上，反映了强劲的买方驱动和股价超常表现。这通常由积极的市场情绪推动，如利好新闻、业绩预期改善或行业热点催化，显示出强烈的多头共识：买方力量占据绝对优势，市场参与者普遍看涨，博弈状态偏向一致乐观，而非剧烈多空分歧，暗示短期上涨动能持续且风险偏好高涨。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜出",
+      "confidence_score": 0.75,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "涨幅达10.09%，换手率8.35%，表明市场情绪亢奋，交易活跃。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力净卖出1.033亿元，大单占比29.12%，显示多空对抗激烈，空方在价格上涨中撤退。"
+      },
+      "key_takeaway": "价格涨停但主力资金净流出，凸显空头回补推动行情，短期需警惕回调风险。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.13亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.13亿元",
+          "buy_rate": "1.37%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓",
+          "style_profile": {
+            "summary": "今天纯买入建仓，偏离其典型做T风格，后市可能震荡中做T或逢高减仓。",
+            "time_horizon": "短线（日内至几天）",
+            "preferred_setup": "高波动性股票",
+            "typical_exit": "日内或次日通过买卖平仓"
+          }
+        },
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.10亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.10亿元",
+          "buy_rate": "1.03%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "打板建仓",
+          "style_profile": {
+            "summary": "今天买入打板，符合其量化打板风格，后市若次日不能秒板开盘可能兑现一半，上板则买回，否则清仓。",
+            "time_horizon": "短线（1-2天）",
+            "preferred_setup": "首板或二板股票",
+            "typical_exit": "次日开盘不秒板则兑现一半，上板买回，不能走强则清仓"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.22亿元",
+          "net_amount": "-2,231.02万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.29%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "作为境外资金通道，今天卖出，可能是获利了结或调整仓位，后市可能继续流出或根据市场调整。",
+            "time_horizon": "中长线",
+            "preferred_setup": "互联互通机制下的股票",
+            "typical_exit": "通过卖出实现"
+          }
+        },
+        {
+          "seat_name": "中信证券股份有限公司总部(非营业场所)",
+          "player_type": "机构",
+          "player_name": "中信总部",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.25亿元",
+          "net_amount": "-2,545.87万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.61%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "作为中信总部非营业场所席位，今天卖出，可能代表机构减仓，后市可能谨慎或调整策略。",
+            "time_horizon": "中长线",
+            "preferred_setup": "机构持仓股票",
+            "typical_exit": "通过卖出实现"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.25亿元",
+          "net_amount": "-2,549.75万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.62%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "作为综合机构席位，今天卖出，可能集体减仓，后市若市场不稳可能继续流出。",
+            "time_horizon": "中长线",
+            "preferred_setup": "蓝筹股或核心资产",
+            "typical_exit": "通过卖出实现"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "最大买方席位国信证券北京分公司买入占比4.47%，远高于其他席位（最高仅1.37%），且其买入金额占总列表的约48%，显示买方高度集中于单一席位。",
+      "synergy_analysis": "存在多个知名游资同时上榜：东方财富证券股份有限公司拉萨东环路第二证券营业部（T王）和开源证券股份有限公司西安西大街证券营业部（量化打板），表明有协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要源于特定主力席位（第一创业证券股份有限公司深圳红岭北路证券营业部）的集中出货行为，该席位卖出额达0.96亿元，占整体卖出率9.86%，显著高于其他席位（均在0.22-0.25亿元）。其他席位卖出额较小且分布相对均匀，表明部分获利了结成分存在，但整体卖压性质以集中出货为主。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于主升浪阶段，自2025年7月1日起价格连续大幅上涨。量价关系显示，上榜日（7月3日）及前两日（7月1日和7月2日）成交量剧增（从34.09万手增至213.87万手），价格同步涨停，形成放量上涨态势，表明买方动能强劲。关键信号包括7月1日大阳线突破前期3.5元附近整理平台，以及后续连续涨停K线形态，强化上升趋势。"
+    },
+    "final_verdict": {
+      "outlook": "短期股价可能延续上涨趋势，得益于强劲买方动能和协同游资建仓，但主力资金净流出和机构出货预示回调风险，需密切关注后续资金流向和市场情绪变化。",
+      "strategy": "建议散户持有现有仓位，逢回调轻仓买入，避免追高；关注游资动向如'T王'和'量化打板'的短线操作，若次日开盘不强势则考虑部分兑现。",
+      "risk_warning": "主要风险包括主力资金持续流出引发回调、机构减持压力、市场情绪逆转导致股价下跌；投资者应设置止损位，控制仓位规模，防范短期波动风险。"
+    }
+  },
+  "generated_at": "2025-07-03 19:01:39"
+}

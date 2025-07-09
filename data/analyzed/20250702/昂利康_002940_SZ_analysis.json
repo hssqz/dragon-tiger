@@ -1,0 +1,173 @@
+{
+  "stock_info": {
+    "ts_code": "002940.SZ",
+    "name": "昂利康",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日涨幅偏离值达到7%的前5只证券",
+        "严重异常期间日收盘价格涨幅偏离值累计达到200%的证券"
+      ],
+      "interpretation": "这些上榜原因表明该股票经历了显著的价格波动，单日涨幅偏离值达7%并排名前五，反映了短期内强烈的买盘推动和价格异动；而严重异常期间累计涨幅偏离值高达200%，则凸显了在异常波动期内的加速上涨趋势。这整体说明市场对该股票存在强烈的多头共识，买方力量占据绝对主导，投机情绪高涨，但同时也暗示潜在的高风险，需警惕泡沫积累和剧烈回调的可能性。"
+    },
+    "overall_assessment": {
+      "verdict": "多头微弱优势",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "日涨幅10.00%涨停，换手率11.45%较高，结合上榜原因（如严重异常期间涨幅累计200%），表明市场情绪亢奋。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "龙虎榜买入额和卖出额均为156.50亿元，净买入额1.20亿元（占流通市值83.19亿元的约1.44%），净买入率12.94%，但龙虎榜成交额占总成交额比例高达200.00%，显示主力资金高度活跃，多空对抗激烈但控盘力度不强。"
+      },
+      "key_takeaway": "主力资金在异常活跃的涨停板中激烈博弈，净买入微弱，凸显市场亢奋下的多空分歧。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "方正证券股份有限公司重庆金开大道证券营业部",
+          "player_type": "知名游资",
+          "player_name": "涪陵广场路",
+          "buy_amount": "0.56亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.56亿元",
+          "buy_rate": "6.09%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封或重仓打板入场",
+          "style_profile": {
+            "summary": "今天在执行标准战法，重仓打板入场。后市最可能剧本：如果股票继续强势则锁仓，否则高位出货。",
+            "time_horizon": "短期至中期",
+            "preferred_setup": "打板模式，偏好热门题材龙头股",
+            "typical_exit": "高位出货或根据市场情绪决定"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.52亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.52亿元",
+          "buy_rate": "5.59%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓或加仓",
+          "style_profile": {
+            "summary": "今天在建仓，执行标准机构策略。后市最可能剧本：长期持有，基于基本面推动股价。",
+            "time_horizon": "长期",
+            "preferred_setup": "基本面良好或行业龙头的股票",
+            "typical_exit": "基于估值目标或风险控制退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.29亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.29亿元",
+          "buy_rate": "3.10%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓或加仓",
+          "style_profile": {
+            "summary": "今天在建仓，执行标准机构策略。后市最可能剧本：长期持有，基于基本面推动股价。",
+            "time_horizon": "长期",
+            "preferred_setup": "基本面良好或行业龙头的股票",
+            "typical_exit": "基于估值目标或风险控制退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.22亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.22亿元",
+          "buy_rate": "2.32%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓或加仓",
+          "style_profile": {
+            "summary": "今天在建仓，执行标准机构策略。后市最可能剧本：长期持有，基于基本面推动股价。",
+            "time_horizon": "长期",
+            "preferred_setup": "基本面良好或行业龙头的股票",
+            "typical_exit": "基于估值目标或风险控制退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.47亿元",
+          "sell_amount": "0.33亿元",
+          "net_amount": "0.14亿元",
+          "buy_rate": "5.11%",
+          "sell_rate": "3.58%",
+          "action_interpretation": "做T操作或调整仓位",
+          "style_profile": {
+            "summary": "今天做T调整仓位。后市最可能剧本：继续持有核心仓位，可能长期投资。",
+            "time_horizon": "长期",
+            "preferred_setup": "基本面驱动",
+            "typical_exit": "基于估值退出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.10亿元",
+          "sell_amount": "0.15亿元",
+          "net_amount": "-457.71万元",
+          "buy_rate": "1.08%",
+          "sell_rate": "1.57%",
+          "action_interpretation": "部分减仓或出货",
+          "style_profile": {
+            "summary": "今天部分减仓。后市最可能剧本：可能继续持有或进一步出货，取决于基本面。",
+            "time_horizon": "长期",
+            "preferred_setup": "基本面分析",
+            "typical_exit": "逐步减仓或一次性退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.15亿元",
+          "sell_amount": "0.25亿元",
+          "net_amount": "-1,069.49万元",
+          "buy_rate": "1.58%",
+          "sell_rate": "2.73%",
+          "action_interpretation": "部分减仓或出货",
+          "style_profile": {
+            "summary": "今天部分减仓。后市最可能剧本：可能继续持有或进一步出货，取决于基本面。",
+            "time_horizon": "长期",
+            "preferred_setup": "基本面分析",
+            "typical_exit": "逐步减仓或一次性退出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "机构投资者席位占据了50.52%的买入比例，远高于其他席位（最高仅为6.09%），表明买方资金高度集中于单一席位。",
+      "synergy_analysis": "只有一个知名游资（涪陵广场路）上榜，无其他游资参与，因此不存在协同作战的迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "High",
+      "pressure_desc": "卖压主要来自散户投资者的普遍获利了结行为，而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于短期上涨趋势的主升浪阶段，自2025年6月27日低点反弹后连续多日大幅上涨。量价关系方面，上榜日（2025-07-02）成交量21.21万手较前一日（2025-07-01）16.13万手显著增加，配合10.00%的涨幅，形成放量上涨格局；前几日如2025-06-30量增价涨（19.53万手，+9.24%），2025-07-01量减价涨（16.13万手，+10.00%），总体量能波动但支持上涨。关键信号包括上榜日出现大阳线（涨停），突破前期高点44.9，结合连续多日涨幅超9%，确认趋势加速形态。"
+    },
+    "final_verdict": {
+      "outlook": "短期内股价可能延续上涨趋势，但波动性极高，存在显著回调风险；长期前景取决于基本面支撑，但当前投机情绪亢奋，可能导致泡沫积累。",
+      "strategy": "持仓者部分获利了结锁定收益；空仓者可小仓位短线参与，设置止损点于关键支撑位下方，避免追涨杀跌；密切关注机构动向和量能变化。",
+      "risk_warning": "高风险：股票处于严重异常波动期，累计涨幅过大，泡沫破裂和剧烈回调可能性高；市场情绪亢奋，多空分歧激烈，散户应谨慎操作，注意资金管理。"
+    }
+  },
+  "generated_at": "2025-07-03 15:37:21"
+}

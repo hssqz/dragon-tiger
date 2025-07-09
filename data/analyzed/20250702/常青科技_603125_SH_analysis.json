@@ -1,0 +1,138 @@
+{
+  "stock_info": {
+    "ts_code": "603125.SH",
+    "name": "常青科技",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日换手率达到20%的前五只证券"
+      ],
+      "interpretation": "这个上榜原因表明该股票在当天经历了异常高的交易活跃度，换手率20%远超市场平均水平，说明市场对该股票的关注度极高，可能由重大事件、消息或投机活动驱动。这反映了当前市场情绪中存在剧烈的多空分歧，买卖双方在价格涨跌幅限制下激烈博弈，多头看好积极买入，空头抛售导致交易量放大，显示出市场波动大、投机氛围浓厚，而非单纯的强势多头共识。"
+    },
+    "overall_assessment": {
+      "verdict": "空方胜出",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "股价下跌2.12%，换手率高达56.72%，表明市场存在恐慌性抛售情绪。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力净卖出1.35亿元，占流通市值7.03%，主力成交占比24.80%，显示多空对抗高度激烈，空方占据优势。"
+      },
+      "key_takeaway": "主力大幅净卖出推动股价下跌，高换手率凸显市场恐慌情绪。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.16亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.16亿元",
+          "buy_rate": "1.37%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓买入",
+          "style_profile": {
+            "summary": "执行互联互通标准买入战法，后市预计稳定持仓支撑股价。",
+            "time_horizon": "中长期",
+            "preferred_setup": "互联互通标的股",
+            "typical_exit": "趋势反转退出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.15亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.15亿元",
+          "buy_rate": "1.24%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "做T买入",
+          "style_profile": {
+            "summary": "执行做T买入标准战法，后市可能快速卖出做T获利。",
+            "time_horizon": "超短线",
+            "preferred_setup": "高波动题材股",
+            "typical_exit": "T+0或次日卖出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.23亿元",
+          "net_amount": "-2,325.33万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.97%",
+          "action_interpretation": "出货卖出",
+          "style_profile": {
+            "summary": "执行机构减持标准战法，后市可能继续卖出施压股价。",
+            "time_horizon": "中长线",
+            "preferred_setup": "价值股",
+            "typical_exit": "目标价达成退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.72亿元",
+          "net_amount": "-7,208.16万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "6.11%",
+          "action_interpretation": "出货卖出",
+          "style_profile": {
+            "summary": "执行机构减持标准战法，后市可能继续卖出施压股价。",
+            "time_horizon": "中长线",
+            "preferred_setup": "价值股",
+            "typical_exit": "目标价达成退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.82亿元",
+          "net_amount": "-8,247.15万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "6.99%",
+          "action_interpretation": "出货卖出",
+          "style_profile": {
+            "summary": "执行机构减持标准战法，后市可能继续卖出施压股价。",
+            "time_horizon": "中长线",
+            "preferred_setup": "价值股",
+            "typical_exit": "目标价达成退出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位买入金额分布均匀，最大席位占比约21.52%，所有席位占比在18.99%到21.52%之间，无显著主导席位。",
+      "synergy_analysis": "仅有一个知名游资（东方财富证券股份有限公司拉萨东环路第二证券营业部）上榜，其他席位为普通席位或机构，未发现多个知名游资协同作战的迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "高",
+      "pressure_desc": "卖压主要来源于特定主力机构的集中出货。机构专用席位卖出额占比高（总卖出约83.5%），且卖出额较大（如0.72亿元和0.82亿元），表明少数机构主导；普通席位卖出额小（占比约16.5%），非普遍获利了结。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前股价处于短期上涨趋势的末期。上榜日（2025-07-02）出现放量下跌，成交量57.41万手，远超近期平均成交量13.19万手，且较前一日上涨时的21.64万手大幅增加，形成价跌量增的负面信号。关键信号包括：连续两日涨停（2025-06-30和2025-07-01）后，上榜日形成长上影阴线（最高21.3，最低18.68，收盘18.95），显示冲高受阻和抛压加剧，表明可能为顶部反转形态。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望：基于市场恐慌情绪浓厚、空方占据优势（主力净卖出显著），以及技术面高位出货信号（价跌量增、长上影阴线），预计股价将继续承压，可能进一步下跌。高换手率凸显剧烈波动，多空分歧加剧，后市趋势偏空，投资者应高度谨慎。",
+      "strategy": "操作策略建议：建议散户投资者减持现有持仓，避免在此时买入或追高。若持有仓位，优先逢高减仓锁定收益；若空仓，暂时观望等待市场稳定信号（如成交量回落或底部形态出现）。短期可关注超跌反弹机会，但需严格控制仓位和止损点。",
+      "risk_warning": "风险提示：高换手率（56.72%）和机构主导抛售（机构专用席位卖出占比83.5%）可能导致股价大幅波动和持续下跌。游资短线操作（如T王做T买入）可能加剧市场不稳定性，增加流动性风险。投资者需警惕短期大幅亏损、恐慌性抛售蔓延及潜在黑天鹅事件影响。"
+    }
+  },
+  "generated_at": "2025-07-03 15:46:14"
+}

@@ -1,0 +1,189 @@
+{
+  "stock_info": {
+    "ts_code": "603716.SH",
+    "name": "塞力医疗",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+      ],
+      "interpretation": "这个上榜原因表明该股票在短期内价格涨幅累计超过20%，反映出市场对该股票有强劲的买盘需求和看涨情绪。它说明当前多头共识强烈，市场参与者普遍预期股价上涨，可能是基于利好消息或行业热点，而空头压力较小，博弈状态呈现多头主导的格局。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜利",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "股价涨幅达9.97%（接近涨停）且换手率高达24.05%，显示市场情绪高度亢奋。"
+      },
+      "capital_confrontation": {
+        "level": "中等",
+        "interpretation": "主力净买入0.96亿元（净买入率5.73%），占流通市值比例仅2.89%，控盘力度一般；买盘（2.20亿元）与卖盘（1.24亿元）差距中等，对抗激烈程度适中。"
+      },
+      "key_takeaway": "主力资金净流入推动股价涨停，但高换手率揭示市场潜在分歧。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.54亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.54亿元",
+          "buy_rate": "3.23%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓买入",
+          "style_profile": {
+            "summary": "今日执行标准战法（利用假机构席位溢价建仓），后市可能继续做T或助涨行情。",
+            "time_horizon": "超短线",
+            "preferred_setup": "假机构入场，题材挖掘",
+            "typical_exit": "快速平仓，做T卖出"
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司深圳益田路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "益田路",
+          "buy_amount": "0.31亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.31亿元",
+          "buy_rate": "1.87%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主动买入",
+          "style_profile": {
+            "summary": "今日执行标准战法（价值投机买入），后市可能自买自卖操作。",
+            "time_horizon": "短线",
+            "preferred_setup": "价值投机，情绪拐点",
+            "typical_exit": "自买自卖，获利了结"
+          }
+        },
+        {
+          "seat_name": "国盛证券有限责任公司宁波天童南路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "天童南路",
+          "buy_amount": "0.31亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.31亿元",
+          "buy_rate": "1.83%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "拐点买入",
+          "style_profile": {
+            "summary": "今日执行标准战法（捕捉市场拐点买入），后市可能题材发酵后获利退出。",
+            "time_horizon": "短线至中线",
+            "preferred_setup": "题材挖掘，市场拐点",
+            "typical_exit": "干净利落退出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.20亿元",
+          "net_amount": "-1,960.63万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.17%",
+          "action_interpretation": "做T卖出",
+          "style_profile": {
+            "summary": "今日执行标准战法（做T卖出），后市可能继续做T操作。",
+            "time_horizon": "超短线",
+            "preferred_setup": "高频做T",
+            "typical_exit": "做T平仓"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.20亿元",
+          "net_amount": "-1,975.82万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.18%",
+          "action_interpretation": "做T卖出",
+          "style_profile": {
+            "summary": "今日执行标准战法（做T卖出），后市可能继续做T操作。",
+            "time_horizon": "超短线",
+            "preferred_setup": "高频做T",
+            "typical_exit": "做T平仓"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.26亿元",
+          "net_amount": "-2,616.95万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.56%",
+          "action_interpretation": "平仓卖出",
+          "style_profile": {
+            "summary": "今日执行标准战法（做T卖出），后市可能助跌或继续操作。",
+            "time_horizon": "超短线",
+            "preferred_setup": "假机构策略",
+            "typical_exit": "快速平仓"
+          }
+        },
+        {
+          "seat_name": "国盛证券有限责任公司宁波天童南路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "天童南路",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.26亿元",
+          "net_amount": "-2,632.70万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.57%",
+          "action_interpretation": "获利了结",
+          "style_profile": {
+            "summary": "今日可能执行标准战法（题材兑现卖出），后市可能寻找新机会。",
+            "time_horizon": "短线",
+            "preferred_setup": "题材挖掘",
+            "typical_exit": "干净利落退出"
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司深圳益田路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "益田路",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.32亿元",
+          "net_amount": "-3,236.46万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.93%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今日执行标准战法（价值投机卖出），后市可能回调或新布局。",
+            "time_horizon": "短线",
+            "preferred_setup": "情绪拐点",
+            "typical_exit": "自买自卖"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位买入比例分布较为均匀，最大买入比例为3.60%，所有席位买入比例在1.83%到3.60%之间，差异较小，无单一主导席位。",
+      "synergy_analysis": "存在协同作战的迹象，因为多个知名游资（华鑫证券深圳益田路和国盛证券宁波天童南路）同时上榜，且均为活跃资金。"
+    },
+    "seller_analysis": {
+      "pressure_level": "普遍",
+      "pressure_desc": "卖压来自多个游资和量化基金的分散行为，表现为普遍的获利了结。具体分析：东方财富拉萨天团席位（每天做T）和量化基金（频繁做T）的策略性交易，以及天童南路（题材挖掘、抓拐点）和益田路（价值投机）的获利退出，表明非特定主力集中出货，而是市场活跃交易者的集体了结行为。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于短期上涨趋势的加速阶段，特别是主升浪后期。量价关系方面，上榜日（2025-07-02）成交量45.94万手，较前一日（2025-07-01）的57.05万手减少，但价格大涨9.97%接近涨停，显示价涨量缩，表明买方力量强劲但量能略有减弱，需警惕潜在回调。关键信号包括上榜日出现大阳线突破历史新高（17.42元），配合前一日涨停形成连续大阳线形态，确认强势突破前期整理平台。"
+    },
+    "final_verdict": {
+      "outlook": "股票短期涨幅强劲，市场情绪亢奋，多头主导且突破历史新高，后市可能延续上涨趋势。但高换手率和价涨量缩信号提示潜在回调风险，需警惕波动加剧。",
+      "strategy": "建议散户逢低分批建仓，设置止损在17.00元附近；短线交易者可参与做T操作，快进快出；避免追高，密切关注成交量和主力资金动向。",
+      "risk_warning": "风险提示：高换手率（24.05%）显示市场分歧大；量能减弱可能引发回调；卖压普遍来自游资获利了结；股价突破新高后易出现技术性调整；整体波动风险高。"
+    }
+  },
+  "generated_at": "2025-07-03 15:48:59"
+}

@@ -1,0 +1,138 @@
+{
+  "stock_info": {
+    "ts_code": "002314.SZ",
+    "name": "南山控股",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+      ],
+      "interpretation": "连续三个交易日内涨幅偏离值累计达到20%，表明该股在短期内表现异常强劲，显著跑赢大盘指数。这反映了当前市场对该股强烈的多头共识，投资者情绪高涨，积极买入推动股价快速上涨，显示出市场对该股的乐观预期和信心，博弈状态中多头占据主导地位，空头力量较弱，暗示潜在的热点资金涌入或基本面利好驱动。"
+    },
+    "overall_assessment": {
+      "verdict": "多头占优",
+      "confidence_score": 0.8,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "价格大幅上涨10.07%表明市场情绪亢奋，换手率6.45%虽处于中等水平，但涨幅主导情绪。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力资金买入0.58亿元和卖出0.60亿元接近，净卖出仅-194.32万元（占流通市值比例极小），表明多空对抗激烈但主力控盘力度不强。"
+      },
+      "key_takeaway": "尽管主力资金轻微流出，但股价大涨10%，显示强劲多头势头。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "中泰证券股份有限公司常州惠国路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.13亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.13亿元",
+          "buy_rate": "3.36%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "打板买入",
+          "style_profile": {
+            "summary": "执行标准量化打板战法，今日打板买入首板或二板。后市最可能剧本：若明日开盘不强，将兑现一半；若上板则买回部分，否则清仓。",
+            "time_horizon": "短期（1-2天）",
+            "preferred_setup": "首板或二板",
+            "typical_exit": "次日开盘不强兑现一半，上板纠错买回，不能走强清仓"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "华鑫证券有限责任公司南京清凉门大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "472.26万元",
+          "sell_amount": "518.48万元",
+          "net_amount": "-46.21万元",
+          "buy_rate": "1.20%",
+          "sell_rate": "1.32%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "执行纪律性出货策略，今日净卖出。后市最可能剧本：若持仓，明日开盘不强将继续卖出或清仓。",
+            "time_horizon": "短期",
+            "preferred_setup": "首板或二板",
+            "typical_exit": "次日兑现或清仓"
+          }
+        },
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.22亿元",
+          "sell_amount": "0.24亿元",
+          "net_amount": "-204.57万元",
+          "buy_rate": "5.48%",
+          "sell_rate": "6.00%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "执行标准量化打板出货，今日净卖出。后市最可能剧本：纪律性退出，明日开盘不强将加速卖出。",
+            "time_horizon": "短期",
+            "preferred_setup": "首板或二板",
+            "typical_exit": "次日兑现或清仓"
+          }
+        },
+        {
+          "seat_name": "东莞证券股份有限公司东莞东坑证券营业部",
+          "player_type": "知名游资",
+          "player_name": "温州帮",
+          "buy_amount": "11.00万元",
+          "sell_amount": "722.04万元",
+          "net_amount": "-711.04万元",
+          "buy_rate": "0.03%",
+          "sell_rate": "1.84%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今日大量卖出，结束深度控盘操作。后市最可能剧本：若无协同席位，将完全退出；可能转向其他次新股。",
+            "time_horizon": "短期至中期",
+            "preferred_setup": "次新股",
+            "typical_exit": "快速出货或对倒拉升后卖出"
+          }
+        },
+        {
+          "seat_name": "深股通专用",
+          "player_type": "机构",
+          "player_name": "深股通专用",
+          "buy_amount": "198.24万元",
+          "sell_amount": "0.18亿元",
+          "net_amount": "-1,604.76万元",
+          "buy_rate": "0.50%",
+          "sell_rate": "4.59%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "作为境外资金通道执行卖出。后市最可能剧本：受市场因素影响，可能继续流出。",
+            "time_horizon": "中长期",
+            "preferred_setup": "蓝筹或规定范围股票",
+            "typical_exit": "根据市场条件调整"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "买方集中度高，最大买方席位（中泰证券常州惠国路）买率为3.36%，显著高于其他席位（买率均低于1.7%），主导买入行为。",
+      "synergy_analysis": "仅一个知名游资（量化打板）上榜，其他均为普通席位，无多个知名游资同时参与，无协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "高",
+      "pressure_desc": "卖压主要来自普遍的获利了结，由量化打板席位主导，其纪律性兑现策略导致卖出；同时存在温州帮的可能集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于上涨初期，从前期震荡筑底阶段（6月中下旬在2.48-2.7区间波动）进入加速上扬。量价关系方面，上榜日（2025-07-03）成交量86.34万手，远高于平均30.94万手，呈现放量上涨；前一日（2025-07-02）成交量42.62万手同样放大，量价配合良好，支持上涨趋势。关键信号包括上榜日大阳线跳空高开涨停（涨幅10.07%），以及前一日大阳线突破前期高点（2.88突破2.68），表明买方力量强劲，趋势加速启动。"
+    },
+    "final_verdict": {
+      "outlook": "该股当前处于上涨趋势加速阶段，多头势头强劲，市场情绪亢奋，后市有望继续上行。但需警惕高卖压和主力资金轻微流出的回调风险，短期可能波动加剧。",
+      "strategy": "短期投资者可考虑在开盘强势时逢低买入或持有；若开盘弱势则观望或减仓。基于量化游资策略，建议密切关注次日开盘表现：开盘强可加仓或持仓，开盘弱则及时兑现。",
+      "risk_warning": "风险包括：1) 高卖压主导获利了结，可能导致股价回调；2) 主力资金净流出且控盘力度不强，增加波动性；3) 量化游资可能快速退出，引发短期抛售；4) 买方无协同作战，支撑不足。"
+    }
+  },
+  "generated_at": "2025-07-03 18:54:05"
+}

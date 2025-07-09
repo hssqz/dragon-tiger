@@ -1,0 +1,86 @@
+{
+  "stock_info": {
+    "ts_code": "600387.SH",
+    "name": "退市海越",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "退市整理的证券"
+      ],
+      "interpretation": "上榜原因'退市整理的证券'表明该股票正处于退市整理期，这通常意味着公司面临严重财务问题、违规或其他风险，即将被摘牌。这反映了市场对股票前景的极度悲观情绪，投资者恐慌性抛售以避免进一步损失。市场博弈状态显示强烈的空头共识，多空分歧极小，焦点集中在快速退出而非价值博弈，凸显高风险和流动性危机。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜出",
+      "confidence_score": 0.8,
+      "market_sentiment": {
+        "level": "分歧",
+        "interpretation": "股价上涨2.20%但换手率5.80%适中，市场情绪分歧，部分投资者积极买入，部分担忧退市风险。"
+      },
+      "capital_confrontation": {
+        "level": "强控盘",
+        "interpretation": "主力资金高度控盘（成交额占比82.39%），净买入740万元且净买入率34.46%高，在低流通市值3.76亿元下影响力显著，多空对抗不激烈。"
+      },
+      "key_takeaway": "主力在退市整理中强势买入，推动股价上涨，凸显高风险背景下的资金主导。"
+    },
+    "key_forces": {
+      "buying_force": [],
+      "selling_force": [
+        {
+          "seat_name": "海通证券股份有限公司南京广州路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "南京帮",
+          "buy_amount": "0.00万元",
+          "sell_amount": "85.78万元",
+          "net_amount": "-85.78万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "3.99%",
+          "action_interpretation": "出货操作",
+          "style_profile": {
+            "summary": "作为短庄游资，今天执行出货操作，符合其标准战法；后市可能继续抛售或转移目标。",
+            "time_horizon": "短线",
+            "preferred_setup": "连续拉板提升辨识度",
+            "typical_exit": "出货"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司山南香曲东路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.00万元",
+          "sell_amount": "88.79万元",
+          "net_amount": "-88.79万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "4.14%",
+          "action_interpretation": "卖出操作，可能为日常做T的一部分",
+          "style_profile": {
+            "summary": "作为专业做T游资，今天卖出操作符合其日常T策略；后市可能快速回补或继续T操作。",
+            "time_horizon": "超短线",
+            "preferred_setup": "高波动股票",
+            "typical_exit": "盘中卖出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "最大买方席位华鑫证券上海光复路占买入总额的29.58%，远高于其他席位（第二名占比13.23%，其余均低于6%），表明买方资金高度集中。",
+      "synergy_analysis": "无协同作战迹象，所有席位均为普通席位，无知名游资上榜，且席位风格未明，缺乏协同证据。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要来自特定主力'南京帮'的集中出货行为，该席位为知名游资，采用短庄模式和对倒拉升策略，表明有计划的大额卖出。其他席位如'T王'（每日做T）和普通席位虽有卖出，但主力行为主导卖压来源。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "底部启动信号",
+      "trend_interpretation": "当前股价处于下跌后的筑底反弹阶段。量价关系显示上榜日（2025-07-03）放量上涨，成交量23.42万手显著高于前几日平均水平（约10-15万手），形成价涨量增的积极信号。关键信号包括2025-06-27的大阳线（涨幅5.75%）作为反弹启动点，以及上榜日阳线实体较长且收盘价接近当日高点，确认了短期反弹趋势的延续。"
+    },
+    "final_verdict": {
+      "outlook": "该股票处于退市整理期，风险极高，但短期技术面显示筑底反弹迹象（如放量上涨和底部启动信号），主力资金买入推动上涨，市场情绪分歧，后市可能短暂反弹后因退市风险继续下跌。",
+      "strategy": "散户应避免新仓买入。持有者应在反弹机会时果断减仓或清仓，设置止损点（如低于当前价5%）以保护资本，并密切关注主力资金动向和游资行为。",
+      "risk_warning": "高风险警告：退市可能导致价值归零；流动性危机可能致交易困难；主力资金和知名游资（如南京帮和T王）操作可能引发剧烈价格波动；市场情绪分歧加剧不确定性。"
+    }
+  },
+  "generated_at": "2025-07-03 18:59:41"
+}

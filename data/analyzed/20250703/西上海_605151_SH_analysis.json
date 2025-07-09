@@ -1,0 +1,172 @@
+{
+  "stock_info": {
+    "ts_code": "605151.SH",
+    "name": "西上海",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+      ],
+      "interpretation": "该上榜原因表明该股票在当日收盘时跌幅显著偏离市场基准（如上证指数），跌幅超过7%，反映出该股票遭遇了强烈的卖压和价格下跌。这通常源于负面事件（如业绩不及预期、行业利空或市场恐慌），说明当前市场情绪高度悲观，投资者信心不足。在博弈状态上，这显示出空方占据主导地位，多空分歧剧烈但空方力量更强，可能导致短期抛售潮加剧。"
+    },
+    "overall_assessment": {
+      "verdict": "空方胜利",
+      "confidence_score": 0.9,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "收盘价下跌10.01%，换手率11.97%，表明市场情绪恐慌，抛售压力显著。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "大单净卖出2970.26万元，占成交额8.61%，大单占比23.61%，结合流通市值28.42亿元，显示主力资金空方主导，多空对抗激烈。"
+      },
+      "key_takeaway": "空方强势主导，股价暴跌触发恐慌性抛售。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "摩根大通证券(中国)有限公司上海银城中路证券营业部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "639.73万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "639.73万元",
+          "buy_rate": "1.85%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入建仓",
+          "style_profile": {
+            "summary": "今日仅买入，未执行标准频繁做T战法，可能在建仓推高。后市剧本：可能拉高后卖出做T。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "卖出平仓"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "396.46万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "396.46万元",
+          "buy_rate": "1.15%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓买入",
+          "style_profile": {
+            "summary": "今日仅买入，未执行标准每天做T战法，可能在建仓。后市剧本：可能次日卖出做T。",
+            "time_horizon": "短期",
+            "preferred_setup": "做T模式",
+            "typical_exit": "卖出平仓"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "395.06万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "395.06万元",
+          "buy_rate": "1.14%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓买入",
+          "style_profile": {
+            "summary": "今日仅买入，未执行标准每天做T战法，可能在建仓。后市剧本：可能次日卖出做T。",
+            "time_horizon": "短期",
+            "preferred_setup": "做T模式",
+            "typical_exit": "卖出平仓"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "377.83万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "377.83万元",
+          "buy_rate": "1.09%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓买入",
+          "style_profile": {
+            "summary": "今日仅买入，未执行标准每天做T战法，可能在建仓。后市剧本：可能次日卖出做T。",
+            "time_horizon": "短期",
+            "preferred_setup": "做T模式",
+            "typical_exit": "卖出平仓"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "中信证券股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "890.58万元",
+          "net_amount": "-890.58万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.58%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今日仅卖出，未执行标准频繁做T战法，可能在出货。后市剧本：可能继续做T或观望。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "卖出平仓"
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司上海宛平南路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "炒股养家",
+          "buy_amount": "0.00万元",
+          "sell_amount": "980.59万元",
+          "net_amount": "-980.59万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.84%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "执行标准隔日高位逐步离场战法。后市剧本：可能继续离场或寻找新题材机会。",
+            "time_horizon": "短期",
+            "preferred_setup": "一字板，题材挖掘，龙头定位",
+            "typical_exit": "高位逐步离场"
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司上海红宝石路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "炒股养家",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.15亿元",
+          "net_amount": "-1,468.45万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "4.25%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "执行标准隔日高位逐步离场战法。后市剧本：可能继续离场或寻找新题材机会。",
+            "time_horizon": "短期",
+            "preferred_setup": "一字板，题材挖掘，龙头定位",
+            "typical_exit": "高位逐步离场"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位中最大买家华鑫证券深圳财富大厦占比仅2.26%，各席位买入份额均匀分布在1.09%至2.26%之间，无主导买家，整体呈现分散状态。",
+      "synergy_analysis": "存在协同作战迹象，多个知名游资（东方财富证券拉萨系列席位）同时上榜，均标注为'T王'且风格一致，专注于每日做T操作，属于同一'东方财富拉萨天团'群体。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要来自特定主力'炒股养家'的集中出货行为，该主力通过华鑫证券宛平南路和红宝石路两个席位卖出总计2480.59万元，占比较大，且策略描述'隔日高位逐步离场'表明是策略性大规模离场。量化基金和普通席位也有贡献，但炒股养家为主导来源。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前股价处于连续快速上涨后的顶部区域，处于上涨末期。量价关系显示，上榜日（2025-07-03）成交量大幅增加至16.11万手，远高于15日平均成交量5.48万手，形成显著放量下跌；而前两日（2025-07-01和2025-07-02）为缩量上涨（成交量分别为1.25万手和1.41万手），表明上涨动力不足。关键信号为上榜日出现放量跌停的大阴线（开盘22.71，收盘21.12，跌幅10.01%），结合此前连续涨停（07-01涨幅10.00%、07-02涨幅9.98%）形成高位反转形态，暗示主力资金在股价高点集中抛售出货。"
+    },
+    "final_verdict": {
+      "outlook": "基于分析，该股票因显著跌幅触发上榜，反映出强烈卖压和市场恐慌情绪。空方主导态势明显，结合高位出货形态和主力资金策略性离场，后市可能继续面临下行压力。买方虽有短期建仓行为，但以量化基金和游资做T操作为主，可能加剧波动，而非提供持续支撑。整体市场情绪悲观，短期反弹机会有限，需警惕进一步下跌风险。",
+      "strategy": "散户投资者应保持谨慎，避免盲目抄底或追高。观望为主，不急于建仓；如果已持有仓位，建议设置严格止损位（如跌破关键支撑位21.00元时离场）。短线交易者可轻仓捕捉可能的日内反弹，但需快进快出，目标设定在阻力位22.00元附近，并密切监控买方游资的做T动向。",
+      "risk_warning": "高风险提示：股价处于高位反转阶段，主力资金（如'炒股养家'）集中出货可能持续，导致进一步深跌。市场恐慌情绪可能放大波动，换手率高（11.97%）和放量下跌（16.11万手）表明流动性风险。此外，买方短期做T行为易引发价格剧烈震荡，投资者需评估自身风险承受能力，避免过度杠杆。"
+    }
+  },
+  "generated_at": "2025-07-03 19:03:55"
+}

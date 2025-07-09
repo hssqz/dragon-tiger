@@ -1,0 +1,155 @@
+{
+  "stock_info": {
+    "ts_code": "920088.BJ",
+    "name": "科力股份",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "当日换手率达到20%的前5只股票"
+      ],
+      "interpretation": "当日换手率达到20%表明该股票交易极其活跃，反映了市场对该股的高度关注和强烈兴趣。这通常说明存在剧烈的多空博弈，投资者对股票的未来走势存在显著分歧，买卖双方频繁交锋导致价格波动加大；如果伴随价格上涨，可能暗示部分多头共识正在形成，但整体情绪偏谨慎，需警惕短期风险。"
+    },
+    "overall_assessment": {
+      "verdict": "多方主导价格上升，但空方资金流出显示潜在压力",
+      "confidence_score": 0.8,
+      "market_sentiment": {
+        "level": "分歧",
+        "interpretation": "价格上涨4.49%表明多方推动，但高换手率41.01%和净卖出-560.34万元反映市场情绪分歧，多方乐观与空方谨慎并存"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "龙虎榜净卖出560.34万元（净率-1.29%），占总成交16.12%，结合小流通市值10.67亿元，主力资金控盘力度强但多空对抗激烈，空方略占优"
+      },
+      "key_takeaway": "高换手上涨伴随资金流出，警示短期回调风险"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "718.78万元",
+          "sell_amount": "548.63万元",
+          "net_amount": "170.16万元",
+          "buy_rate": "1.65%",
+          "sell_rate": "1.26%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今天在执行标准做T战法，买卖平衡中偏买入，后市最可能继续日内震荡操作。",
+            "time_horizon": "短期日内",
+            "preferred_setup": "做T机会",
+            "typical_exit": "日内平仓"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "522.53万元",
+          "sell_amount": "406.14万元",
+          "net_amount": "116.39万元",
+          "buy_rate": "1.20%",
+          "sell_rate": "0.93%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今天在执行标准做T战法，净买入显示积极操作，后市最可能维持震荡策略。",
+            "time_horizon": "短期日内",
+            "preferred_setup": "做T机会",
+            "typical_exit": "日内平仓"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "703.70万元",
+          "sell_amount": "612.77万元",
+          "net_amount": "90.93万元",
+          "buy_rate": "1.62%",
+          "sell_rate": "1.41%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今天在执行标准做T战法，买卖量大致相当，后市最可能延续日内高频交易。",
+            "time_horizon": "短期日内",
+            "preferred_setup": "做T机会",
+            "typical_exit": "日内平仓"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司山南香曲东路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "396.67万元",
+          "sell_amount": "398.24万元",
+          "net_amount": "-1.56万元",
+          "buy_rate": "0.91%",
+          "sell_rate": "0.91%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今天在执行标准做T战法，买卖几乎平衡，后市最可能继续震荡操作无大动作。",
+            "time_horizon": "短期日内",
+            "preferred_setup": "做T机会",
+            "typical_exit": "日内平仓"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "562.05万元",
+          "sell_amount": "691.45万元",
+          "net_amount": "-129.40万元",
+          "buy_rate": "1.29%",
+          "sell_rate": "1.59%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今天在执行标准做T战法，净卖出但符合模式，后市最可能震荡中调整仓位。",
+            "time_horizon": "短期日内",
+            "preferred_setup": "做T机会",
+            "typical_exit": "日内平仓"
+          }
+        },
+        {
+          "seat_name": "中信建投证券股份有限公司北京东城分公司",
+          "player_type": "知名游资",
+          "player_name": "呼家楼",
+          "buy_amount": "105.59万元",
+          "sell_amount": "509.84万元",
+          "net_amount": "-404.24万元",
+          "buy_rate": "0.24%",
+          "sell_rate": "1.17%",
+          "action_interpretation": "大举出货",
+          "style_profile": {
+            "summary": "今天在大举卖出，执行大开大合风格，后市最可能减仓或转战其他高波动机会。",
+            "time_horizon": "中短期",
+            "preferred_setup": "大波动行情",
+            "typical_exit": "趋势高点退出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "所有买方席位均归属于同一知名游资实体'T王'，属于东方财富拉萨天团，显示买方活动高度集中于单一实体。",
+      "synergy_analysis": "席位数据中仅出现一个知名游资'T王'操作所有席位，无多个不同游资同时上榜迹象，因此不存在协同作战。"
+    },
+    "seller_analysis": {
+      "pressure_level": "高",
+      "pressure_desc": "卖压主要来自特定主力呼家楼的集中出货行为，该席位净卖出额大且风格大开大合；其他席位如T王更多是日常做T交易，普通席位卖出额大但性质未明。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "底部启动信号",
+      "trend_interpretation": "当前阶段：股价处于下跌后的筑底阶段。量价关系：上榜日（2025-07-02）成交量9.90万手，较前一日6.13万手增加约61.5%，配合价格上涨4.49%，形成放量上涨，显示买方力量增强。关键信号：K线呈现阳线，上影线（high=45.77, close=44.2）表明短期压力，但收盘强势；结合前几日成交量萎缩（如2025-07-01缩量下跌），可能突破近期震荡区间（40-45），标志着反弹启动。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望：股价短期可能延续反弹趋势，因放量上涨和底部启动信号显示买方力量增强。然而，高换手率41.01%和净卖出560.34万元反映市场情绪分歧，空方压力增大，需警惕回调风险。",
+      "strategy": "操作策略：建议散户采用短线交易策略，优先选择日内波动机会进行做T操作，参考买方游资T王的模式；避免追高，设置止损位在关键支撑位（如40元附近）。",
+      "risk_warning": "风险提示：主要风险包括高波动性引发的短期回调、主力资金呼家楼大举出货导致的卖压加剧，以及市场分歧下价格剧烈波动。投资者应严格控制仓位，及时止损。"
+    }
+  },
+  "generated_at": "2025-07-03 15:54:09"
+}

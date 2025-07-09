@@ -1,0 +1,309 @@
+{
+  "stock_info": {
+    "ts_code": "601003.SH",
+    "name": "柳钢股份",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+        "非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+      ],
+      "interpretation": "These reasons indicate that the stock has experienced significant price appreciation, with a daily deviation of 7% placing it among the top gainers and a cumulative 20% deviation over three consecutive days, signaling strong and sustained upward momentum. This reflects a robust bullish consensus in the market, characterized by dominant buying interest and high investor enthusiasm, with minimal bearish opposition, suggesting a collective push towards higher valuations."
+    },
+    "overall_assessment": {
+      "verdict": "多方在价格上获胜，但资金面显示空方压力",
+      "confidence_score": 0.75,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "日涨幅10.08%涨停，换手率4.00%相对较低，表明市场情绪亢奋，惜售现象明显。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "龙虎榜成交额占比30.97%，主力高度控盘；买卖差额小（净卖出1764.67万元，净率-3.27%），流通市值109.17亿元下影响有限，显示多空对抗激烈，空方略占优势。"
+      },
+      "key_takeaway": "主力资金在涨停板净卖出，警惕高位出货风险。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "中信证券股份有限公司总部(非营业场所)",
+          "player_type": "机构",
+          "player_name": "中信总部",
+          "buy_amount": "0.25亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.25亿元",
+          "buy_rate": "4.56%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓",
+          "style_profile": {
+            "summary": "",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "中信证券股份有限公司总部(非营业场所)",
+          "player_type": "机构",
+          "player_name": "中信总部",
+          "buy_amount": "0.18亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.18亿元",
+          "buy_rate": "4.44%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓",
+          "style_profile": {
+            "summary": "",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.18亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.18亿元",
+          "buy_rate": "3.31%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "打板建仓",
+          "style_profile": {
+            "summary": "今天买入行为符合标准量化打板策略。后市最可能剧本：如果次日开盘不秒板，兑现一半仓位；上板则纠错买回。",
+            "time_horizon": "超短线",
+            "preferred_setup": "首板、二板",
+            "typical_exit": "次日兑现或清仓"
+          }
+        },
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.12亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.12亿元",
+          "buy_rate": "2.89%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "资金流入",
+          "style_profile": {
+            "summary": "作为境外资金通道，今天买入可能反映外资流入。后市依赖市场情绪和互联互通机制。",
+            "time_horizon": "中短期",
+            "preferred_setup": "价值或流动性驱动",
+            "typical_exit": "基于市场趋势调整"
+          }
+        },
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.12亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.12亿元",
+          "buy_rate": "2.19%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "资金流入",
+          "style_profile": {
+            "summary": "作为境外资金通道，今天买入可能反映外资流入。后市依赖市场情绪和互联互通机制。",
+            "time_horizon": "中短期",
+            "preferred_setup": "价值或流动性驱动",
+            "typical_exit": "基于市场趋势调整"
+          }
+        },
+        {
+          "seat_name": "华泰证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.11亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.11亿元",
+          "buy_rate": "1.96%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓或准备做T",
+          "style_profile": {
+            "summary": "今天建仓行为可能为后续频繁做T做准备。后市最可能剧本：利用席位溢价助涨助跌。",
+            "time_horizon": "短线",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "获利了结或止损"
+          }
+        },
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "781.41万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "781.41万元",
+          "buy_rate": "1.91%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "打板建仓",
+          "style_profile": {
+            "summary": "今天买入行为符合标准量化打板策略。后市最可能剧本：如果次日开盘不秒板，兑现一半仓位；上板则纠错买回。",
+            "time_horizon": "超短线",
+            "preferred_setup": "首板、二板",
+            "typical_exit": "次日兑现或清仓"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "华泰证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "820.03万元",
+          "net_amount": "-820.03万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.00%",
+          "action_interpretation": "出货或做T",
+          "style_profile": {
+            "summary": "今天卖出行为符合频繁做T策略。后市最可能剧本：可能回补仓位或继续助跌。",
+            "time_horizon": "短线",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "获利了结或止损"
+          }
+        },
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.10亿元",
+          "net_amount": "-1,019.70万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.49%",
+          "action_interpretation": "兑现出货",
+          "style_profile": {
+            "summary": "今天卖出行为符合纪律性风控策略。后市最可能剧本：如果股价走弱，可能清仓；否则纠错买回。",
+            "time_horizon": "超短线",
+            "preferred_setup": "首板、二板",
+            "typical_exit": "次日兑现或清仓"
+          }
+        },
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.10亿元",
+          "net_amount": "-1,024.30万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.90%",
+          "action_interpretation": "兑现出货",
+          "style_profile": {
+            "summary": "今天卖出行为符合纪律性风控策略。后市最可能剧本：如果股价走弱，可能清仓；否则纠错买回。",
+            "time_horizon": "超短线",
+            "preferred_setup": "首板、二板",
+            "typical_exit": "次日兑现或清仓"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.11亿元",
+          "net_amount": "-1,106.08万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.70%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "作为机构席位，今天卖出可能反映调仓策略。后市依赖基金/券商等资金动向。",
+            "time_horizon": "中短期",
+            "preferred_setup": "价值或流动性驱动",
+            "typical_exit": "获利了结或风险控制"
+          }
+        },
+        {
+          "seat_name": "中国国际金融股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.11亿元",
+          "net_amount": "-1,107.39万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.06%",
+          "action_interpretation": "出货或做T",
+          "style_profile": {
+            "summary": "今天卖出行为符合频繁做T策略。后市最可能剧本：可能回补仓位或继续助跌。",
+            "time_horizon": "短线",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "获利了结或止损"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.14亿元",
+          "net_amount": "-1,374.41万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.55%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "作为机构席位，今天卖出可能反映调仓策略。后市依赖基金/券商等资金动向。",
+            "time_horizon": "中短期",
+            "preferred_setup": "价值或流动性驱动",
+            "typical_exit": "获利了结或风险控制"
+          }
+        },
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.33亿元",
+          "net_amount": "-3,332.06万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "6.18%",
+          "action_interpretation": "资金流出",
+          "style_profile": {
+            "summary": "作为境外资金通道，今天卖出可能反映外资流出。后市依赖市场情绪和互联互通机制。",
+            "time_horizon": "中短期",
+            "preferred_setup": "价值或流动性驱动",
+            "typical_exit": "基于市场趋势调整"
+          }
+        },
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.33亿元",
+          "net_amount": "-3,332.06万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "8.13%",
+          "action_interpretation": "资金流出",
+          "style_profile": {
+            "summary": "作为境外资金通道，今天卖出可能反映外资流出。后市依赖市场情绪和互联互通机制。",
+            "time_horizon": "中短期",
+            "preferred_setup": "价值或流动性驱动",
+            "typical_exit": "基于市场趋势调整"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买方中信总部占比约33.63%，其余买家包括开源证券(20.19%)、沪股通专用(18.78%)等分布较均匀，无单一席位主导市场。",
+      "synergy_analysis": "仅有开源证券西安西大街作为知名游资上榜，其他席位为机构或普通席位，无多个知名游资同时出现，因此不存在协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "high",
+      "pressure_desc": "卖压来源于普遍的获利了结行为，涉及多个量化基金、知名游资、机构及普通席位，体现纪律性操作策略如次日兑现和频繁做T，而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "底部启动信号",
+      "trend_interpretation": "当前股价处于短期上涨趋势的初期阶段。量价关系方面，上榜日（2025-07-02）成交量大幅增加至102.52万手，远高于平均成交量19.39万手，配合价格上涨10.08%，形成放量上涨的良好配合；前一日（2025-07-01）也出现放量上涨（成交量34.09万手，涨幅9.94%），显示买方力量强劲。关键信号包括2025-07-01的大阳线突破前期震荡平台（价格区间约3.45-3.60），以及上榜日的大阳线涨停，确认上涨趋势启动。"
+    },
+    "final_verdict": {
+      "outlook": "股票当前处于短期上涨趋势初期，市场情绪亢奋，但资金面显示空方压力，主力资金净卖出，后市可能继续上行但波动加剧，需警惕回调风险。",
+      "strategy": "持有者应部分获利了结以锁定利润；新投资者观望等待回调确认支撑（如前期高点3.60附近）后入场；设置严格止损位，如跌破3.45支撑线立即离场。",
+      "risk_warning": "主要风险包括主力高位出货导致股价大幅回调、市场情绪快速反转引发抛售、高波动性可能放大损失；散户应避免追高，控制仓位不超过总资产的10%，严格执行止损纪律。"
+    }
+  },
+  "generated_at": "2025-07-03 15:49:13"
+}

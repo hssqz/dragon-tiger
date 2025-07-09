@@ -1,0 +1,189 @@
+{
+  "stock_info": {
+    "ts_code": "688136.SH",
+    "name": "科兴制药",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的连续3个交易日内收盘价格涨幅偏离值累计达到30%的证券"
+      ],
+      "interpretation": "该上榜原因表明股票在短期内经历了显著的价格飙升，偏离正常波动范围，这通常由市场买盘强劲推动，反映了强烈的多头共识。投资者可能受到利好消息、行业热点或资金流入的驱动，积极抢筹，显示市场情绪高涨和一致看涨预期，但也需警惕短期超买后的回调风险和多空分歧加剧的可能性。"
+    },
+    "overall_assessment": {
+      "verdict": "空方占优",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "分歧",
+        "interpretation": "价格上涨4.48%显示买盘支撑，但换手率5.75%中等且主力资金净流出，表明市场情绪存在分歧。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力买入2.27亿元、卖出2.79亿元，净卖出5142.94万元，净率-2.57%，参与度25.27%，显示多空对抗激烈，空方控盘力度较强。"
+      },
+      "key_takeaway": "股价上涨但主力资金净流出，需警惕连续大涨后的短期回调风险。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.58亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.58亿元",
+          "buy_rate": "2.90%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓",
+          "style_profile": {
+            "summary": "作为境外资金通道，今日建仓执行互联互通机制标准战法；后市可能中长期持有，除非市场趋势变化引发资金流出。",
+            "time_horizon": "中长期",
+            "preferred_setup": "蓝筹股或互联互通标的",
+            "typical_exit": "市场趋势逆转或资金回流时"
+          }
+        },
+        {
+          "seat_name": "中信证券股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.37亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.37亿元",
+          "buy_rate": "1.86%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓",
+          "style_profile": {
+            "summary": "量化基金策略，频繁做T；今日建仓可能为后续做T做准备，后市可能助涨或进行T+0操作。",
+            "time_horizon": "短线",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "助跌时出货或做T卖出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.35亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.35亿元",
+          "buy_rate": "1.76%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓",
+          "style_profile": {
+            "summary": "机构投资者，今日建仓执行标准价值策略；后市可能中长期持有，除非基本面恶化。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值股",
+            "typical_exit": "基本面恶化或投资目标达成时"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "中国国际金融股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.33亿元",
+          "net_amount": "-3,293.08万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.64%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "量化基金策略，频繁做T；今日出货可能为止盈或做T操作，后市可能继续助跌或进行T+0买卖。",
+            "time_horizon": "短线",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "助跌时出货或做T卖出"
+          }
+        },
+        {
+          "seat_name": "瑞银证券有限责任公司上海浦东新区花园石桥路第二证券营业部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.48亿元",
+          "net_amount": "-4,773.06万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.38%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "量化基金策略，频繁做T；今日出货可能为止盈或做T操作，后市可能继续助跌或进行T+0买卖。",
+            "time_horizon": "短线",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "助跌时出货或做T卖出"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.51亿元",
+          "net_amount": "-5,139.23万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.57%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "量化基金策略，频繁做T；今日出货可能为止盈或做T操作，后市可能继续助跌或进行T+0买卖。",
+            "time_horizon": "短线",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "助跌时出货或做T卖出"
+          }
+        },
+        {
+          "seat_name": "中信证券股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.65亿元",
+          "net_amount": "-6,513.70万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "3.25%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "量化基金策略，频繁做T；今日出货可能为止盈或做T操作，后市可能继续助跌或进行T+0买卖。",
+            "time_horizon": "短线",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "助跌时出货或做T卖出"
+          }
+        },
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.81亿元",
+          "net_amount": "-8,147.34万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "4.07%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "作为境外资金通道，今日出货可能因市场调整执行标准机制；后市可能根据互联互通资金流动继续调整持仓。",
+            "time_horizon": "中长期",
+            "preferred_setup": "蓝筹股或互联互通标的",
+            "typical_exit": "市场趋势变化或资金回流时"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方资金分布在5个席位，净买入额最大为0.60亿元（占比约26.43%），最小为0.35亿元（占比约15.42%），整体分布较为均匀，无显著集中。",
+      "synergy_analysis": "无明显协同作战迹象；席位类型多样，包括普通席位（2个）、沪股通专用（境外资金）、量化基金和机构专用，但无多个知名游资集中上榜。"
+    },
+    "seller_analysis": {
+      "pressure_level": "获利了结",
+      "pressure_desc": "卖压主要来自多个量化基金席位（如中国国际金融、瑞银证券、国泰海通、中信证券）和沪股通专用席位。量化基金频繁做T的策略（助涨助跌、资金成分复杂）表明是普遍的短期获利了结行为，而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "上涨中继",
+      "trend_interpretation": "当前股价处于超跌反弹的初期阶段，从前期低点38附近快速回升至49附近。量价关系方面，反弹启动日（2025-07-01）出现放量上涨（成交量16.60万手），次日（2025-07-02）维持高量上涨（16.19万手），但上榜日（2025-07-03）价格上涨4.48%却成交量缩减至11.48万手（低于前两日但高于平均值），呈现价涨量缩现象，暗示短期上涨动力减弱。关键信号包括7月1日的大阳线（涨幅15.62%）突破下跌趋势，形成底部启动信号，以及上榜日的长上影线（最高50.72，收盘49.0），显示高位存在卖压，可能进入短期整理。"
+    },
+    "final_verdict": {
+      "outlook": "短期后市可能进入整理阶段，价格存在回调风险，需关注支撑位和成交量变化；尽管前期反弹强劲，但空方占优、上涨动力减弱，且量化基金频繁交易可能加剧波动。",
+      "strategy": "建议散户保持观望，避免追高；可等待回调至关键支撑位（如45元附近）再逢低布局，并设置止损位在支撑下方；中长期投资者可关注基本面改善信号。",
+      "risk_warning": "主要风险包括：短期超买回调可能性高、量化基金频繁做T操作可能导致价格剧烈波动、市场情绪分歧放大风险、主力资金净流出加剧下行压力；警惕任何利空消息触发快速下跌。"
+    }
+  },
+  "generated_at": "2025-07-03 19:03:36"
+}

@@ -1,0 +1,223 @@
+{
+  "stock_info": {
+    "ts_code": "603843.SH",
+    "name": "*ST正平",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "ST、*ST证券连续三个交易日内收盘价格跌幅偏离值累计达到12%的证券"
+      ],
+      "interpretation": "该上榜原因表明，该股票属于ST或*ST类别（即特别处理或退市风险警示证券），其连续三个交易日累计跌幅偏离值达到12%，反映出市场对该股票的极度悲观情绪。这通常源于公司基本面恶化，如财务困境或退市风险，导致投资者恐慌性抛售。当前市场博弈状态偏向空头主导，多方抵抗较弱，显示出对该股票的高度不信任和风险规避，而非剧烈的多空分歧或多头共识。"
+    },
+    "overall_assessment": {
+      "verdict": "空方胜",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "价格下跌3.12%，换手率7.06%较高，结合ST股高风险特性，表明市场恐慌情绪加剧，抛售压力显著。"
+      },
+      "capital_confrontation": {
+        "level": "中等",
+        "interpretation": "主力净卖出1175.58万元，卖出额0.50亿元大于买入额0.38亿元，主力参与度18.33%；流通值21.76亿元较低，放大资金影响，空方控盘力度中等，对抗激烈程度适中。"
+      },
+      "key_takeaway": "ST股受恐慌抛售主导，主力资金净流出凸显高风险环境。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "822.99万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "822.99万元",
+          "buy_rate": "1.70%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入建仓",
+          "style_profile": {
+            "summary": "风格为每天做T，但今日只买入无卖出，未执行标准做T战法；后市最可能剧本是明日卖出做T。",
+            "time_horizon": "超短线",
+            "preferred_setup": "日内交易，做T操作",
+            "typical_exit": "当日或次日卖出获利"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "803.43万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "803.43万元",
+          "buy_rate": "1.66%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入建仓",
+          "style_profile": {
+            "summary": "风格为每天做T，但今日只买入无卖出，未执行标准做T战法；后市最可能剧本是明日卖出做T。",
+            "time_horizon": "超短线",
+            "preferred_setup": "日内交易，做T操作",
+            "typical_exit": "当日或次日卖出获利"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "759.71万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "759.71万元",
+          "buy_rate": "1.57%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入建仓",
+          "style_profile": {
+            "summary": "风格为每天做T，但今日只买入无卖出，未执行标准做T战法；后市最可能剧本是明日卖出做T。",
+            "time_horizon": "超短线",
+            "preferred_setup": "日内交易，做T操作",
+            "typical_exit": "当日或次日卖出获利"
+          }
+        },
+        {
+          "seat_name": "国金证券股份有限公司深圳分公司",
+          "player_type": "普通席位",
+          "player_name": "普通席位",
+          "buy_amount": "753.12万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "753.12万元",
+          "buy_rate": "1.56%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入",
+          "style_profile": {
+            "summary": "",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东城区江苏大道证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "705.80万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "705.80万元",
+          "buy_rate": "1.46%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入建仓",
+          "style_profile": {
+            "summary": "风格为每天做T，但今日只买入无卖出，未执行标准做T战法；后市最可能剧本是明日卖出做T。",
+            "time_horizon": "超短线",
+            "preferred_setup": "日内交易，做T操作",
+            "typical_exit": "当日或次日卖出获利"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.00万元",
+          "sell_amount": "874.42万元",
+          "net_amount": "-874.42万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.81%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "风格为每天做T，但今日只卖出无买入，可能是出货；后市最可能剧本是观望或重新入场做T。",
+            "time_horizon": "超短线",
+            "preferred_setup": "日内交易",
+            "typical_exit": "卖出获利"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东城区江苏大道证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.00万元",
+          "sell_amount": "891.72万元",
+          "net_amount": "-891.72万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.84%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "风格为每天做T，但今日只卖出无买入，可能是出货；后市最可能剧本是观望或重新入场做T。",
+            "time_horizon": "超短线",
+            "preferred_setup": "日内交易",
+            "typical_exit": "卖出获利"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.00万元",
+          "sell_amount": "930.70万元",
+          "net_amount": "-930.70万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.92%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "风格为每天做T，但今日只卖出无买入，可能是出货；后市最可能剧本是观望或重新入场做T。",
+            "time_horizon": "超短线",
+            "preferred_setup": "日内交易",
+            "typical_exit": "卖出获利"
+          }
+        },
+        {
+          "seat_name": "东莞证券股份有限公司北京分公司",
+          "player_type": "知名游资",
+          "player_name": "低位挖掘",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.11亿元",
+          "net_amount": "-1,083.60万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.24%",
+          "action_interpretation": "高位出货",
+          "style_profile": {
+            "summary": "执行标准战法，高位分歧离场；后市最可能剧本是挖掘新低位补涨机会。",
+            "time_horizon": "短线",
+            "preferred_setup": "低位首板或跟风板",
+            "typical_exit": "高位分歧时卖出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.12亿元",
+          "net_amount": "-1,240.21万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.56%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "风格为每天做T，但今日只卖出无买入，可能是出货；后市最可能剧本是观望或重新入场做T。",
+            "time_horizon": "超短线",
+            "preferred_setup": "日内交易",
+            "typical_exit": "卖出获利"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "买方主要来自东方财富拉萨天团的多个席位，其买入金额占总买入的绝大部分（约80.41%），显示出高度集中的特征。",
+      "synergy_analysis": "存在协同作战迹象，多个知名游资席位（如东方财富证券的不同营业部）同时上榜，共享相同的交易风格（每天做T）和市场标签（东方财富拉萨天团）。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要来自特定主力群体'东方财富拉萨天团'的多个席位，其交易模式为每天做T，表明是集中卖出行为；东莞证券席位也参与卖出，但整体以拉萨天团为主导。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "下跌趋势加速",
+      "trend_interpretation": "当前股价处于短期下跌趋势的主跌阶段，价格连续创新低。量价关系显示，上榜日（2025-07-03）成交量49.42万手高于平均39.49万手，且前两日（2025-07-01和2025-07-02）成交量分别为42.84万手和56.13万手，均高于平均水平，形成放量下跌格局，表明抛压沉重。关键信号包括上榜日出现长下影阴线（低点3.07，收盘3.11），反映盘中反弹失败，以及价格持续创新低无反转迹象。"
+    },
+    "final_verdict": {
+      "outlook": "该ST股票基本面恶化，恐慌抛售主导市场，买方多为短期做T游资预计次日卖出，卖方持续出货，下跌趋势加速且无反转迹象，后市预计继续下跌或低位震荡，空头控制局面。",
+      "strategy": "建议散户投资者避免买入该股票；如已持仓，立即止损或卖出以规避损失；不要跟随游资做T操作，因时机难以把握；转向基本面稳健的标的分散风险。",
+      "risk_warning": "高风险提示：该股票为ST/*ST类，面临退市风险；市场恐慌情绪浓厚，抛售压力大；主力资金净流出；流动性可能骤降；短期波动剧烈，易受游资操作影响；散户应高度谨慎，严格控制仓位。"
+    }
+  },
+  "generated_at": "2025-07-03 19:04:41"
+}

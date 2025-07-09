@@ -1,0 +1,172 @@
+{
+  "stock_info": {
+    "ts_code": "600643.SH",
+    "name": "爱建集团",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+      ],
+      "interpretation": "这个上榜原因表明该股票在当日经历了显著的下跌，跌幅偏离值达到7%，意味着其价格下滑幅度远超市场基准水平，通常由强烈的抛售压力驱动。它反映了当前市场对这只股票的悲观情绪和恐慌性抛售，可能源于负面新闻、基本面恶化或系统性风险。在博弈状态上，这显示出剧烈的多空分歧，其中空头力量占据主导地位，导致价格急剧下跌，而非多头共识。"
+    },
+    "overall_assessment": {
+      "verdict": "空方占优",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "股价大幅下跌10.05%和高换手率11.00%表明市场恐慌情绪浓厚，抛售压力显著"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力资金净卖出3,932.19万元，净买入率-3.03%，龙虎榜金额占比16.96%，显示空方控盘力度强，多空对抗激烈"
+      },
+      "key_takeaway": "主力资金大规模抛售引发股价暴跌，恐慌性抛售主导市场"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "国泰海通证券股份有限公司三亚迎宾路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "佛山系",
+          "buy_amount": "0.35亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.35亿元",
+          "buy_rate": "2.69%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封",
+          "style_profile": {
+            "summary": "执行标准超短战法，早盘快速拉板一板个股。后市最可能剧本：次日冲高快速获利出局。",
+            "time_horizon": "超短",
+            "preferred_setup": "一板个股",
+            "typical_exit": "次日冲高出局"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.15亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.15亿元",
+          "buy_rate": "1.12%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "做T买入",
+          "style_profile": {
+            "summary": "执行标准做T战法，今日买入。后市最可能剧本：次日或日内卖出完成做T。",
+            "time_horizon": "日内或短线",
+            "preferred_setup": "做T个股",
+            "typical_exit": "卖出部分"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.12亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.12亿元",
+          "buy_rate": "0.94%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "做T买入",
+          "style_profile": {
+            "summary": "执行标准做T战法，今日买入。后市最可能剧本：次日或日内卖出完成做T。",
+            "time_horizon": "日内或短线",
+            "preferred_setup": "做T个股",
+            "typical_exit": "卖出部分"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.12亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.12亿元",
+          "buy_rate": "0.91%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "做T买入",
+          "style_profile": {
+            "summary": "执行标准做T战法，今日买入。后市最可能剧本：次日或日内卖出完成做T。",
+            "time_horizon": "日内或短线",
+            "preferred_setup": "做T个股",
+            "typical_exit": "卖出部分"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "中国银河证券股份有限公司绍兴证券营业部",
+          "player_type": "知名游资",
+          "player_name": "赵老哥",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.21亿元",
+          "net_amount": "-2,108.37万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.63%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "执行标准接力后退出战法。后市最可能剧本：不再持有，寻找新龙头机会。",
+            "time_horizon": "短线",
+            "preferred_setup": "龙头股",
+            "typical_exit": "卖出获利"
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司上海自贸试验区分公司",
+          "player_type": "知名游资",
+          "player_name": "温州帮",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.24亿元",
+          "net_amount": "-2,430.61万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.88%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "执行标准拉升后出货战法。后市最可能剧本：继续出货或转移至次新股。",
+            "time_horizon": "短线",
+            "preferred_setup": "次新股",
+            "typical_exit": "快速出货"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.31亿元",
+          "net_amount": "-3,068.23万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.37%",
+          "action_interpretation": "做T卖出",
+          "style_profile": {
+            "summary": "可能执行做T策略卖出。后市最可能剧本：继续做T或助跌调整。",
+            "time_horizon": "短线",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "卖出部分"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买方席位占比为2.69%，其余席位占比均低于1.5%，分布均匀，无明显主导买方。",
+      "synergy_analysis": "存在协同作战迹象，多个知名游资（佛山系和T王）同时上榜，且T王席位（拉萨天团）可能协同操作。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要来自特定主力（如知名游资赵老哥、温州帮和量化基金）的集中出货行为，这些席位卖出金额较大且风格显示策略性抛售，而非普遍获利了结。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前阶段：股价在连续大幅上涨后，于2025-07-01创出新高8.16元，次日（龙虎榜日2025-07-02）大幅下跌，表明处于上涨末期或顶部反转阶段。量价关系：上涨期间（如2025-07-01成交量329.71万手）量增价涨，配合良好；上榜日成交量174.99万手（虽低于前日但高于平均水平），价格大跌10.05%，形成放量下跌，显示抛压增大和资金出逃。关键信号：上榜日出现大阴线（开盘7.6元，收盘7.34元，实体长），跌幅达10.05%，结合前一日突破新高后回落，形成顶部反转形态。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望：基于空方占优、市场恐慌情绪浓厚，以及高位出货形态和放量下跌信号，预计股价短期内继续承压下行或震荡调整。买方力量分散且多为超短操作（如佛山系次日冲高出局、T王做T卖出），反弹动力有限。投资者需关注市场情绪变化和关键支撑位（如前低点）。",
+      "strategy": "操作策略建议：散户投资者应避免追高或抄底，优先观望或减仓现有持仓。如有持仓，设置严格止损点（如低于7.34元）。新入场者建议等待市场企稳信号（如成交量萎缩或价格止跌），轻仓参与并聚焦短线交易机会（如跟随T王做T策略），但严格控制仓位。",
+      "risk_warning": "风险提示：主要风险包括股价进一步大幅下跌（源于主力集中出货如赵老哥、温州帮策略性抛售）、高换手率引发的剧烈波动、买方快速退出（佛山系和T王次日卖出）导致的抛压增加、以及系统性市场风险（如负面新闻或基本面恶化）。投资者需评估自身风险承受能力，警惕流动性风险，避免杠杆操作。"
+    }
+  },
+  "generated_at": "2025-07-03 15:45:57"
+}

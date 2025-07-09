@@ -1,0 +1,326 @@
+{
+  "stock_info": {
+    "ts_code": "603928.SH",
+    "name": "兴业股份",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日价格振幅达到15%的前五只证券",
+        "非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+      ],
+      "interpretation": "这些上榜原因表明股票在短期内经历了显著的价格波动和强劲上涨。日价格振幅达到15%反映了交易日内多空博弈剧烈，表明市场存在强烈的分歧和不确定性；而连续三天涨幅偏离值累计20%则显示出强劲的多头共识，暗示投资者情绪高涨、买盘主导，整体市场信号指向短期投机热情和看涨趋势。"
+    },
+    "overall_assessment": {
+      "verdict": "多头略占优势",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "涨幅达8.09%且换手率达22.71%，显示市场情绪高度亢奋。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力买入2.13亿元、卖出1.88亿元，净买入仅0.33亿元，占流通市值57.40亿元比例低；主力成交占比14.10%，表明多空对抗激烈且控盘力度中等。"
+      },
+      "key_takeaway": "核心看点：股价大幅上涨但主力资金分歧明显，净流入有限，提示潜在回调风险。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "中信证券股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.58亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.58亿元",
+          "buy_rate": "1.57%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法买入，利用假机构溢价助涨；后市可能频繁交易导致股价波动加剧。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构席位溢价机会",
+            "typical_exit": "高点卖出或日内反向做T"
+          }
+        },
+        {
+          "seat_name": "中信证券股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.32亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.32亿元",
+          "buy_rate": "2.54%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法买入，利用假机构溢价助涨；后市可能频繁交易导致股价波动加剧。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构席位溢价机会",
+            "typical_exit": "高点卖出或日内反向做T"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.48亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.48亿元",
+          "buy_rate": "1.28%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法买入，利用假机构溢价助涨；后市可能频繁交易导致股价波动加剧。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构席位溢价机会",
+            "typical_exit": "高点卖出或日内反向做T"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.17亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.17亿元",
+          "buy_rate": "1.34%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法买入，利用假机构溢价助涨；后市可能频繁交易导致股价波动加剧。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构席位溢价机会",
+            "typical_exit": "高点卖出或日内反向做T"
+          }
+        },
+        {
+          "seat_name": "华泰证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.20亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.20亿元",
+          "buy_rate": "1.60%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法买入，利用假机构溢价助涨；后市可能频繁交易导致股价波动加剧。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构席位溢价机会",
+            "typical_exit": "高点卖出或日内反向做T"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.37亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.37亿元",
+          "buy_rate": "0.99%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法买入；后市可能频繁进出导致股价日内波动。",
+            "time_horizon": "超短期",
+            "preferred_setup": "每日波动机会",
+            "typical_exit": "当日或次日反向卖出做T"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.35亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.35亿元",
+          "buy_rate": "0.96%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法买入；后市可能频繁进出导致股价日内波动。",
+            "time_horizon": "超短期",
+            "preferred_setup": "每日波动机会",
+            "typical_exit": "当日或次日反向卖出做T"
+          }
+        },
+        {
+          "seat_name": "平安证券股份有限公司深圳分公司",
+          "player_type": "知名游资",
+          "player_name": "红岭路",
+          "buy_amount": "0.18亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.18亿元",
+          "buy_rate": "1.39%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "吸筹进场",
+          "style_profile": {
+            "summary": "今天执行标准吸筹战法，在爆量后进场；后市可能维护股价并推动二波行情。",
+            "time_horizon": "中期",
+            "preferred_setup": "核心个股爆量后机会",
+            "typical_exit": "二波高点获利了结"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.14亿元",
+          "net_amount": "-1,377.15万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.08%",
+          "action_interpretation": "卖出做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法卖出；后市可能频繁进出导致股价日内波动。",
+            "time_horizon": "超短期",
+            "preferred_setup": "每日波动机会",
+            "typical_exit": "当日或次日反向买入做T"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.14亿元",
+          "net_amount": "-1,441.95万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.13%",
+          "action_interpretation": "卖出做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法卖出；后市可能频繁进出导致股价日内波动。",
+            "time_horizon": "超短期",
+            "preferred_setup": "每日波动机会",
+            "typical_exit": "当日或次日反向买入做T"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.35亿元",
+          "net_amount": "-3,499.50万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "0.95%",
+          "action_interpretation": "卖出做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法卖出；后市可能频繁进出导致股价日内波动。",
+            "time_horizon": "超短期",
+            "preferred_setup": "每日波动机会",
+            "typical_exit": "当日或次日反向买入做T"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.16亿元",
+          "net_amount": "-1,634.40万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.29%",
+          "action_interpretation": "卖出做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法卖出；后市可能频繁进出导致股价日内波动。",
+            "time_horizon": "超短期",
+            "preferred_setup": "每日波动机会",
+            "typical_exit": "当日或次日反向买入做T"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.17亿元",
+          "net_amount": "-1,683.07万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.32%",
+          "action_interpretation": "卖出做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法卖出；后市可能频繁进出导致股价日内波动。",
+            "time_horizon": "超短期",
+            "preferred_setup": "每日波动机会",
+            "typical_exit": "当日或次日反向买入做T"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.36亿元",
+          "net_amount": "-3,623.39万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "0.98%",
+          "action_interpretation": "卖出做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法卖出；后市可能频繁进出导致股价日内波动。",
+            "time_horizon": "超短期",
+            "preferred_setup": "每日波动机会",
+            "typical_exit": "当日或次日反向买入做T"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.39亿元",
+          "net_amount": "-3,881.39万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.05%",
+          "action_interpretation": "卖出做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法卖出；后市可能频繁进出导致股价日内波动。",
+            "time_horizon": "超短期",
+            "preferred_setup": "每日波动机会",
+            "typical_exit": "当日或次日反向买入做T"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.37亿元",
+          "net_amount": "-3,711.06万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.00%",
+          "action_interpretation": "卖出做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法卖出，利用假机构溢价助跌；后市可能频繁交易导致股价波动加剧。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构席位溢价机会",
+            "typical_exit": "低点买入或日内反向做T"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "前三名买方席位（中信证券上海分公司、国泰海通总部、国金证券深圳分公司）合计买入金额约2.09亿元，占总额3.19亿元的65.52%，显示高度集中。",
+      "synergy_analysis": "存在协同作战迹象，多个知名游资如T王（东方财富拉萨席位）和红岭路（平安证券深圳分公司）同时上榜。红岭路风格明确包括联同作战，表明可能协同操作。"
+    },
+    "seller_analysis": {
+      "pressure_level": "高",
+      "pressure_desc": "卖压主要来自知名游资（如东方财富拉萨天团）和量化基金的普遍获利了结行为，这些席位以每日做T和频繁交易为特征，而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前阶段：股价处于短期上涨趋势的末期，在连续快速上涨后创历史新高（最高22.29），但上榜日出现冲高回落信号。量价关系：上榜日（2025-07-02）放量上涨（成交量59.52万手，高于平均39.88万手），但成交量较前一日（67.57万手）下降，形成价涨量减格局，暗示买盘减弱；前一日（2025-07-01）虽放量（67.57万手）但涨幅仅2.37%，显示滞涨迹象。关键信号：上榜日K线形成明显长上影线（最高22.29，收盘21.9），结合近期暴涨（如6月30日涨10.01%），表明高位阻力大、卖压增加，可能为出货信号。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望：市场情绪高度亢奋，短期看涨趋势明显但已进入末期，技术面显示买盘减弱、高位出货信号（如长上影线和量价背离），预计股价将面临回调或剧烈波动调整，支撑位参考20.00元。",
+      "strategy": "操作策略：已持仓散户建议在22.00元以上阻力位分批获利了结；新投资者观望，等待回调至20.00元支撑位再轻仓介入；避免日内频繁交易，优先关注主力动向如红岭路吸筹行为。",
+      "risk_warning": "风险提示：股价高位回调风险高，主力资金分歧大（净流入有限）、量化基金和游资频繁做T加剧波动；潜在快速下跌可能，投资者应严格控制仓位（不超过10%），设置止损位在19.50元。"
+    }
+  },
+  "generated_at": "2025-07-03 15:50:50"
+}

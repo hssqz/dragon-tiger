@@ -1,0 +1,104 @@
+{
+  "stock_info": {
+    "ts_code": "831689.BJ",
+    "name": "克莱特",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "当日换手率达到20%的前5只股票"
+      ],
+      "interpretation": "高换手率达到20%表明该股票交易异常活跃，反映出市场对该股的高度关注和流动性增强，通常由重大事件、热点消息或投机行为驱动。这揭示了剧烈的多空分歧，买卖双方博弈激烈，短线交易者活跃，显示出当前市场情绪的波动和不确定性，而非一致的多头共识，暗示股价可能面临较大波动风险。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "股价涨幅达29.98%，换手率高达43.89%，表明市场情绪极度亢奋，投资者积极买入推动价格飙升。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力买卖额接近（买入0.78亿元 vs 卖出0.67亿元），净买入仅0.11亿元，净率1.24%，主力成交占比16.21%，流通市值21.43亿元较小，表明多空对抗激烈但主力控盘力度中等。"
+      },
+      "key_takeaway": "高换手率伴随近30%涨幅，凸显市场亢奋情绪和多方主导。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.10亿元",
+          "sell_amount": "510.02万元",
+          "net_amount": "520.94万元",
+          "buy_rate": "1.16%",
+          "sell_rate": "0.57%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "高频做T交易者，擅长日内高抛低吸。今天执行标准战法做T，后市可能继续类似操作。",
+            "time_horizon": "短期（日内）",
+            "preferred_setup": "震荡行情或高波动股票",
+            "typical_exit": "日内卖出获利"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.11亿元",
+          "sell_amount": "0.10亿元",
+          "net_amount": "12.87万元",
+          "buy_rate": "1.19%",
+          "sell_rate": "1.18%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "高频做T交易者，擅长日内高抛低吸。今天执行标准战法做T，后市可能继续做T操作。",
+            "time_horizon": "短期（日内）",
+            "preferred_setup": "震荡行情或高波动股票",
+            "typical_exit": "日内卖出获利"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "928.01万元",
+          "sell_amount": "0.10亿元",
+          "net_amount": "-120.96万元",
+          "buy_rate": "1.04%",
+          "sell_rate": "1.18%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "高频做T交易者，擅长日内高抛低吸。今天执行标准战法做T，后市可能继续做T操作。",
+            "time_horizon": "短期（日内）",
+            "preferred_setup": "震荡行情或高波动股票",
+            "typical_exit": "日内卖出获利"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位买入金额分布均匀，最高占比2.09%，最低占比1.16%，无单一席位主导，表明资金分散于多个席位。",
+      "synergy_analysis": "存在协同作战迹象，两个东方财富证券拉萨营业部（东环路第一和团结路第二）均为知名游资（T王），同属东方财富拉萨天团，可能协同操作每日做T策略。"
+    },
+    "seller_analysis": {
+      "pressure_level": "获利了结",
+      "pressure_desc": "卖压主要来自多个普通席位（如国信证券深圳红岭中路、国泰海通上海陆家嘴东路、国泰海通江西南昌进贤军湖路）的大量卖出，净额均超千万负值，卖出率较高，表明普遍的获利了结行为；知名游资席位（东方财富拉萨团结路）虽参与卖出，但净卖出较小且其做T风格显示短期交易而非集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于上涨趋势的加速阶段，从前期低点37.58反弹后连续上涨，上榜日涨幅近30%显示强势上攻。量价关系方面，上榜日放巨量上涨，成交量16.65万手远超平均4.43万手，量价配合健康。关键信号包括大阳线形态（收盘价等于最高价）、跳空高开突破前期高点45.01，形成突破性上涨，确认上涨动力强劲。"
+    },
+    "final_verdict": {
+      "outlook": "市场情绪亢奋，多方主导，短期股价可能延续上涨趋势加速，但高换手率和剧烈多空分歧暗示波动风险极高，需警惕获利了结引发的回调。",
+      "strategy": "建议短线交易者采用日内做T策略，高抛低吸；设置严格止损点于45.01元支撑位，避免追高；关注东方财富拉萨营业部动向以捕捉协同交易机会。",
+      "risk_warning": "风险包括高波动性导致股价大幅回调、市场情绪快速反转、主力做T操作加剧价格波动、流动性风险以及散户可能面临的巨额亏损。"
+    }
+  },
+  "generated_at": "2025-07-03 15:46:23"
+}

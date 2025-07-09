@@ -1,0 +1,213 @@
+{
+  "ts_code": "000525.SZ",
+  "name": "红太阳",
+  "raw_basic_info": {
+    "close": 9.03,
+    "pct_change": "9.99%",
+    "turnover_rate": "16.46%",
+    "amount": "14.59亿元",
+    "l_sell": "1.09亿元",
+    "l_buy": "2.37亿元",
+    "l_amount": "3.47亿元",
+    "net_amount": "1.28亿元",
+    "net_rate": "8.76%",
+    "amount_rate": "23.77%",
+    "float_values": "89.40亿元",
+    "reasons": [
+      "日涨幅偏离值达到7%的前5只证券"
+    ],
+    "trade_date_display": "2025-06-17"
+  },
+  "long_side_facts": {
+    "total_amount_wan": 20900.0,
+    "player_count": 5,
+    "famous_player_count": 1,
+    "concentration_metrics": {
+      "top1_pct": 29.2,
+      "top2_pct": 55.0,
+      "top5_pct": 100.0
+    },
+    "contribution_by_type": {
+      "普通席位_net_wan": 16800.0,
+      "知名游资_net_wan": 4100.0
+    },
+    "players": [
+      {
+        "seat_name": "中信证券股份有限公司浙江分公司",
+        "net_amount": "0.61亿元",
+        "buy": "0.65亿元",
+        "sell": "456.11万元",
+        "buy_rate": "4.46%",
+        "sell_rate": "0.31%",
+        "net_rate": "0.61%",
+        "type": "普通席位",
+        "name": "普通席位",
+        "description": "暂无相关信息",
+        "style": [
+          "风格未明"
+        ]
+      },
+      {
+        "seat_name": "东亚前海证券有限责任公司苏州分公司",
+        "net_amount": "0.54亿元",
+        "buy": "0.54亿元",
+        "sell": "0.00万元",
+        "buy_rate": "3.72%",
+        "sell_rate": "0.00%",
+        "net_rate": "0.54%",
+        "type": "普通席位",
+        "name": "普通席位",
+        "description": "暂无相关信息",
+        "style": [
+          "风格未明"
+        ]
+      },
+      {
+        "seat_name": "国泰海通证券股份有限公司成都北一环路证券营业部",
+        "net_amount": "0.41亿元",
+        "buy": "0.41亿元",
+        "sell": "0.54万元",
+        "buy_rate": "2.81%",
+        "sell_rate": "0.00%",
+        "net_rate": "0.41%",
+        "type": "知名游资",
+        "name": "成都系",
+        "description": "超短游资，具备短时间内引导个股价格的能力，风格稳定，以超跌板为主，盘中都是直线拉升涨停，引导资金合力封板。擅长做首板个股并且盘中喜欢直线拉升，次日冲高后爱砸盘，偏爱中小盘个股。",
+        "style": [
+          "打板",
+          "短线交易",
+          "低吸/潜伏"
+        ]
+      },
+      {
+        "seat_name": "华林证券股份有限公司北京分公司",
+        "net_amount": "0.30亿元",
+        "buy": "0.30亿元",
+        "sell": "36.61万元",
+        "buy_rate": "2.06%",
+        "sell_rate": "0.03%",
+        "net_rate": "0.30%",
+        "type": "普通席位",
+        "name": "普通席位",
+        "description": "暂无相关信息",
+        "style": [
+          "风格未明"
+        ]
+      },
+      {
+        "seat_name": "华源证券股份有限公司深圳分公司",
+        "net_amount": "0.23亿元",
+        "buy": "0.23亿元",
+        "sell": "0.00万元",
+        "buy_rate": "1.58%",
+        "sell_rate": "0.00%",
+        "net_rate": "0.23%",
+        "type": "普通席位",
+        "name": "普通席位",
+        "description": "暂无相关信息",
+        "style": [
+          "风格未明"
+        ]
+      }
+    ]
+  },
+  "short_side_facts": {
+    "total_amount_wan": 8072.8,
+    "player_count": 5,
+    "famous_player_count": 3,
+    "concentration_metrics": {
+      "top1_pct": 37.8,
+      "top2_pct": 68.0,
+      "top5_pct": 100.0
+    },
+    "contribution_by_type": {
+      "知名游资_net_wan": 2579.9,
+      "普通席位_net_wan": 5492.9
+    },
+    "players": [
+      {
+        "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+        "net_amount": "-698.68万元",
+        "buy": "800.10万元",
+        "sell": "0.15亿元",
+        "buy_rate": "0.55%",
+        "sell_rate": "1.03%",
+        "net_rate": "0.07%",
+        "type": "知名游资",
+        "name": "T王",
+        "description": "此类席位每天做T，其乐无穷。",
+        "style": [
+          "短线交易"
+        ]
+      },
+      {
+        "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+        "net_amount": "-912.75万元",
+        "buy": "907.49万元",
+        "sell": "0.18亿元",
+        "buy_rate": "0.62%",
+        "sell_rate": "1.25%",
+        "net_rate": "0.09%",
+        "type": "知名游资",
+        "name": "T王",
+        "description": "此类席位每天做T，其乐无穷。",
+        "style": [
+          "短线交易"
+        ]
+      },
+      {
+        "seat_name": "平安证券股份有限公司福州长乐北路证券营业部",
+        "net_amount": "-968.46万元",
+        "buy": "512.34万元",
+        "sell": "0.15亿元",
+        "buy_rate": "0.35%",
+        "sell_rate": "1.02%",
+        "net_rate": "0.10%",
+        "type": "知名游资",
+        "name": "温州帮",
+        "description": "2016年操作次新股一战成名，手法彪悍，经常连续拉升3个涨停板。操作手法往往多席位联合出动，同时盘踞在数只次新股，建仓迅速，深度控盘，快速对倒拉升。",
+        "style": [
+          "打板",
+          "题材挖掘",
+          "坐庄/主力"
+        ]
+      },
+      {
+        "seat_name": "华泰证券股份有限公司南京大光路证券营业部",
+        "net_amount": "-2,445.13万元",
+        "buy": "158.59万元",
+        "sell": "0.26亿元",
+        "buy_rate": "0.11%",
+        "sell_rate": "1.79%",
+        "net_rate": "0.24%",
+        "type": "普通席位",
+        "name": "普通席位",
+        "description": "暂无相关信息",
+        "style": [
+          "风格未明"
+        ]
+      },
+      {
+        "seat_name": "国元证券股份有限公司宁波分公司",
+        "net_amount": "-3,047.81万元",
+        "buy": "0.00万元",
+        "sell": "0.30亿元",
+        "buy_rate": "0.00%",
+        "sell_rate": "2.09%",
+        "net_rate": "0.30%",
+        "type": "普通席位",
+        "name": "普通席位",
+        "description": "暂无相关信息",
+        "style": [
+          "风格未明"
+        ]
+      }
+    ]
+  },
+  "battle_facts": {
+    "net_advantage_wan": 12827.2,
+    "winner": "多方",
+    "net_advantage_pct": 44.3,
+    "on_list_turnover_pct": 23.8
+  }
+}

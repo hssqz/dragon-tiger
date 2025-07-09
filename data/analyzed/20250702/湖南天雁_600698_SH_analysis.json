@@ -1,0 +1,258 @@
+{
+  "stock_info": {
+    "ts_code": "600698.SH",
+    "name": "湖南天雁",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日价格振幅达到15%的前五只证券",
+        "非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+      ],
+      "interpretation": "这些上榜原因表明该股票近期经历了显著的市场波动和强劲上涨。日价格振幅达到15%反映了剧烈的日内价格波动，说明市场情绪高度不稳定，存在强烈的多空分歧，投资者对股票前景看法不一导致买卖力量激烈博弈。同时，连续三个交易日涨幅偏离值累计20%显示了强劲的多头共识和持续的买入压力，表明市场对该股票有强烈乐观预期和集中的买盘支撑。综合来看，这凸显了市场对该股票的高度关注和投机热情，既有多头主导的上涨趋势，也有空头引发的日内大幅震荡，呈现出剧烈的多空博弈状态。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜利",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "价格上涨6.51%结合高换手率26.43%，表明市场情绪亢奋，投资者热情高涨。"
+      },
+      "capital_confrontation": {
+        "level": "中等对抗",
+        "interpretation": "净买入1.31亿元（净买入率5.86%），龙虎榜成交占比18.13%，主力资金控盘力度中等，多空对抗温和；流通市值84.79亿元较大，削弱了净买入影响。"
+      },
+      "key_takeaway": "主力资金净买入推动股价大幅上涨6.51%，市场情绪亢奋。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.83亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.83亿元",
+          "buy_rate": "1.48%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "通过沪股通机制建仓",
+          "style_profile": {
+            "summary": "今天执行标准互联互通机制买入策略，后市可能持续持有或逐步增持，支持股价稳定。",
+            "time_horizon": "中长期",
+            "preferred_setup": "通过沪港通投资规定股票",
+            "typical_exit": "可能长期持有或在市场变化时逐步减持"
+          }
+        },
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.82亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.82亿元",
+          "buy_rate": "3.68%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "通过沪股通机制建仓",
+          "style_profile": {
+            "summary": "今天执行标准互联互通机制买入策略，后市可能持续持有或逐步增持，支持股价稳定。",
+            "time_horizon": "中长期",
+            "preferred_setup": "通过沪港通投资规定股票",
+            "typical_exit": "可能长期持有或在市场变化时逐步减持"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司宜昌沿江大道证券营业部",
+          "player_type": "知名游资",
+          "player_name": "消闲派",
+          "buy_amount": "0.63亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.63亿元",
+          "buy_rate": "1.11%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封20CM首板",
+          "style_profile": {
+            "summary": "今天执行标准首板策略买入，后市次日有高溢价可能性大。",
+            "time_horizon": "超短期",
+            "preferred_setup": "20CM首板股票",
+            "typical_exit": "次日高溢价时卖出"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司宜昌沿江大道证券营业部",
+          "player_type": "知名游资",
+          "player_name": "消闲派",
+          "buy_amount": "0.52亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.52亿元",
+          "buy_rate": "2.35%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封20CM首板",
+          "style_profile": {
+            "summary": "今天执行标准首板策略买入，后市次日有高溢价可能性大。",
+            "time_horizon": "超短期",
+            "preferred_setup": "20CM首板股票",
+            "typical_exit": "次日高溢价时卖出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "瑞银证券有限责任公司上海浦东新区花园石桥路第二证券营业部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.21亿元",
+          "net_amount": "-2,083.55万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "0.93%",
+          "action_interpretation": "减仓出货",
+          "style_profile": {
+            "summary": "今天卖出可能非标准做T策略，后市或继续频繁交易增加波动。",
+            "time_horizon": "短期",
+            "preferred_setup": "利用算法交易在波动中做T",
+            "typical_exit": "快速平仓或反转操作"
+          }
+        },
+        {
+          "seat_name": "中国国际金融股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.24亿元",
+          "net_amount": "-2,371.43万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.06%",
+          "action_interpretation": "减仓出货",
+          "style_profile": {
+            "summary": "今天卖出可能非标准做T策略，后市或继续频繁交易增加波动。",
+            "time_horizon": "短期",
+            "preferred_setup": "利用算法交易在波动中做T",
+            "typical_exit": "快速平仓或反转操作"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.31亿元",
+          "net_amount": "-3,058.29万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.37%",
+          "action_interpretation": "减仓出货",
+          "style_profile": {
+            "summary": "今天卖出可能非标准做T策略，后市或继续频繁交易增加波动。",
+            "time_horizon": "短期",
+            "preferred_setup": "利用算法交易在波动中做T",
+            "typical_exit": "快速平仓或反转操作"
+          }
+        },
+        {
+          "seat_name": "中信证券股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.32亿元",
+          "net_amount": "-3,184.11万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.43%",
+          "action_interpretation": "减仓出货",
+          "style_profile": {
+            "summary": "今天卖出可能非标准做T策略，后市或继续频繁交易增加波动。",
+            "time_horizon": "短期",
+            "preferred_setup": "利用算法交易在波动中做T",
+            "typical_exit": "快速平仓或反转操作"
+          }
+        },
+        {
+          "seat_name": "中信证券股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.43亿元",
+          "net_amount": "-4,266.99万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "0.76%",
+          "action_interpretation": "减仓出货",
+          "style_profile": {
+            "summary": "今天卖出可能非标准做T策略，后市或继续频繁交易增加波动。",
+            "time_horizon": "短期",
+            "preferred_setup": "利用算法交易在波动中做T",
+            "typical_exit": "快速平仓或反转操作"
+          }
+        },
+        {
+          "seat_name": "中国国际金融股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.45亿元",
+          "net_amount": "-4,492.01万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "0.80%",
+          "action_interpretation": "减仓出货",
+          "style_profile": {
+            "summary": "今天卖出可能非标准做T策略，后市或继续频繁交易增加波动。",
+            "time_horizon": "短期",
+            "preferred_setup": "利用算法交易在波动中做T",
+            "typical_exit": "快速平仓或反转操作"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.89亿元",
+          "net_amount": "-8,929.09万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.58%",
+          "action_interpretation": "减仓出货",
+          "style_profile": {
+            "summary": "今天卖出可能非标准做T策略，后市或继续频繁交易增加波动。",
+            "time_horizon": "短期",
+            "preferred_setup": "利用算法交易在波动中做T",
+            "typical_exit": "快速平仓或反转操作"
+          }
+        },
+        {
+          "seat_name": "中国银河证券股份有限公司北京中关村大街证券营业部",
+          "player_type": "量化",
+          "player_name": "量化抢筹",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.55亿元",
+          "net_amount": "-5,476.37万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "0.97%",
+          "action_interpretation": "减仓出货",
+          "style_profile": {
+            "summary": "今天卖出与典型竞价扫货策略不符，后市若回暖可能重新入场制造弱转强。",
+            "time_horizon": "短期",
+            "preferred_setup": "分歧回暖日竞价扫货",
+            "typical_exit": "当吸引资金后择机卖出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位买入金额分布较均匀，最大席位沪股通专用占比约28%，其他席位占比在15%至20%之间，无主导买方",
+      "synergy_analysis": "只有一个知名游资消闲派上榜，未发现多个知名游资协同作战的迹象"
+    },
+    "seller_analysis": {
+      "pressure_level": "significant",
+      "pressure_desc": "卖压主要来源于量化基金的主导，其频繁做T的策略导致普遍的获利了结行为，而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "上涨中继",
+      "trend_interpretation": "当前股价处于短期上涨趋势的主升浪阶段。量价关系显示，上榜日（2025-07-02）放量上涨（成交量219.47万手），与前两日（2025-07-01成交量219.65万手、2025-06-30成交量152.77万手）连续放量上涨，形成量价配合良好，表明买盘强劲。关键信号包括2025-06-30大阳线（涨幅10.04%）突破前期高点8.71，确认趋势延续；上榜日高开低收但收盘上涨（开盘9.21，最高10.48，收盘10.15），显示买盘支撑但存在上影线提示短期压力。"
+    },
+    "final_verdict": {
+      "outlook": "综合所有分析模块，后市整体看涨但波动剧烈。市场情绪亢奋，多方主导（信心分数0.85），主力资金净买入推动股价上涨；沪股通专用提供中长期支撑，但买方相对分散，无主导力量。同时，量化基金短期做T和获利了结行为增加波动风险，K线显示上涨中继但存在短期压力（上影线），警惕获利回吐和情绪过热导致的回调。",
+      "strategy": "短线交易者：如果持有仓位，考虑在次日高溢价时卖出获利（参考消闲派典型退出策略）；如果未持有，谨慎追高，设置严格止损位（如跌破前日低点）。中长线投资者：可逢低分批布局，重点关注沪股通动向和基本面支撑，避免追涨。监控量能变化和K线形态，在压力位（如上影线高点）减仓。",
+      "risk_warning": "主要风险包括：高波动性（日振幅达15%，量化基金频繁交易加剧震荡）；买方分散削弱支撑，卖方压力（量化主导获利了结）可能引发快速回调；市场情绪亢奋（换手率26.43%）易导致过热反转；短期压力信号（K线上影线）提示下行风险。散户应严格控制仓位（不超过总资产10%），避免使用杠杆，设置止损并实时监控盘面变化。"
+    }
+  },
+  "generated_at": "2025-07-03 15:48:09"
+}

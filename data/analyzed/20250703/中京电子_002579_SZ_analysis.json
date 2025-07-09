@@ -1,0 +1,189 @@
+{
+  "stock_info": {
+    "ts_code": "002579.SZ",
+    "name": "中京电子",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日涨幅偏离值达到7%的前5只证券"
+      ],
+      "interpretation": "这一上榜原因表明该股票在当天的涨幅偏离值显著超越市场基准7%，且位列涨幅偏离值最大的前5只证券，这通常反映了强烈的多头共识和市场乐观情绪。说明该股票受到资金集中流入的推动，可能源于利好消息、基本面改善预期或市场热点追逐，显示出投资者对该股票的积极看好，买盘强劲而卖压较小，暗示当前市场博弈状态偏向于一致看涨，缺乏显著的多空分歧。"
+    },
+    "overall_assessment": {
+      "verdict": "多头小胜",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "股价大幅上涨10.01%，换手率高达38.49%，表明市场情绪亢奋，交投活跃。"
+      },
+      "capital_confrontation": {
+        "level": "激烈但多头略优",
+        "interpretation": "主力买入3.08亿元，卖出2.79亿元，净买入0.29亿元（净率0.87%）；主力金额占总成交17.61%，多空对抗激烈，但流通市值90.72亿元较大，净买入额影响有限，控盘力度较弱。"
+      },
+      "key_takeaway": "主力小幅净买入推动股价大涨10.01%，但资金对抗激烈且流通市值大，影响力受限。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "中国银河证券股份有限公司大连黄河路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "陈小群",
+          "buy_amount": "0.70亿元",
+          "sell_amount": "14.03万元",
+          "net_amount": "0.70亿元",
+          "buy_rate": "2.10%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封或接力龙头股",
+          "style_profile": {
+            "summary": "今天在分歧打板介入龙头股，执行标准战法，后市可能继续推高或持有。",
+            "time_horizon": "短线",
+            "preferred_setup": "分歧打板龙头",
+            "typical_exit": "高位卖出或止损"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司河源越王大道证券营业部",
+          "player_type": "知名游资",
+          "player_name": "越王大道",
+          "buy_amount": "0.44亿元",
+          "sell_amount": "16.36万元",
+          "net_amount": "0.44亿元",
+          "buy_rate": "1.33%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "接力或主封人气股",
+          "style_profile": {
+            "summary": "今天买入热门人气股，执行标准战法，后市可能根据纪律及时退出。",
+            "time_horizon": "短线",
+            "preferred_setup": "人气股、热门股",
+            "typical_exit": "纪律性退出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.33亿元",
+          "sell_amount": "0.35亿元",
+          "net_amount": "-262.21万元",
+          "buy_rate": "0.98%",
+          "sell_rate": "1.06%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今天在做T操作，执行标准战法，后市继续做T。",
+            "time_horizon": "超短线",
+            "preferred_setup": "做T",
+            "typical_exit": "T+0退出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.36亿元",
+          "sell_amount": "0.41亿元",
+          "net_amount": "-542.97万元",
+          "buy_rate": "1.08%",
+          "sell_rate": "1.24%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今天在做T操作，执行标准战法，后市继续做T。",
+            "time_horizon": "超短线",
+            "preferred_setup": "做T",
+            "typical_exit": "T+0退出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.32亿元",
+          "sell_amount": "0.38亿元",
+          "net_amount": "-559.09万元",
+          "buy_rate": "0.97%",
+          "sell_rate": "1.14%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今天在做T操作，执行标准战法，后市继续做T。",
+            "time_horizon": "超短线",
+            "preferred_setup": "做T",
+            "typical_exit": "T+0退出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.31亿元",
+          "sell_amount": "0.39亿元",
+          "net_amount": "-875.17万元",
+          "buy_rate": "0.92%",
+          "sell_rate": "1.18%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今天在做T操作，执行标准战法，后市继续做T。",
+            "time_horizon": "超短线",
+            "preferred_setup": "做T",
+            "typical_exit": "T+0退出"
+          }
+        },
+        {
+          "seat_name": "东兴证券股份有限公司大连昆明街证券营业部",
+          "player_type": "普通席位",
+          "player_name": "普通席位",
+          "buy_amount": "0.14亿元",
+          "sell_amount": "0.39亿元",
+          "net_amount": "-2,484.82万元",
+          "buy_rate": "0.43%",
+          "sell_rate": "1.18%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "深股通专用",
+          "player_type": "机构",
+          "player_name": "深股通专用",
+          "buy_amount": "0.48亿元",
+          "sell_amount": "0.85亿元",
+          "net_amount": "-3,784.53万元",
+          "buy_rate": "1.43%",
+          "sell_rate": "2.57%",
+          "action_interpretation": "净卖出，可能出货或调整仓位",
+          "style_profile": {
+            "summary": "今天净卖出，可能不是标准战法（作为资金通道），后市可能继续流出。",
+            "time_horizon": "中长期",
+            "preferred_setup": "互联互通机制",
+            "typical_exit": "通过机制退出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "买方只有两个席位，最大买家陈小群买入0.70亿元，占总买方买入额1.14亿元的61.4%，显示高度集中。",
+      "synergy_analysis": "存在多个知名游资同时上榜，包括陈小群和越王大道，表明可能存在协同作战。"
+    },
+    "seller_analysis": {
+      "pressure_level": "medium",
+      "pressure_desc": "卖压主要来自东方财富拉萨天团的日常高频交易获利了结和深股通机构的卖出，整体偏向普遍的获利了结行为，而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "上涨中继",
+      "trend_interpretation": "当前股价处于上涨趋势中的回调后恢复阶段。量价关系上，上榜日（2025-07-03）放量涨停（成交量223.86万手），较前一日（2025-07-02，成交量189.21万手）显著增加，形成放量上涨态势，配合前日缩量反弹（成交量189.21万手）和回调日（2025-07-01）放量下跌（成交量226.96万手），量价配合良好，表明买盘强劲恢复。关键信号包括上榜日大阳线涨停形态，开盘价（13.8）与最低价相同后强势拉升，突破2025-07-01高点15.33，确认趋势恢复并加速上行。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望积极，多头情绪亢奋且趋势恢复加速上行，但需警惕机构净卖出和做T行为带来的短期回调风险。",
+      "strategy": "短线投资者可逢低介入（如回调至13.8元支撑位），设置止损在13.8元；持有者继续持仓，监控量能变化，若放量滞涨则高位减仓。",
+      "risk_warning": "风险包括：高换手率（38.49%）导致剧烈波动；深股通机构持续净卖出可能打压股价；游资快进快出风格易引发突然下跌；流通市值大但控盘力度弱，增加不确定性。"
+    }
+  },
+  "generated_at": "2025-07-03 18:53:42"
+}

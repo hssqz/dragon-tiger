@@ -1,0 +1,155 @@
+{
+  "stock_info": {
+    "ts_code": "001298.SZ",
+    "name": "好上好",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日涨幅偏离值达到7%的前5只证券"
+      ],
+      "interpretation": "该股票因日涨幅偏离值达到7%而登上龙虎榜，这表明其价格波动显著高于市场基准，反映了强烈的多头情绪和市场资金的集中涌入。这种情况通常源于投资者对公司的乐观预期，如利好消息或行业热点推动，显示出当前市场对该股的买盘共识强劲，多头占据主导地位，空头分歧较小，整体博弈状态偏向一致看涨。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜出",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "分歧",
+        "interpretation": "涨幅10.01%显示亢奋，但55.09%的高换手率表明买卖双方活跃，存在较大分歧"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力买入3.02亿元和卖出2.84亿元接近，净买入仅0.17亿元（净率0.54%），结合18.33%的龙虎榜占比和小盘股特性，显示多空对抗激烈"
+      },
+      "key_takeaway": "核心看点是涨停板上的高换手，主力资金激烈博弈后多方险胜"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "中国国际金融股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.34亿元",
+          "sell_amount": "0.19亿元",
+          "net_amount": "0.16亿元",
+          "buy_rate": "1.07%",
+          "sell_rate": "0.58%",
+          "action_interpretation": "频繁做T",
+          "style_profile": {
+            "summary": "今日执行标准频繁做T战法，买卖平衡净买入，后市可能继续做T助涨。",
+            "time_horizon": "短线",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "快进快出"
+          }
+        },
+        {
+          "seat_name": "深股通专用",
+          "player_type": "机构",
+          "player_name": "深股通专用",
+          "buy_amount": "1.22亿元",
+          "sell_amount": "1.13亿元",
+          "net_amount": "957.85万元",
+          "buy_rate": "3.82%",
+          "sell_rate": "3.52%",
+          "action_interpretation": "通过互联互通机制平衡操作",
+          "style_profile": {
+            "summary": "通过互联互通机制流动资金，今日买卖平衡净买入，后市可能维持平衡操作。",
+            "time_horizon": "中长线",
+            "preferred_setup": "互联互通机制",
+            "typical_exit": "卖出退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.29亿元",
+          "sell_amount": "0.26亿元",
+          "net_amount": "279.75万元",
+          "buy_rate": "0.90%",
+          "sell_rate": "0.82%",
+          "action_interpretation": "机构标准操作",
+          "style_profile": {
+            "summary": "机构标准操作，今日净买入，后市可能持仓或调整。",
+            "time_horizon": "中长线",
+            "preferred_setup": "机构专用席位",
+            "typical_exit": "卖出退出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.23亿元",
+          "sell_amount": "0.29亿元",
+          "net_amount": "-539.16万元",
+          "buy_rate": "0.73%",
+          "sell_rate": "0.90%",
+          "action_interpretation": "做T出货",
+          "style_profile": {
+            "summary": "执行标准每天做T战法，今日净卖出出货，后市可能继续做T。",
+            "time_horizon": "短线",
+            "preferred_setup": "做T",
+            "typical_exit": "卖出退出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.28亿元",
+          "sell_amount": "0.34亿元",
+          "net_amount": "-565.50万元",
+          "buy_rate": "0.88%",
+          "sell_rate": "1.05%",
+          "action_interpretation": "做T出货",
+          "style_profile": {
+            "summary": "执行标准每天做T战法，今日净卖出出货，后市可能继续做T。",
+            "time_horizon": "短线",
+            "preferred_setup": "做T",
+            "typical_exit": "卖出退出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.23亿元",
+          "sell_amount": "0.29亿元",
+          "net_amount": "-614.79万元",
+          "buy_rate": "0.73%",
+          "sell_rate": "0.92%",
+          "action_interpretation": "做T出货",
+          "style_profile": {
+            "summary": "执行标准每天做T战法，今日净卖出出货，后市可能继续做T。",
+            "time_horizon": "短线",
+            "preferred_setup": "做T",
+            "typical_exit": "卖出退出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "深股通专用席位买入额占比56.48%，远高于其他席位（均低于16%），表明买方资金高度集中在单一席位。",
+      "synergy_analysis": "席位主要为机构（深股通专用、机构专用）和量化基金（中国国际金融上海分公司），无知名游资席位出现，因此未发现协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "中高",
+      "pressure_desc": "卖压主要来自特定主力的集中出货，体现在国金证券股份有限公司深圳分公司的显著净卖出量（-2,394.90万元），而其他席位（东方财富拉萨天团）为游资的日常做T交易，卖压性质非普遍的获利了结。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "上涨中继",
+      "trend_interpretation": "当前阶段：股价处于短期上涨趋势的中继阶段，自2025-06-25起快速拉升后，在2025-07-01和2025-07-02涨幅收窄，进入短暂调整，随后在龙虎榜日恢复上涨。量价关系：上榜日（2025-07-03）放量上涨（成交量84.89万手），与前两日（2025-07-01成交量85.33万手、涨幅3.45%；2025-07-02成交量89.80万手、涨幅4.77%）的放量滞涨形成对比，表明调整期换手充分后多方重新主导。关键信号：上榜日形成大阳线涨停（收盘38.68等于最高价），突破前一日高点36.92，确认强势突破形态。"
+    },
+    "final_verdict": {
+      "outlook": "综合所有分析模块，该股后市短期有望延续上涨趋势，主要基于多方胜出、上涨中继形态和强劲多头情绪；但高换手率（55.09%）和激烈资本对抗（净买入率仅0.54%）显示市场分歧显著，可能面临调整风险。",
+      "strategy": "建议散户投资者在股价回调至关键支撑位（如前高36.92元）时逢低买入，设置止损点（如跌破36.92元）；现有持仓者可持有观望，但避免追高，并密切关注量能变化（如成交量持续放大）。",
+      "risk_warning": "主要风险包括：1) 高换手率（55.09%）可能导致股价大幅波动和快速反转；2) 特定主力（如国金证券深圳分公司）和游资（T王席位）的卖压可能加剧下跌；3) 多方险胜后博弈激烈，若空方反扑，股价存在回调风险。"
+    }
+  },
+  "generated_at": "2025-07-03 18:54:07"
+}

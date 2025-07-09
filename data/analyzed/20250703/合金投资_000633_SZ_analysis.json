@@ -1,0 +1,189 @@
+{
+  "stock_info": {
+    "ts_code": "000633.SZ",
+    "name": "合金投资",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日跌幅偏离值达到7%的前5只证券"
+      ],
+      "interpretation": "这只股票因日跌幅偏离值达到7%而上榜，表明其在当天表现远逊于市场平均水平，暗示了强烈的抛售压力和负面情绪，可能由突发利空消息、盈利下滑或行业风险引发。这反映了当前市场对该股票存在剧烈的多空分歧，空头力量占据主导，导致价格大幅下挫，同时也可能吸引部分多头抄底博弈，整体情绪悲观且波动加剧。"
+    },
+    "overall_assessment": {
+      "verdict": "空方胜出",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "股价大幅下跌6.93%，换手率高达13.62%，显示抛压严重和市场恐慌情绪。"
+      },
+      "capital_confrontation": {
+        "level": "激烈对抗，空方主导",
+        "interpretation": "龙虎榜净卖出1326.98万元，卖出额0.35亿元高于买入额0.22亿元，占总成交比例17.88%，主力资金分歧大，空方控盘力度强。"
+      },
+      "key_takeaway": "空方主力强势打压导致股价大跌6.93%，龙虎榜显示显著抛压和资金分歧。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "中国银河证券股份有限公司北京中关村大街证券营业部",
+          "player_type": "量化",
+          "player_name": "量化抢筹",
+          "buy_amount": "389.04万元",
+          "sell_amount": "94.64万元",
+          "net_amount": "294.40万元",
+          "buy_rate": "1.21%",
+          "sell_rate": "0.30%",
+          "action_interpretation": "竞价扫货制造弱转强",
+          "style_profile": {
+            "summary": "执行标准量化战法：分歧回暖日竞价扫货制造弱转强，后市可能吸引更多资金流入。",
+            "time_horizon": "短期",
+            "preferred_setup": "分歧回暖日竞价时间扫货",
+            "typical_exit": "高位吸引资金后卖出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "393.29万元",
+          "sell_amount": "226.17万元",
+          "net_amount": "167.12万元",
+          "buy_rate": "1.23%",
+          "sell_rate": "0.71%",
+          "action_interpretation": "做T操作",
+          "style_profile": {
+            "summary": "执行标准做T战法，后市继续高频交易。",
+            "time_horizon": "日内或短期",
+            "preferred_setup": "任何市场环境做T",
+            "typical_exit": "T+0获利了结"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "315.03万元",
+          "sell_amount": "181.05万元",
+          "net_amount": "133.98万元",
+          "buy_rate": "0.98%",
+          "sell_rate": "0.57%",
+          "action_interpretation": "做T操作",
+          "style_profile": {
+            "summary": "执行标准做T战法，后市继续高频交易。",
+            "time_horizon": "日内或短期",
+            "preferred_setup": "任何市场环境做T",
+            "typical_exit": "T+0获利了结"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "344.75万元",
+          "sell_amount": "236.42万元",
+          "net_amount": "108.34万元",
+          "buy_rate": "1.08%",
+          "sell_rate": "0.74%",
+          "action_interpretation": "做T操作",
+          "style_profile": {
+            "summary": "执行标准做T战法，后市继续高频交易。",
+            "time_horizon": "日内或短期",
+            "preferred_setup": "任何市场环境做T",
+            "typical_exit": "T+0获利了结"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "268.48万元",
+          "sell_amount": "186.23万元",
+          "net_amount": "82.25万元",
+          "buy_rate": "0.84%",
+          "sell_rate": "0.58%",
+          "action_interpretation": "小幅净买入，可能做T或加仓",
+          "style_profile": {
+            "summary": "小幅净买入，标准仓位调整，后市取决于基本面。",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面驱动投资",
+            "typical_exit": "目标价达成或基本面变化"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "14.73万元",
+          "sell_amount": "303.45万元",
+          "net_amount": "-288.72万元",
+          "buy_rate": "0.05%",
+          "sell_rate": "0.95%",
+          "action_interpretation": "净卖出，出货或减仓",
+          "style_profile": {
+            "summary": "净卖出，执行减仓策略，后市可能继续减仓。",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面驱动投资",
+            "typical_exit": "目标价达成或基本面恶化"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "114.66万元",
+          "sell_amount": "597.29万元",
+          "net_amount": "-482.63万元",
+          "buy_rate": "0.36%",
+          "sell_rate": "1.86%",
+          "action_interpretation": "净卖出，出货或减仓",
+          "style_profile": {
+            "summary": "净卖出，执行减仓策略，后市可能继续减仓。",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面驱动投资",
+            "typical_exit": "目标价达成或基本面恶化"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "171.50万元",
+          "sell_amount": "938.82万元",
+          "net_amount": "-767.32万元",
+          "buy_rate": "0.54%",
+          "sell_rate": "2.93%",
+          "action_interpretation": "净卖出，出货或减仓",
+          "style_profile": {
+            "summary": "净卖出，执行减仓策略，后市可能继续减仓。",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面驱动投资",
+            "typical_exit": "目标价达成或基本面恶化"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位买入金额分布较均匀，最大席位买入占比约23%，各席位买入份额在15.7%至23%之间，无单一席位主导。",
+      "synergy_analysis": "存在协同作战迹象，多个知名游资席位（东方财富证券拉萨营业部）同时上榜，具有相同名称'T王'和交易风格，暗示可能协同操作。"
+    },
+    "seller_analysis": {
+      "pressure_level": "高",
+      "pressure_desc": "卖压主要来自特定主力的集中出货，机构席位卖出金额占总卖出额的71%，表明大资金主导的集中卖出行为"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前阶段：股价在经历一波快速上涨后，于7月1日涨停达到高位7.07，但随后连续两日放量下跌，表明处于上涨末期或趋势反转点。量价关系：上榜日（2025-07-03）下跌6.93%，成交量52.47万手（显著高于平均21.05万手），与前一日（2025-07-02）放量下跌85.31万手形成连续放量下跌，显示强卖压；而涨停日（2025-07-01）成交量仅2.07万手，量价背离，暗示上涨缺乏持续性。关键信号：7月2日K线高开低走形成长上影大阴线（最高7.07，收盘6.49），是典型顶部反转形态；7月3日继续下跌跌破前低，确认下行趋势。"
+    },
+    "final_verdict": {
+      "outlook": "基于分析，股票因日跌幅偏离值达7%上榜，空方主导且恐慌情绪浓厚，连续放量下跌和高位反转形态确认下行趋势。短期内或有量化抢筹带来的反弹机会，但整体风险偏高，中长期看空。散户需警惕波动加剧。",
+      "strategy": "建议散户避免盲目抄底。短期交易者可尝试日内做T操作（参考游资'T王'策略），设置严格止损（如跌破关键支撑位）。中长期投资者应观望或逐步减仓，等待企稳信号（如缩量整理或基本面改善）后再介入。",
+      "risk_warning": "股价波动剧烈，存在进一步下跌风险。机构大幅减仓、量价背离和连续放量下跌是强风险信号。散户易被套牢，需警惕突发利空消息引发更大损失。投资决策应基于个人风险承受能力。"
+    }
+  },
+  "generated_at": "2025-07-03 18:54:18"
+}

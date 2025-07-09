@@ -1,0 +1,121 @@
+{
+  "stock_info": {
+    "ts_code": "301388.SZ",
+    "name": "欣灵电气",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日换手率达到30%"
+      ],
+      "interpretation": "日换手率达到30%表明该股票在一天内交易异常活跃，反映出高度的市场流动性和投机氛围，通常由重大事件或消息驱动。这揭示了当前市场存在剧烈的多空分歧，买家积极入场押注上涨潜力，而卖家则因获利回吐或风险担忧大量抛售，暗示短期波动加剧且缺乏稳定共识。"
+    },
+    "overall_assessment": {
+      "verdict": "多方大胜",
+      "confidence_score": 0.95,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "股价涨幅接近20%，换手率高达44.47%，显示市场情绪极度亢奋。"
+      },
+      "capital_confrontation": {
+        "level": "高度控盘",
+        "interpretation": "主力净买入0.72亿元，净买入率21.07%，占总成交额37.15%，流通值8.10亿元下，净买入占比约8.9%，多方控盘力度强，对抗激烈。"
+      },
+      "key_takeaway": "主力资金大举买入推动涨停，超高换手率凸显市场热情。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.41亿元",
+          "sell_amount": "12.51万元",
+          "net_amount": "0.41亿元",
+          "buy_rate": "11.91%",
+          "sell_rate": "0.04%",
+          "action_interpretation": "今日大额买入，卖出极少，推测为主封或接力打板操作。",
+          "style_profile": {
+            "summary": "执行标准量化打板战法：专注首板二板，今日买入后，后市剧本为：若明日开盘不秒板，则兑现一半仓位；若上板，可能纠错买回；若走势不强，则清仓。",
+            "time_horizon": "短线（次日操作）",
+            "preferred_setup": "首板或二板打板",
+            "typical_exit": "次日开盘不秒板兑现一半，上板买回，不强则清仓"
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司上海茅台路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "炒股养家",
+          "buy_amount": "0.18亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.18亿元",
+          "buy_rate": "5.19%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "今日大额买入，无卖出，推测为利用通道优势主封或接力题材龙头。",
+          "style_profile": {
+            "summary": "执行标准战法：挖掘题材龙头，利用通道买入。后市剧本：明日可能高位逐步离场。",
+            "time_horizon": "短线（隔日离场）",
+            "preferred_setup": "题材龙头，一字板",
+            "typical_exit": "隔日高位逐步离场"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "708.98万元",
+          "sell_amount": "835.45万元",
+          "net_amount": "-126.47万元",
+          "buy_rate": "2.07%",
+          "sell_rate": "2.44%",
+          "action_interpretation": "今日有买有卖，净卖出小，推测为做T或部分出货。",
+          "style_profile": {
+            "summary": "",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "516.20万元",
+          "sell_amount": "935.48万元",
+          "net_amount": "-419.28万元",
+          "buy_rate": "1.51%",
+          "sell_rate": "2.73%",
+          "action_interpretation": "今日卖出大额，买入较少，净卖出大，推测为出货。",
+          "style_profile": {
+            "summary": "",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买方席位占比11.91%，前三名席位合计占比约22.05%，整体分布较为均匀，无单一主导席位。",
+      "synergy_analysis": "存在多个知名游资同时上榜，包括量化打板和炒股养家，可能暗示协同作战或共同关注同一股票。"
+    },
+    "seller_analysis": {
+      "pressure_level": "High",
+      "pressure_desc": "卖压主要来自特定主力机构（机构专用席位）的集中出货，同时普通席位也有显著的卖出行为，可能反映普遍的获利了结。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前阶段: 股价在震荡整理后突破阻力，进入主升浪初期。量价关系: 上榜日成交量12.16万手，远高于平均2.56万手，形成放量上涨格局，前一日成交量2.36万手，量能显著放大支撑价格上涨。关键信号: 大阳线突破前期高点24.77，开盘24.67收盘29.6，涨幅19.98%，光头光脚形态显示多方强势控盘，无上影线表明买盘持续涌入。"
+    },
+    "final_verdict": {
+      "outlook": "鉴于多方大胜、主力资金强势控盘和市场情绪亢奋，后市短期可能延续上涨趋势，股价突破阻力进入主升浪初期。但高换手率（44.47%）表明市场分歧大，投机氛围浓，机构出货和游资短线行为可能引发波动回调。",
+      "strategy": "建议散户短线操作：若已持有，在次日开盘观察股价表现，如强势上板则持有，否则部分兑现；若未持有，避免追高，等待回调或趋势确认后再介入，优先关注首板或二板机会。",
+      "risk_warning": "风险包括：高换手率导致短期波动剧烈；机构净卖出可能加大抛压；游资短线离场策略（如次日不秒板则兑现）易引发股价快速反转；缺乏基本面支撑，投机过热增加回调概率。"
+    }
+  },
+  "generated_at": "2025-07-03 15:44:38"
+}

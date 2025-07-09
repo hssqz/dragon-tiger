@@ -1,0 +1,189 @@
+{
+  "stock_info": {
+    "ts_code": "300472.SZ",
+    "name": "*ST新元",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "连续三个交易日内，涨幅偏离值累计达到30%的证券"
+      ],
+      "interpretation": "该上榜原因表明股票在连续三个交易日内涨幅大幅偏离市场平均水平，累计达到30%，这反映了强烈的多头共识和积极的市场情绪。投资者普遍看好该股票，持续买入推动价格快速上涨，显示资金集中流入和乐观预期，而非剧烈的多空分歧，暗示市场对该股有较高的信心和买入意愿。"
+    },
+    "overall_assessment": {
+      "verdict": "多空分歧，空方施压但多方主导价格",
+      "confidence_score": 0.7,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "股价大幅上涨19.89%，换手率高达23.61%，显示市场情绪亢奋，投资者交易活跃。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力资金净卖出703.06万元（净利率-2.08%），占总成交额24.19%，控盘力度强；小盘股特性（流通市值10.82亿元）放大资金影响，多空对抗激烈，空方略占优。"
+      },
+      "key_takeaway": "连续大涨中主力资金流出，小盘股需警惕高位波动风险。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "793.51万元",
+          "sell_amount": "250.03万元",
+          "net_amount": "543.49万元",
+          "buy_rate": "2.35%",
+          "sell_rate": "0.74%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法，后市可能继续高抛低吸操作。",
+            "time_horizon": "超短线",
+            "preferred_setup": "适合做T的股票",
+            "typical_exit": "高抛"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "673.36万元",
+          "sell_amount": "238.12万元",
+          "net_amount": "435.25万元",
+          "buy_rate": "1.99%",
+          "sell_rate": "0.70%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法，后市可能继续高抛低吸操作。",
+            "time_horizon": "超短线",
+            "preferred_setup": "适合做T的股票",
+            "typical_exit": "高抛"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "594.93万元",
+          "sell_amount": "288.05万元",
+          "net_amount": "306.87万元",
+          "buy_rate": "1.76%",
+          "sell_rate": "0.85%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法，后市可能继续高抛低吸操作。",
+            "time_horizon": "超短线",
+            "preferred_setup": "适合做T的股票",
+            "typical_exit": "高抛"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司山南香曲东路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "552.57万元",
+          "sell_amount": "274.34万元",
+          "net_amount": "278.22万元",
+          "buy_rate": "1.64%",
+          "sell_rate": "0.81%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今天执行标准做T战法，后市可能继续高抛低吸操作。",
+            "time_horizon": "超短线",
+            "preferred_setup": "适合做T的股票",
+            "typical_exit": "高抛"
+          }
+        },
+        {
+          "seat_name": "国金证券股份有限公司深圳湾一号证券营业部",
+          "player_type": "知名游资",
+          "player_name": "欢乐海岸",
+          "buy_amount": "543.18万元",
+          "sell_amount": "527.03万元",
+          "net_amount": "16.15万元",
+          "buy_rate": "1.61%",
+          "sell_rate": "1.56%",
+          "action_interpretation": "买卖平衡，可能做T或调整仓位",
+          "style_profile": {
+            "summary": "今天未执行标准高位板封单战法；后市可能锁仓或继续操作。",
+            "time_horizon": "短线",
+            "preferred_setup": "高位板",
+            "typical_exit": "离场善后，尾盘拉升"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "44.90万元",
+          "sell_amount": "454.29万元",
+          "net_amount": "-409.39万元",
+          "buy_rate": "0.13%",
+          "sell_rate": "1.35%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "机构出货，执行标准调仓战法；后市可能继续流出或观望。",
+            "time_horizon": "中长线",
+            "preferred_setup": "价值投资标的",
+            "typical_exit": "分批卖出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "530.43万元",
+          "sell_amount": "0.11亿元",
+          "net_amount": "-530.37万元",
+          "buy_rate": "1.57%",
+          "sell_rate": "3.14%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "机构出货，执行标准调仓战法；后市可能继续流出或观望。",
+            "time_horizon": "中长线",
+            "preferred_setup": "价值投资标的",
+            "typical_exit": "分批卖出"
+          }
+        },
+        {
+          "seat_name": "华泰证券股份有限公司上海普陀区江宁路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "炒新一族",
+          "buy_amount": "1.51万元",
+          "sell_amount": "648.17万元",
+          "net_amount": "-646.66万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.92%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今天出货，执行标准一日游战法；后市可能离场寻找新目标。",
+            "time_horizon": "超短线",
+            "preferred_setup": "开板次新股",
+            "typical_exit": "快速卖出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "买方席位主要由东方财富拉萨天团主导，前四个席位共享相同交易风格（每天做T）且买入金额占比超过80%。",
+      "synergy_analysis": "存在协同作战迹象，前四个席位均为东方财富拉萨天团成员，标签和风格一致，可能协同操作；第五席位欢乐海岸独立，描述提及多席位联动但当前数据未显示明确联动。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要来自特定主力，包括两个机构专用席位（贡献总卖出量约53.6%）和知名游资席位（贡献约22.3%），显示出大额集中卖出行为；普通席位（贡献约24%）虽也卖出，但信息不足，整体表明是机构与游资的策略性出货而非普遍散户获利了结。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "底部启动信号",
+      "trend_interpretation": "当前股价处于上涨初期阶段，从筑底后快速突破。量价关系上，上榜日（2025-07-02）放量上涨（成交量58.04万手，远高于平均14.56万手），前一天（2025-07-01）同样放量上涨（25.90万手），量价配合积极，表明买盘强劲。关键信号包括连续两个大阳线（涨幅均近20%），跳空高开突破前期阻力位（约3.0水平），确认底部反转形态。"
+    },
+    "final_verdict": {
+      "outlook": "股票处于上涨初期，底部启动信号明确，市场情绪亢奋推动股价上涨。但多空分歧显著，主力资金流出和机构出货增加高位回调风险。",
+      "strategy": "散户投资者可短线参与，避免追高；持有者部分获利了结，新进者等待回调买入机会，设置止损位。关注游资做T行为，及时调整仓位。",
+      "risk_warning": "主力资金持续流出、机构策略性出货可能导致股价大幅回调；小盘股放大波动风险；亢奋情绪易引发快速反转，投资者应控制仓位，严格风险管理。"
+    }
+  },
+  "generated_at": "2025-07-03 15:37:05"
+}

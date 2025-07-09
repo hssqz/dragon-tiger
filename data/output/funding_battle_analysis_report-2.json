@@ -1,0 +1,132 @@
+{
+  "stock_info": {
+    "ts_code": "",
+    "name": "Unknown",
+    "trade_date": "Unknown"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日振幅值达到15%"
+      ],
+      "signal_strength": "中等",
+      "interpretation": "筹码松动，多空分歧严重。可能是主力洗盘或出货前兆，需结合后续的资金分析来判断。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "net_amount": "0.18亿元",
+          "action_interpretation": "净买入，显示建仓行为",
+          "style_profile": {
+            "summary": "今天执行标准机构建仓战法，后市最可能剧本是中长期持股或逐步加仓。",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面驱动投资",
+            "typical_exit": "逐步减仓或持有"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "net_amount": "601.79万元",
+          "action_interpretation": "做T操作，净买入",
+          "style_profile": {
+            "summary": "今天执行标准做T战法，后市最可能剧本是继续日内交易或次日卖出。",
+            "time_horizon": "超短线",
+            "preferred_setup": "日内做T",
+            "typical_exit": "日内平仓或次日清仓"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "net_amount": "418.65万元",
+          "action_interpretation": "做T操作，净买入",
+          "style_profile": {
+            "summary": "今天执行标准做T战法，后市最可能剧本是继续日内交易或次日卖出。",
+            "time_horizon": "超短线",
+            "preferred_setup": "日内做T",
+            "typical_exit": "日内平仓或次日清仓"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "net_amount": "302.13万元",
+          "action_interpretation": "做T操作，净买入",
+          "style_profile": {
+            "summary": "今天执行标准做T战法，后市最可能剧本是继续日内交易或次日卖出。",
+            "time_horizon": "超短线",
+            "preferred_setup": "日内做T",
+            "typical_exit": "日内平仓或次日清仓"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "net_amount": "-186.02万元",
+          "action_interpretation": "净卖出，显示减仓行为",
+          "style_profile": {
+            "summary": "今天执行标准机构减仓战法，后市最可能剧本是谨慎观望或继续减仓。",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面驱动投资",
+            "typical_exit": "逐步减仓"
+          }
+        },
+        {
+          "seat_name": "中国银河证券股份有限公司北京中关村大街证券营业部",
+          "player_type": "量化",
+          "player_name": "量化抢筹",
+          "net_amount": "-955.97万元",
+          "action_interpretation": "净卖出，策略性退出",
+          "style_profile": {
+            "summary": "今天执行量化策略退出战法，后市最可能剧本是寻找分歧回暖日新机会。",
+            "time_horizon": "短线",
+            "preferred_setup": "竞价扫货制造弱转强",
+            "typical_exit": "策略性清仓"
+          }
+        },
+        {
+          "seat_name": "开源证券股份有限公司西安太华路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "net_amount": "-2,174.22万元",
+          "action_interpretation": "清仓卖出，严格执行纪律",
+          "style_profile": {
+            "summary": "今天执行标准量化打板纪律战法，后市最可能剧本是瞄准新首板或二板机会。",
+            "time_horizon": "超短线",
+            "preferred_setup": "首板、二板打板",
+            "typical_exit": "次日不能秒板开盘即兑现"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买方席位'机构专用'买入占比2.11%，其余席位买入占比均低于1%（国金证券1.00%，三个拉萨席位各约0.91%-0.97%），显示买方力量较为分散。",
+      "synergy_analysis": "存在协同作战迹象，三个'东方财富拉萨天团'席位（团结路第二、团结路第一、金融城南环路）同时上榜，均为知名游资'T王'，策略相似（每日做T），可能协同操作。"
+    },
+    "seller_analysis": {
+      "pressure_level": "high",
+      "pressure_desc": "卖压来自普遍的获利了结行为，涉及多个席位，包括量化交易和知名游资的策略性兑现，如开源证券的纪律性卖出。"
+    },
+    "historical_context": {
+      "behavior_type": "高位派发",
+      "trend_interpretation": "上升趋势末期，高位放量滞涨，面临短期回调风险"
+    },
+    "final_verdict": {
+      "outlook": "当前市场处于上升趋势末期，高位放量滞涨，筹码松动导致多空分歧严重。机构建仓显示中长期潜力，但游资做T和量化退出加剧短期波动，后市短期面临回调风险，中长期需基本面支撑确认方向。",
+      "strategy": "操作策略：散户应保持谨慎，避免追高。短期建议观望或减仓，等待回调企稳信号；中长期若基本面良好，可逢低分批建仓。避免短线交易，因游资主导的做T操作增加不确定性。",
+      "risk_warning": "风险提示：高振幅（15%）预示剧烈波动，可能导致重大损失；高卖压来自量化退出和游资清仓，易引发价格快速下跌；多空分歧加大方向不确定性。投资者应设置严格止损、控制仓位，避免过度杠杆。"
+    }
+  },
+  "generated_at": "2025-06-30 18:49:13"
+}

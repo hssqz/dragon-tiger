@@ -1,0 +1,87 @@
+{
+  "stock_info": {
+    "ts_code": "000584.SZ",
+    "name": "工智退",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "退市整理期"
+      ],
+      "interpretation": "股票上榜的原因是进入退市整理期，这表明公司面临严重的退市风险，可能源于财务困境、违规行为或其他不符合上市条件的因素。这反映了当前市场对该股票的极度恐慌情绪，投资者纷纷抛售以避免损失，博弈状态呈现强烈的空头共识，几乎没有多头参与，股票流动性急剧下降，整体市场信号指向高风险和悲观预期。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜出",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "股价涨幅达8.70%，换手率6.06%，表明市场参与度高且情绪亢奋。"
+      },
+      "capital_confrontation": {
+        "level": "强",
+        "interpretation": "净买入158.96万元（净买入率14.03%），龙虎榜交易占整体成交75.16%，主力控盘力度强；买卖额对比（买入505.34万元 vs 卖出346.39万元）显示对抗存在但不极端激烈；结合流通市值仅1.90亿元，净买入影响力显著。"
+      },
+      "key_takeaway": "在退市整理期，主力资金强势买入主导股价大幅上涨。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "浙商证券股份有限公司路桥数码街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "温州帮",
+          "buy_amount": "43.58万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "43.58万元",
+          "buy_rate": "3.85%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓",
+          "style_profile": {
+            "summary": "手法彪悍，偏好次新股，深度控盘快速拉升。今日净买入建仓，符合其标准战法。后市可能快速拉升股价。",
+            "time_horizon": "短期",
+            "preferred_setup": "次新股",
+            "typical_exit": "高位出货"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "8.87万元",
+          "sell_amount": "44.46万元",
+          "net_amount": "-35.60万元",
+          "buy_rate": "0.78%",
+          "sell_rate": "3.92%",
+          "action_interpretation": "做T操作",
+          "style_profile": {
+            "summary": "以每天做T为主，属于东方财富拉萨天团。今日净卖出但有小量买入，典型做T行为。后市可能持续高抛低吸。",
+            "time_horizon": "日内或短期",
+            "preferred_setup": "波动较大的股票",
+            "typical_exit": "通过做T获利了结"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买入金额分布较均匀，最大买入占比为12.74%，前两个席位合计占比24.27%，没有单一席位主导。",
+      "synergy_analysis": "不存在协同作战迹象，仅有一个知名游资席位（温州帮）上榜，其他席位均为普通席位且风格未明。"
+    },
+    "seller_analysis": {
+      "pressure_level": "high",
+      "pressure_desc": "卖压主要来自多个普通席位（如华西证券石家庄自强路卖出134.19万元，占11.84%），表明普遍的获利了结行为；知名游资席位（如东方财富拉萨团结路第二）虽参与但以做T为主，卖出金额44.46万元（占3.92%）非主导，因此非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "底部启动信号",
+      "trend_interpretation": "当前股价处于筑底阶段后期，短期趋势在低位震荡后开始反弹；量价关系显示上榜日（2025-07-03）放量上涨，成交量46.00万手较前一日15.24万手大幅增加，形成价量齐升形态；关键信号为阳线K线，收盘价0.25接近高点0.25，突破前几日盘整区间，表明买方力量增强，可能标志反弹启动。"
+    },
+    "final_verdict": {
+      "outlook": "尽管主力资金在退市整理期强势买入导致股价反弹，形成底部启动信号，市场情绪亢奋且多方胜出，但股票面临退市高风险，整体市场恐慌情绪浓厚，后市可能短期有拉升机会，但长期退市风险主导，需高度谨慎。",
+      "strategy": "建议散户谨慎参与，如有持仓可逢高减仓；短线交易者可跟随主力动向（如温州帮建仓模式），设置严格止损，目标短期获利了结，避免长期持有。",
+      "risk_warning": "高风险警告：股票处于退市整理期，退市风险极高；流动性可能急剧下降，市场情绪恐慌导致股价剧烈波动；潜在损失巨大，投资需极端谨慎，避免重仓。"
+    }
+  },
+  "generated_at": "2025-07-03 18:52:08"
+}

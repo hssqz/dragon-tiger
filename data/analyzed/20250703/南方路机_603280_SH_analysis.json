@@ -1,0 +1,155 @@
+{
+  "stock_info": {
+    "ts_code": "603280.SH",
+    "name": "南方路机",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日换手率达到20%的前五只证券"
+      ],
+      "interpretation": "该股票上榜的主要原因是日换手率达到20%，表明市场交易异常活跃，通常由重大事件或新闻驱动，如业绩公告或市场热点。这反映了当前市场对该股票存在剧烈的多空分歧：买方积极买入，预期股价上涨潜力；卖方则在获利了结或看空后市，导致高流动性博弈状态，而非一致的多头共识。"
+    },
+    "overall_assessment": {
+      "verdict": "空头胜",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "价格下跌3.10%伴随极高换手率51.16%，表明市场恐慌情绪蔓延，抛压沉重。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力资金净卖出3917.18万元，占流通市值比例显著，且主力交易占成交额23.85%，显示空方主导且对抗激烈。"
+      },
+      "key_takeaway": "主力资金在高换手环境下大幅净流出，引发股价显著下跌。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "瑞银证券有限责任公司上海浦东新区花园石桥路第二证券营业部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "748.96万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "748.96万元",
+          "buy_rate": "1.97%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入做多，可能利用假机构席位溢价参与拉升或建仓",
+          "style_profile": {
+            "summary": "今日纯买入行为符合频繁做T和假机构溢价的风格，执行标准战法；后市可能继续做T或助涨股价，但若市场转弱可能快速退出",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "频繁买卖，获利了结或止损"
+          }
+        },
+        {
+          "seat_name": "中国银河证券股份有限公司北京中关村大街证券营业部",
+          "player_type": "量化",
+          "player_name": "量化抢筹",
+          "buy_amount": "561.57万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "561.57万元",
+          "buy_rate": "1.47%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "竞价扫货制造弱转强，吸引市场资金流入",
+          "style_profile": {
+            "summary": "今日在分歧回暖日扫货符合量化策略，执行标准战法；后市可能成功吸引跟风资金推动上涨，但若次日不强则快速退出",
+            "time_horizon": "短期",
+            "preferred_setup": "竞价扫货",
+            "typical_exit": "根据市场反应快速退出"
+          }
+        },
+        {
+          "seat_name": "中信证券股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "428.17万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "428.17万元",
+          "buy_rate": "1.12%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入做多，可能利用假机构席位溢价参与拉升",
+          "style_profile": {
+            "summary": "今日纯买入行为符合频繁做T和假机构溢价的风格，执行标准战法；后市可能继续做T或助涨股价，但若市场转弱可能快速退出",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "频繁买卖，获利了结或止损"
+          }
+        },
+        {
+          "seat_name": "中国国际金融股份有限公司北京建国门外大街证券营业部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "420.88万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "420.88万元",
+          "buy_rate": "1.10%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入做多，可能利用假机构席位溢价参与拉升",
+          "style_profile": {
+            "summary": "今日纯买入行为符合频繁做T和假机构溢价的风格，执行标准战法；后市可能继续做T或助涨股价，但若市场转弱可能快速退出",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "频繁买卖，获利了结或止损"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "国盛证券有限责任公司宁波桑田路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "宁波桑田路",
+          "buy_amount": "0.00万元",
+          "sell_amount": "665.68万元",
+          "net_amount": "-665.68万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.75%",
+          "action_interpretation": "快速出货，执行彪悍风格",
+          "style_profile": {
+            "summary": "今日卖出行为符合跑得飞快的风格，执行标准战法；后市可能继续减持或观望，若股价反弹则可能重新介入",
+            "time_horizon": "短期到中期",
+            "preferred_setup": "打板（高低不拘）",
+            "typical_exit": "跑得飞快"
+          }
+        },
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.15亿元",
+          "net_amount": "-1,526.01万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "4.00%",
+          "action_interpretation": "纪律性兑现出货，符合量化策略",
+          "style_profile": {
+            "summary": "今日卖出行为符合次日兑现的纪律性风格，执行标准战法；后市若不能秒板开盘则可能继续清仓，否则纠错买回",
+            "time_horizon": "短期",
+            "preferred_setup": "量化打板（首板, 二板）",
+            "typical_exit": "纪律性清仓"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位买入额分布较为均匀，最大买入额748.96万元占总额2585.14万元的28.97%，前三大席位总和1738.7万元占67.26%，无单一席位主导市场。",
+      "synergy_analysis": "存在协同作战迹象，多个知名量化基金席位（如瑞银证券、中信证券、中金公司）和量化抢筹席位（银河证券）同时上榜，策略相似，包括频繁做T、假机构溢价和竞价扫货等操作。"
+    },
+    "seller_analysis": {
+      "pressure_level": "中度",
+      "pressure_desc": "卖压主要来自普遍的获利了结行为，涉及多个席位包括知名游资和普通席位，没有单一主力集中出货的迹象。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前阶段：股价处于短期上涨趋势的末期。量价关系：上榜日（2025-07-03）放量下跌（成交量14.29万手，远超平均3.84万手），价跌量增，显示抛压强劲；前一日（2025-07-02）大涨放量（成交量15.28万手）后未能延续涨势，量价配合由强转弱。关键信号：上榜日形成带长上影线的阴线（高27.98，低26.18），结合前一日大阳线（涨幅9.98%）的突破形态，暗示高位阻力大，构成反转信号。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望：受空头主导、恐慌情绪和高位反转信号影响，股价可能继续下行，短期调整概率大，市场分歧剧烈。",
+      "strategy": "操作策略：散户应避免追高，优先减仓或观望；若持仓，可设置严格止损点，待市场稳定信号（如量价回稳）后再考虑轻仓介入。",
+      "risk_warning": "风险提示：高换手率引发极端波动，量化基金可能快速退出导致股价暴跌；主力资金净流出加剧抛压，投资风险高，需警惕流动性陷阱和突发新闻冲击。"
+    }
+  },
+  "generated_at": "2025-07-03 19:01:33"
+}

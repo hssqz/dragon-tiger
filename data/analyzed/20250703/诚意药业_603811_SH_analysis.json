@@ -1,0 +1,292 @@
+{
+  "stock_info": {
+    "ts_code": "603811.SH",
+    "name": "诚意药业",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+        "非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+      ],
+      "interpretation": "这些上榜原因表明该股票在短期内经历了显著的价格上涨，单日涨幅偏离值达到7%且连续三日累计偏离值达到20%，反映出强烈的多头共识和市场乐观情绪。这种强劲表现说明投资者对该股有高度信心，可能由利好消息、机构买入或市场热点驱动，导致买盘主导、卖盘压力较小；当前博弈状态以多头为主导，空头分歧微弱，暗示股价可能继续上行，但也需警惕短期超买风险。"
+    },
+    "overall_assessment": {
+      "verdict": "多方占优",
+      "confidence_score": 0.8,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "涨幅10.05%显示强劲买方力量，换手率12.36%反映活跃交易，综合指向亢奋市场情绪。"
+      },
+      "capital_confrontation": {
+        "level": "分歧",
+        "interpretation": "主力买入0.88亿元与卖出0.80亿元接近，净买入752.81万元极小（占流通市值比例不足0.2%），显示多空分歧但对抗激烈程度低，控盘力度弱。"
+      },
+      "key_takeaway": "股票大涨10.05%但主力资金分歧明显，净买入微弱，需关注后续资金动向以防回调。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "国盛证券有限责任公司宁波天童南路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "天童南路",
+          "buy_amount": "0.24亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.24亿元",
+          "buy_rate": "4.17%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封或接力",
+          "style_profile": {
+            "summary": "执行标准题材挖掘战法，后市可能推高股价并伺机出货。",
+            "time_horizon": "短期",
+            "preferred_setup": "题材热点",
+            "typical_exit": "高点兑现"
+          }
+        },
+        {
+          "seat_name": "国盛证券有限责任公司宁波天童南路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "天童南路",
+          "buy_amount": "0.24亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.24亿元",
+          "buy_rate": "5.24%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封或接力",
+          "style_profile": {
+            "summary": "执行标准题材挖掘战法，后市可能推高股价并伺机出货。",
+            "time_horizon": "短期",
+            "preferred_setup": "题材热点",
+            "typical_exit": "高点兑现"
+          }
+        },
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.23亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.23亿元",
+          "buy_rate": "4.16%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "打板入场",
+          "style_profile": {
+            "summary": "执行标准量化打板战法，后市可能次日兑现部分仓位。",
+            "time_horizon": "超短期",
+            "preferred_setup": "首板二板",
+            "typical_exit": "次日兑现或清仓"
+          }
+        },
+        {
+          "seat_name": "中泰证券股份有限公司常州惠国路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.13亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.13亿元",
+          "buy_rate": "2.34%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "打板入场",
+          "style_profile": {
+            "summary": "执行标准量化打板战法，后市可能次日兑现部分仓位。",
+            "time_horizon": "超短期",
+            "preferred_setup": "首板二板",
+            "typical_exit": "次日兑现或清仓"
+          }
+        },
+        {
+          "seat_name": "瑞银证券有限责任公司上海浦东新区花园石桥路第二证券营业部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "806.04万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "806.04万元",
+          "buy_rate": "1.80%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "做T买入",
+          "style_profile": {
+            "summary": "可能在做T操作，后市助涨助跌。",
+            "time_horizon": "短期",
+            "preferred_setup": "利用席位溢价",
+            "typical_exit": "做T卖出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "521.78万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "521.78万元",
+          "buy_rate": "1.16%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "做T买入",
+          "style_profile": {
+            "summary": "执行标准做T战法，后市频繁交易。",
+            "time_horizon": "日内或短期",
+            "preferred_setup": "T+0机会",
+            "typical_exit": "当日或次日卖出"
+          }
+        },
+        {
+          "seat_name": "中国国际金融股份有限公司北京建国门外大街证券营业部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "503.23万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "503.23万元",
+          "buy_rate": "1.12%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "做T买入",
+          "style_profile": {
+            "summary": "可能在做T操作，后市助涨助跌。",
+            "time_horizon": "短期",
+            "preferred_setup": "利用席位溢价",
+            "typical_exit": "做T卖出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "华泰证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "889.28万元",
+          "net_amount": "-889.28万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.98%",
+          "action_interpretation": "做T卖出或出货",
+          "style_profile": {
+            "summary": "可能在做T卖出，后市助跌。",
+            "time_horizon": "短期",
+            "preferred_setup": "频繁做T",
+            "typical_exit": "T+0卖出"
+          }
+        },
+        {
+          "seat_name": "华泰证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "920.72万元",
+          "net_amount": "-920.72万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.63%",
+          "action_interpretation": "做T卖出或出货",
+          "style_profile": {
+            "summary": "可能在做T卖出，后市助跌。",
+            "time_horizon": "短期",
+            "preferred_setup": "频繁做T",
+            "typical_exit": "T+0卖出"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.11亿元",
+          "net_amount": "-1,107.54万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.96%",
+          "action_interpretation": "做T卖出或出货",
+          "style_profile": {
+            "summary": "可能在做T卖出，后市助跌。",
+            "time_horizon": "短期",
+            "preferred_setup": "频繁做T",
+            "typical_exit": "T+0卖出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.19亿元",
+          "net_amount": "-1,919.30万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "3.41%",
+          "action_interpretation": "出货或减仓",
+          "style_profile": {
+            "summary": "机构卖出，可能减仓，后市谨慎。",
+            "time_horizon": "中期",
+            "preferred_setup": "价值投资",
+            "typical_exit": "目标价达成"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.19亿元",
+          "net_amount": "-1,919.30万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "4.28%",
+          "action_interpretation": "出货或减仓",
+          "style_profile": {
+            "summary": "机构卖出，可能减仓，后市谨慎。",
+            "time_horizon": "中期",
+            "preferred_setup": "价值投资",
+            "typical_exit": "目标价达成"
+          }
+        },
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.25亿元",
+          "net_amount": "-2,464.83万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "5.49%",
+          "action_interpretation": "兑现或清仓",
+          "style_profile": {
+            "summary": "执行纪律性兑现，后市可能清仓退出。",
+            "time_horizon": "超短期",
+            "preferred_setup": "首板二板",
+            "typical_exit": "次日兑现或清仓"
+          }
+        },
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.25亿元",
+          "net_amount": "-2,464.83万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "4.37%",
+          "action_interpretation": "兑现或清仓",
+          "style_profile": {
+            "summary": "执行纪律性兑现，后市可能清仓退出。",
+            "time_horizon": "超短期",
+            "preferred_setup": "首板二板",
+            "typical_exit": "次日兑现或清仓"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "前三大买方席位（国盛证券宁波天童南路证券营业部、华鑫证券深圳财富大厦证券营业部、开源证券西安西大街证券营业部）的总买入金额占比约73%，其中最大席位国盛证券宁波天童南路证券营业部占比32.42%，表明少数席位主导买入。",
+      "synergy_analysis": "存在多个知名游资席位同时上榜，包括天童南路（国盛证券）、量化打板（开源证券和中泰证券）、T王（东方财富）等，这可能暗示协同作战的迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "significant",
+      "pressure_desc": "卖压主要来自特定主力的集中出货，包括机构专用席位、量化基金和知名游资，表明有组织的策略性卖出行为，而非普遍的获利了结。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于上涨加速阶段，从近期低点8.77元反弹后，连续三天大幅上涨，特别是最后两天涨停。量价关系方面，上榜日（20250703）成交量达40.44万手，远高于平均8.07万手，放量上涨配合价格涨停；前一日（20250702）也放量至11.08万手上涨，量增价升显示买盘强劲。关键信号包括连续两天涨停大阳线，突破前期高点（如20250702从9.5元跳空高开至10.45元），形成强势突破形态，预示主升浪可能启动。"
+    },
+    "final_verdict": {
+      "outlook": "股票短期内可能延续上涨趋势，突破前期高点后加速上行，主升浪启动迹象明显。但主力资金分歧显著，机构出货和游资兑现风险增加，需警惕超买回调。",
+      "strategy": "避免追高，逢回调时轻仓布局短线机会，设置严格止损（如跌破关键支撑位）。短线交易者可聚焦题材热点快进快出，关注主力资金动向。",
+      "risk_warning": "主要风险：短期涨幅过大引发技术性回调；机构席位集中卖出显示中期谨慎；游资（如天童南路、量化打板）可能快速兑现利润；市场情绪亢奋放大波动，散户易被套牢。"
+    }
+  },
+  "generated_at": "2025-07-03 19:06:24"
+}

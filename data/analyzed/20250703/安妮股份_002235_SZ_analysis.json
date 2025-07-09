@@ -1,0 +1,155 @@
+{
+  "stock_info": {
+    "ts_code": "002235.SZ",
+    "name": "安妮股份",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日跌幅偏离值达到7%的前5只证券"
+      ],
+      "interpretation": "日跌幅偏离值达到7%表明该股票当日表现显著弱于大盘，反映了强烈的卖出压力和悲观市场情绪，可能由负面消息、业绩担忧或机构减持引发；市场博弈状态呈现剧烈的多空分歧，空头占据主导，凸显投资者信心不足和短期风险上升。"
+    },
+    "overall_assessment": {
+      "verdict": "空头胜出",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "基于股价下跌6.20%和高换手率38.67%，市场恐慌情绪蔓延，表明抛售压力显著。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力买入1.70亿元、卖出1.90亿元，净卖出2041万元，主力成交占比17.12%，流通市值54.47亿元，净卖出率-0.97%，显示控盘力度强且多空对抗激烈。"
+      },
+      "key_takeaway": "核心看点是主力资金在恐慌抛售中激烈对抗，但空头最终主导市场。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.28亿元",
+          "sell_amount": "0.13亿元",
+          "net_amount": "0.14亿元",
+          "buy_rate": "1.31%",
+          "sell_rate": "0.64%",
+          "action_interpretation": "建仓",
+          "style_profile": {
+            "summary": "执行标准建仓行为，后市可能继续持有或加仓。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资，基本面驱动",
+            "typical_exit": "基于基本面变化或目标达成"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.27亿元",
+          "sell_amount": "0.22亿元",
+          "net_amount": "559.20万元",
+          "buy_rate": "1.31%",
+          "sell_rate": "1.04%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "执行标准做T战法，后市可能继续做T或调整仓位。",
+            "time_horizon": "短期",
+            "preferred_setup": "高波动性股票",
+            "typical_exit": "当日或短周期内平仓"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.25亿元",
+          "sell_amount": "0.26亿元",
+          "net_amount": "-115.97万元",
+          "buy_rate": "1.20%",
+          "sell_rate": "1.26%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "执行标准做T战法，后市继续做T操作。",
+            "time_horizon": "短期",
+            "preferred_setup": "高波动性股票",
+            "typical_exit": "当日平仓"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.30亿元",
+          "sell_amount": "0.31亿元",
+          "net_amount": "-126.85万元",
+          "buy_rate": "1.44%",
+          "sell_rate": "1.50%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "执行标准做T战法，后市继续做T操作。",
+            "time_horizon": "短期",
+            "preferred_setup": "高波动性股票",
+            "typical_exit": "当日平仓"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.29亿元",
+          "sell_amount": "0.34亿元",
+          "net_amount": "-562.31万元",
+          "buy_rate": "1.37%",
+          "sell_rate": "1.64%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "执行标准做T战法，后市继续做T操作。",
+            "time_horizon": "短期",
+            "preferred_setup": "高波动性股票",
+            "typical_exit": "当日平仓"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司宜昌沿江大道证券营业部",
+          "player_type": "知名游资",
+          "player_name": "消闲派",
+          "buy_amount": "15.11万元",
+          "sell_amount": "0.34亿元",
+          "net_amount": "-3,401.08万元",
+          "buy_rate": "0.01%",
+          "sell_rate": "1.63%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今天大幅卖出，可能获利了结，非标准首板战法；后市可能观望或寻找新首板机会。",
+            "time_horizon": "短期到中期",
+            "preferred_setup": "首板股票",
+            "typical_exit": "次日高溢价时卖出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位中，机构专用、东方财富证券股份有限公司拉萨东环路第一证券营业部和国信证券股份有限公司浙江互联网分公司的买入金额分别为0.28亿元、0.27亿元和0.30亿元，占总买入金额0.85亿元的比例相近（约32.94%、31.76%、35.29%），没有单一买方主导。",
+      "synergy_analysis": "只有一个知名游资席位（东方财富证券股份有限公司拉萨东环路第一证券营业部）上榜，其他席位为机构专用和普通席位，因此不存在多个知名游资协同作战的迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要来源于特定主力席位'国泰海通证券股份有限公司宜昌沿江大道证券营业部'，该席位净卖出金额巨大（-3401.08万元），且玩家'消闲派'风格为推土机首板获利了结，表明是集中性出货行为。其他东方财富拉萨天团席位虽有卖出，但净卖出较小且为日常做T交易，属普遍性交易行为，非主要卖压来源。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前股价处于上涨末期向下跌初期过渡阶段。量价关系方面，上榜日（2025-07-03）成交量214.07万手，较前一日192.63万手有所增加，但价格下跌6.20%，呈现量增价跌态势，表明卖压增强；前一日（2025-07-02）缩量下跌（成交量192.63万手，跌幅-10.03%），配合上榜日量增，确认抛售压力。关键信号包括2025-07-01的大阳线（涨幅10.00%）创出新高11.66后，次日2025-07-02出现大阴线（跌幅-10.03%）形成反转形态，上榜日继续下跌收于9.84，跌破前低，确认顶部区域和下行趋势。"
+    },
+    "final_verdict": {
+      "outlook": "基于日跌幅偏离值达7%、市场恐慌情绪蔓延和主力资金净卖出，后市展望为短期下行趋势强化。K线行为确认高位出货形态，跌破前低支撑，空头主导格局持续，除非基本面改善或积极催化剂出现，否则可能进一步探底。",
+      "strategy": "操作策略建议：短线投资者避免抄底，优先观望或逢高减仓止损；中长期投资者等待底部确认信号（如量缩价稳）或基本面好转再介入。鉴于买方分散且卖方集中出货，散户不宜追涨，可轻仓参与波动性交易但严格控制仓位。",
+      "risk_warning": "风险提示：市场恐慌情绪和高换手率（38.67%）易引发剧烈价格波动；主力集中出货增加下行压力，可能导致流动性风险和止损触发。密切监控公司公告、业绩变化及市场情绪突变，防范情绪化交易损失。"
+    }
+  },
+  "generated_at": "2025-07-03 18:53:48"
+}

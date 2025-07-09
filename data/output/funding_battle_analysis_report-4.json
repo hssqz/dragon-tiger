@@ -1,0 +1,189 @@
+{
+  "stock_info": {
+    "ts_code": "002104.SZ",
+    "name": "恒宝股份",
+    "trade_date": "20250617"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "无"
+      ],
+      "interpretation": "上榜原因列表为空，表明该股票在分析期间未触发龙虎榜的上榜标准（如涨幅、换手率或交易额等条件）。这反映了市场对该股票的交易活动相对平淡，缺乏显著的多头或空头情绪，暗示当前博弈状态中性或关注度较低，没有明显的多空分歧或强烈共识。"
+    },
+    "overall_assessment": {
+      "verdict": "多头占优",
+      "confidence_score": 0.9,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "涨幅10.02%和换手率38.07%表明市场交易异常活跃，情绪高度亢奋。"
+      },
+      "capital_confrontation": {
+        "level": "激烈但均衡",
+        "interpretation": "龙虎榜买卖额相近（买入6.13亿元 vs 卖出6.27亿元），净卖出轻微（-0.21%），流通值88.21亿元较大，显示多空对抗激烈但主力控盘力度有限。"
+      },
+      "key_takeaway": "大幅上涨10.02%和高换手率38.07%主导市场，显示强劲多头动力，尽管有轻微净卖出。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.42亿元",
+          "sell_amount": "452.94万元",
+          "net_amount": "0.37亿元",
+          "buy_rate": "1.29%",
+          "sell_rate": "0.14%",
+          "action_interpretation": "建仓买入",
+          "style_profile": {
+            "summary": "机构席位执行标准建仓行为，净买入显著，表明看好后市。后市可能继续增持或中长期持有。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资或趋势跟随",
+            "typical_exit": "基本面恶化或目标价达成时退出"
+          }
+        },
+        {
+          "seat_name": "深股通专用",
+          "player_type": "机构",
+          "player_name": "深股通专用",
+          "buy_amount": "2.21亿元",
+          "sell_amount": "2.14亿元",
+          "net_amount": "719.69万元",
+          "buy_rate": "3.26%",
+          "sell_rate": "3.15%",
+          "action_interpretation": "做T交易",
+          "style_profile": {
+            "summary": "境外资金通道执行高频做T，买卖均衡，符合波段操作标准。后市可能继续短期套利或调整仓位。",
+            "time_horizon": "短期",
+            "preferred_setup": "波段交易或套利",
+            "typical_exit": "获利了结或止损"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.33亿元",
+          "sell_amount": "0.27亿元",
+          "net_amount": "631.35万元",
+          "buy_rate": "1.03%",
+          "sell_rate": "0.83%",
+          "action_interpretation": "做T交易",
+          "style_profile": {
+            "summary": "知名做T游资执行标准日内T策略，净买入小。后市可能继续高频交易或短期平仓。",
+            "time_horizon": "超短期（日内）",
+            "preferred_setup": "高频做T",
+            "typical_exit": "日内或短期平仓"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.28亿元",
+          "sell_amount": "0.29亿元",
+          "net_amount": "-135.93万元",
+          "buy_rate": "0.86%",
+          "sell_rate": "0.90%",
+          "action_interpretation": "做T交易",
+          "style_profile": {
+            "summary": "做T游资进行标准波段操作，买卖均衡。后市可能延续日内交易策略。",
+            "time_horizon": "超短期",
+            "preferred_setup": "高频做T",
+            "typical_exit": "日内或短期平仓"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.61亿元",
+          "sell_amount": "0.63亿元",
+          "net_amount": "-137.04万元",
+          "buy_rate": "0.91%",
+          "sell_rate": "0.93%",
+          "action_interpretation": "做T交易",
+          "style_profile": {
+            "summary": "执行标准做T战法，净卖出轻微。后市可能继续高频交易或调整仓位。",
+            "time_horizon": "超短期",
+            "preferred_setup": "高频做T",
+            "typical_exit": "日内平仓"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.62亿元",
+          "sell_amount": "0.74亿元",
+          "net_amount": "-1,141.97万元",
+          "buy_rate": "0.92%",
+          "sell_rate": "1.09%",
+          "action_interpretation": "部分出货",
+          "style_profile": {
+            "summary": "做T游资偏卖出操作，可能在高位分歧时执行离场。后市可能减仓或寻找新机会。",
+            "time_horizon": "短期",
+            "preferred_setup": "高频做T",
+            "typical_exit": "高位分歧时及时离场"
+          }
+        },
+        {
+          "seat_name": "东莞证券股份有限公司四川分公司",
+          "player_type": "知名游资",
+          "player_name": "低位挖掘",
+          "buy_amount": "230.44万元",
+          "sell_amount": "0.31亿元",
+          "net_amount": "-2,850.14万元",
+          "buy_rate": "0.07%",
+          "sell_rate": "0.96%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "低位挖掘游资执行高位分歧离场标准战法，大额卖出。后市可能转向新低位补涨机会。",
+            "time_horizon": "短期",
+            "preferred_setup": "挖掘低位补涨股",
+            "typical_exit": "高位分歧时及时离场"
+          }
+        },
+        {
+          "seat_name": "深股通专用",
+          "player_type": "机构",
+          "player_name": "深股通专用",
+          "buy_amount": "0.47亿元",
+          "sell_amount": "1.51亿元",
+          "net_amount": "-10,394.55万元",
+          "buy_rate": "1.46%",
+          "sell_rate": "4.69%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "境外资金通道大额卖出，执行风险规避标准行为。后市可能继续减仓或观望市场变化。",
+            "time_horizon": "短期至中期",
+            "preferred_setup": "波段交易",
+            "typical_exit": "获利了结或止损"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "深股通专用席位买入金额占比最大（约37.21%），远高于其他席位，表明买方资金高度集中。",
+      "synergy_analysis": "仅有一个知名游资席位（东方财富证券股份有限公司拉萨东环路第二证券营业部）上榜，无多个知名游资同时出现，不存在协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要来自特定主力如深股通机构（卖出1.51亿元，占比4.69%）和国泰海通上海江苏路席位（卖出1.01亿元，占比3.14%），表明大额集中出货；部分席位如低位挖掘（卖出0.31亿元）有获利了结迹象，但整体以主力出货为主。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于短期上涨趋势的加速阶段。量价关系上，上榜日（2025-06-17）呈现价涨量缩特征，成交量228.30万手低于前几日的267.58万手（6月16日）和289.66万手（6月13日），而价格大涨10.02%，表明买方主导但动力可能减弱。关键信号包括上榜日的大阳线（开盘13.72，收盘14.71接近最高点）和连续两个交易日涨幅超9.98%突破前期高点（如6月16日收盘13.45），显示强劲突破加速。"
+    },
+    "final_verdict": {
+      "outlook": "尽管多头占优且市场情绪亢奋（涨幅10.02%，换手率38.07%），但价涨量缩和集中卖压（如深股通大额出货）暗示短期上涨动力可能减弱；中长期看，机构建仓支持上行趋势，但需警惕回调风险。整体市场关注度中性，交易活跃但多空博弈激烈均衡。",
+      "strategy": "短线投资者宜谨慎参与，优先波段操作或做T策略（如跟随高频游资），避免追高；中长期投资者可逢低建仓，聚焦价值投资，并设置止损止盈点。",
+      "risk_warning": "主要风险包括：主力集中出货（如深股通和游资卖出）可能导致股价回调；价涨量缩显示买方动力减弱；游资高频交易加剧短期波动；市场亢奋情绪可能引发过度乐观后的快速反转。"
+    }
+  },
+  "generated_at": "2025-07-02 15:15:53"
+}

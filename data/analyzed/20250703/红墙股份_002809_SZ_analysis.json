@@ -1,0 +1,121 @@
+{
+  "stock_info": {
+    "ts_code": "002809.SZ",
+    "name": "红墙股份",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日跌幅偏离值达到7%的前5只证券"
+      ],
+      "interpretation": "上榜原因表明该股票在当日跌幅偏离值达到7%，这反映了市场中有强烈的卖出压力和悲观情绪。通常源于负面消息、盈利不及预期或整体市场调整，暗示当前对该股票存在剧烈的多空分歧，空头力量占主导地位，投资者信心受挫，可能导致进一步下跌风险。"
+    },
+    "overall_assessment": {
+      "verdict": "空方胜",
+      "confidence_score": 0.9,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "股价大幅下跌6.18%伴随高换手率21.65%，显示市场恐慌情绪主导，抛压沉重。"
+      },
+      "capital_confrontation": {
+        "level": "空方强势",
+        "interpretation": "主力净卖出2,818.33万元，卖出额0.57亿元显著高于买入额0.29亿元，主力控盘力度强，对抗激烈，空头主导。"
+      },
+      "key_takeaway": "主力资金大幅净卖出导致股价暴跌，恐慌情绪蔓延成为今日战局核心看点。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "661.84万元",
+          "sell_amount": "535.90万元",
+          "net_amount": "125.94万元",
+          "buy_rate": "1.60%",
+          "sell_rate": "1.30%",
+          "action_interpretation": "做T（买入同时卖出，净买入）",
+          "style_profile": {
+            "summary": "执行标准每天做T战法；后市可能继续震荡操作，不影响股价趋势。",
+            "time_horizon": "短期",
+            "preferred_setup": "做T",
+            "typical_exit": "通过卖出部分仓位退出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "392.87万元",
+          "sell_amount": "413.08万元",
+          "net_amount": "-20.21万元",
+          "buy_rate": "0.95%",
+          "sell_rate": "1.00%",
+          "action_interpretation": "做T（买入同时卖出，净卖出）",
+          "style_profile": {
+            "summary": "执行标准每天做T战法；后市可能继续震荡操作，不影响股价趋势。",
+            "time_horizon": "短期",
+            "preferred_setup": "做T",
+            "typical_exit": "通过卖出部分仓位退出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "474.71万元",
+          "sell_amount": "575.13万元",
+          "net_amount": "-100.42万元",
+          "buy_rate": "1.15%",
+          "sell_rate": "1.39%",
+          "action_interpretation": "做T（买入同时卖出，净卖出）",
+          "style_profile": {
+            "summary": "执行标准每天做T战法；后市可能继续震荡操作，不影响股价趋势。",
+            "time_horizon": "短期",
+            "preferred_setup": "做T",
+            "typical_exit": "通过卖出部分仓位退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "548.00万元",
+          "sell_amount": "0.26亿元",
+          "net_amount": "-2,030.14万元",
+          "buy_rate": "1.33%",
+          "sell_rate": "6.24%",
+          "action_interpretation": "出货（大额净卖出）",
+          "style_profile": {
+            "summary": "作为机构席位执行出货行为；后市可能看跌，需关注基本面变化。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资或趋势交易",
+            "typical_exit": "通过大额卖出退出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "只有一个买方席位，所有买入活动集中在该席位上。",
+      "synergy_analysis": "仅有一个知名游资席位，无多个游资同时上榜迹象，不存在协同作战。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要来自机构专用席位，其净卖出额达2030.14万元，占总净卖出2944.26万元的69%。该席位作为特定主力（机构），行为表明集中出货。其他席位如普通游资和普通席位虽有获利了结迹象，但贡献较小（合计占31%），不主导整体卖压。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前阶段：股价处于短期上涨趋势的末期，在7月2日创出14.98新高后立即大幅回调。量价关系：上榜日（2025-07-03）成交量30.12万手，虽低于前两日峰值（7月1日47.45万手、7月2日51.65万手），但显著高于15日平均21.55万手，伴随价格大跌6.18%，形成放量下跌格局；此前7月1日和2日为放量上涨（涨幅6.58%和3.52%），量价配合由强转弱，表明抛压增大。关键信号：7月3日大阴线实体覆盖前日部分涨幅，构成顶部反转形态（如乌云盖顶）；股价突破14.98高点后未能站稳，结合短期快速下跌，确认阻力位和趋势转向信号。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望悲观，股价可能继续下跌，受恐慌情绪、机构集中出货和顶部反转形态影响，空方主导趋势。",
+      "strategy": "建议散户投资者保持观望，避免新仓买入；已有持仓者优先减仓或设置止损，以控制风险暴露。",
+      "risk_warning": "高风险警示：市场恐慌情绪蔓延，抛压沉重，股价波动剧烈；机构大规模出货可能持续施压，存在进一步大幅下跌风险，投资者需高度谨慎。"
+    }
+  },
+  "generated_at": "2025-07-03 18:52:30"
+}

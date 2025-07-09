@@ -1,0 +1,172 @@
+{
+  "stock_info": {
+    "ts_code": "603936.SH",
+    "name": "博敏电子",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券"
+      ],
+      "interpretation": "该上榜原因表明股票在当日交易中收盘价格涨幅偏离值达到7%，这反映了强劲的买方推动和显著的价格上涨，说明市场对该股票有强烈的多头共识，可能由利好消息、机构买入或游资炒作驱动，体现了当前乐观情绪主导、多头力量占优的博弈状态，而非剧烈多空分歧，暗示短期市场信心高涨和潜在持续上涨趋势。"
+    },
+    "overall_assessment": {
+      "verdict": "多方占优",
+      "confidence_score": 0.75,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "股价大幅上涨10.04%，换手率高达15.60%，表明市场买盘强劲，情绪亢奋，投资者积极参与。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力资金买入1.20亿元，卖出0.92亿元，净买入0.28亿元（占总成交2.74%），龙虎榜成交占比20.95%，显示主力参与度高，多空对抗激烈，多方略占优势但分歧明显。"
+      },
+      "key_takeaway": "主力资金净买入推动股价涨停，但高换手和激烈对抗提示后续波动风险。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.18亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.18亿元",
+          "buy_rate": "1.82%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "打板买入，可能为主封或接力首板/二板",
+          "style_profile": {
+            "summary": "执行标准量化打板战法，买入首板或二板。后市最可能剧本：若明日开盘不强则兑现一半，上板则纠错买回，不能走强则清仓。",
+            "time_horizon": "短线",
+            "preferred_setup": "首板、二板",
+            "typical_exit": "次日开盘不强势兑现一半，上板纠错买回，不能走强则清仓"
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司上海分公司",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.18亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.18亿元",
+          "buy_rate": "1.76%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "打板买入，可能为主封或接力首板/二板",
+          "style_profile": {
+            "summary": "执行标准量化打板战法，买入首板或二板。后市最可能剧本：若明日开盘不强则兑现一半，上板则纠错买回，不能走强则清仓。",
+            "time_horizon": "短线",
+            "preferred_setup": "首板、二板",
+            "typical_exit": "次日开盘不强势兑现一半，上板纠错买回，不能走强则清仓"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "中信证券股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.10亿元",
+          "net_amount": "-1,046.02万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.03%",
+          "action_interpretation": "做T卖出或出货",
+          "style_profile": {
+            "summary": "可能执行做T策略卖出。后市最可能剧本：继续频繁做T，助涨助跌。",
+            "time_horizon": "短线",
+            "preferred_setup": "假机构席位溢价标的",
+            "typical_exit": "灵活做T退出"
+          }
+        },
+        {
+          "seat_name": "华泰证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.11亿元",
+          "net_amount": "-1,055.52万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.04%",
+          "action_interpretation": "做T卖出或出货",
+          "style_profile": {
+            "summary": "可能执行做T策略卖出。后市最可能剧本：继续频繁做T，助涨助跌。",
+            "time_horizon": "短线",
+            "preferred_setup": "假机构席位溢价标的",
+            "typical_exit": "灵活做T退出"
+          }
+        },
+        {
+          "seat_name": "瑞银证券有限责任公司上海浦东新区花园石桥路第二证券营业部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.13亿元",
+          "net_amount": "-1,252.88万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.23%",
+          "action_interpretation": "做T卖出或出货",
+          "style_profile": {
+            "summary": "可能执行做T策略卖出。后市最可能剧本：继续频繁做T，助涨助跌。",
+            "time_horizon": "短线",
+            "preferred_setup": "假机构席位溢价标的",
+            "typical_exit": "灵活做T退出"
+          }
+        },
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.29亿元",
+          "net_amount": "-2,908.45万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.87%",
+          "action_interpretation": "正常卖出或通道操作",
+          "style_profile": {
+            "summary": "作为互联互通机制卖出。后市最可能剧本：基于市场条件调整仓位。",
+            "time_horizon": "中长线",
+            "preferred_setup": "互联互通机制标的",
+            "typical_exit": "通过沪港通通道卖出"
+          }
+        },
+        {
+          "seat_name": "长城证券股份有限公司杭州钱江路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "温州帮",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.30亿元",
+          "net_amount": "-2,980.25万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.94%",
+          "action_interpretation": "出货或对倒卖出",
+          "style_profile": {
+            "summary": "卖出可能为出货或调整。后市最可能剧本：若控盘则继续操作次新股。",
+            "time_horizon": "短线",
+            "preferred_setup": "次新股",
+            "typical_exit": "快速对倒出货"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位买入额分布均匀，最大席位（浙商证券股份有限公司宁波分公司）占比约33.61%，其他席位占比在15-20%之间，无主导性买方。",
+      "synergy_analysis": "存在两个知名游资席位（开源证券股份有限公司西安西大街证券营业部和华鑫证券有限责任公司上海分公司）同时上榜，两者均标注为'量化打板'类型，且描述和风格高度一致，显示潜在协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "significant",
+      "pressure_desc": "卖压主要来自量化基金的普遍获利了结（频繁做T行为）和温州帮的特定主力集中出货（深度控盘、快速拉升），整体为混合性质，量化基金和游资主导。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于短期上涨趋势的加速阶段。上榜日（2025-07-03）出现放量上涨，成交量98.32万手，显著高于平均成交量46.44万手，量价配合良好。前一日（2025-07-02）放量下跌后，上榜日强势反弹并创出新高10.41元，形成看涨吞没形态，突破前期高点10.37元，表明多头力量强劲，趋势可能进一步加速。"
+    },
+    "final_verdict": {
+      "outlook": "基于强劲买方推动和市场亢奋情绪，短期股价可能延续上涨趋势，突破新高后或进一步加速；但高换手率和激烈多空对抗提示潜在波动风险，需警惕卖方压力引发的回调。",
+      "strategy": "建议散户短线操作：若次日开盘强势（如高开或快速上冲），可持有或轻仓加仓；若开盘不强（如低开或平盘震荡），则减仓一半；若股价上板（涨停），可纠错买回；否则清仓。设置止损位在10.37元（前期高点），避免追高，关注买方席位（如开源西安和华鑫上海）动向。",
+      "risk_warning": "风险包括：1. 高换手率（15.60%）和激烈资本对抗可能导致剧烈价格波动；2. 卖方压力显著，量化基金做T和温州帮出货或持续施压；3. 买方分散且协同不确定，若情绪消退或引发快速回调；4. 游资短线策略（如次日兑现）可能加剧下行风险。严格止损，控制仓位不超过总资金10%。"
+    }
+  },
+  "generated_at": "2025-07-03 19:02:57"
+}

@@ -1,0 +1,121 @@
+{
+  "stock_info": {
+    "ts_code": "831689.BJ",
+    "name": "克莱特",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "当日换手率达到20%的前5只股票"
+      ],
+      "interpretation": "该股票因当日换手率达到20%而登上龙虎榜，表明其交易量异常活跃，通常由重大事件、消息刺激或市场高度关注驱动。这反映了当前市场情绪中存在激烈的多空分歧，买卖双方博弈激烈，投资者对股票前景看法分化，而非一致的多头共识，暗示短期波动风险加大和投机氛围浓厚。"
+    },
+    "overall_assessment": {
+      "verdict": "空方占据压倒性优势",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "股价暴跌12.36% 伴随34.82%的高换手率，反映出恐慌性抛售情绪主导市场。"
+      },
+      "capital_confrontation": {
+        "level": "激烈对抗，空方主导",
+        "interpretation": "龙虎榜净卖出1709.07万元，卖出金额0.75亿元显著高于买入0.58亿元，金额率19.42%显示主力资金高度参与，流通市值18.78亿元较小，放大负面影响。"
+      },
+      "key_takeaway": "恐慌情绪驱动高换手抛售，主力资金净卖出加剧股价暴跌。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "中信建投证券股份有限公司北京东城分公司",
+          "player_type": "知名游资",
+          "player_name": "呼家楼",
+          "buy_amount": "820.72万元",
+          "sell_amount": "51.32万元",
+          "net_amount": "769.40万元",
+          "buy_rate": "1.21%",
+          "sell_rate": "0.08%",
+          "action_interpretation": "主封或建仓",
+          "style_profile": {
+            "summary": "大开大合风格，今日净买入为主，执行标准战法，后市可能继续推高或伺机出货。",
+            "time_horizon": "短期至中期",
+            "preferred_setup": "强势股突破或龙头股",
+            "typical_exit": "高位放量出货"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.10亿元",
+          "sell_amount": "610.36万元",
+          "net_amount": "423.73万元",
+          "buy_rate": "1.52%",
+          "sell_rate": "0.90%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "每日做T风格，今日有买有卖，执行标准战法，后市可能继续日内交易。",
+            "time_horizon": "日内或极短期",
+            "preferred_setup": "高波动、流动性好的股票",
+            "typical_exit": "当日了结或短期持有"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "815.20万元",
+          "sell_amount": "640.57万元",
+          "net_amount": "174.63万元",
+          "buy_rate": "1.20%",
+          "sell_rate": "0.94%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "每日做T风格，今日有买有卖，执行标准战法，后市可能继续日内交易。",
+            "time_horizon": "日内或极短期",
+            "preferred_setup": "高波动、流动性好的股票",
+            "typical_exit": "当日了结或短期持有"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "615.32万元",
+          "sell_amount": "915.73万元",
+          "net_amount": "-300.40万元",
+          "buy_rate": "0.90%",
+          "sell_rate": "1.35%",
+          "action_interpretation": "做T (净卖出)",
+          "style_profile": {
+            "summary": "每日做T风格，今日净卖出为主，执行标准战法，后市可能继续日内交易或观望。",
+            "time_horizon": "日内或极短期",
+            "preferred_setup": "高波动、流动性好的股票",
+            "typical_exit": "当日了结或短期持有"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位中，最大买入占比为2.39%（国信证券深圳红岭中路），其余席位占比在1.20%至1.52%之间，分布较为均匀，无单一主导买方。",
+      "synergy_analysis": "存在协同作战迹象，因为多个知名游资同时上榜，包括呼家楼（中信建投北京东城分公司）和东方财富拉萨天团（T王，拉萨团结路第一和第二证券营业部）。"
+    },
+    "seller_analysis": {
+      "pressure_level": "significant",
+      "pressure_desc": "卖压主要来自普遍的获利了结行为，而非特定主力的集中出货。多个普通席位（如华福证券杭州五星路、光大证券北京总部基地等）卖出量较大且无特殊信息，表明散户或普通投资者获利了结；知名游资席位（东方财富拉萨东环路第二）虽有贡献，但非主导，且其短线做T风格支持获利了结性质。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前股价处于短期上涨趋势的末期，上榜日（2025-07-03）高开低走，放量下跌（成交量13.21万手），与前一日（2025-07-02）的放量大涨（成交量16.65万手，涨幅29.98%）形成对比，显示高位抛压沉重，量价背离明显。关键信号包括上榜日的长上影大阴线（高开54.8，低收49.51），表明阻力强劲和卖压加剧，以及股价从高点56.49快速回调至49.51，确认趋势反转风险。"
+    },
+    "final_verdict": {
+      "outlook": "基于恐慌情绪主导、空方压倒性优势和K线高位出货信号，后市展望为短期下跌风险加剧，波动性高，多空分歧激烈可能导致股价进一步下行。",
+      "strategy": "建议散户投资者避免新开仓，观望市场动向；如有持仓，立即设置止损位并择机离场；切勿追高或参与短期投机交易。",
+      "risk_warning": "风险提示：高换手率（34.82%）反映投机氛围浓厚，恐慌抛售和主力资金净卖出可能引发股价剧烈波动；趋势反转确认，潜在损失大；流通市值小（18.78亿元）放大负面影响。"
+    }
+  },
+  "generated_at": "2025-07-03 19:03:23"
+}

@@ -1,0 +1,155 @@
+{
+  "stock_info": {
+    "ts_code": "600319.SH",
+    "name": "亚星化学",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+      ],
+      "interpretation": "这个上榜原因表明该股票在当日收盘时价格跌幅偏离值达到7%，说明股价经历了显著下跌，反映出市场对该股票存在强烈的抛售压力。这可能源于负面消息、盈利预警、行业回调或整体市场下行。当前市场情绪偏向悲观，显示出空头力量主导，多头抵抗较弱，博弈状态表现为卖出共识而非剧烈多空分歧，暗示投资者对股票短期前景持谨慎态度。"
+    },
+    "overall_assessment": {
+      "verdict": "空方占优",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "基于pct_change下跌8.23%和turnover_rate高达22.01%，表明市场情绪恐慌，投资者大量抛售。"
+      },
+      "capital_confrontation": {
+        "level": "空方主导",
+        "interpretation": "基于l_sell（0.50亿元）大于l_buy（0.39亿元）、net_amount净卖出1,074.29万元（net_rate -1.98%），以及amount_rate 16.28%，显示主力资金控盘力度强，多空对抗激烈，空方优势明显；考虑到float_values为22.88亿元，净卖出额相对较小但仍主导市场。"
+      },
+      "key_takeaway": "今日战局核心看点是空方通过主力资金净卖出强力打压股价，引发市场恐慌性下跌。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "中国银河证券股份有限公司北京中关村大街证券营业部",
+          "player_type": "量化",
+          "player_name": "量化抢筹",
+          "buy_amount": "0.11亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.11亿元",
+          "buy_rate": "2.10%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封或竞价扫货",
+          "style_profile": {
+            "summary": "今日在分歧回暖日竞价扫货，制造弱转强，执行标准战法；后市可能吸引市场资金流入推高股价。",
+            "time_horizon": "短期",
+            "preferred_setup": "分歧回暖日",
+            "typical_exit": "快速退出或随势卖出"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "759.78万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "759.78万元",
+          "buy_rate": "1.40%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入操作或接力",
+          "style_profile": {
+            "summary": "今日买入未卖出，标准策略助涨助跌；后市可能继续买入或开始做T操作。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "频繁做T，快速进出"
+          }
+        },
+        {
+          "seat_name": "中国国际金融股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "730.51万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "730.51万元",
+          "buy_rate": "1.34%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入操作或接力",
+          "style_profile": {
+            "summary": "今日买入未卖出，标准策略助涨助跌；后市可能继续买入或开始做T操作。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "频繁做T，快速进出"
+          }
+        },
+        {
+          "seat_name": "瑞银证券有限责任公司上海浦东新区花园石桥路第二证券营业部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "583.32万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "583.32万元",
+          "buy_rate": "1.07%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入操作或接力",
+          "style_profile": {
+            "summary": "今日买入未卖出，标准策略助涨助跌；后市可能继续买入或开始做T操作。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "频繁做T，快速进出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "华泰证券股份有限公司厦门厦禾路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "山东帮",
+          "buy_amount": "0.00万元",
+          "sell_amount": "676.38万元",
+          "net_amount": "-676.38万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.24%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今日卖出出货，执行标准深度控盘战法；后市可能继续出货或换股操作。",
+            "time_horizon": "短期到中期",
+            "preferred_setup": "次新股",
+            "typical_exit": "对倒拉升后出货"
+          }
+        },
+        {
+          "seat_name": "长江证券股份有限公司深圳福华路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "温州帮",
+          "buy_amount": "0.00万元",
+          "sell_amount": "820.87万元",
+          "net_amount": "-820.87万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.51%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今日卖出出货，手法彪悍，执行标准快速拉升战法；后市可能继续减持或寻找新目标。",
+            "time_horizon": "短期",
+            "preferred_setup": "次新股",
+            "typical_exit": "对倒拉升后快速出货"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买方席位买入占比仅2.10%，各席位买入占比分布均匀（均在1.07%-2.10%之间），无明显主导买方。",
+      "synergy_analysis": "存在协同作战迹象，因为多个量化基金席位（如国泰海通证券股份有限公司总部、中国国际金融股份有限公司上海分公司、瑞银证券有限责任公司上海浦东新区花园石桥路第二证券营业部）同时上榜，且具有相似的操作策略描述（如频繁做T、助涨助跌等），表明可能协同行动。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要来自特定主力如山东帮和温州帮的集中出货行为，他们操作次新股、多席位联合行动，深度控盘后协同卖出；普通席位虽有获利了结贡献，但非主导力量。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前股价处于短期快速上涨后的高位转折阶段。上榜日（2025-07-03）放量下跌，成交量69.46万手创近期新高，价格大跌8.23%，形成大阴线（高开低走），显示抛压强劲。量价关系上，前几日（如2025-07-02涨10.03%量59.66万手）连续放量上涨，但上榜日量增价跌，出现量价背离。关键信号包括大阴线形态和突破后快速回撤，暗示主力出货行为，可能标志趋势反转。"
+    },
+    "final_verdict": {
+      "outlook": "基于空方占优、市场恐慌情绪和高位出货迹象，后市短期可能继续下行趋势，但量化基金买入行为可能引发短暂反弹；整体趋势偏空，需警惕反转信号。",
+      "strategy": "建议散户保持观望，避免抄底；如持有仓位，设置严格止损位（例如前期支撑位）；可轻仓试探关键支撑区域（如技术分析低点），但仅限于风险承受能力强的投资者。",
+      "risk_warning": "主要风险包括股价进一步下跌、游资集中出货导致流动性风险、市场情绪恶化引发抛售潮；投资者应控制仓位规模，避免追涨杀跌，并关注整体市场动态。"
+    }
+  },
+  "generated_at": "2025-07-03 19:01:00"
+}

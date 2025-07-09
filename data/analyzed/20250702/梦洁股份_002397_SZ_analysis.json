@@ -1,0 +1,120 @@
+{
+  "stock_info": {
+    "ts_code": "002397.SZ",
+    "name": "梦洁股份",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日跌幅偏离值达到7%的前5只证券"
+      ],
+      "interpretation": "该股票因日跌幅偏离值达到7%而登上龙虎榜，表明其股价在当日大幅下跌，远超市场平均水平，这通常由公司基本面恶化、行业利空或市场恐慌引发。这反映了当前市场强烈的负面情绪和抛售压力，空头占据主导地位，但也暗示剧烈的多空分歧，部分投资者可能在低位博弈抄底机会，整体信号市场信心减弱且短期风险较高。"
+    },
+    "overall_assessment": {
+      "verdict": "空方胜利",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "股价跌幅达10.05%，换手率高达11.13%，表明市场出现恐慌性抛售情绪。"
+      },
+      "capital_confrontation": {
+        "level": "激烈空方主导",
+        "interpretation": "主力资金净卖出2,106.01万元，主力成交占比28.81%，且流通市值仅23.04亿元较小，主力控盘力度强但方向为空，导致多空对抗激烈。"
+      },
+      "key_takeaway": "主力资金大规模净卖出是今日股价暴跌的核心看点。"
+    },
+    "key_forces": {
+      "buying_force": [],
+      "selling_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.12亿元",
+          "sell_amount": "0.12亿元",
+          "net_amount": "-26.52万元",
+          "buy_rate": "4.39%",
+          "sell_rate": "4.49%",
+          "action_interpretation": "今日进行净卖出操作，买入和卖出量接近平衡但净额为负，表明可能在做T（高抛低吸）或轻微减仓，执行机构标准的风险控制行为。",
+          "style_profile": {
+            "summary": "机构投资者今日在执行减仓战法，符合其价值投资风格，后市可能剧本为股价承压或震荡调整。",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面稳健、估值合理的股票",
+            "typical_exit": "在目标收益率达成或市场风险增加时逐步退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "434.85万元",
+          "sell_amount": "583.16万元",
+          "net_amount": "-148.30万元",
+          "buy_rate": "1.64%",
+          "sell_rate": "2.19%",
+          "action_interpretation": "今日净卖出明显，卖出量高于买入量，表明在主动减仓或出货，执行机构标准的仓位调整策略。",
+          "style_profile": {
+            "summary": "机构投资者今日在执行减仓战法，符合其价值投资风格，后市可能剧本为股价承压或震荡调整。",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面稳健、估值合理的股票",
+            "typical_exit": "在目标收益率达成或市场风险增加时逐步退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "368.66万元",
+          "sell_amount": "538.78万元",
+          "net_amount": "-170.11万元",
+          "buy_rate": "1.39%",
+          "sell_rate": "2.03%",
+          "action_interpretation": "今日净卖出显著，卖出主导，表明在减仓或出货，执行机构标准的风险规避行为。",
+          "style_profile": {
+            "summary": "机构投资者今日在执行减仓战法，符合其价值投资风格，后市可能剧本为股价承压或震荡调整。",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面稳健、估值合理的股票",
+            "typical_exit": "在目标收益率达成或市场风险增加时逐步退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "184.86万元",
+          "sell_amount": "772.37万元",
+          "net_amount": "-587.51万元",
+          "buy_rate": "0.70%",
+          "sell_rate": "2.91%",
+          "action_interpretation": "今日净卖出量较大，卖出远高于买入，表明在明显出货或大幅减仓，执行机构标准的退出策略。",
+          "style_profile": {
+            "summary": "机构投资者今日在执行减仓战法，符合其价值投资风格，后市可能剧本为股价承压或震荡调整。",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面稳健、估值合理的股票",
+            "typical_exit": "在目标收益率达成或市场风险增加时逐步退出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方由两个席位组成，总买入额604.20万元，最大席位份额约56.25%，分布较均匀，无单一主导席位。",
+      "synergy_analysis": "所有席位均为普通席位，无知名游资信息，无协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "high",
+      "pressure_desc": "卖压来源于普遍的获利了结，涉及多个机构专用席位和普通席位，表明分散的抛售行为而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势转折点",
+      "trend_interpretation": "当前股价处于反弹后的下跌初期阶段。量价关系显示上榜日（2025-07-02）放量下跌（成交量68.18万手，显著高于平均27.98万手），表明抛压沉重；前一日（2025-07-01）缩量上涨（成交量26.37万手，涨幅仅1.95%），反映买盘不足。关键信号包括大阴线形态，开盘4.18、收盘3.76，实体长达0.42元，无下影线，显示空方主导，且价格跌破前期支撑区域（如6月23日低点3.7），暗示反弹结束和下跌趋势重启。"
+    },
+    "final_verdict": {
+      "outlook": "市场情绪恐慌，空方主导，机构大规模净卖出导致股价大幅下跌，跌破关键支撑位。后市展望为继续下跌趋势或震荡调整，反弹机会较小，短期风险高。",
+      "strategy": "操作策略建议：观望为主，避免盲目抄底；持仓者设置止损位在支撑位下方（如3.7元附近）；轻仓者可逢高减仓；等待量价企稳信号（如缩量整理或突破阻力）后再考虑逐步建仓。",
+      "risk_warning": "风险提示：股价波动剧烈，短期下行压力大；主力资金持续流出，基本面可能恶化；行业利空或市场恐慌情绪加剧风险；投资者应严格控制仓位，避免杠杆操作。"
+    }
+  },
+  "generated_at": "2025-07-03 15:35:28"
+}

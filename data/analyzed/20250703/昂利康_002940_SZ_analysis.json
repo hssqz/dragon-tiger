@@ -1,0 +1,172 @@
+{
+  "stock_info": {
+    "ts_code": "002940.SZ",
+    "name": "昂利康",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日振幅值达到15%的前5只证券"
+      ],
+      "interpretation": "日振幅值达到15%表明该股票在交易日内价格波动剧烈，反映出市场对该股的高度关注和活跃交易状态。这通常意味着存在剧烈的多空分歧，买卖双方在激烈博弈，价格大幅震荡可能由突发事件、市场情绪变化或投机行为驱动，暗示投资者情绪不稳定且短期风险较高，而非一致的多头共识。"
+    },
+    "overall_assessment": {
+      "verdict": "空方胜利",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "分歧",
+        "interpretation": "涨幅仅0.04%但换手率9.55%高，结合振幅15%，显示价格波动剧烈，多空力量拉锯，市场情绪不确定性高。"
+      },
+      "capital_confrontation": {
+        "level": "激烈空方主导",
+        "interpretation": "主力净流出-1.07亿元（净率-13.56%），卖出额1.49亿元远超买入额0.42亿元，主力成交占比24.16%高，结合高振幅，表明空方强力抛压，控盘力度强，对抗激烈。"
+      },
+      "key_takeaway": "今日核心看点：高振幅15%下主力资金大幅净流出，警示潜在下跌风险。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.11亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.11亿元",
+          "buy_rate": "1.41%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓",
+          "style_profile": {
+            "summary": "机构今日净买入，执行标准价值投资战法，后市可能继续持有或加仓。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值低估或趋势跟随",
+            "typical_exit": "目标价达到或基本面恶化时卖出"
+          }
+        },
+        {
+          "seat_name": "中国国际金融股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "915.23万元",
+          "sell_amount": "504.55万元",
+          "net_amount": "410.68万元",
+          "buy_rate": "1.16%",
+          "sell_rate": "0.64%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "量化基金今日做T，执行标准套利战法，后市可能继续高频交易。",
+            "time_horizon": "短期",
+            "preferred_setup": "套利机会",
+            "typical_exit": "及时止盈止损"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "平安证券股份有限公司深圳分公司",
+          "player_type": "知名游资",
+          "player_name": "红岭路",
+          "buy_amount": "26.30万元",
+          "sell_amount": "809.09万元",
+          "net_amount": "-782.80万元",
+          "buy_rate": "0.03%",
+          "sell_rate": "1.03%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "知名游资今日出货，可能结束维护，后市如果个股强势，可能再吸筹启动二波。",
+            "time_horizon": "中线",
+            "preferred_setup": "二波行情",
+            "typical_exit": "二波高点卖出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "809.58万元",
+          "net_amount": "-809.58万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.03%",
+          "action_interpretation": "减仓",
+          "style_profile": {
+            "summary": "机构今日卖出，可能止盈或调仓，后市观望或寻找新机会。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资",
+            "typical_exit": "目标达成时卖出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.11亿元",
+          "net_amount": "-1,081.89万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.37%",
+          "action_interpretation": "减仓",
+          "style_profile": {
+            "summary": "机构今日卖出，可能止盈或调仓，后市观望或寻找新机会。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资",
+            "typical_exit": "目标达成时卖出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.48亿元",
+          "net_amount": "-4,791.68万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "6.07%",
+          "action_interpretation": "大幅出货",
+          "style_profile": {
+            "summary": "机构今日大幅卖出，可能集体减仓，后市谨慎。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资",
+            "typical_exit": "目标达成时卖出"
+          }
+        },
+        {
+          "seat_name": "方正证券股份有限公司重庆金开大道证券营业部",
+          "player_type": "知名游资",
+          "player_name": "涪陵广场路",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.58亿元",
+          "net_amount": "-5,766.56万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "7.31%",
+          "action_interpretation": "重仓出货",
+          "style_profile": {
+            "summary": "知名游资今日大手笔出货，执行标准打板后止盈战法，后市可能寻找新标的打板。",
+            "time_horizon": "短期",
+            "preferred_setup": "打板",
+            "typical_exit": "次日或短期止盈"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位买入占比分布较均匀，最高为机构专用的1.41%，最低为0.82%，无显著主导席位。",
+      "synergy_analysis": "无协同作战迹象，因仅有一个量化基金席位上榜，其他为普通席位或机构，无多个知名游资同时出现。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要来自知名游资涪陵广场路的集中出货行为，该席位卖出5800万元，占比7.31%，风格为重仓打板；其他席位如机构和红岭路虽有卖出，但主导为特定主力。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前股价处于短期上涨趋势的末期，从低点25.5元快速上涨至48.6元，涨幅超过80%。上榜日（2025-07-03）成交量17.68万手，较前一日21.21万手减少，形成价涨量缩（涨幅仅0.04%，但冲高至48.6元后回落至44.92元），显示买盘动力减弱。关键信号为长上影线K线形态（实体小、上影线长），结合前期连续放量大涨（如7月1日和2日涨幅10%且量能放大），暗示高位抛压增加，可能为资金出货信号，趋势面临转折风险。"
+    },
+    "final_verdict": {
+      "outlook": "基于市场情绪高度分歧、空方主导和高位出货迹象，后市预计将面临显著下跌压力或剧烈震荡调整。主力资金大幅净流出（-1.07亿元）、高振幅（15%）以及K线高位出货形态（长上影线、量缩价涨）表明短期风险加剧，投资者需警惕股价快速回落至支撑位。",
+      "strategy": "建议散户采取防御性策略：避免追高，优先逢高减仓或暂时观望；设置严格止损位（如44元附近），控制仓位至轻仓；等待回调企稳信号（如量能放大或买方协同出现）再考虑分批介入，重点关注价值低估机会。",
+      "risk_warning": "明确风险包括：高波动性（日振幅15%）可能导致短线大幅亏损；主力资金集中出货（如知名游资涪陵广场路卖出5800万元）可能加速股价下跌；高位出货信号警示趋势转折风险；散户在激烈多空博弈中易受冲击，需防范流动性风险和情绪驱动波动。"
+    }
+  },
+  "generated_at": "2025-07-03 18:55:12"
+}

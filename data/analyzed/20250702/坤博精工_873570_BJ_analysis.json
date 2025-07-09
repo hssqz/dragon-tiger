@@ -1,0 +1,121 @@
+{
+  "stock_info": {
+    "ts_code": "873570.BJ",
+    "name": "坤博精工",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "当日换手率达到20%的前5只股票"
+      ],
+      "interpretation": "该股票因当日换手率达到20%而上榜，这表明交易异常活跃，资金博弈激烈，通常由事件驱动或短线炒作引发，说明市场对该股票的兴趣高度集中且波动性强。这反映了当前市场存在剧烈的多空分歧，买卖双方力量均衡，多头看涨情绪与空头看跌预期激烈交锋，导致价格大幅波动，而非单一的多头共识，暗示短期风险与机会并存。"
+    },
+    "overall_assessment": {
+      "verdict": "多方占优",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "股价大幅上涨11.89%且换手率高达34.28%，显示市场情绪高涨，买方主导交易活跃。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "大单净流出724.94万元（净率-1.72%），买盘0.27亿元与卖盘0.35亿元对抗明显，结合高换手率34.28%，凸显主力资金抛压与买方激烈交锋。"
+      },
+      "key_takeaway": "股价逆势大涨11.89%与主力资金净流出的矛盾，揭示市场亢奋中暗藏抛压风险。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "532.58万元",
+          "sell_amount": "306.88万元",
+          "net_amount": "225.71万元",
+          "buy_rate": "1.26%",
+          "sell_rate": "0.73%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "执行标准做T战法；后市可能继续日内交易或短期波动套利。",
+            "time_horizon": "超短线（日内交易）",
+            "preferred_setup": "高波动性股票，适合T+0操作",
+            "typical_exit": "当日或短期快速退出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "512.96万元",
+          "sell_amount": "402.44万元",
+          "net_amount": "110.52万元",
+          "buy_rate": "1.22%",
+          "sell_rate": "0.95%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "执行标准做T战法；后市可能继续日内交易或短期波动套利。",
+            "time_horizon": "超短线（日内交易）",
+            "preferred_setup": "高波动性股票，适合T+0操作",
+            "typical_exit": "当日或短期快速退出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "553.37万元",
+          "sell_amount": "541.84万元",
+          "net_amount": "11.53万元",
+          "buy_rate": "1.31%",
+          "sell_rate": "1.29%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "执行标准做T战法；后市可能继续日内交易或短期波动套利。",
+            "time_horizon": "超短线（日内交易）",
+            "preferred_setup": "高波动性股票，适合T+0操作",
+            "typical_exit": "当日或短期快速退出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东兴证券股份有限公司福州江厝路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "温州帮",
+          "buy_amount": "0.00万元",
+          "sell_amount": "599.87万元",
+          "net_amount": "-599.87万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.42%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今日行为可能为出货；后市可能股价承压或继续调整。",
+            "time_horizon": "中短期（数天至数周）",
+            "preferred_setup": "次新股，深度控盘操作",
+            "typical_exit": "快速拉升后出货"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位买入金额分布均匀，最大买入比例约为22.13%，最小约为18.66%，所有席位占比均在18%至22%之间，无单一主导买方。",
+      "synergy_analysis": "存在协同作战迹象，因为三个东方财富证券拉萨营业部（知名游资，标签为'东方财富拉萨天团'）同时上榜，具有相同的交易风格（每天做T），表明可能协同行动。"
+    },
+    "seller_analysis": {
+      "pressure_level": "高",
+      "pressure_desc": "卖压主要来自特定主力'温州帮'的集中出货行为，而非普遍的获利了结。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于短期上涨趋势的加速阶段，自2025-06-23从低点35.2反弹以来，已进入主升浪。量价关系上，上榜日（2025-07-02）成交量激增至8.44万手，远超平均2.79万手，配合11.89%的涨幅，形成强放量上涨；前一日（2025-07-01）缩量微涨（成交量2.68万手，涨幅0.60%），显示积蓄后爆发。关键信号包括突破大阳线形态，当日股价突破前高46.99（2025-06-26高点），创出新高53.8，收盘强势，确认趋势加速。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望：市场情绪亢奋，股价处于加速上涨趋势，但主力资金净流出揭示潜在抛压风险。预计短期波动加剧，多空分歧持续，机会与风险并存。建议密切关注资金流向和关键支撑位。",
+      "strategy": "操作策略建议：鉴于买方游资主导做T操作，散户可考虑短线参与如日内交易或T+0策略，设置严格止损（例如5%以内）。避免追高，逢低介入；稳健投资者宜观望，待趋势确认后再行动。",
+      "risk_warning": "风险提示：高换手率和高波动性暗示价格大幅震荡风险；主力资金出货（如温州帮）可能引发快速下跌。市场情绪亢奋易受消息逆转，导致损失。务必控制仓位，管理风险。"
+    }
+  },
+  "generated_at": "2025-07-03 15:47:16"
+}

@@ -1,0 +1,206 @@
+{
+  "stock_info": {
+    "ts_code": "300821.SZ",
+    "name": "东岳硅材",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日涨幅达到15%的前5只证券"
+      ],
+      "interpretation": "该股票上榜源于单日涨幅达15%并进入前五，这凸显了市场对其强烈的买入兴趣和看涨动能。它反映了当前市场对该股票存在显著的多头共识，买家占据主导地位，表明投资者情绪高度乐观，可能由公司基本面利好、行业热点或资金推动引发；博弈状态显示空头压力较小，价格快速上行暗示短期投机活跃和追涨热情高涨。"
+    },
+    "overall_assessment": {
+      "verdict": "多头胜出",
+      "confidence_score": 0.95,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "涨幅20.00%显示强势上涨，换手率8.14%表明交易活跃，投资者情绪高涨。"
+      },
+      "capital_confrontation": {
+        "level": "强势控盘",
+        "interpretation": "大单净买入1.14亿元（净买入率13.49%），且大单占比27.20%，结合流通市值111.58亿元（中小盘股），主力资金买入力度强，空头抵抗较弱。"
+      },
+      "key_takeaway": "主力资金大举买入推动股价涨停，市场情绪亢奋。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "国信证券股份有限公司北京分公司",
+          "player_type": "普通席位",
+          "player_name": "普通席位",
+          "buy_amount": "0.66亿元",
+          "sell_amount": "394.82万元",
+          "net_amount": "0.63亿元",
+          "buy_rate": "7.88%",
+          "sell_rate": "0.47%",
+          "action_interpretation": "大额买入，小卖，可能为主封或接力",
+          "style_profile": {
+            "summary": "",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.52亿元",
+          "sell_amount": "3.78万元",
+          "net_amount": "0.52亿元",
+          "buy_rate": "6.21%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "量化打板主封首板或二板",
+          "style_profile": {
+            "summary": "执行标准量化打板战法。后市剧本：次日开盘不秒板则兑现一半仓位；若上板则纠错买回部分；若不能走强则清仓。",
+            "time_horizon": "短期（次日操作）",
+            "preferred_setup": "首板或二板位置",
+            "typical_exit": "次日开盘兑现一半或清仓"
+          }
+        },
+        {
+          "seat_name": "中信证券股份有限公司东阳吴宁西路证券营业部",
+          "player_type": "普通席位",
+          "player_name": "普通席位",
+          "buy_amount": "0.17亿元",
+          "sell_amount": "23.53万元",
+          "net_amount": "0.17亿元",
+          "buy_rate": "2.00%",
+          "sell_rate": "0.03%",
+          "action_interpretation": "大额买入，小卖，可能为接力",
+          "style_profile": {
+            "summary": "",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "国联民生证券股份有限公司无锡清扬路证券营业部",
+          "player_type": "普通席位",
+          "player_name": "普通席位",
+          "buy_amount": "0.15亿元",
+          "sell_amount": "29.97万元",
+          "net_amount": "0.15亿元",
+          "buy_rate": "1.83%",
+          "sell_rate": "0.04%",
+          "action_interpretation": "大额买入，小卖，可能为接力",
+          "style_profile": {
+            "summary": "",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "深股通专用",
+          "player_type": "机构",
+          "player_name": "深股通专用",
+          "buy_amount": "0.20亿元",
+          "sell_amount": "0.18亿元",
+          "net_amount": "172.62万元",
+          "buy_rate": "2.37%",
+          "sell_rate": "2.17%",
+          "action_interpretation": "买入卖出均大额，净买入小，可能为做T",
+          "style_profile": {
+            "summary": "执行标准互联互通机制。后市剧本：基于市场波动调整仓位，资金流动取决于港股和A股市场条件。",
+            "time_horizon": "中短期",
+            "preferred_setup": "互联互通机制相关股票",
+            "typical_exit": "根据市场条件卖出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "首创证券股份有限公司石家庄建设北大街证券营业部",
+          "player_type": "普通席位",
+          "player_name": "普通席位",
+          "buy_amount": "0.00万元",
+          "sell_amount": "653.33万元",
+          "net_amount": "-653.33万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "0.77%",
+          "action_interpretation": "大额卖出，无买，出货",
+          "style_profile": {
+            "summary": "",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "长城证券股份有限公司北京中核路证券营业部",
+          "player_type": "普通席位",
+          "player_name": "普通席位",
+          "buy_amount": "16.14万元",
+          "sell_amount": "683.06万元",
+          "net_amount": "-666.92万元",
+          "buy_rate": "0.02%",
+          "sell_rate": "0.81%",
+          "action_interpretation": "大额卖出，小买，出货",
+          "style_profile": {
+            "summary": "",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "平安证券股份有限公司深圳香蜜湖证券营业部",
+          "player_type": "普通席位",
+          "player_name": "普通席位",
+          "buy_amount": "24.05万元",
+          "sell_amount": "941.91万元",
+          "net_amount": "-917.86万元",
+          "buy_rate": "0.03%",
+          "sell_rate": "1.12%",
+          "action_interpretation": "大额卖出，小买，出货",
+          "style_profile": {
+            "summary": "",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "方正证券股份有限公司北京丹棱街证券营业部",
+          "player_type": "普通席位",
+          "player_name": "普通席位",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.12亿元",
+          "net_amount": "-1,228.97万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.46%",
+          "action_interpretation": "大额卖出，无买，出货",
+          "style_profile": {
+            "summary": "",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "前两大买方席位（国信证券北京分公司和开源证券西安西大街）合计买入占比14.09%，占所有买方总买入占比的69.4%，表明买方力量高度集中在少数席位。",
+      "synergy_analysis": "买方席位中仅有一个知名游资（开源证券西安西大街），其他席位为普通席位或机构，未发现多个知名游资同时上榜的协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "普遍",
+      "pressure_desc": "卖压来自多个普通席位，卖出金额在653.33万元至1200万元之间，卖出率在0.77%至1.46%之间，分布相对均衡；所有席位均为普通席位，无特定主力迹象，表明是普遍的获利了结行为。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前阶段：股价在短期整理后进入上涨加速阶段，处于主升浪初期。量价关系：上榜日（2025-07-02）放量上涨，成交量97.63万手远高于平均18.51万手，价涨量增配合强势；前一日（2025-07-01）缩量下跌，成交量16.53万手，抛压减轻。关键信号：大阳线涨停形态（涨幅20.00%），突破2025-06-27至2025-07-01形成的7.65-7.86整理平台，表明买方主导突破关键阻力。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望乐观，股价在多头主导、市场情绪亢奋下可能继续上涨，但需警惕短期波动和获利盘回吐。",
+      "strategy": "建议短线投资者在回调或开盘稳定时轻仓介入，设置止损位；跟踪主力动向，优先关注次日开盘表现和量化游资的操作信号。",
+      "risk_warning": "风险包括高换手率暗示投机过热，知名游资可能次日快速兑现仓位；市场情绪易反转导致回调；避免追高，防范流通市值较小带来的流动性风险。"
+    }
+  },
+  "generated_at": "2025-07-03 15:35:07"
+}

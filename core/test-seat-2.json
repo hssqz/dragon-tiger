@@ -1,0 +1,381 @@
+{
+  "meta": {
+    "trade_date": "20250617",
+    "trade_date_display": "2025-06-17",
+    "processing_time": "2025-06-30T18:24:17.631202",
+    "stock_count": 1,
+    "data_quality": "extracted_single_stock",
+    "source_file": "test_processed_data_0624.json",
+    "extracted_stock": {
+      "name": "泰山石油",
+      "ts_code": "000554.SZ"
+    }
+  },
+  "stocks": [
+    {
+      "ts_code": "000554.SZ",
+      "name": "泰山石油",
+      "trade_date": "20250617",
+      "basic_info": {
+        "close": 8.15,
+        "pct_change": "3.56%",
+        "turnover_rate": "44.32%",
+        "amount": "12.73亿元",
+        "l_sell": "1.02亿元",
+        "l_buy": "0.85亿元",
+        "l_amount": "1.87亿元",
+        "net_amount": "-1,759.18万元",
+        "net_rate": "-1.38%",
+        "amount_rate": "14.69%",
+        "float_values": "29.56亿元",
+        "reasons": [
+          "日振幅值达到15%的前5只证券"
+        ],
+        "trade_date_display": "2025-06-17"
+      },
+      "seat_data": {
+        "buy_seats": [
+          {
+            "seat_name": "机构专用",
+            "buy_amount": "0.27亿元",
+            "sell_amount": "865.95万元",
+            "net_amount": "0.18亿元",
+            "buy_rate": "2.11%",
+            "sell_rate": "0.68%",
+            "player_info": {
+              "name": "机构专用",
+              "type": "机构",
+              "description": "新交易规则规定，机构席位是指基金专用席位、券商自营专用席位、社保专用席位、券商理财专用席位、保险机构专用席位、保险机构租用席位、QFII专用席位等机构投资者买卖证券的专用通道和席位。",
+              "style": {
+                "核心交易档案": "**地位:** 机构席位",
+                "软实力与市场标签": "**标签:** 基金/券商/社保/QFII等"
+              }
+            }
+          },
+          {
+            "seat_name": "国金证券股份有限公司深圳分公司",
+            "buy_amount": "0.13亿元",
+            "sell_amount": "466.85万元",
+            "net_amount": "799.69万元",
+            "buy_rate": "1.00%",
+            "sell_rate": "0.37%",
+            "player_info": {
+              "name": "普通席位",
+              "type": "普通席位",
+              "description": "暂无相关信息",
+              "style": [
+                "风格未明"
+              ]
+            }
+          },
+          {
+            "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+            "buy_amount": "0.12亿元",
+            "sell_amount": "576.83万元",
+            "net_amount": "601.79万元",
+            "buy_rate": "0.93%",
+            "sell_rate": "0.45%",
+            "player_info": {
+              "name": "T王",
+              "type": "知名游资",
+              "description": "此类席位每天做T，其乐无穷。",
+              "style": {
+                "核心交易档案": "**模式:** 每天做T",
+                "软实力与市场标签": "**标签:** 东方财富拉萨天团"
+              }
+            }
+          },
+          {
+            "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+            "buy_amount": "0.12亿元",
+            "sell_amount": "819.27万元",
+            "net_amount": "418.65万元",
+            "buy_rate": "0.97%",
+            "sell_rate": "0.64%",
+            "player_info": {
+              "name": "T王",
+              "type": "知名游资",
+              "description": "此类席位每天做T，其乐无穷。",
+              "style": {
+                "核心交易档案": "**模式:** 每天做T",
+                "软实力与市场标签": "**标签:** 东方财富拉萨天团"
+              }
+            }
+          },
+          {
+            "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+            "buy_amount": "0.12亿元",
+            "sell_amount": "856.51万元",
+            "net_amount": "302.13万元",
+            "buy_rate": "0.91%",
+            "sell_rate": "0.67%",
+            "player_info": {
+              "name": "T王",
+              "type": "知名游资",
+              "description": "此类席位每天做T，其乐无穷。",
+              "style": {
+                "核心交易档案": "**模式:** 每天做T",
+                "软实力与市场标签": "**标签:** 东方财富拉萨天团"
+              }
+            }
+          }
+        ],
+        "sell_seats": [
+          {
+            "seat_name": "机构专用",
+            "buy_amount": "921.52万元",
+            "sell_amount": "0.11亿元",
+            "net_amount": "-186.02万元",
+            "buy_rate": "0.72%",
+            "sell_rate": "0.87%",
+            "player_info": {
+              "name": "机构专用",
+              "type": "机构",
+              "description": "新交易规则规定，机构席位是指基金专用席位、券商自营专用席位、社保专用席位、券商理财专用席位、保险机构专用席位、保险机构租用席位、QFII专用席位等机构投资者买卖证券的专用通道和席位。",
+              "style": {
+                "核心交易档案": "**地位:** 机构席位",
+                "软实力与市场标签": "**标签:** 基金/券商/社保/QFII等"
+              }
+            }
+          },
+          {
+            "seat_name": "中国银河证券股份有限公司北京中关村大街证券营业部",
+            "buy_amount": "28.75万元",
+            "sell_amount": "984.72万元",
+            "net_amount": "-955.97万元",
+            "buy_rate": "0.02%",
+            "sell_rate": "0.77%",
+            "player_info": {
+              "name": "量化抢筹",
+              "type": "量化",
+              "description": "量化交易，尤其擅长分歧回暖日竞价最后时间扫货，有能力制造弱转强分时吸引市场资金流入",
+              "style": {
+                "核心交易档案": "**模式:** 量化交易",
+                "标的选择偏好": "**时机:** 分歧回暖日",
+                "盘中操盘密码": "**攻击:** 竞价扫货, 制造弱转强",
+                "软实力与市场标签": "**号召力:** 吸引市场资金"
+              }
+            }
+          },
+          {
+            "seat_name": "麦高证券有限责任公司苏州干将东路证券营业部",
+            "buy_amount": "0.00万元",
+            "sell_amount": "0.11亿元",
+            "net_amount": "-1,104.19万元",
+            "buy_rate": "0.00%",
+            "sell_rate": "0.87%",
+            "player_info": {
+              "name": "普通席位",
+              "type": "普通席位",
+              "description": "暂无相关信息",
+              "style": [
+                "风格未明"
+              ]
+            }
+          },
+          {
+            "seat_name": "麦高证券有限责任公司成都丽都路证券营业部",
+            "buy_amount": "0.00万元",
+            "sell_amount": "0.13亿元",
+            "net_amount": "-1,274.88万元",
+            "buy_rate": "0.00%",
+            "sell_rate": "1.00%",
+            "player_info": {
+              "name": "普通席位",
+              "type": "普通席位",
+              "description": "暂无相关信息",
+              "style": [
+                "风格未明"
+              ]
+            }
+          },
+          {
+            "seat_name": "开源证券股份有限公司西安太华路证券营业部",
+            "buy_amount": "0.00万元",
+            "sell_amount": "0.22亿元",
+            "net_amount": "-2,174.22万元",
+            "buy_rate": "0.00%",
+            "sell_rate": "1.71%",
+            "player_info": {
+              "name": "量化打板",
+              "type": "知名游资",
+              "description": "量化打板，绝大多数操作以首板二板为主，次日不能秒板开盘都会先兑现一半，上板纠错买回部分仓位，不能走强则直接清仓。",
+              "style": {
+                "核心交易档案": "**模式:** 量化打板",
+                "标的选择偏好": "**位置:** 首板, 二板",
+                "盘中操盘密码": "**风控:** 纪律性极强(次日兑现/纠错/清仓)"
+              }
+            }
+          }
+        ],
+        "buy_total": "0.85亿元",
+        "sell_total": "1.02亿元"
+      },
+      "historical_data": {
+        "chart_data": [
+          {
+            "date": "20250528",
+            "date_display": "2025-05-28",
+            "open": 6.32,
+            "high": 6.33,
+            "low": 6.27,
+            "close": 6.28,
+            "volume": "6.05万手",
+            "amount": "0.38亿元",
+            "pct_change": "-0.16%"
+          },
+          {
+            "date": "20250529",
+            "date_display": "2025-05-29",
+            "open": 6.27,
+            "high": 6.34,
+            "low": 6.23,
+            "close": 6.29,
+            "volume": "8.43万手",
+            "amount": "0.53亿元",
+            "pct_change": "0.16%"
+          },
+          {
+            "date": "20250530",
+            "date_display": "2025-05-30",
+            "open": 6.28,
+            "high": 6.29,
+            "low": 6.15,
+            "close": 6.16,
+            "volume": "9.52万手",
+            "amount": "0.59亿元",
+            "pct_change": "-2.07%"
+          },
+          {
+            "date": "20250603",
+            "date_display": "2025-06-03",
+            "open": 6.18,
+            "high": 6.26,
+            "low": 6.14,
+            "close": 6.25,
+            "volume": "8.66万手",
+            "amount": "0.54亿元",
+            "pct_change": "1.46%"
+          },
+          {
+            "date": "20250604",
+            "date_display": "2025-06-04",
+            "open": 6.24,
+            "high": 6.35,
+            "low": 6.24,
+            "close": 6.34,
+            "volume": "8.13万手",
+            "amount": "0.51亿元",
+            "pct_change": "1.44%"
+          },
+          {
+            "date": "20250605",
+            "date_display": "2025-06-05",
+            "open": 6.34,
+            "high": 6.37,
+            "low": 6.22,
+            "close": 6.24,
+            "volume": "7.69万手",
+            "amount": "0.48亿元",
+            "pct_change": "-1.58%"
+          },
+          {
+            "date": "20250606",
+            "date_display": "2025-06-06",
+            "open": 6.25,
+            "high": 6.38,
+            "low": 6.25,
+            "close": 6.37,
+            "volume": "10.82万手",
+            "amount": "0.69亿元",
+            "pct_change": "2.08%"
+          },
+          {
+            "date": "20250609",
+            "date_display": "2025-06-09",
+            "open": 6.4,
+            "high": 6.47,
+            "low": 6.32,
+            "close": 6.46,
+            "volume": "14.76万手",
+            "amount": "0.95亿元",
+            "pct_change": "1.41%"
+          },
+          {
+            "date": "20250610",
+            "date_display": "2025-06-10",
+            "open": 6.46,
+            "high": 6.5,
+            "low": 6.29,
+            "close": 6.46,
+            "volume": "15.41万手",
+            "amount": "0.99亿元",
+            "pct_change": "0.00%"
+          },
+          {
+            "date": "20250611",
+            "date_display": "2025-06-11",
+            "open": 6.45,
+            "high": 6.46,
+            "low": 6.37,
+            "close": 6.44,
+            "volume": "8.48万手",
+            "amount": "0.55亿元",
+            "pct_change": "-0.31%"
+          },
+          {
+            "date": "20250612",
+            "date_display": "2025-06-12",
+            "open": 6.58,
+            "high": 6.65,
+            "low": 6.45,
+            "close": 6.5,
+            "volume": "21.85万手",
+            "amount": "1.42亿元",
+            "pct_change": "0.93%"
+          },
+          {
+            "date": "20250613",
+            "date_display": "2025-06-13",
+            "open": 6.88,
+            "high": 7.15,
+            "low": 6.69,
+            "close": 7.15,
+            "volume": "94.33万手",
+            "amount": "6.59亿元",
+            "pct_change": "10.00%"
+          },
+          {
+            "date": "20250616",
+            "date_display": "2025-06-16",
+            "open": 7.5,
+            "high": 7.87,
+            "low": 7.49,
+            "close": 7.87,
+            "volume": "60.51万手",
+            "amount": "4.68亿元",
+            "pct_change": "10.07%"
+          },
+          {
+            "date": "20250617",
+            "date_display": "2025-06-17",
+            "open": 7.8,
+            "high": 8.63,
+            "low": 7.3,
+            "close": 8.15,
+            "volume": "160.72万手",
+            "amount": "12.73亿元",
+            "pct_change": "3.56%"
+          }
+        ],
+        "summary": {
+          "days_count": 14,
+          "max_price": 8.63,
+          "min_price": 6.14,
+          "avg_volume": "31.10万手",
+          "volatility": "3.72%"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "stock_info": {
+    "ts_code": "000661.SZ",
+    "name": "长春高新",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日涨幅偏离值达到7%的前5只证券"
+      ],
+      "interpretation": "这个上榜原因表明该股票在当日经历了异常大幅的价格上涨，涨幅偏离值达到7%，意味着其表现远超市场基准水平，通常由重大利好消息、资金集中流入或行业热点推动。这反映了当前市场对该股票强烈的多头共识，投资者情绪高涨且买方力量占优，推动了价格飙升；同时，上榜前5只证券也暗示了高度关注和博弈状态中可能存在的短期投机行为或轻微多空分歧，但整体趋势显示乐观情绪主导。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜利",
+      "confidence_score": 0.9,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "收盘涨停10.00%表明市场情绪亢奋；换手率4.06%适中，显示部分分歧但整体偏多。"
+      },
+      "capital_confrontation": {
+        "level": "中等",
+        "interpretation": "主力净买入2.07亿元（净买入率12.04%），龙虎榜成交额占比33.69%高，表明主力积极参与；但流通市值434.35亿元较大，控盘力度中等，对抗激烈程度一般。"
+      },
+      "key_takeaway": "主力资金在涨停行情中大幅净买入，但流通市值大，需关注后续持续性。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "深股通专用",
+          "player_type": "机构",
+          "player_name": "深股通专用",
+          "buy_amount": "1.71亿元",
+          "sell_amount": "0.37亿元",
+          "net_amount": "1.33亿元",
+          "buy_rate": "9.90%",
+          "sell_rate": "2.16%",
+          "action_interpretation": "加仓或建仓",
+          "style_profile": {
+            "summary": "今天通过深港通机制净买入，执行标准互联互通策略，后市可能继续流入或根据市场流动性调整。",
+            "time_horizon": "中线",
+            "preferred_setup": "大盘股互联互通",
+            "typical_exit": "根据市场流动性和基本面变化退出"
+          }
+        },
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.52亿元",
+          "sell_amount": "1.07万元",
+          "net_amount": "0.52亿元",
+          "buy_rate": "3.01%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "打板或主封",
+          "style_profile": {
+            "summary": "执行标准量化打板战法，后市可能次日兑现部分仓位或根据盘面强度决定去留。",
+            "time_horizon": "短线",
+            "preferred_setup": "首板或二板打板",
+            "typical_exit": "次日不能秒板开盘兑现一半，不能走强则清仓"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.43亿元",
+          "sell_amount": "8.10万元",
+          "net_amount": "0.43亿元",
+          "buy_rate": "2.52%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓或加仓",
+          "style_profile": {
+            "summary": "可能在建仓，执行标准机构行为，后市可能持有或根据基本面调整。",
+            "time_horizon": "中线",
+            "preferred_setup": "价值投资",
+            "typical_exit": "基本面恶化或目标达成退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.43亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.43亿元",
+          "buy_rate": "2.47%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓或加仓",
+          "style_profile": {
+            "summary": "可能在建仓，执行标准机构行为，后市可能持有或根据基本面调整。",
+            "time_horizon": "中线",
+            "preferred_setup": "价值投资",
+            "typical_exit": "基本面恶化或目标达成退出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "平安证券股份有限公司福州长乐北路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "温州帮",
+          "buy_amount": "62.63万元",
+          "sell_amount": "0.21亿元",
+          "net_amount": "-2,017.31万元",
+          "buy_rate": "0.04%",
+          "sell_rate": "1.21%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今天可能在对倒拉升后出货，执行标准彪悍手法，后市可能继续减仓或转战其他次新股。",
+            "time_horizon": "短线",
+            "preferred_setup": "次新股深度控盘拉升",
+            "typical_exit": "快速出货或对倒退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.92亿元",
+          "net_amount": "-9,234.73万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "5.36%",
+          "action_interpretation": "减仓或出货",
+          "style_profile": {
+            "summary": "减仓行为，后市可能继续减持或根据基本面调整仓位。",
+            "time_horizon": "中线",
+            "preferred_setup": "价值投资",
+            "typical_exit": "基本面变化退出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "深股通专用买入金额1.71亿元，占前列买方总买入的43.6%，最大买方主导明显。",
+      "synergy_analysis": "仅有一个知名游资席位（开源证券），其他为机构或普通席位，无多个知名游资同时上榜，不存在协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "高",
+      "pressure_desc": "卖压主要来自特定主力温州帮的集中出货行为，表现为深度控盘后的快速卖出；机构专用席位也有显著卖出，但普通席位贡献较小。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "底部启动信号",
+      "trend_interpretation": "当前股价处于下跌趋势后的筑底反转阶段。从数据看，股价从2025-06-13高点112.89持续下跌至2025-06-26低点96.36，之后在100附近盘整（如2025-06-30至2025-07-02），形成短期底部。量价关系方面，上榜日（2025-07-03）放量上涨，成交量16.24万手远超平均6.81万手，量价配合良好（价涨量增）；前几日（如2025-07-01和2025-07-02）成交量较小（4.85万手和4.31万手），显示蓄势特征。关键信号是上榜日出现大阳线（涨幅10%），突破近期高点100.33（2025-07-01），并伴随巨量，表明强劲买盘介入，可能启动新上涨趋势。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望：股价在底部启动后放量上涨，主力资金积极介入（如深股通和机构净买入），市场情绪亢奋，短期内有继续上涨潜力；但需警惕卖方压力（如温州帮出货和机构减持）带来的回调风险，整体趋势向上，关注后续量能持续性。",
+      "strategy": "操作策略建议：短线投资者可在开盘后观察盘面强度（如能否秒板），如维持强势可轻仓参与，参考量化打板席位策略（次日不能秒板则兑现）；中线投资者可分批建仓，关注基本面变化和深股通、机构动向，避免追高。",
+      "risk_warning": "风险提示：主要风险包括温州帮集中出货可能引发短期波动；机构减持信号显示部分主力看空；高流通市值（434.35亿元）限制控盘力度；市场情绪亢奋可能导致回调；投资者应严格控制仓位，设置止损点（如跌破前低96.36）。"
+    }
+  },
+  "generated_at": "2025-07-03 18:53:44"
+}

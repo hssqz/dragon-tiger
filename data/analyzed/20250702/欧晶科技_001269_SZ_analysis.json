@@ -1,0 +1,138 @@
+{
+  "stock_info": {
+    "ts_code": "001269.SZ",
+    "name": "欧晶科技",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+      ],
+      "interpretation": "这个上榜原因表明该股票在短期内表现异常强劲，涨幅显著超出市场平均水平，通常由利好消息、行业热点或机构集中买入推动。这反映了当前市场对该股票强烈的多头共识，买方力量占据主导，投资者情绪高度乐观，空头压力较小，整体博弈状态呈现单边上涨态势。"
+    },
+    "overall_assessment": {
+      "verdict": "多方占优",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "股价大涨10.02%，换手率高达17.95%，表明市场情绪亢奋。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力资金净买入0.47亿元（占流通市值约2%），主力成交额2.49亿元占总额29.24%，显示多空对抗激烈。"
+      },
+      "key_takeaway": "今日大涨10%主力净流入，但高换手率提示潜在分歧需关注后续资金动向。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.64亿元",
+          "sell_amount": "806.49万元",
+          "net_amount": "0.56亿元",
+          "buy_rate": "7.54%",
+          "sell_rate": "0.95%",
+          "action_interpretation": "打板买入，可能为主封或接力首板/二板",
+          "style_profile": {
+            "summary": "执行标准量化打板策略；后市：如果次日不能秒板开盘，可能兑现一半仓位，上板则买回，否则清仓。",
+            "time_horizon": "短期（次日操作）",
+            "preferred_setup": "首板或二板股票",
+            "typical_exit": "次日开盘不能秒板兑现一半；上板纠错买回；不能走强清仓"
+          }
+        },
+        {
+          "seat_name": "中泰证券股份有限公司常州惠国路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.13亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.13亿元",
+          "buy_rate": "1.52%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "打板买入，可能为新封首板",
+          "style_profile": {
+            "summary": "执行标准量化打板策略；后市：如果次日不能秒板开盘，可能兑现一半仓位，上板则买回，否则清仓。",
+            "time_horizon": "短期（次日操作）",
+            "preferred_setup": "首板或二板股票",
+            "typical_exit": "次日开盘不能秒板兑现一半；上板纠错买回；不能走强清仓"
+          }
+        },
+        {
+          "seat_name": "深股通专用",
+          "player_type": "机构",
+          "player_name": "深股通专用",
+          "buy_amount": "0.22亿元",
+          "sell_amount": "0.22亿元",
+          "net_amount": "23.37万元",
+          "buy_rate": "2.64%",
+          "sell_rate": "2.61%",
+          "action_interpretation": "做T操作，高抛低吸平衡买卖",
+          "style_profile": {
+            "summary": "执行标准互联互通机制操作；后市：可能继续平衡买卖，取决于市场流动性和估值变化。",
+            "time_horizon": "中短期",
+            "preferred_setup": "深港通互联互通股票",
+            "typical_exit": "基于市场估值和流动性调整"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "开源证券股份有限公司西安太华路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.22亿元",
+          "sell_amount": "0.22亿元",
+          "net_amount": "-30.51万元",
+          "buy_rate": "2.53%",
+          "sell_rate": "2.57%",
+          "action_interpretation": "做T操作，买卖平衡以控制风险",
+          "style_profile": {
+            "summary": "执行标准量化打板策略；后市：如果次日不能秒板开盘，可能兑现一半仓位，上板则买回，否则清仓。",
+            "time_horizon": "短期（次日操作）",
+            "preferred_setup": "首板或二板股票",
+            "typical_exit": "次日开盘不能秒板兑现一半；上板纠错买回；不能走强清仓"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "688.55万元",
+          "sell_amount": "0.12亿元",
+          "net_amount": "-560.37万元",
+          "buy_rate": "0.81%",
+          "sell_rate": "1.47%",
+          "action_interpretation": "出货，净卖出减仓",
+          "style_profile": {
+            "summary": "可能执行标准减仓策略；后市：如果继续卖出，暗示看跌预期，可能基于估值调整。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资或机构偏好股票",
+            "typical_exit": "基于投资目标和市场风险管理"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买方席位开源证券股份有限公司西安西大街证券营业部买入比例为7.54%，整体买方分布较为均匀，无高度主导席位。",
+      "synergy_analysis": "存在协同作战迹象，多个知名游资席位同时上榜：开源证券股份有限公司西安西大街证券营业部和中泰证券股份有限公司常州惠国路证券营业部，两者均采用量化打板策略，偏好首板二板操作，具有相似交易纪律。"
+    },
+    "seller_analysis": {
+      "pressure_level": "moderate",
+      "pressure_desc": "卖压来自普遍的获利了结行为，主要涉及量化游资的纪律性兑现和机构的潜在调整，而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前阶段：股价处于短期上涨主升浪的初期。量价关系：上榜日（2025-07-02）放量上涨（成交量15.06万手，远高于平均3.75万手），前一日（2025-07-01）放量但收跌形成长上影线（开盘27.37，收盘25.56），显示短暂回调后多方强势反攻，量价配合表明买盘强劲。关键信号：上榜日出现大阳线涨停（开盘25.61，收盘28.12），突破前期高点（如2025-06-24的23.49），结合高成交量，确认上涨趋势加速。"
+    },
+    "final_verdict": {
+      "outlook": "基于强劲的多头共识、趋势加速信号和市场情绪亢奋，后市整体看涨，但高换手率17.95%和机构净卖出提示潜在回调风险，需密切关注资金动向和短期波动。",
+      "strategy": "建议散户短线操作：若次日开盘秒板（快速涨停），可持有或轻仓追入；若开盘弱于预期或无法上板，及时止盈兑现。避免追高，设置止损位在关键支撑点（如前低25.56元）。",
+      "risk_warning": "风险包括：高情绪亢奋可能导致急跌；量化游资可能次日纪律性兑现引发抛压；机构持续卖出暗示估值担忧；高换手率显示市场分歧，易受利空消息影响。"
+    }
+  },
+  "generated_at": "2025-07-03 15:36:04"
+}

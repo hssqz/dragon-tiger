@@ -1,0 +1,138 @@
+{
+  "stock_info": {
+    "ts_code": "000737.SZ",
+    "name": "北方铜业",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日振幅值达到15%的前5只证券"
+      ],
+      "interpretation": "日振幅值达到15%表明该股票当天价格波动剧烈，这通常是由于市场对该股存在强烈的多空分歧所致。多头和空头力量激烈博弈，反映出投资者情绪高度不稳定，可能源于突发新闻、事件驱动或投机行为，导致价格大幅震荡但缺乏明确共识。上榜信号突显该股成为市场焦点，但短期方向不明，需警惕后续波动风险。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜利",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "涨幅7.72%显示买方强势，换手率17.94%反映高活跃度，整体市场情绪亢奋。"
+      },
+      "capital_confrontation": {
+        "level": "激烈，多方小胜",
+        "interpretation": "主力净买入0.70亿元（占流通市值0.32%），买卖额相近（买3.83亿 vs 卖3.13亿）表明对抗激烈；净买入率1.85%和主力占比18.37%显示多方微弱优势。"
+      },
+      "key_takeaway": "今天战局的核心看点是在高波动（振幅15%）中多方凭借净买入主导7.72%的上涨。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "深股通专用",
+          "player_type": "机构",
+          "player_name": "深股通专用",
+          "buy_amount": "1.26亿元",
+          "sell_amount": "0.55亿元",
+          "net_amount": "0.72亿元",
+          "buy_rate": "3.33%",
+          "sell_rate": "1.44%",
+          "action_interpretation": "增持或建仓，代表外资通过深港通机制流入",
+          "style_profile": {
+            "summary": "执行互联互通机制标准战法，后市可能持续流入或稳定持有",
+            "time_horizon": "中长期",
+            "preferred_setup": "蓝筹股或流动性好的股票",
+            "typical_exit": "逐步减持或根据市场条件退出"
+          }
+        },
+        {
+          "seat_name": "中信建投证券股份有限公司杭州庆春路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "杭州帮",
+          "buy_amount": "0.69亿元",
+          "sell_amount": "9.46万元",
+          "net_amount": "0.69亿元",
+          "buy_rate": "1.83%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主买或接力，进行波段操作",
+          "style_profile": {
+            "summary": "执行波段操作标准战法，后市可能继续推高或波段持有",
+            "time_horizon": "短期到中期",
+            "preferred_setup": "老股票，多营业部协同",
+            "typical_exit": "波段高点退出"
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司上海宛平南路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "炒股养家",
+          "buy_amount": "0.63亿元",
+          "sell_amount": "7.00万元",
+          "net_amount": "0.63亿元",
+          "buy_rate": "1.66%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封或挖掘题材，利用通道优势",
+          "style_profile": {
+            "summary": "执行题材挖掘和一字板标准战法，后市可能隔日高位出货",
+            "time_horizon": "超短期",
+            "preferred_setup": "题材龙头股",
+            "typical_exit": "隔日高位逐步离场"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.12亿元",
+          "sell_amount": "0.45亿元",
+          "net_amount": "-3,229.17万元",
+          "buy_rate": "0.32%",
+          "sell_rate": "1.18%",
+          "action_interpretation": "减持或出货，代表机构资金流出",
+          "style_profile": {
+            "summary": "执行机构减持标准战法，后市可能继续减持或观望",
+            "time_horizon": "中长期",
+            "preferred_setup": "机构标准投资组合",
+            "typical_exit": "逐步减持"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "431.64万元",
+          "sell_amount": "0.74亿元",
+          "net_amount": "-7,006.35万元",
+          "buy_rate": "0.11%",
+          "sell_rate": "1.96%",
+          "action_interpretation": "大额减持或出货，代表机构资金大幅流出",
+          "style_profile": {
+            "summary": "执行机构减持标准战法，后市可能继续减持或调整仓位",
+            "time_horizon": "中长期",
+            "preferred_setup": "机构标准投资组合",
+            "typical_exit": "逐步减持或大额卖出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "买方席位中，深股通专用买入额最大，占买方总买入额约34.5%，与中信建投杭州庆春路合计占53.4%，显示资金高度集中。",
+      "synergy_analysis": "存在协同作战迹象。多个知名游资（杭州帮和炒股养家）同时上榜，且杭州帮的描述中提到多营业部协同操作，两者均以净买入为主。"
+    },
+    "seller_analysis": {
+      "pressure_level": "高",
+      "pressure_desc": "卖压来源普遍，性质为普遍的获利了结"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于短期上涨趋势的主升浪阶段。量价关系方面，上榜日（2025-07-02）成交量317.91万手，大幅高于近期平均（97.07万手），配合价格上涨7.72%，形成放量上涨形态；前几日如2025-06-30和2025-07-01成交量也持续放大（280.72万手和256.47万手），量价配合良好。关键信号包括上榜日出现大阳线（实体长，上影线较短），突破历史新高（12.68），以及2025-06-27的大阳线（涨幅10.03%）启动本轮上涨行情。"
+    },
+    "final_verdict": {
+      "outlook": "后市可能延续短期上涨趋势，多方主导且市场情绪亢奋，但日振幅值15%表明多空分歧激烈，波动性加剧。需警惕震荡上行中的回调风险，重点关注买方协同和外资动向。",
+      "strategy": "建议散户：1) 短期逢低买入，设置止损位在近期支撑点；2) 跟踪主力资金如深股通和游资行为，避免追高；3) 波段操作者可持仓观望，但准备在游资退出信号出现时止盈。",
+      "risk_warning": "主要风险：1) 高振幅（15%）导致价格剧烈波动；2) 游资如'炒股养家'可能隔日高位出货引发快速回调；3) 机构减持压力持续；4) 市场亢奋情绪逆转风险。"
+    }
+  },
+  "generated_at": "2025-07-03 15:36:32"
+}

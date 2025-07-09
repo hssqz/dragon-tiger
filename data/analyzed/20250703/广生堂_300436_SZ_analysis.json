@@ -1,0 +1,120 @@
+{
+  "stock_info": {
+    "ts_code": "300436.SZ",
+    "name": "广生堂",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日涨幅达到15%的前5只证券"
+      ],
+      "interpretation": "该股票因日涨幅达到15%而进入龙虎榜前5只证券，这表明股票在当日经历了异常强劲的价格上涨，通常由重大利好消息、资金集中涌入或市场热点推动所致。这反映了当前市场对该股的强烈多头共识，买盘力量占绝对主导，投资者情绪高度乐观，显示出对该股的积极预期和追捧，短期内多头博弈明显占优，空头力量被压制，但需警惕后续波动风险。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜出",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "20%的涨幅和14.64%的高换手率表明市场情绪亢奋，投资者热情高涨。"
+      },
+      "capital_confrontation": {
+        "level": "主力控盘较强",
+        "interpretation": "主力净买入0.42亿元，净买入率5.34%，且主力成交额占总成交额22.72%；结合58.49亿元的流通值（小盘股特征），主力资金对小盘股影响力显著，显示多空对抗中多方主导。"
+      },
+      "key_takeaway": "主力资金积极买入推动股价飙升20%，凸显多方力量强劲。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "深股通专用",
+          "player_type": "机构",
+          "player_name": "深股通专用",
+          "buy_amount": "0.65亿元",
+          "sell_amount": "0.24亿元",
+          "net_amount": "0.41亿元",
+          "buy_rate": "8.27%",
+          "sell_rate": "3.05%",
+          "action_interpretation": "买入为主，少量卖出，可能增持",
+          "style_profile": {
+            "summary": "作为深港通机制，执行标准境外资金通道操作。今天买入为主，后市可能持续流入或根据港股走势调整。",
+            "time_horizon": "中长期",
+            "preferred_setup": "互联互通股票",
+            "typical_exit": "基于机制和市场调整"
+          }
+        },
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.16亿元",
+          "sell_amount": "1.24万元",
+          "net_amount": "0.16亿元",
+          "buy_rate": "2.00%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "强力买入，几乎无卖出，可能主封首板或二板",
+          "style_profile": {
+            "summary": "量化打板策略，纪律性强，专注首板二板。今天可能主封，执行标准策略，后市若明天不能快速上板，可能部分卖出。",
+            "time_horizon": "短期（次日操作）",
+            "preferred_setup": "首板或二板股票",
+            "typical_exit": "次日不能秒板则兑现一半，不能走强清仓"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "882.63万元",
+          "sell_amount": "79.48万元",
+          "net_amount": "803.15万元",
+          "buy_rate": "1.12%",
+          "sell_rate": "0.10%",
+          "action_interpretation": "净买入，增持",
+          "style_profile": {
+            "summary": "机构投资者，可能基金或券商。今天买入增持，执行标准长期策略，后市可能持有或继续增持。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值股或成长股",
+            "typical_exit": "基于基本面变化"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.10亿元",
+          "sell_amount": "506.54万元",
+          "net_amount": "500.12万元",
+          "buy_rate": "1.28%",
+          "sell_rate": "0.64%",
+          "action_interpretation": "有买有卖，净买入，可能做T操作",
+          "style_profile": {
+            "summary": "机构投资者，今天可能有做T行为，执行部分买卖，后市可能继续操作或持有。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值股或成长股",
+            "typical_exit": "基于基本面变化"
+          }
+        }
+      ],
+      "selling_force": []
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买方席位深股通专用买入率为8.27%，其他席位买入率均低于2.5%（开源证券西安西大街2.00%、中国银河大连人民路1.24%、机构专用1.12%和1.28%），整体买方力量分散。",
+      "synergy_analysis": "不存在协同作战迹象，只有一个知名游资（开源证券西安西大街的量化打板）上榜，其他席位为机构或普通席位。"
+    },
+    "seller_analysis": {
+      "pressure_level": "高",
+      "pressure_desc": "卖压来自多个普通席位，卖出金额较大但分散在不同营业部，缺乏主力特征，表明是普遍的获利了结行为而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "底部启动信号",
+      "trend_interpretation": "当前股价处于筑底后的启动阶段，从前期大幅下跌（20250618至20250619跌幅超12%）后进入低位整理（20250620至20250702股价在33-36区间波动，成交量萎缩至日均约8万手）。量价关系显示上榜日（20250703）成交量大幅增加至20.01万手（远高于前日6.53万手），配合价格上涨20.00%，形成典型的放量上涨信号；前几日缩量整理表明抛压减轻。关键信号为上榜日出现大阳线（开盘36.0，收盘42.78），实体巨大且无上影线，突破前期整理平台高点（约37），显示强劲买盘介入和趋势反转。"
+    },
+    "final_verdict": {
+      "outlook": "该股因日涨幅15%上榜，显示强劲多头共识和底部启动信号，后市可能延续上涨趋势，但需警惕短期波动风险。",
+      "strategy": "建议散户关注短期机会：若次日股价快速上板可持有或轻仓跟进，否则兑现部分；设置止损位在前期平台高点（约37元）。中长期投资者可持有，分批买入。",
+      "risk_warning": "风险包括高换手率（14.64%）可能引发价格波动，亢奋情绪冷却后回调风险；卖压分散但高，表明获利了结意愿强；小盘股（流通值58.49亿）易受资金影响，波动性大。"
+    }
+  },
+  "generated_at": "2025-07-03 18:52:53"
+}

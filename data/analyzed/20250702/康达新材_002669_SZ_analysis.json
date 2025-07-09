@@ -1,0 +1,190 @@
+{
+  "stock_info": {
+    "ts_code": "002669.SZ",
+    "name": "康达新材",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日涨幅偏离值达到7%的前5只证券",
+        "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+      ],
+      "interpretation": "这些上榜原因表明该股票在短期内经历了强劲的价格上涨，单日涨幅偏离值达7%反映出强烈的单日买入动力和资金涌入，而连续三天累积偏离值达20%则显示持续的上涨趋势和动量。这反映了当前市场对该股票的强烈多头共识，投资者情绪高度乐观，可能存在重大利好消息或机构资金推动，多空分歧较小，市场整体呈现一致看涨的博弈状态。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜利",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "股价涨幅10.03%达到涨停水平，换手率20.04%显示极高交易活跃度，结合上榜原因，市场情绪处于亢奋状态。"
+      },
+      "capital_confrontation": {
+        "level": "买方主导但对抗激烈",
+        "interpretation": "主力净买入0.46亿元（净率4.03%），买卖总额达2.53亿元（占总成交22.17%），显示多空对抗激烈；流通市值仅42.39亿元，买方控盘力度较强，对股价影响显著。"
+      },
+      "key_takeaway": "小盘股在主力资金净买入推动下强势涨停，上榜龙虎榜显示异常波动。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "国盛证券有限责任公司宁波天童南路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "天童南路",
+          "buy_amount": "0.26亿元",
+          "sell_amount": "7.53万元",
+          "net_amount": "0.26亿元",
+          "buy_rate": "2.27%",
+          "sell_rate": "0.01%",
+          "action_interpretation": "主封",
+          "style_profile": {
+            "summary": "擅长题材挖掘和捕捉市场拐点，出手干净利落且成功率极高。今日主封行为符合其标准战法，后市可能推动股价上涨。",
+            "time_horizon": "短期",
+            "preferred_setup": "题材挖掘",
+            "typical_exit": "干净利落，高成功率退出"
+          }
+        },
+        {
+          "seat_name": "国盛证券有限责任公司宁波天童南路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "天童南路",
+          "buy_amount": "0.26亿元",
+          "sell_amount": "5.42万元",
+          "net_amount": "0.26亿元",
+          "buy_rate": "3.06%",
+          "sell_rate": "0.01%",
+          "action_interpretation": "主封",
+          "style_profile": {
+            "summary": "擅长题材挖掘和捕捉市场拐点，出手干净利落且成功率极高。今日主封行为符合其标准战法，后市可能继续推高。",
+            "time_horizon": "短期",
+            "preferred_setup": "题材挖掘",
+            "typical_exit": "干净利落，高成功率退出"
+          }
+        },
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.52亿元",
+          "sell_amount": "0.26亿元",
+          "net_amount": "0.26亿元",
+          "buy_rate": "4.56%",
+          "sell_rate": "2.32%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "量化打板策略，专注于首板二板，纪律性极强。今日做T行为符合其风控规则，后市取决于次日表现。",
+            "time_horizon": "超短期",
+            "preferred_setup": "首板、二板",
+            "typical_exit": "次日兑现一半，不能走强则清仓"
+          }
+        },
+        {
+          "seat_name": "东方证券股份有限公司常熟李闸路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.16亿元",
+          "sell_amount": "622.05万元",
+          "net_amount": "0.10亿元",
+          "buy_rate": "1.44%",
+          "sell_rate": "0.55%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "量化打板策略，专注于首板二板，纪律性极强。今日做T行为符合其标准战法，后市可能灵活调整仓位。",
+            "time_horizon": "超短期",
+            "preferred_setup": "首板、二板",
+            "typical_exit": "次日兑现一半，不能走强则清仓"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.16亿元",
+          "sell_amount": "0.12亿元",
+          "net_amount": "417.69万元",
+          "buy_rate": "1.92%",
+          "sell_rate": "1.43%",
+          "action_interpretation": "轻微参与或做T",
+          "style_profile": {
+            "summary": "机构投资者，包括基金、券商等。今日轻微净买入行为较保守，后市可能观望或跟随趋势。",
+            "time_horizon": "中短期",
+            "preferred_setup": "价值投资或趋势跟随",
+            "typical_exit": "基于基本面或市场趋势"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.22亿元",
+          "sell_amount": "0.23亿元",
+          "net_amount": "-128.06万元",
+          "buy_rate": "1.94%",
+          "sell_rate": "2.05%",
+          "action_interpretation": "轻微出货或做T",
+          "style_profile": {
+            "summary": "机构投资者，包括基金、券商等。今日小幅净卖出行为谨慎，后市可能继续减仓或观望。",
+            "time_horizon": "中短期",
+            "preferred_setup": "价值投资或趋势跟随",
+            "typical_exit": "基于基本面或市场趋势"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "931.74万元",
+          "sell_amount": "0.14亿元",
+          "net_amount": "-431.03万元",
+          "buy_rate": "0.82%",
+          "sell_rate": "1.20%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "机构投资者，包括基金、券商等。今日出货行为较明显，后市可能继续减持。",
+            "time_horizon": "中短期",
+            "preferred_setup": "价值投资或趋势跟随",
+            "typical_exit": "基于基本面或市场趋势"
+          }
+        },
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.20亿元",
+          "sell_amount": "0.26亿元",
+          "net_amount": "-601.08万元",
+          "buy_rate": "2.42%",
+          "sell_rate": "3.14%",
+          "action_interpretation": "部分出货或做T",
+          "style_profile": {
+            "summary": "量化打板策略，专注于首板二板，纪律性极强。今日部分出货行为符合其风控规则，后市可能根据次日强度决定去留。",
+            "time_horizon": "超短期",
+            "preferred_setup": "首板、二板",
+            "typical_exit": "次日兑现一半，不能走强则清仓"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方金额分布较均匀，最大单个席位（国盛证券宁波天童南路或开源证券西安西大街）占比约26.4%，前三位席位（国盛宁波天童南路、开源西安西大街、广发郑州农业路）控制约76.8%的总买方金额，但份额相似且无单一主导席位。",
+      "synergy_analysis": "存在三个知名游资席位同时上榜，包括国盛证券宁波天童南路（题材挖掘风格）、开源证券西安西大街（量化打板风格）和东方证券常熟李闸路（量化打板风格），其中两个量化打板席位风格一致，可能暗示协同作战迹象，但无直接证据表明具体协同行为。"
+    },
+    "seller_analysis": {
+      "pressure_level": "高",
+      "pressure_desc": "卖压主要来自普遍的获利了结行为，而非特定主力的集中出货。知名游资席位（如量化打板）基于其纪律性兑现策略进行卖出，多个普通席位也显示出广泛的卖出倾向，机构席位虽有参与但净卖出量相对较小。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于上涨初期的加速阶段。从2025-06-20的低点10.78元开始反弹，经过小幅震荡后，在2025-07-01和2025-07-02连续涨停，进入主升浪。量价关系方面，上榜日（2025-07-02）放量上涨，成交量达60.49万手，是近期平均成交量的近三倍，配合10.03%的涨幅，显示强劲买盘支持；前一日（2025-07-01）也放量上涨（23.74万手），涨停10.00%，量价齐升。关键信号包括2025-07-01的大阳线涨停突破前期11-12元震荡平台，以及2025-07-02的连续涨停和成交量激增，确认趋势加速。"
+    },
+    "final_verdict": {
+      "outlook": "基于强劲的上涨趋势、亢奋的市场情绪和多方主导格局，后市有望延续上涨势头，但需警惕短期回调风险，因买方分散、量化策略纪律性退出和卖压较高可能导致波动加剧。",
+      "strategy": "建议散户在股价回踩支撑位时逢低买入，设置5%止损位以控制风险，并在加速上涨阶段分批获利了结锁定利润；优先关注知名游资席位动向作为短期交易信号。",
+      "risk_warning": "主要风险包括市场情绪过热引发快速反转、量化资金基于纪律性策略（如次日兑现一半）导致股价急跌、小盘股流动性不足放大波动、以及机构持续出货压力增加下行风险。"
+    }
+  },
+  "generated_at": "2025-07-03 15:37:27"
+}

@@ -1,0 +1,138 @@
+{
+  "stock_info": {
+    "ts_code": "688520.SH",
+    "name": "神州细胞",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日收盘价格涨幅达到15%的前五只证券"
+      ],
+      "interpretation": "该股票上榜原因是日收盘价格涨幅达到15%，这表明市场对该股票有强烈的多头共识和买盘主导的博弈状态。涨幅大幅超出平均水平，反映出投资者高度乐观情绪，可能由利好消息、基本面改善或资金集中流入驱动，显示多头力量强劲且卖方压力较小，暗示短期市场信心充足和潜在持续上涨动能。"
+    },
+    "overall_assessment": {
+      "verdict": "多方获胜",
+      "confidence_score": 0.9,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "股价涨幅达19.99%（涨停），换手率仅2.85%，表明市场情绪亢奋，投资者惜售。"
+      },
+      "capital_confrontation": {
+        "level": "中等",
+        "interpretation": "主力资金成交占比42.75%较高，净买入0.72亿元显示多方占优，但流通值326.61亿元较大，削弱了控盘力度，买卖差额（l_buy 2.27亿元 vs l_sell 1.55亿元）表明对抗不激烈。"
+      },
+      "key_takeaway": "主力资金推动股价涨停，尽管流通值较大，多方主导战局。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.84亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.84亿元",
+          "buy_rate": "9.37%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入建仓",
+          "style_profile": {
+            "summary": "作为境外资金通道，今日买入建仓，执行标准价值投资战法，后市可能继续持有或逢低加仓。",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面良好、流动性高的股票",
+            "typical_exit": "估值过高或市场趋势反转时卖出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.71亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.71亿元",
+          "buy_rate": "7.98%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入建仓",
+          "style_profile": {
+            "summary": "代表多种机构投资者，今日买入建仓，执行标准机构投资战法，后市可能基于基本面持有。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资或成长股",
+            "typical_exit": "目标达成或市场风险增加时退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.32亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.32亿元",
+          "buy_rate": "3.59%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入建仓",
+          "style_profile": {
+            "summary": "代表多种机构投资者，今日买入建仓，执行标准机构投资战法，后市可能基于基本面持有。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资或成长股",
+            "typical_exit": "目标达成或市场风险增加时退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.16亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.16亿元",
+          "buy_rate": "1.80%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入建仓",
+          "style_profile": {
+            "summary": "代表多种机构投资者，今日买入建仓，执行标准机构投资战法，后市可能基于基本面持有。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资或成长股",
+            "typical_exit": "目标达成或市场风险增加时退出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.18亿元",
+          "net_amount": "-1,805.80万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.02%",
+          "action_interpretation": "卖出减仓",
+          "style_profile": {
+            "summary": "作为境外资金通道，今日卖出减仓，可能执行标准风控或获利了结，后市可能继续观望或逢高卖出。",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面变化或估值高企时卖出",
+            "typical_exit": "获利了结或风险规避时"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "前三个买方席位（沪股通专用和两个机构专用）买入比例合计20.94%，占总上榜买方比例的82.4%，表明买方资金高度集中在少数席位。",
+      "synergy_analysis": "不存在协同作战迹象。上榜席位主要为机构专用和沪股通专用，代表大型机构投资者；普通席位（联储证券深圳彩田路）风格未明，无知名游资同时上榜或协同行为证据。"
+    },
+    "seller_analysis": {
+      "pressure_level": "分散",
+      "pressure_desc": "卖压来源于多个普通席位和少量机构席位，卖出分布相对均匀，无单一主力主导，表明是普遍的获利了结行为。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于上升趋势的主升浪阶段，自6月23日启动上涨以来持续攀升。上榜日放量大涨（成交量12.68万手，远超平均6.71万手），价量配合健康，形成价涨量增格局；前一日缩量下跌（成交量5.21万手）后快速反转。关键信号包括光头光脚大阳线突破前期高点64.0（7月1日高点），涨幅达19.99%，显示多方强势主导趋势加速。"
+    },
+    "final_verdict": {
+      "outlook": "市场情绪亢奋，多方主导推动股价涨停（19.99%），上升趋势加速且价量配合健康，短期有持续上涨潜力；但需警惕亢奋情绪下潜在回调风险。",
+      "strategy": "操作策略：散户可逢低买入（如回调至关键支撑位），设置止损位（如-5%）；已持仓者继续持有，避免追高；密切关注成交量和机构资金动向。",
+      "risk_warning": "风险提示：1. 市场情绪可能快速逆转引发下跌；2. 获利了结盘分散但随时可能加剧卖压；3. 大流通市值（326.61亿元）削弱控盘力，增加波动性；4. 机构资金（如沪股通专用）已有卖出迹象，可能在估值高时退出。"
+    }
+  },
+  "generated_at": "2025-07-03 19:04:10"
+}

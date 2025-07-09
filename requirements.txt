@@ -1,0 +1,27 @@
+# Gushen AI - 龙虎榜系统依赖包
+# 核心依赖
+tushare>=1.2.89          # 金融数据接口
+pandas>=2.0.0            # 数据处理
+numpy>=1.24.0            # 数值计算
+openai>=1.0.0            # OpenAI API
+anthropic>=0.8.0         # Claude API
+google-generativeai>=0.8.5 # Google Gemini API
+jinja2>=3.1.0            # 模板引擎
+pytest>=7.0.0            # 测试框架
+requests>=2.28.0         # HTTP客户端
+python-dotenv>=1.0.0     # 环境变量管理
+
+# 数据可视化
+matplotlib>=3.7.0        # 图表绘制
+seaborn>=0.12.0          # 统计图表
+plotly>=6.1.2            # 交互式图表
+
+# 工具库
+pydantic>=2.0.0          # 数据验证
+loguru>=0.7.0            # 日志记录
+tqdm>=4.65.0             # 进度条
+
+# 开发工具
+black>=23.0.0            # 代码格式化
+flake8>=6.0.0            # 代码质量检查
+mypy>=1.5.0              # 类型检查

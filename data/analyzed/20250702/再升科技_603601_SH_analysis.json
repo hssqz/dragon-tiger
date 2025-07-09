@@ -1,0 +1,104 @@
+{
+  "stock_info": {
+    "ts_code": "603601.SH",
+    "name": "再升科技",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券"
+      ],
+      "interpretation": "这个上榜原因表明该股票在当日经历了显著的价格上涨，涨幅偏离值达7%，显示出强烈的市场买盘兴趣和积极的投资者情绪。这反映了当前市场对该股票的强烈多头共识，多头力量主导，空头压力较小，表明投资者对其前景持乐观态度，并可能受到特定利好因素驱动，如积极新闻或事件催化。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜出",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "股价上涨10.07%且换手率13.57%，显示市场交易活跃，情绪高涨。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力资金净买入0.18亿元（占流通市值2.71%），买入额0.79亿元与卖出额0.60亿元对比明显，显示多空对抗激烈，多方控盘力度强。"
+      },
+      "key_takeaway": "主力资金积极介入推动股价涨停。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "国盛证券有限责任公司宁波桑田路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "宁波桑田路",
+          "buy_amount": "953.10万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "953.10万元",
+          "buy_rate": "1.40%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封打板",
+          "style_profile": {
+            "summary": "今天执行标准打板战法，买入为主。后市可能锁仓或快速退出，取决于市场表现。",
+            "time_horizon": "短线",
+            "preferred_setup": "打板（高低不拘）",
+            "typical_exit": "锁仓做T或快速退出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.12亿元",
+          "net_amount": "-1,214.73万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.78%",
+          "action_interpretation": "兑现出货",
+          "style_profile": {
+            "summary": "今天执行标准量化打板兑现策略，卖出出货。后市可能根据次日开盘情况纠错买回或清仓。",
+            "time_horizon": "超短线",
+            "preferred_setup": "首板或二板打板",
+            "typical_exit": "次日兑现一半，上板纠错买回，否则清仓"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.20亿元",
+          "net_amount": "-1,958.08万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.87%",
+          "action_interpretation": "助跌出货",
+          "style_profile": {
+            "summary": "今天卖出，可能执行助跌或出货策略。后市可能频繁做T影响股价。",
+            "time_horizon": "短线",
+            "preferred_setup": "做T策略",
+            "typical_exit": "频繁进出，助涨助跌"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买方席位买入率仅为4.55%，所有席位买入率均低于5%，分布均匀（4.55%、2.51%、1.72%、1.40%、1.34%），无单一主导买方。",
+      "synergy_analysis": "只有一个知名游资席位（宁波桑田路）上榜，其他均为普通席位，无多个知名游资同时出现，故无协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "significant",
+      "pressure_desc": "卖压主要来源于多个卖方席位，包括量化基金和量化打板游资的纪律性获利了结行为，以及普通席位的普遍卖出，显示为普遍的获利了结而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前阶段：股价处于上涨加速阶段（主升浪），从2025-06-30突破性大阳线启动连续涨停。量价关系：龙虎榜日（2025-07-02）成交量激增至138.69万手（远高于平均23.47万手），配合价格涨停（涨幅10.07%），呈现放量上涨的强势信号；前一日（2025-07-01）缩量涨停表明买盘集中。关键信号：2025-06-30出现突破关键阻力的大阳线（涨幅10.03%，成交量21.75万手），后续连续涨停形成强势上升通道，龙虎榜日的高成交量确认趋势加速。"
+    },
+    "final_verdict": {
+      "outlook": "后市短期内可能延续上涨势头，因市场情绪亢奋、多方主导且股价处于加速主升浪阶段，但需警惕卖方获利了结压力导致波动加剧。买方分散且仅一个知名游资参与，上涨持续性依赖后续资金流入。",
+      "strategy": "建议散户避免追高，可待股价回调至关键支撑位时逢低吸纳，设置止损位（如跌破前一日低点）。短线交易者关注盘中突破机会，控制仓位，优先锁定部分利润。",
+      "risk_warning": "主要风险：量化资金出货可能助跌；买方力量分散，缺乏持续推动力；高位获利盘压力显著，易引发快速回调。市场情绪变化和成交量异常需高度警觉。"
+    }
+  },
+  "generated_at": "2025-07-03 15:46:11"
+}

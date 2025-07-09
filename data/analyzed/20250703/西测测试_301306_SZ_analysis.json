@@ -1,0 +1,121 @@
+{
+  "stock_info": {
+    "ts_code": "301306.SZ",
+    "name": "西测测试",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日涨幅达到15%的前5只证券"
+      ],
+      "interpretation": "日涨幅达到15%的前5只证券表明该股票在当天的表现极其强劲，涨幅远超市场平均水平，说明市场对其高度关注和追捧，可能源于利好消息、行业热点或基本面改善。这反映了强烈的多头共识，买方力量主导且一致看好，推动价格大幅上涨，而空方分歧较小，市场情绪整体乐观，显示出投资者对该股的信心和积极博弈状态。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜利",
+      "confidence_score": 0.9,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "股价上涨20%且换手率20.24%，显示市场情绪高度亢奋。"
+      },
+      "capital_confrontation": {
+        "level": "强",
+        "interpretation": "主力净买入0.92亿元，净率20.72%，占总成交61.14%，结合流通市值22.27亿元的小盘特征，主力控盘力度强，多方主导对抗。"
+      },
+      "key_takeaway": "主力资金强势介入推动股价涨停，凸显多方主导战局。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "中国银河证券股份有限公司宜昌新世纪证券营业部",
+          "player_type": "知名游资",
+          "player_name": "瑞鹤仙",
+          "buy_amount": "0.57亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.57亿元",
+          "buy_rate": "12.75%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "今天纯买入，无卖出，可能是主封或接力操作，体现独来独往风格。",
+          "style_profile": {
+            "summary": "今天执行白衣骑士标准战法，后市可能继续持有或寻求拉升股价。",
+            "time_horizon": "短期",
+            "preferred_setup": "深度介入特定股票",
+            "typical_exit": "灵活逐步退出"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司宜昌沿江大道证券营业部",
+          "player_type": "知名游资",
+          "player_name": "消闲派",
+          "buy_amount": "0.52亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.52亿元",
+          "buy_rate": "11.66%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "今天纯买入，无卖出，符合首板战法，可能是打首板操作。",
+          "style_profile": {
+            "summary": "今天执行推土机首板标准战法，后市大概率有高溢价。",
+            "time_horizon": "超短期",
+            "preferred_setup": "20CM首板",
+            "typical_exit": "次日不能秒板开盘兑现一半，上板买回，不能走强清仓"
+          }
+        },
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.40亿元",
+          "sell_amount": "2.62万元",
+          "net_amount": "0.40亿元",
+          "buy_rate": "8.97%",
+          "sell_rate": "0.01%",
+          "action_interpretation": "今天大额买入，小额卖出，可能是量化打板操作。",
+          "style_profile": {
+            "summary": "今天执行量化打板标准战法，后市看次日开盘表现决定操作。",
+            "time_horizon": "超短期",
+            "preferred_setup": "首板或二板",
+            "typical_exit": "次日不能秒板开盘兑现一半，上板买回，不能走强清仓"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东兴证券股份有限公司上海陆家嘴证券营业部",
+          "player_type": "知名游资",
+          "player_name": "温州帮",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.19亿元",
+          "net_amount": "-1,904.27万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "4.28%",
+          "action_interpretation": "今天纯卖出，无买入，可能是出货操作。",
+          "style_profile": {
+            "summary": "今天出货体现深度控盘风格，后市股票可能下跌或进入调整阶段。",
+            "time_horizon": "短期",
+            "preferred_setup": "次新股",
+            "typical_exit": "对倒拉升后快速出货"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位买入比例分布较均匀，前三大席位（中国银河证券、国泰海通证券宜昌、开源证券）比例合计约33.38%，最高比例12.75%，无单一席位占主导。",
+      "synergy_analysis": "不存在协同作战迹象，因为瑞鹤仙明确表示'独来独往'，且消闲派、量化打板等知名游资席位风格各异，无协同证据。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要源于特定主力'温州帮'（知名游资）的集中出货行为，该席位（东兴证券上海陆家嘴证券营业部）卖出金额1900万元，占总卖出约21.21%，其操作风格彪悍，包括深度控盘和快速拉升，暗示获利了结或打压股价意图。其他席位如申万宏源吉林吉林大街证券营业部卖出最大（4800万元，占53.58%），但无主力信息，可能为普遍获利了结，但整体主导因素为特定主力。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于短期上涨趋势的加速阶段。从6月23日低点41.5元反弹后，价格持续上涨，7月1-2日小幅回调缩量整理，7月3日大幅突破。量价关系上，上榜日成交量显著放大至7.95万手，远超前两日缩量水平（7月1日5.64万手、7月2日4.50万手），形成放量上涨态势，表明买方动能强劲。关键信号包括涨幅20%的大阳线（开盘49.8元、收盘56.7元），突破6月30日高点51.0元，确认趋势加速。"
+    },
+    "final_verdict": {
+      "outlook": "综合多方力量强劲、市场情绪亢奋和趋势加速，后市有望继续上行，但需警惕卖方集中出货和短期情绪波动带来的回调风险。",
+      "strategy": "短线投资者可逢低介入，设置止损位（如跌破关键支撑点50元）；参考游资风格，关注次日开盘表现（如消闲派可能兑现一半），中长期投资者等待回调后评估基本面支撑再入场。",
+      "risk_warning": "主要风险包括主力集中出货（如温州帮操作）、市场情绪逆转引发高波动、游资快速退出导致抛压增大；高换手率（20.24%）表明流动性风险，建议控制仓位并严格止损。"
+    }
+  },
+  "generated_at": "2025-07-03 19:00:59"
+}

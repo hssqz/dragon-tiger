@@ -1,0 +1,155 @@
+{
+  "stock_info": {
+    "ts_code": "601005.SH",
+    "name": "重庆钢铁",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券"
+      ],
+      "interpretation": "该上榜原因表明股票在当日收盘时涨幅偏离值达到7%，进入涨幅榜前五名，说明其价格表现远超市场平均水平，受到强劲买方力量推动。这反映了当前市场对该股票的强烈多头共识，买盘积极且集中，空头力量相对薄弱，可能源于利好消息、资金流入或市场热点追捧，暗示短期内有持续上涨潜力，但需警惕后续获利回吐风险。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜利，主力资金净流出",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "股价涨幅10.16%表明市场情绪高涨；换手率5.71%反映交易活跃但未达极端分歧或恐慌水平。"
+      },
+      "capital_confrontation": {
+        "level": "主力流出，对抗激烈",
+        "interpretation": "主力净流出7247.24万元（净率-11.12%），买卖额差明显（卖出1.67亿元 vs 买入0.94亿元），主力成交占比39.99%显示高参与度；流通市值117.22亿元较大，净流出影响相对有限。"
+      },
+      "key_takeaway": "主力资金净流出背景下股价仍大涨10.16%，凸显散户或其他资金推动力强劲。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.40亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.40亿元",
+          "buy_rate": "6.14%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓或增持，作为境外资金通道执行互联互通机制。",
+          "style_profile": {
+            "summary": "今天净买入执行标准互联互通机制战法，后市可能继续流入或基于基本面调整持仓。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资或趋势跟随",
+            "typical_exit": "基本面变化时退出"
+          }
+        },
+        {
+          "seat_name": "国盛证券有限责任公司宁波桑田路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "宁波桑田路",
+          "buy_amount": "0.19亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.19亿元",
+          "buy_rate": "2.86%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封或接力，执行打板战法。",
+          "style_profile": {
+            "summary": "今天买入执行彪悍打板标准战法，后市可能锁仓做T或快速退出。",
+            "time_horizon": "超短线",
+            "preferred_setup": "打板，高低不拘",
+            "typical_exit": "跑得飞快，短期获利了结"
+          }
+        },
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.16亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.16亿元",
+          "buy_rate": "2.49%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "量化打板买入，可能为首板或二板建仓。",
+          "style_profile": {
+            "summary": "今天买入执行量化打板标准战法，后市可能次日兑现一半或清仓。",
+            "time_horizon": "超短线",
+            "preferred_setup": "首板或二板",
+            "typical_exit": "纪律性极强，次日兑现或纠错"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司成都北一环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "成都系",
+          "buy_amount": "0.10亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.10亿元",
+          "buy_rate": "1.55%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "超跌板主封，直线拉升涨停。",
+          "style_profile": {
+            "summary": "今天买入执行超跌板标准战法，后市可能次日冲高砸盘。",
+            "time_horizon": "超短线",
+            "preferred_setup": "超跌中小盘首板",
+            "typical_exit": "次日冲高砸盘"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.14亿元",
+          "net_amount": "-1,355.31万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.08%",
+          "action_interpretation": "减持，作为境外资金通道执行互联互通机制。",
+          "style_profile": {
+            "summary": "今天净卖出执行标准互联互通机制战法，后市可能继续流出或基于市场调整。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资或趋势跟随",
+            "typical_exit": "基本面变化时退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.16亿元",
+          "net_amount": "-1,608.32万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.47%",
+          "action_interpretation": "出货，机构减持调仓。",
+          "style_profile": {
+            "summary": "今天卖出执行机构标准操作，后市可能看空或基本面调整。",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面分析",
+            "typical_exit": "估值高或风险时退出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买方席位沪股通专用买入占比6.14%，其余席位买入比例均低于3%（如宁波桑田路2.86%、量化打板2.49%等），分布较均匀，无单一主导买家。",
+      "synergy_analysis": "存在协同作战迹象，因国盛宁波桑田路、开源西安西大街（量化打板）、国泰海通成都北一环路（成都系）三个知名游资席位同时上榜并净买入，表明可能集体行动或市场热点。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要来自海通证券股份有限公司重庆民生路证券营业部的大量卖出（1.14亿元，占总卖出约68.26%），而其他席位卖出较小且分散，表明是特定主力主导的集中出货行为。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "底部启动信号",
+      "trend_interpretation": "当前股价处于筑底阶段向上涨初期的转折点。上榜日成交量急剧放大至474.91万手，远高于平均80.06万手，形成放量上涨的积极量价配合，表明主力资金介入。关键信号为突破性大阳线，收盘价1.41突破前期高点1.29，确认趋势反转。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望：短期内有持续上涨潜力，因底部启动信号、放量上涨和市场情绪亢奋支撑，但主力资金净流出和游资超短线风格可能引发波动；中长期需基本面支持以延续趋势。",
+      "strategy": "操作策略建议：散户投资者可逢低布局（如股价回调至支撑位1.29附近），设置止损点（如跌破1.25）；避免追高买入。短线交易者关注买方席位动向，在回调时轻仓介入，及时止盈（如涨幅超5%）；中长期投资者评估公司基本面后持仓。",
+      "risk_warning": "风险提示：主力资金净流出（7247.24万元）可能引发回调；买方游资（如宁波桑田路、量化打板）风格超短线，存在次日快速抛售风险；市场情绪亢奋易导致获利回吐；警惕股价大幅波动和热点消退。"
+    }
+  },
+  "generated_at": "2025-07-03 15:45:22"
+}

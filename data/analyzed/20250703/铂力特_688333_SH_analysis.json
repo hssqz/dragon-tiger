@@ -1,0 +1,189 @@
+{
+  "stock_info": {
+    "ts_code": "688333.SH",
+    "name": "铂力特",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日收盘价格涨幅达到15%的前五只证券"
+      ],
+      "interpretation": "该上榜原因表明股票在单日交易中涨幅显著，反映出市场对该股有强烈的买入意愿和看涨情绪。它揭示了当前市场存在高度的多头共识，买方力量主导博弈，推动股价大幅上扬，可能源于利好消息、资金集中流入或机构积极参与，而非剧烈的多空分歧，显示出投资者对该股的短期信心增强。"
+    },
+    "overall_assessment": {
+      "verdict": "多方占优",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "涨幅17.05%显示强烈买方动能，换手率7.59%支持亢奋情绪，表明市场乐观且活跃。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力买入2.54亿元与卖出2.01亿元均较高，净买入0.53亿元（净率4.18%）显示对抗激烈；主力成交占比35.83%表明控盘力度较强，但流通市值179.64亿元下，净买入影响相对适中。"
+      },
+      "key_takeaway": "主力资金在激烈对抗中净买入，推动股价飙升17.05%，凸显多方主导战局。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "1.29亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "1.29亿元",
+          "buy_rate": "10.19%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "境外资金流入",
+          "style_profile": {
+            "summary": "执行标准互联互通机制，今日净买入，后市可能继续资金流入。",
+            "time_horizon": "中长期",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.39亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.39亿元",
+          "buy_rate": "3.08%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "机构建仓",
+          "style_profile": {
+            "summary": "机构席位建仓，后市可能持有或波段操作。",
+            "time_horizon": "中长期",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "摩根大通证券(中国)有限公司上海银城中路证券营业部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.31亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.31亿元",
+          "buy_rate": "2.43%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入",
+          "style_profile": {
+            "summary": "量化基金今日买入，可能在建仓，后市可能频繁做T。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "做T退出"
+          }
+        },
+        {
+          "seat_name": "中信证券股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.27亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.27亿元",
+          "buy_rate": "2.10%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入",
+          "style_profile": {
+            "summary": "量化基金今日买入，可能在建仓，后市可能频繁做T。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "做T退出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "华泰证券股份有限公司深圳益田路荣超商务中心证券营业部",
+          "player_type": "知名游资",
+          "player_name": "徐留胜",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.27亿元",
+          "net_amount": "-2,714.69万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.14%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "知名游资今日卖出，可能结束波段锁仓，后市可能观望或新入场。",
+            "time_horizon": "中短期",
+            "preferred_setup": "大手笔出手",
+            "typical_exit": "波段结束退出"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.33亿元",
+          "net_amount": "-3,272.32万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.58%",
+          "action_interpretation": "卖出",
+          "style_profile": {
+            "summary": "量化基金今日卖出，可能在做T或出货，后市可能反手买入。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "做T退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.38亿元",
+          "net_amount": "-3,841.94万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "3.03%",
+          "action_interpretation": "机构出货",
+          "style_profile": {
+            "summary": "机构席位卖出，后市可能调仓或观望。",
+            "time_horizon": "中长期",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.78亿元",
+          "net_amount": "-7,845.86万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "6.18%",
+          "action_interpretation": "境外资金流出",
+          "style_profile": {
+            "summary": "执行互联互通机制，今日净卖出，后市可能资金流出。",
+            "time_horizon": "中长期",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买家沪股通专用买入占比10.19%，其他买家占比在2.10%至3.08%之间，分布较均匀，无单一主导席位。",
+      "synergy_analysis": "存在协同作战迹象，摩根大通证券(中国)有限公司上海银城中路证券营业部和中信证券股份有限公司上海分公司两个量化基金席位同时上榜，策略相似（频繁做T、助涨助跌），均为净买入。"
+    },
+    "seller_analysis": {
+      "pressure_level": "high",
+      "pressure_desc": "卖压来源多样，涉及普通席位、知名游资（徐留胜）、量化基金、机构专用和沪股通专用，表明是普遍的获利了结行为，而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势转折点",
+      "trend_interpretation": "当前股价在经历短期回调后，于上榜日（2025-07-03）出现17.05%的强劲上涨，标志着趋势从整理阶段转向上涨初期。量价关系显示上榜日成交量大幅放大至20.62万手（远高于平均6.79万手），形成价涨量增的健康配合；前两日（2025-07-01和2025-07-02）缩量下跌（成交量分别为7.02万手和4.64万手），表明抛压减轻。关键信号包括上榜日的大阳线形态，开盘即最低点（56.25），收盘接近最高点（66.1），突破前期阻力位（如2025-06-30的高点60.5），形成强势突破信号。"
+    },
+    "final_verdict": {
+      "outlook": "基于当前分析，股票在经历17.05%的强劲上涨后，市场情绪亢奋，多方主导格局明确。短期趋势转向向上，量价配合健康，突破前期阻力位，预示上涨初期。后市展望：短期内可能延续涨势，但需警惕获利回吐压力；中长期受机构建仓和境外资金流入支撑，但量化基金频繁做T可能增加波动性。",
+      "strategy": "操作策略：建议散户投资者在股价回调至关键支撑位（如前低点56.25附近）时分批建仓，避免追高。短线交易者可关注量化基金行为，利用波段机会做T，设置止损点（如5%以内）。长期投资者可持有，监控主力资金流向和协同作战迹象，优先选择低吸策略。",
+      "risk_warning": "风险提示：市场情绪亢奋可能快速降温，导致回调风险。卖压来源多样，包括知名游资出货、机构减持和沪股通资金流出，暗示普遍获利了结。量化基金做T行为可能加剧短期波动，资本对抗激烈（净买入率4.18%）易引发高位套牢。投资者应控制仓位，严格设置止损，并关注流动性变化。"
+    }
+  },
+  "generated_at": "2025-07-03 19:04:41"
+}

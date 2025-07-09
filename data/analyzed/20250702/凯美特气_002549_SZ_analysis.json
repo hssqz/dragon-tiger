@@ -1,0 +1,377 @@
+{
+  "stock_info": {
+    "ts_code": "002549.SZ",
+    "name": "凯美特气",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+        "日涨幅偏离值达到7%的前5只证券"
+      ],
+      "interpretation": "这些上榜原因表明该股票近期表现异常强劲，涨幅远超市场平均水平，凸显出强烈的买方力量和高度关注度。它们反映了当前市场对该股票的高度乐观情绪和一致的多头共识，投资者可能因基本面改善、题材炒作或资金涌入而积极买入，导致价格快速上涨。博弈状态显示买方主导，空方力量被压制，市场情绪偏向积极且无显著分歧，暗示短期上涨趋势可能持续。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜出",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "日涨幅9.97%接近涨停，换手率27.06%极高，显示市场情绪高涨，买方主导明显。"
+      },
+      "capital_confrontation": {
+        "level": "强控盘，中等对抗",
+        "interpretation": "主力净买入1.33亿元，买入额3.25亿元远超卖出额1.99亿元，龙虎榜成交占比21.65%高，净买入率4.93%；流通市值86.27亿元相对较大，净买入额影响力适中，控盘力度强；买卖差额大，但净额正，对抗激烈程度中等。"
+      },
+      "key_takeaway": "主力资金强势净买入推动股价涨停，市场情绪亢奋，成为今日核心看点。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "国泰海通证券股份有限公司三亚迎宾路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "佛山系",
+          "buy_amount": "1.09亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "1.09亿元",
+          "buy_rate": "4.02%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封或拉板",
+          "style_profile": {
+            "summary": "执行标准一日游战法，后市最可能次日冲高出局。",
+            "time_horizon": "超短",
+            "preferred_setup": "一板个股",
+            "typical_exit": "次日冲高获利出局"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司三亚迎宾路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "佛山系",
+          "buy_amount": "1.09亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "1.09亿元",
+          "buy_rate": "4.91%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封或拉板",
+          "style_profile": {
+            "summary": "执行标准一日游战法，后市最可能次日冲高出局。",
+            "time_horizon": "超短",
+            "preferred_setup": "一板个股",
+            "typical_exit": "次日冲高获利出局"
+          }
+        },
+        {
+          "seat_name": "深股通专用",
+          "player_type": "机构",
+          "player_name": "深股通专用",
+          "buy_amount": "1.08亿元",
+          "sell_amount": "0.11亿元",
+          "net_amount": "0.96亿元",
+          "buy_rate": "4.85%",
+          "sell_rate": "0.51%",
+          "action_interpretation": "净买入操作",
+          "style_profile": {
+            "summary": "执行互联互通机制，后市可能中长期持有或调整仓位。",
+            "time_horizon": "中长期",
+            "preferred_setup": "规定范围内股票",
+            "typical_exit": "基于市场条件退出"
+          }
+        },
+        {
+          "seat_name": "深股通专用",
+          "player_type": "机构",
+          "player_name": "深股通专用",
+          "buy_amount": "1.08亿元",
+          "sell_amount": "0.11亿元",
+          "net_amount": "0.96亿元",
+          "buy_rate": "3.97%",
+          "sell_rate": "0.42%",
+          "action_interpretation": "净买入操作",
+          "style_profile": {
+            "summary": "执行互联互通机制，后市可能中长期持有或调整仓位。",
+            "time_horizon": "中长期",
+            "preferred_setup": "规定范围内股票",
+            "typical_exit": "基于市场条件退出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.23亿元",
+          "sell_amount": "0.11亿元",
+          "net_amount": "0.12亿元",
+          "buy_rate": "1.03%",
+          "sell_rate": "0.51%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "执行标准做T战法，后市继续日内交易。",
+            "time_horizon": "日内",
+            "preferred_setup": "适合做T的股票",
+            "typical_exit": "日内平仓"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.22亿元",
+          "sell_amount": "0.12亿元",
+          "net_amount": "0.10亿元",
+          "buy_rate": "0.83%",
+          "sell_rate": "0.45%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "执行标准做T战法，后市继续日内交易。",
+            "time_horizon": "日内",
+            "preferred_setup": "适合做T的股票",
+            "typical_exit": "日内平仓"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.25亿元",
+          "sell_amount": "0.15亿元",
+          "net_amount": "972.11万元",
+          "buy_rate": "0.91%",
+          "sell_rate": "0.56%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "执行标准做T战法，后市继续日内交易。",
+            "time_horizon": "日内",
+            "preferred_setup": "适合做T的股票",
+            "typical_exit": "日内平仓"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.20亿元",
+          "sell_amount": "0.10亿元",
+          "net_amount": "963.67万元",
+          "buy_rate": "0.90%",
+          "sell_rate": "0.47%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "执行标准做T战法，后市继续日内交易。",
+            "time_horizon": "日内",
+            "preferred_setup": "适合做T的股票",
+            "typical_exit": "日内平仓"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.21亿元",
+          "sell_amount": "0.14亿元",
+          "net_amount": "638.41万元",
+          "buy_rate": "0.93%",
+          "sell_rate": "0.65%",
+          "action_interpretation": "净买入",
+          "style_profile": {
+            "summary": "可能执行机构投资策略，后市取决于市场条件。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资",
+            "typical_exit": "基于基本面退出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "华鑫证券有限责任公司上海茅台路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "炒股养家",
+          "buy_amount": "0.30亿元",
+          "sell_amount": "0.31亿元",
+          "net_amount": "-81.96万元",
+          "buy_rate": "1.11%",
+          "sell_rate": "1.14%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "执行出货战法，后市可能继续离场或挖掘新题材。",
+            "time_horizon": "短期",
+            "preferred_setup": "龙头股",
+            "typical_exit": "高位逐步离场"
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司上海云锦路证券营业部",
+          "player_type": "普通席位",
+          "player_name": "普通席位",
+          "buy_amount": "0.11亿元",
+          "sell_amount": "0.23亿元",
+          "net_amount": "-1,133.61万元",
+          "buy_rate": "0.42%",
+          "sell_rate": "0.84%",
+          "action_interpretation": "净卖出",
+          "style_profile": {
+            "summary": "",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司上海静安区新闸路证券营业部",
+          "player_type": "普通席位",
+          "player_name": "普通席位",
+          "buy_amount": "0.20亿元",
+          "sell_amount": "0.33亿元",
+          "net_amount": "-1,315.24万元",
+          "buy_rate": "0.74%",
+          "sell_rate": "1.22%",
+          "action_interpretation": "净卖出",
+          "style_profile": {
+            "summary": "",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "中国银河证券股份有限公司绍兴证券营业部",
+          "player_type": "知名游资",
+          "player_name": "赵老哥",
+          "buy_amount": "39.01万元",
+          "sell_amount": "0.21亿元",
+          "net_amount": "-2,054.87万元",
+          "buy_rate": "0.02%",
+          "sell_rate": "0.94%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "可能执行接力后的出货，后市寻找新龙头机会。",
+            "time_horizon": "短期",
+            "preferred_setup": "龙头股",
+            "typical_exit": "高位退出"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司南京太平南路证券营业部",
+          "player_type": "普通席位",
+          "player_name": "普通席位",
+          "buy_amount": "29.03万元",
+          "sell_amount": "0.24亿元",
+          "net_amount": "-2,341.11万元",
+          "buy_rate": "0.01%",
+          "sell_rate": "1.07%",
+          "action_interpretation": "净卖出",
+          "style_profile": {
+            "summary": "",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司南京太平南路证券营业部",
+          "player_type": "普通席位",
+          "player_name": "普通席位",
+          "buy_amount": "42.74万元",
+          "sell_amount": "0.24亿元",
+          "net_amount": "-2,344.63万元",
+          "buy_rate": "0.02%",
+          "sell_rate": "0.88%",
+          "action_interpretation": "净卖出",
+          "style_profile": {
+            "summary": "",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司上海茅台路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "炒股养家",
+          "buy_amount": "4.26万元",
+          "sell_amount": "0.31亿元",
+          "net_amount": "-3,075.12万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.39%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "执行出货战法，后市可能继续离场或挖掘新题材。",
+            "time_horizon": "短期",
+            "preferred_setup": "龙头股",
+            "typical_exit": "高位逐步离场"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司上海静安区新闸路证券营业部",
+          "player_type": "普通席位",
+          "player_name": "普通席位",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.33亿元",
+          "net_amount": "-3,309.20万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.49%",
+          "action_interpretation": "净卖出",
+          "style_profile": {
+            "summary": "",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司宜昌沿江大道证券营业部",
+          "player_type": "知名游资",
+          "player_name": "消闲派",
+          "buy_amount": "12.44万元",
+          "sell_amount": "0.43亿元",
+          "net_amount": "-4,285.43万元",
+          "buy_rate": "0.01%",
+          "sell_rate": "1.94%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "执行首板后的出货，后市可能打新首板。",
+            "time_horizon": "短期",
+            "preferred_setup": "首板个股",
+            "typical_exit": "次日高溢价退出"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司宜昌沿江大道证券营业部",
+          "player_type": "知名游资",
+          "player_name": "消闲派",
+          "buy_amount": "12.44万元",
+          "sell_amount": "0.43亿元",
+          "net_amount": "-4,285.54万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.59%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "执行首板后的出货，后市可能打新首板。",
+            "time_horizon": "短期",
+            "preferred_setup": "首板个股",
+            "typical_exit": "次日高溢价退出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方主要由佛山系（约40%）和深股通专用（约40%）主导，其他买方如T王（约16.5%）和机构专用（约3.85%）份额较小，显示力量分散在两个主要实体。",
+      "synergy_analysis": "存在多个知名游资同时上榜（佛山系和T王），但风格差异（佛山系超短一日游 vs T王每日做T），无直接证据显示协同作战。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要来自特定主力（如炒股养家、赵老哥和消闲派）的集中出货行为。这些知名游资席位卖出金额显著（如炒股养家卖出0.31亿元两次，赵老哥卖出0.21亿元，消闲派卖出0.43亿元两次），且其交易风格（如隔日高位离场、打板后获利）表明有组织的大额卖出。普通席位虽有卖出，但金额较小且信息不足，不主导卖压，因此非普遍获利了结。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于主升浪阶段，从2025-06-30突破后加速上涨。量价关系方面，上榜日（2025-07-02）放巨量上涨（成交量187.33万手，远高于平均59.90万手），量价齐升；前几日如2025-06-30和2025-07-01同样放量上涨，量价配合良好。关键信号包括2025-06-30的大阳线突破前高平台（10.15元），以及连续大阳线（2025-07-01和2025-07-02）表明强势延续。"
+    },
+    "final_verdict": {
+      "outlook": "短期股价可能延续上涨趋势，受益于强劲买方力量和亢奋市场情绪，但需警惕部分买方资金（如佛山系）的短期出局行为和卖方主力集中出货引发的回调风险。中长期前景取决于基本面支撑，目前趋势加速但波动性高。",
+      "strategy": "已持仓者建议部分获利了结锁定收益；未持仓者可等待回调小仓位低吸，避免追高；短线交易者可关注日内波动机会，快进快出，优先设置止盈止损。",
+      "risk_warning": "高风险提示：高换手率（27.06%）和市场情绪亢奋易导致股价剧烈波动；卖方主力（如炒股养家、赵老哥）集中出货增加下行压力；短期游资行为（如一日游策略）可能引发快速反转。投资者应严格控制仓位，设置止损，避免过度杠杆。"
+    }
+  },
+  "generated_at": "2025-07-03 15:38:49"
+}

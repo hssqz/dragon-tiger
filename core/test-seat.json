@@ -1,0 +1,356 @@
+{
+  "stocks": [
+    {
+      "ts_code": "000525.SZ",
+      "name": "红太阳",
+      "trade_date": "20250617",
+      "basic_info": {
+        "close": 9.03,
+        "pct_change": "9.99%",
+        "turnover_rate": "16.46%",
+        "amount": "14.59亿元",
+        "l_sell": "1.09亿元",
+        "l_buy": "2.37亿元",
+        "l_amount": "3.47亿元",
+        "net_amount": "1.28亿元",
+        "net_rate": "8.76%",
+        "amount_rate": "23.77%",
+        "float_values": "89.40亿元",
+        "reasons": [
+          "日涨幅偏离值达到7%的前5只证券"
+        ],
+        "trade_date_display": "2025-06-17"
+      },
+      "seat_data": {
+        "buy_seats": [
+          {
+            "seat_name": "中信证券股份有限公司浙江分公司",
+            "buy_amount": "0.65亿元",
+            "sell_amount": "456.11万元",
+            "net_amount": "0.61亿元",
+            "buy_rate": "4.46%",
+            "sell_rate": "0.31%",
+            "player_info": {
+              "name": "普通席位",
+              "type": "普通席位",
+              "description": "暂无相关信息",
+              "style": [
+                "风格未明"
+              ]
+            }
+          },
+          {
+            "seat_name": "东亚前海证券有限责任公司苏州分公司",
+            "buy_amount": "0.54亿元",
+            "sell_amount": "0.00万元",
+            "net_amount": "0.54亿元",
+            "buy_rate": "3.72%",
+            "sell_rate": "0.00%",
+            "player_info": {
+              "name": "普通席位",
+              "type": "普通席位",
+              "description": "暂无相关信息",
+              "style": [
+                "风格未明"
+              ]
+            }
+          },
+          {
+            "seat_name": "国泰海通证券股份有限公司成都北一环路证券营业部",
+            "buy_amount": "0.41亿元",
+            "sell_amount": "0.54万元",
+            "net_amount": "0.41亿元",
+            "buy_rate": "2.81%",
+            "sell_rate": "0.00%",
+            "player_info": {
+              "name": "成都系",
+              "type": "知名游资",
+              "description": "超短游资，具备短时间内引导个股价格的能力，风格稳定，以超跌板为主，盘中都是直线拉升涨停，引导资金合力封板。擅长做首板个股并且盘中喜欢直线拉升，次日冲高后爱砸盘，偏爱中小盘个股。",
+              "style": {
+                "核心交易档案": "**模式:** 超跌板",
+                "标的选择偏好": "**定位:** 首板, 中小盘",
+                "盘中操盘密码": "**攻击:** 直线拉升; **风控:** 次日冲高砸盘",
+                "软实力与市场标签": "**标签:** 超短游资"
+              }
+            }
+          },
+          {
+            "seat_name": "华林证券股份有限公司北京分公司",
+            "buy_amount": "0.30亿元",
+            "sell_amount": "36.61万元",
+            "net_amount": "0.30亿元",
+            "buy_rate": "2.06%",
+            "sell_rate": "0.03%",
+            "player_info": {
+              "name": "普通席位",
+              "type": "普通席位",
+              "description": "暂无相关信息",
+              "style": [
+                "风格未明"
+              ]
+            }
+          },
+          {
+            "seat_name": "华源证券股份有限公司深圳分公司",
+            "buy_amount": "0.23亿元",
+            "sell_amount": "0.00万元",
+            "net_amount": "0.23亿元",
+            "buy_rate": "1.58%",
+            "sell_rate": "0.00%",
+            "player_info": {
+              "name": "普通席位",
+              "type": "普通席位",
+              "description": "暂无相关信息",
+              "style": [
+                "风格未明"
+              ]
+            }
+          }
+        ],
+        "sell_seats": [
+          {
+            "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+            "buy_amount": "800.10万元",
+            "sell_amount": "0.15亿元",
+            "net_amount": "-698.68万元",
+            "buy_rate": "0.55%",
+            "sell_rate": "1.03%",
+            "player_info": {
+              "name": "T王",
+              "type": "知名游资",
+              "description": "此类席位每天做T，其乐无穷。",
+              "style": {
+                "核心交易档案": "**模式:** 每天做T",
+                "软实力与市场标签": "**标签:** 东方财富拉萨天团"
+              }
+            }
+          },
+          {
+            "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+            "buy_amount": "907.49万元",
+            "sell_amount": "0.18亿元",
+            "net_amount": "-912.75万元",
+            "buy_rate": "0.62%",
+            "sell_rate": "1.25%",
+            "player_info": {
+              "name": "T王",
+              "type": "知名游资",
+              "description": "此类席位每天做T，其乐无穷。",
+              "style": {
+                "核心交易档案": "**模式:** 每天做T",
+                "软实力与市场标签": "**标签:** 东方财富拉萨天团"
+              }
+            }
+          },
+          {
+            "seat_name": "平安证券股份有限公司福州长乐北路证券营业部",
+            "buy_amount": "512.34万元",
+            "sell_amount": "0.15亿元",
+            "net_amount": "-968.46万元",
+            "buy_rate": "0.35%",
+            "sell_rate": "1.02%",
+            "player_info": {
+              "name": "温州帮",
+              "type": "知名游资",
+              "description": "2016年操作次新股一战成名，手法彪悍，经常连续拉升3个涨停板。操作手法往往多席位联合出动，同时盘踞在数只次新股，建仓迅速，深度控盘，快速对倒拉升。",
+              "style": {
+                "核心交易档案": "**模式:** 深度控盘, 快速拉升",
+                "标的选择偏好": "**定位:** 次新股",
+                "盘中操盘密码": "**攻击:** 对倒拉升; **协同:** 多席位联合出动",
+                "软实力与市场标签": "**标签:** 手法彪悍"
+              }
+            }
+          },
+          {
+            "seat_name": "华泰证券股份有限公司南京大光路证券营业部",
+            "buy_amount": "158.59万元",
+            "sell_amount": "0.26亿元",
+            "net_amount": "-2,445.13万元",
+            "buy_rate": "0.11%",
+            "sell_rate": "1.79%",
+            "player_info": {
+              "name": "普通席位",
+              "type": "普通席位",
+              "description": "暂无相关信息",
+              "style": [
+                "风格未明"
+              ]
+            }
+          },
+          {
+            "seat_name": "国元证券股份有限公司宁波分公司",
+            "buy_amount": "0.00万元",
+            "sell_amount": "0.30亿元",
+            "net_amount": "-3,047.81万元",
+            "buy_rate": "0.00%",
+            "sell_rate": "2.09%",
+            "player_info": {
+              "name": "普通席位",
+              "type": "普通席位",
+              "description": "暂无相关信息",
+              "style": [
+                "风格未明"
+              ]
+            }
+          }
+        ],
+        "buy_total": "2.37亿元",
+        "sell_total": "1.09亿元"
+      },
+      "historical_data": {
+        "chart_data": [
+          {
+            "date": "20250528",
+            "date_display": "2025-05-28",
+            "open": 7.43,
+            "high": 7.43,
+            "low": 7.09,
+            "close": 7.15,
+            "volume": "109.94万手",
+            "amount": "8.07亿元",
+            "pct_change": "0.99%"
+          },
+          {
+            "date": "20250529",
+            "date_display": "2025-05-29",
+            "open": 7.0,
+            "high": 7.24,
+            "low": 6.92,
+            "close": 7.07,
+            "volume": "52.50万手",
+            "amount": "3.72亿元",
+            "pct_change": "-1.12%"
+          },
+          {
+            "date": "20250530",
+            "date_display": "2025-05-30",
+            "open": 7.07,
+            "high": 7.42,
+            "low": 7.07,
+            "close": 7.33,
+            "volume": "44.77万手",
+            "amount": "3.27亿元",
+            "pct_change": "3.68%"
+          },
+          {
+            "date": "20250603",
+            "date_display": "2025-06-03",
+            "open": 7.22,
+            "high": 7.57,
+            "low": 7.18,
+            "close": 7.45,
+            "volume": "35.15万手",
+            "amount": "2.60亿元",
+            "pct_change": "1.64%"
+          },
+          {
+            "date": "20250604",
+            "date_display": "2025-06-04",
+            "open": 7.41,
+            "high": 7.55,
+            "low": 7.36,
+            "close": 7.42,
+            "volume": "28.46万手",
+            "amount": "2.13亿元",
+            "pct_change": "-0.40%"
+          },
+          {
+            "date": "20250605",
+            "date_display": "2025-06-05",
+            "open": 7.45,
+            "high": 7.79,
+            "low": 7.42,
+            "close": 7.79,
+            "volume": "31.57万手",
+            "amount": "2.43亿元",
+            "pct_change": "4.99%"
+          },
+          {
+            "date": "20250606",
+            "date_display": "2025-06-06",
+            "open": 8.08,
+            "high": 8.18,
+            "low": 7.86,
+            "close": 8.13,
+            "volume": "85.31万手",
+            "amount": "6.88亿元",
+            "pct_change": "4.36%"
+          },
+          {
+            "date": "20250609",
+            "date_display": "2025-06-09",
+            "open": 8.0,
+            "high": 8.54,
+            "low": 7.95,
+            "close": 8.54,
+            "volume": "57.38万手",
+            "amount": "4.78亿元",
+            "pct_change": "5.04%"
+          },
+          {
+            "date": "20250610",
+            "date_display": "2025-06-10",
+            "open": 8.54,
+            "high": 8.85,
+            "low": 8.36,
+            "close": 8.5,
+            "volume": "69.97万手",
+            "amount": "6.02亿元",
+            "pct_change": "-0.47%"
+          },
+          {
+            "date": "20250611",
+            "date_display": "2025-06-11",
+            "open": 8.5,
+            "high": 8.58,
+            "low": 8.08,
+            "close": 8.29,
+            "volume": "62.09万手",
+            "amount": "5.14亿元",
+            "pct_change": "-2.47%"
+          },
+          {
+            "date": "20250613",
+            "date_display": "2025-06-13",
+            "open": 9.1,
+            "high": 9.1,
+            "low": 8.03,
+            "close": 8.68,
+            "volume": "165.89万手",
+            "amount": "14.31亿元",
+            "pct_change": "4.70%"
+          },
+          {
+            "date": "20250616",
+            "date_display": "2025-06-16",
+            "open": 8.27,
+            "high": 8.67,
+            "low": 8.16,
+            "close": 8.21,
+            "volume": "81.29万手",
+            "amount": "6.81亿元",
+            "pct_change": "-5.41%"
+          },
+          {
+            "date": "20250617",
+            "date_display": "2025-06-17",
+            "open": 8.31,
+            "high": 9.03,
+            "low": 8.31,
+            "close": 9.03,
+            "volume": "162.98万手",
+            "amount": "14.59亿元",
+            "pct_change": "9.99%"
+          }
+        ],
+        "summary": {
+          "days_count": 13,
+          "max_price": 9.1,
+          "min_price": 6.92,
+          "avg_volume": "75.95万手",
+          "volatility": "4.04%"
+        }
+      }
+    }
+  ]
+}

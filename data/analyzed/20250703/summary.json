@@ -1,0 +1,532 @@
+{
+  "meta": {
+    "trade_date": "20250703",
+    "trade_date_display": "2025-07-03",
+    "total_stocks": 69,
+    "successful_analysis": 69,
+    "analysis_success_rate": "100.0%",
+    "post_generation_enabled": true,
+    "total_posts": 69,
+    "successful_posts": 69,
+    "skipped_posts": 0,
+    "post_success_rate": "100.0%",
+    "generated_at": "2025-07-03T19:28:56.316690",
+    "processing_mode": "high_concurrency_parallel",
+    "max_workers": 16,
+    "api_delay": 0.1
+  },
+  "stock_list": [
+    {
+      "name": "未名医药",
+      "ts_code": "002581.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_未名医药_gushen_post_v2.1_191532.md"
+    },
+    {
+      "name": "恒立退",
+      "ts_code": "000622.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_恒立退_gushen_post_v2.1_191542.md"
+    },
+    {
+      "name": "江南新材",
+      "ts_code": "603124.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_江南新材_gushen_post_v2.1_191523.md"
+    },
+    {
+      "name": "逸豪新材",
+      "ts_code": "301176.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_逸豪新材_gushen_post_v2.1_191517.md"
+    },
+    {
+      "name": "广生堂",
+      "ts_code": "300436.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_广生堂_gushen_post_v2.1_191551.md"
+    },
+    {
+      "name": "退市海越",
+      "ts_code": "600387.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_退市海越_gushen_post_v2.1_191529.md"
+    },
+    {
+      "name": "信宇人",
+      "ts_code": "688573.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_信宇人_gushen_post_v2.1_191526.md"
+    },
+    {
+      "name": "博敏电子",
+      "ts_code": "603936.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_博敏电子_gushen_post_v2.1_191545.md"
+    },
+    {
+      "name": "弘业期货",
+      "ts_code": "001236.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_弘业期货_gushen_post_v2.1_191526.md"
+    },
+    {
+      "name": "亚星化学",
+      "ts_code": "600319.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_亚星化学_gushen_post_v2.1_191516.md"
+    },
+    {
+      "name": "中京电子",
+      "ts_code": "002579.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_中京电子_gushen_post_v2.1_191548.md"
+    },
+    {
+      "name": "吉鑫科技",
+      "ts_code": "601218.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_吉鑫科技_gushen_post_v2.1_191504.md"
+    },
+    {
+      "name": "中一科技",
+      "ts_code": "301150.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_中一科技_gushen_post_v2.1_191551.md"
+    },
+    {
+      "name": "中程退",
+      "ts_code": "300208.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_中程退_gushen_post_v2.1_191509.md"
+    },
+    {
+      "name": "神州细胞",
+      "ts_code": "688520.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_神州细胞_gushen_post_v2.1_191534.md"
+    },
+    {
+      "name": "博菲电气",
+      "ts_code": "001255.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_博菲电气_gushen_post_v2.1_191504.md"
+    },
+    {
+      "name": "兴业股份",
+      "ts_code": "603928.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_兴业股份_gushen_post_v2.1_191804.md"
+    },
+    {
+      "name": "长城电工",
+      "ts_code": "600192.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_长城电工_gushen_post_v2.1_191823.md"
+    },
+    {
+      "name": "柳钢股份",
+      "ts_code": "601003.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_柳钢股份_gushen_post_v2.1_191840.md"
+    },
+    {
+      "name": "塞力转债",
+      "ts_code": "113601.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_塞力转债_gushen_post_v2.1_191840.md"
+    },
+    {
+      "name": "红墙股份",
+      "ts_code": "002809.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_红墙股份_gushen_post_v2.1_191813.md"
+    },
+    {
+      "name": "华盛锂电",
+      "ts_code": "688353.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_华盛锂电_gushen_post_v2.1_191856.md"
+    },
+    {
+      "name": "合金投资",
+      "ts_code": "000633.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_合金投资_gushen_post_v2.1_191843.md"
+    },
+    {
+      "name": "科力股份",
+      "ts_code": "920088.BJ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_科力股份_gushen_post_v2.1_191854.md"
+    },
+    {
+      "name": "*ST正平",
+      "ts_code": "603843.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_*ST正平_gushen_post_v2.1_191748.md"
+    },
+    {
+      "name": "雪迪龙",
+      "ts_code": "002658.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_雪迪龙_gushen_post_v2.1_191907.md"
+    },
+    {
+      "name": "退市锦港",
+      "ts_code": "600190.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_退市锦港_gushen_post_v2.1_191912.md"
+    },
+    {
+      "name": "亚玛顿",
+      "ts_code": "002623.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_亚玛顿_gushen_post_v2.1_191859.md"
+    },
+    {
+      "name": "耀皮玻璃",
+      "ts_code": "600819.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_耀皮玻璃_gushen_post_v2.1_191902.md"
+    },
+    {
+      "name": "西上海",
+      "ts_code": "605151.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_西上海_gushen_post_v2.1_191853.md"
+    },
+    {
+      "name": "红宝丽",
+      "ts_code": "002165.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_红宝丽_gushen_post_v2.1_191912.md"
+    },
+    {
+      "name": "好上好",
+      "ts_code": "001298.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_好上好_gushen_post_v2.1_191930.md"
+    },
+    {
+      "name": "铂力特",
+      "ts_code": "688333.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_铂力特_gushen_post_v2.1_192101.md"
+    },
+    {
+      "name": "广信科技",
+      "ts_code": "920037.BJ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_广信科技_gushen_post_v2.1_192136.md"
+    },
+    {
+      "name": "诚意药业",
+      "ts_code": "603811.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_诚意药业_gushen_post_v2.1_192129.md"
+    },
+    {
+      "name": "威马农机",
+      "ts_code": "301533.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_威马农机_gushen_post_v2.1_192148.md"
+    },
+    {
+      "name": "精艺股份",
+      "ts_code": "002295.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_精艺股份_gushen_post_v2.1_192211.md"
+    },
+    {
+      "name": "华银电力",
+      "ts_code": "600744.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_华银电力_gushen_post_v2.1_192222.md"
+    },
+    {
+      "name": "长春高新",
+      "ts_code": "000661.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_长春高新_gushen_post_v2.1_192220.md"
+    },
+    {
+      "name": "大东南",
+      "ts_code": "002263.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_大东南_gushen_post_v2.1_192217.md"
+    },
+    {
+      "name": "微芯生物",
+      "ts_code": "688321.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_微芯生物_gushen_post_v2.1_192234.md"
+    },
+    {
+      "name": "昂利康",
+      "ts_code": "002940.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_昂利康_gushen_post_v2.1_192232.md"
+    },
+    {
+      "name": "退市锦B",
+      "ts_code": "900952.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_退市锦B_gushen_post_v2.1_192210.md"
+    },
+    {
+      "name": "美诺华",
+      "ts_code": "603538.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_美诺华_gushen_post_v2.1_192227.md"
+    },
+    {
+      "name": "欣灵电气",
+      "ts_code": "301388.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_欣灵电气_gushen_post_v2.1_192203.md"
+    },
+    {
+      "name": "百洋股份",
+      "ts_code": "002696.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_百洋股份_gushen_post_v2.1_192235.md"
+    },
+    {
+      "name": "亿晶光电",
+      "ts_code": "600537.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_亿晶光电_gushen_post_v2.1_192242.md"
+    },
+    {
+      "name": "南山控股",
+      "ts_code": "002314.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_南山控股_gushen_post_v2.1_192323.md"
+    },
+    {
+      "name": "科兴制药",
+      "ts_code": "688136.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_科兴制药_gushen_post_v2.1_192454.md"
+    },
+    {
+      "name": "智立方",
+      "ts_code": "301312.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_智立方_gushen_post_v2.1_192442.md"
+    },
+    {
+      "name": "诚邦股份",
+      "ts_code": "603316.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_诚邦股份_gushen_post_v2.1_192442.md"
+    },
+    {
+      "name": "佳合科技",
+      "ts_code": "872392.BJ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_佳合科技_gushen_post_v2.1_192512.md"
+    },
+    {
+      "name": "巨力索具",
+      "ts_code": "002342.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_巨力索具_gushen_post_v2.1_192518.md"
+    },
+    {
+      "name": "退市九有",
+      "ts_code": "600462.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_退市九有_gushen_post_v2.1_192529.md"
+    },
+    {
+      "name": "鹏鼎控股",
+      "ts_code": "002938.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_鹏鼎控股_gushen_post_v2.1_192548.md"
+    },
+    {
+      "name": "工智退",
+      "ts_code": "000584.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_工智退_gushen_post_v2.1_192532.md"
+    },
+    {
+      "name": "深水海纳",
+      "ts_code": "300961.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_深水海纳_gushen_post_v2.1_192545.md"
+    },
+    {
+      "name": "神开股份",
+      "ts_code": "002278.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_神开股份_gushen_post_v2.1_192602.md"
+    },
+    {
+      "name": "长龄液压",
+      "ts_code": "605389.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_长龄液压_gushen_post_v2.1_192557.md"
+    },
+    {
+      "name": "南方路机",
+      "ts_code": "603280.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_南方路机_gushen_post_v2.1_192602.md"
+    },
+    {
+      "name": "华维设计",
+      "ts_code": "833427.BJ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_华维设计_gushen_post_v2.1_192539.md"
+    },
+    {
+      "name": "西测测试",
+      "ts_code": "301306.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_西测测试_gushen_post_v2.1_192535.md"
+    },
+    {
+      "name": "常青科技",
+      "ts_code": "603125.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_常青科技_gushen_post_v2.1_192622.md"
+    },
+    {
+      "name": "大烨智能",
+      "ts_code": "300670.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_大烨智能_gushen_post_v2.1_192653.md"
+    },
+    {
+      "name": "御银股份",
+      "ts_code": "002177.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_御银股份_gushen_post_v2.1_192753.md"
+    },
+    {
+      "name": "安妮股份",
+      "ts_code": "002235.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_安妮股份_gushen_post_v2.1_192800.md"
+    },
+    {
+      "name": "克莱特",
+      "ts_code": "831689.BJ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_克莱特_gushen_post_v2.1_192757.md"
+    },
+    {
+      "name": "恒宝股份",
+      "ts_code": "002104.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_恒宝股份_gushen_post_v2.1_192856.md"
+    },
+    {
+      "name": "人乐退",
+      "ts_code": "002336.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "data/output/posts/20250703/20250703_人乐退_gushen_post_v2.1_192835.md"
+    }
+  ],
+  "summary_stats": {
+    "verdict_distribution": {
+      "多头获胜": 1,
+      "多方小胜": 2,
+      "空方略占优势": 3,
+      "多方推动涨停但主力资金净流出": 1,
+      "多方胜出": 10,
+      "多方占优": 4,
+      "空方胜出": 6,
+      "空方占优": 7,
+      "多头小胜": 1,
+      "多方获胜": 3,
+      "多方胜利": 7,
+      "空方胜利": 4,
+      "空方获胜": 3,
+      "空方胜": 2,
+      "多头胜": 1,
+      "多头占优": 3,
+      "多头胜出": 2,
+      "多头微弱优势": 1,
+      "空头胜出": 2,
+      "多方胜": 2,
+      "轻微多方优势": 1,
+      "空头胜": 1,
+      "空方占据压倒性优势": 1,
+      "多空持平": 1
+    },
+    "average_confidence": 0.84
+  }
+}

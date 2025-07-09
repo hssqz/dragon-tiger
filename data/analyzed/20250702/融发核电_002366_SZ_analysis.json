@@ -1,0 +1,172 @@
+{
+  "stock_info": {
+    "ts_code": "002366.SZ",
+    "name": "融发核电",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日换手率达到20%的前5只证券"
+      ],
+      "interpretation": "高换手率达到20%表明该股票在当天的交易异常活跃，这通常意味着市场对该股票存在显著的分歧和博弈状态。多头和空头都在激烈争夺，导致价格波动加剧，反映了强烈的多空分歧而非多头共识，可能源于游资炒作、题材热点或短期投机行为，显示出高风险高波动的市场情绪。"
+    },
+    "overall_assessment": {
+      "verdict": "多方获胜",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "股价上涨6.59%和高换手率45.66%表明市场情绪亢奋，显示买盘强劲且交易活跃。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力净买入2.10亿元（买入5.13亿元，卖出3.02亿元），但占流通市值111.83亿元比例低（约1.88%），控盘力度中等；高换手率45.66%反映多空对抗激烈。"
+      },
+      "key_takeaway": "主力资金在高换手率下净买入，是推动股价上涨6.59%的核心看点。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "深股通专用",
+          "player_type": "机构",
+          "player_name": "深股通专用",
+          "buy_amount": "1.47亿元",
+          "sell_amount": "0.24亿元",
+          "net_amount": "1.23亿元",
+          "buy_rate": "2.88%",
+          "sell_rate": "0.47%",
+          "action_interpretation": "建仓",
+          "style_profile": {
+            "summary": "今天净买入大，执行标准战法：通过深港通机制建仓。后市最可能剧本：持续持有或根据市场趋势调整配置。",
+            "time_horizon": "中长期",
+            "preferred_setup": "互联互通机制相关蓝筹股",
+            "typical_exit": "基于市场趋势或机制变化"
+          }
+        },
+        {
+          "seat_name": "国盛证券有限责任公司宁波天童南路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "天童南路",
+          "buy_amount": "0.65亿元",
+          "sell_amount": "246.67万元",
+          "net_amount": "0.62亿元",
+          "buy_rate": "1.27%",
+          "sell_rate": "0.05%",
+          "action_interpretation": "接力或主攻",
+          "style_profile": {
+            "summary": "今天净买入，执行标准战法：题材挖掘和拐点捕捉。后市最可能剧本：快速退出或短期持有以锁定利润。",
+            "time_horizon": "短期",
+            "preferred_setup": "题材热点和拐点交易",
+            "typical_exit": "出手干净利落，快速止盈止损"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.50亿元",
+          "sell_amount": "0.50亿元",
+          "net_amount": "30.54万元",
+          "buy_rate": "0.98%",
+          "sell_rate": "0.98%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今天做T，执行标准战法：日内波动交易。后市最可能剧本：继续日内操作，对股价影响中性。",
+            "time_horizon": "超短期",
+            "preferred_setup": "做T，利用价格波动",
+            "typical_exit": "日内平仓"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.41亿元",
+          "sell_amount": "0.47亿元",
+          "net_amount": "-649.20万元",
+          "buy_rate": "0.79%",
+          "sell_rate": "0.92%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今天做T，执行标准战法：日内波动交易。后市最可能剧本：继续日内操作，对股价影响中性。",
+            "time_horizon": "超短期",
+            "preferred_setup": "做T，利用价格波动",
+            "typical_exit": "日内平仓"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.37亿元",
+          "sell_amount": "0.49亿元",
+          "net_amount": "-1,176.14万元",
+          "buy_rate": "0.73%",
+          "sell_rate": "0.96%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今天做T，执行标准战法：日内波动交易。后市最可能剧本：继续日内操作，对股价影响中性。",
+            "time_horizon": "超短期",
+            "preferred_setup": "做T，利用价格波动",
+            "typical_exit": "日内平仓"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.39亿元",
+          "sell_amount": "0.54亿元",
+          "net_amount": "-1,472.96万元",
+          "buy_rate": "0.77%",
+          "sell_rate": "1.06%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今天做T，执行标准战法：日内波动交易。后市最可能剧本：继续日内操作，对股价影响中性。",
+            "time_horizon": "超短期",
+            "preferred_setup": "做T，利用价格波动",
+            "typical_exit": "日内平仓"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "334.19万元",
+          "sell_amount": "0.75亿元",
+          "net_amount": "-7,182.40万元",
+          "buy_rate": "0.07%",
+          "sell_rate": "1.47%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今天净卖出大，执行标准战法：减仓或出货。后市最可能剧本：可能继续减持或基于基本面调整头寸。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资或资产配置",
+            "typical_exit": "基于基本面分析"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买方席位深股通专用占上榜总买入额约37.5%，其他席位如国投证券西安朱雀大街、国盛证券宁波天童南路等各占12-18%，分布较为均匀，无单一席位主导。",
+      "synergy_analysis": "存在协同作战迹象，因为两个知名游资（国盛证券宁波天童南路和东方财富拉萨金融城南环路）同时上榜买方席位，可能表示共同参与市场操作或题材挖掘。"
+    },
+    "seller_analysis": {
+      "pressure_level": "显著",
+      "pressure_desc": "卖压主要来自特定主力的集中出货，特别是机构专用席位的大额卖出行为，而非普遍的获利了结；游资席位因日常做T策略仅有少量贡献。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于短期上涨趋势的加速阶段，从2025-06-30启动反弹，突破前期整理平台后连续上涨。量价关系方面，上榜日（2025-07-02）成交量显著放大至573.70万手（远高于平均414.05万手），配合价格上涨6.59%，形成放量上涨态势；前两日（2025-07-01和2025-06-30）也持续放量上涨，量价配合积极，显示买盘强劲。关键信号包括上榜日大阳线突破2025-06-18的高点9.06，创出新高，但收盘略低于高点留下较长上影线，暗示上方短期压力；同时，从2025-06-30开始连续三根放量阳线，确认趋势加速并突破关键阻力位。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望：市场情绪亢奋，多方主导推动股价处于加速上涨趋势，量价配合积极，短期可能继续冲高挑战新高。但高换手率45.66%反映多空分歧激烈，上方压力（如上影线所示）和机构出货风险增加，中长期需关注基本面变化和深股通建仓的支撑作用。",
+      "strategy": "操作策略建议：短线参与，逢低买入（如支撑位8.50元附近），目标价设在前高9.06元以上；快进快出，跟随深股通和国盛证券天童南路的买入信号，但设置止损（如跌破8.50元）；避免追涨杀跌，控制仓位在总资金的10%以内；不推荐中长期持有，因机构减持风险。",
+      "risk_warning": "风险提示：高换手率和波动性可能导致价格剧烈变动；机构专用席位大幅出货（净卖出7182.40万元）可能引发卖压；游资做T行为增加日内波动风险；市场情绪亢奋易反转；投资者应严格止损，避免重仓，并实时监控资金流向和消息面变化。"
+    }
+  },
+  "generated_at": "2025-07-03 15:38:13"
+}

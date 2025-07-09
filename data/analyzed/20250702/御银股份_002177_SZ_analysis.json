@@ -1,0 +1,189 @@
+{
+  "stock_info": {
+    "ts_code": "002177.SZ",
+    "name": "御银股份",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日换手率达到20%的前5只证券"
+      ],
+      "interpretation": "日换手率达到20%表明该股票交易异常活跃，反映了市场对该股票的高度关注和强烈的买卖兴趣，这通常源于重大新闻、业绩预期变化或投机行为。它揭示了剧烈的多空分歧而非多头共识，显示出投资者情绪的分歧和不确定性，博弈状态激烈，可能导致价格大幅波动。"
+    },
+    "overall_assessment": {
+      "verdict": "多头胜出",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "股价涨幅达6.05%且换手率高达58.99%，表明市场情绪极度亢奋，投资者积极交易。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力资金净买入1.80亿元（占流通市值约3.27%），买入额3.72亿元远超卖出额1.92亿元，结合高换手率58.99%，显示控盘力度中等但多空对抗激烈。"
+      },
+      "key_takeaway": "主力积极介入推动股价上涨，高换手率凸显市场分歧中多头主导。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "国盛证券有限责任公司宁波天童南路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "天童南路",
+          "buy_amount": "1.06亿元",
+          "sell_amount": "63.05万元",
+          "net_amount": "1.06亿元",
+          "buy_rate": "3.22%",
+          "sell_rate": "0.02%",
+          "action_interpretation": "主封或主导买入，净买入额高，显示强势介入",
+          "style_profile": {
+            "summary": "执行标准战法（题材挖掘和拐点捕捉），后市可能继续推高股价或挖掘新题材",
+            "time_horizon": "短线",
+            "preferred_setup": "题材股",
+            "typical_exit": "拐点后获利了结"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司成都北一环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "成都系",
+          "buy_amount": "0.40亿元",
+          "sell_amount": "65.25万元",
+          "net_amount": "0.40亿元",
+          "buy_rate": "1.22%",
+          "sell_rate": "0.02%",
+          "action_interpretation": "接力或首板介入，净买入显著，显示短线引导",
+          "style_profile": {
+            "summary": "执行标准战法（超跌板和直线拉升），后市可能次日冲高后砸盘",
+            "time_horizon": "超短线",
+            "preferred_setup": "首板中小盘股",
+            "typical_exit": "次日冲高砸盘"
+          }
+        },
+        {
+          "seat_name": "中国银河证券股份有限公司绍兴证券营业部",
+          "player_type": "知名游资",
+          "player_name": "赵老哥",
+          "buy_amount": "0.39亿元",
+          "sell_amount": "27.87万元",
+          "net_amount": "0.39亿元",
+          "buy_rate": "1.19%",
+          "sell_rate": "0.01%",
+          "action_interpretation": "接力或打板，净买入高，显示龙头股介入",
+          "style_profile": {
+            "summary": "执行标准战法（主线题材接力），后市可能激发市场资金持续接力",
+            "time_horizon": "短线",
+            "preferred_setup": "主线龙头股",
+            "typical_exit": "题材退潮后退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.33亿元",
+          "sell_amount": "0.30亿元",
+          "net_amount": "275.59万元",
+          "buy_rate": "1.00%",
+          "sell_rate": "0.92%",
+          "action_interpretation": "做T或调仓，买卖额相近",
+          "style_profile": {
+            "summary": "机构标准调仓行为，后市可能稳定持有或继续调整",
+            "time_horizon": "中长线",
+            "preferred_setup": "机构偏好股",
+            "typical_exit": "价值回归后退出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.19亿元",
+          "sell_amount": "0.26亿元",
+          "net_amount": "-668.41万元",
+          "buy_rate": "0.57%",
+          "sell_rate": "0.77%",
+          "action_interpretation": "做T，净卖出显示日内高抛",
+          "style_profile": {
+            "summary": "执行标准战法（每日做T），后市可能继续高抛低吸",
+            "time_horizon": "日内",
+            "preferred_setup": "波动性个股",
+            "typical_exit": "日内了结"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.20亿元",
+          "sell_amount": "0.29亿元",
+          "net_amount": "-815.31万元",
+          "buy_rate": "0.62%",
+          "sell_rate": "0.87%",
+          "action_interpretation": "做T，净卖出显示日内高抛",
+          "style_profile": {
+            "summary": "执行标准战法（每日做T），后市可能继续高抛低吸",
+            "time_horizon": "日内",
+            "preferred_setup": "波动性个股",
+            "typical_exit": "日内了结"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.62亿元",
+          "sell_amount": "0.78亿元",
+          "net_amount": "-1,651.92万元",
+          "buy_rate": "1.88%",
+          "sell_rate": "2.38%",
+          "action_interpretation": "出货或调仓，净卖出显著",
+          "style_profile": {
+            "summary": "机构标准出货行为，后市可能减仓或观望",
+            "time_horizon": "中长线",
+            "preferred_setup": "机构偏好股",
+            "typical_exit": "价值高估后退出"
+          }
+        },
+        {
+          "seat_name": "中信证券股份有限公司杭州凤起路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "N周二",
+          "buy_amount": "21.38万元",
+          "sell_amount": "0.27亿元",
+          "net_amount": "-2,648.01万元",
+          "buy_rate": "0.01%",
+          "sell_rate": "0.81%",
+          "action_interpretation": "出货，净卖出额高",
+          "style_profile": {
+            "summary": "可能执行标准战法（短线趋势出货），后市可能短线调整或低吸回补",
+            "time_horizon": "短线",
+            "preferred_setup": "趋势股",
+            "typical_exit": "趋势反转后退出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买方席位占比3.22%，各席位买入比例在1.00%至3.22%之间，分布较为均匀，无单一主导力量。",
+      "synergy_analysis": "存在协同作战迹象，多个知名游资同时上榜，包括天童南路、成都系和赵老哥。"
+    },
+    "seller_analysis": {
+      "pressure_level": "高",
+      "pressure_desc": "卖压主要来自特定主力（如中信证券杭州凤起路证券营业部的N周二席位）的集中出货，表现为买入极少而卖出显著；其他席位（如东方财富拉萨天团席位和机构专用）则显示普遍的获利了结行为，伴随一定买入。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于短期上涨趋势的加速阶段。量价关系方面，上榜日（2025-07-02）放量上涨（成交量394.77万手，显著高于平均266.64万手），显示买盘强劲；前一日（2025-07-01）放量下跌后迅速反转，表明支撑有效。关键信号包括大阳线形态（实体涨幅6.05%）和突破前高（收盘价8.24突破6月30日高点8.06），形成技术突破信号。"
+    },
+    "final_verdict": {
+      "outlook": "基于多头胜出和亢奋市场情绪，股价可能延续上涨趋势，但高换手率58.99%显示多空分歧剧烈，需警惕短期波动。技术面突破前高和放量上涨支撑上行潜力，但机构出货和游资做T行为增加了不确定性。",
+      "strategy": "建议短线投资者逢低介入，目标价设于8.50元附近，止损位设置在7.80元；密切关注游资动向，如成都系可能次日冲高砸盘，避免追高；结合题材股特性，适时获利了结。",
+      "risk_warning": "高风险提示：高换手率和亢奋情绪可能导致价格剧烈波动；游资短线操作（如成都系次日砸盘）或引发快速回调；机构净卖出显示潜在抛压增加；散户应严格控制仓位，避免杠杆操作。"
+    }
+  },
+  "generated_at": "2025-07-03 15:35:16"
+}

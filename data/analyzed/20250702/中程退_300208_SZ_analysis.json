@@ -1,0 +1,86 @@
+{
+  "stock_info": {
+    "ts_code": "300208.SZ",
+    "name": "中程退",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "退市整理期"
+      ],
+      "interpretation": "退市整理期表明该股票已进入退市程序，通常由公司基本面严重恶化、财务困境或违规行为引发，这反映了市场对该股票的极度悲观情绪和恐慌性抛售压力。博弈状态表现为强烈的空头主导，多空分歧较小，投资者普遍急于减持以避免进一步损失，导致股价剧烈波动但整体呈单边下跌趋势。"
+    },
+    "overall_assessment": {
+      "verdict": "空方略占优势",
+      "confidence_score": 0.7,
+      "market_sentiment": {
+        "level": "分歧",
+        "interpretation": "涨跌幅为0.00%和换手率2.80%较低，表明市场情绪分歧，无明显亢奋或恐慌迹象"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力成交额占比71.36%高，但净卖出额-32.79万元（净买入率-6.75%），显示主力资金活跃但多空对抗激烈，控盘力度较弱"
+      },
+      "key_takeaway": "退市整理期中，主力净卖出但价格稳定，凸显未来下行风险"
+    },
+    "key_forces": {
+      "buying_force": [],
+      "selling_force": [
+        {
+          "seat_name": "国金证券股份有限公司深圳湾一号证券营业部",
+          "player_type": "知名游资",
+          "player_name": "欢乐海岸",
+          "buy_amount": "1.10万元",
+          "sell_amount": "18.73万元",
+          "net_amount": "-17.62万元",
+          "buy_rate": "0.23%",
+          "sell_rate": "3.85%",
+          "action_interpretation": "出货或离场",
+          "style_profile": {
+            "summary": "今天卖出行为符合其标准高位板离场战法，后市最可能剧本是尾盘拉升稳定股价。",
+            "time_horizon": "中期",
+            "preferred_setup": "高位板(非首板)",
+            "typical_exit": "离场后尾盘拉升"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.00万元",
+          "sell_amount": "65.67万元",
+          "net_amount": "-65.67万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "13.51%",
+          "action_interpretation": "做T中的卖出操作",
+          "style_profile": {
+            "summary": "今天卖出是执行每日做T标准战法，后市最可能剧本是继续高频率交易。",
+            "time_horizon": "短期",
+            "preferred_setup": "高波动股票",
+            "typical_exit": "做T中卖出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位买入金额分布均匀，最大买入率为8.25%，最小为4.89%，差异较小，无单一席位主导。",
+      "synergy_analysis": "所有席位均为普通席位，无知名游资上榜，不存在协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "高",
+      "pressure_desc": "卖压主要来自普遍的获利了结行为，涉及多个席位（包括知名游资'欢乐海岸'和'T王'，以及普通席位），而非特定主力的集中出货。数据显示卖出金额分布较广，无协同联动迹象，表明投资者在高位后锁定利润。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势转折点",
+      "trend_interpretation": "当前股价处于筑底阶段，从前期大幅下跌后企稳。量价关系上，上榜日（2025-07-02）成交量19.23万手，较前一日24.07万手减少，且较首日63.73万手大幅萎缩，价格连续两日平盘于0.26元，显示缩量企稳、抛压减轻。关键信号包括最后两天出现十字星K线形态（开收盘相近且有上下影线），表明多空平衡，可能预示下跌趋势结束并转向反转。"
+    },
+    "final_verdict": {
+      "outlook": "该股票处于退市整理期，市场情绪悲观，空头主导，整体呈单边下跌趋势。尽管近期出现筑底信号如十字星K线形态和缩量企稳，可能预示短期反弹，但基本面恶化和主力净卖出凸显极高下行风险。后市展望为谨慎悲观，潜在反转机会有限。",
+      "strategy": "散户应避免买入新仓，以观望为主。如有持仓，优先逢高减持或止损离场。密切关注知名游资行为（如欢乐海岸尾盘拉升可能），但不建议追涨。总体策略强调本金保护，避免高频交易。",
+      "risk_warning": "高风险提示：股票已进入退市程序，存在退市和本金全损风险；价格波动剧烈，主力资金持续净卖出；买方力量分散薄弱，卖方压力高且普遍获利了结；流动性可能恶化导致无法及时平仓。投资决策需极度谨慎。"
+    }
+  },
+  "generated_at": "2025-07-03 15:33:48"
+}

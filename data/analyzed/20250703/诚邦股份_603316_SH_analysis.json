@@ -1,0 +1,190 @@
+{
+  "stock_info": {
+    "ts_code": "603316.SH",
+    "name": "诚邦股份",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日换手率达到20%的前五只证券",
+        "非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+      ],
+      "interpretation": "这些上榜原因表明该股近期交易异常活跃且价格显著上涨，高换手率20%反映多空博弈激烈，可能源于投机或事件驱动导致买卖双方分歧加大；连续三天涨幅偏离累计20%显示多头力量强劲，主导市场情绪偏向乐观。整体而言，市场情绪以多头共识为主，但高换手率暗示潜在分歧，部分投资者可能在获利了结或空头尝试介入，增加了短期波动风险。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "分歧",
+        "interpretation": "尽管10.02%的涨停显示亢奋情绪，但35.35%的高换手率结合主力净卖出，表明市场存在显著买卖分歧。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力买卖额合计3.01亿元（占总成交16.11%），净卖出1,699.78万元（净率-1.62%），显示控盘力度强且多空对抗激烈，主力资金倾向于撤退。"
+      },
+      "key_takeaway": "涨停板上的高换手率与主力净卖出，凸显上涨动能中的潜在风险。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.20亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.20亿元",
+          "buy_rate": "1.10%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "做T (买入)",
+          "style_profile": {
+            "summary": "执行标准做T战法，今日净买入。后市可能继续做T操作，明天卖出部分以获利。",
+            "time_horizon": "短线 (日内至数日)",
+            "preferred_setup": "偏好波动性强的股票",
+            "typical_exit": "快速卖出锁定利润或止损"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.19亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.19亿元",
+          "buy_rate": "1.02%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "做T (买入)",
+          "style_profile": {
+            "summary": "执行标准做T战法，今日净买入。后市可能继续做T操作，明天卖出部分以获利。",
+            "time_horizon": "短线 (日内至数日)",
+            "preferred_setup": "偏好波动性强的股票",
+            "typical_exit": "快速卖出锁定利润或止损"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.14亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.14亿元",
+          "buy_rate": "1.34%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "做T (买入)",
+          "style_profile": {
+            "summary": "执行标准做T战法，今日净买入。后市可能继续做T操作，明天卖出部分以获利。",
+            "time_horizon": "短线 (日内至数日)",
+            "preferred_setup": "偏好波动性强的股票",
+            "typical_exit": "快速卖出锁定利润或止损"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.13亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.13亿元",
+          "buy_rate": "1.21%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "做T (买入)",
+          "style_profile": {
+            "summary": "执行标准做T战法，今日净买入。后市可能继续做T操作，明天卖出部分以获利。",
+            "time_horizon": "短线 (日内至数日)",
+            "preferred_setup": "偏好波动性强的股票",
+            "typical_exit": "快速卖出锁定利润或止损"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.12亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.12亿元",
+          "buy_rate": "1.17%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "做T (买入)",
+          "style_profile": {
+            "summary": "执行标准做T战法，今日净买入。后市可能继续做T操作，明天卖出部分以获利。",
+            "time_horizon": "短线 (日内至数日)",
+            "preferred_setup": "偏好波动性强的股票",
+            "typical_exit": "快速卖出锁定利润或止损"
+          }
+        },
+        {
+          "seat_name": "中国银河证券股份有限公司北京中关村大街证券营业部",
+          "player_type": "量化",
+          "player_name": "量化抢筹",
+          "buy_amount": "0.11亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.11亿元",
+          "buy_rate": "1.00%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "竞价扫货",
+          "style_profile": {
+            "summary": "执行标准量化扫货战法，分歧回暖日竞价买入。后市可能推动弱转强走势，吸引资金流入。",
+            "time_horizon": "短线",
+            "preferred_setup": "分歧回暖日竞价机会",
+            "typical_exit": "纪律性退出规则"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "中国银河证券股份有限公司绍兴证券营业部",
+          "player_type": "知名游资",
+          "player_name": "赵老哥",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.12亿元",
+          "net_amount": "-1,198.82万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.14%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "执行标准打板战法，今日卖出兑现。后市可能寻找新主线题材龙头股接力。",
+            "time_horizon": "短线",
+            "preferred_setup": "主线题材龙头股",
+            "typical_exit": "卖出锁定利润"
+          }
+        },
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.13亿元",
+          "net_amount": "-1,313.72万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.25%",
+          "action_interpretation": "兑现",
+          "style_profile": {
+            "summary": "执行标准量化打板战法，今日卖出兑现。后市根据次日开盘情况行动，不能秒板则清仓。",
+            "time_horizon": "超短线",
+            "preferred_setup": "首板或二板股票",
+            "typical_exit": "纪律性兑现或清仓"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买入金额分布在10个席位中，最大单一席位买入占比约18.6%（0.32亿元/总1.72亿元），前五大席位占比约64.5%，无单一主导席位，表明分布较均匀。",
+      "synergy_analysis": "存在协同作战迹象：5个席位属于'东方财富拉萨天团'（包括金融城南环路、东环路第二、团结路第一），均为'知名游资'类型'T王'，策略一致（每天做T），显示可能协作。"
+    },
+    "seller_analysis": {
+      "pressure_level": "显著",
+      "pressure_desc": "卖压主要来自普遍的获利了结行为，涉及知名游资（如赵老哥和量化打板的短线获利了结）和多个普通席位的分散卖出，而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于上涨主升浪的加速阶段。量价关系方面，上榜日（2025-07-03）成交量93.41万手，远高于平均21.44万手，与前一日（2025-07-02，成交量75.41万手）形成放量上涨，配合价格连续大幅攀升，显示买盘强劲。关键信号包括连续多个交易日涨停（涨幅约10%），形成强势大阳线，突破历史新高，表明趋势加速且无显著阻力。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望：股价可能延续上涨趋势但波动性加剧。多头情绪主导，趋势加速且突破新高，但高换手率35.35%和主力净卖出1,699.78万元显示显著分歧，短期调整风险上升。需密切关注量能变化和游资动向。",
+      "strategy": "操作策略：短线投资者可逢低在支撑位介入，设置止损位（如-5%）。利用波动做T（买入后次日部分卖出），目标位参考历史高点及时获利了结。避免追高，优先选择低吸机会。",
+      "risk_warning": "风险提示：高换手率暗示多空博弈激烈，主力资金净流出和游资快速兑现（如赵老哥和量化打板出货）可能引发回调。波动风险高，投资者需设置严格止损，防范价格快速下跌。"
+    }
+  },
+  "generated_at": "2025-07-03 19:02:05"
+}

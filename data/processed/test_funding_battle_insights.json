@@ -1,0 +1,112 @@
+{
+  "long_side_insights": {
+    "core_players": [
+      {
+        "seat_name": "国泰海通证券股份有限公司成都北一环路证券营业部",
+        "player_name": "成都系",
+        "player_type": "知名游资",
+        "role_tags": [
+          "打板主力",
+          "短线突击"
+        ],
+        "reasons": [
+          "净买入金额较大",
+          "知名游资参与"
+        ],
+        "analysis": {
+          "actions": "净买入0.41亿元，卖出仅0.54万元，几乎无卖出行为。",
+          "intention_tags": [
+            "打板突击",
+            "博取次日溢价"
+          ],
+          "intention": "基于其'打板'风格和大额净买入，意图是制造涨停，引导市场情绪，并在次日高开时获利了结。"
+        }
+      },
+      {
+        "seat_name": "中信证券股份有限公司浙江分公司",
+        "player_type": "普通席位",
+        "role_tags": [
+          "主导多头",
+          "锁仓主力"
+        ],
+        "reasons": [
+          "净买入金额最大"
+        ],
+        "analysis": {
+          "actions": "净买入0.61亿元，卖出仅456.11万元，卖出占比极低。",
+          "intention_tags": [
+            "坚决做多",
+            "锁仓看好"
+          ],
+          "intention": "基于巨大净买入和低卖出行为，意图是强力拉升股价并长期持有锁仓。"
+        }
+      }
+    ],
+    "summary": {
+      "style_tags": [
+        "打板",
+        "锁仓"
+      ],
+      "conclusion": "由普通席位主导锁仓，知名游资成都系打板突击，形成合力拉升。"
+    }
+  },
+  "short_side_insights": {
+    "core_players": [
+      {
+        "seat_name": "平安证券股份有限公司福州长乐北路证券营业部",
+        "player_name": "温州帮",
+        "player_type": "知名游资",
+        "role_tags": [
+          "砸盘主力",
+          "短线获利"
+        ],
+        "reasons": [
+          "净卖出金额较大",
+          "知名游资参与"
+        ],
+        "analysis": {
+          "actions": "净卖出968.46万元，买入512.34万元，卖出1500万元。",
+          "intention_tags": [
+            "获利了结",
+            "派发砸盘"
+          ],
+          "intention": "基于其'打板'风格和净卖出行为，意图是获利了结或看空后市。"
+        }
+      },
+      {
+        "seat_name": "国元证券股份有限公司宁波分公司",
+        "player_type": "普通席位",
+        "role_tags": [
+          "主力砸盘"
+        ],
+        "reasons": [
+          "卖出金额最大"
+        ],
+        "analysis": {
+          "actions": "净卖出3047.81万元，无买入行为。",
+          "intention_tags": [
+            "坚决做空"
+          ],
+          "intention": "基于大额净卖出和无买入，意图为获利了结或看空。"
+        }
+      }
+    ],
+    "summary": {
+      "style_tags": [
+        "短线交易",
+        "获利了结"
+      ],
+      "conclusion": "多名席位分散抛售，缺乏统一战术，知名游资参与做T和获利了结。"
+    }
+  },
+  "battle_assessment": {
+    "long_strength_score": 85,
+    "short_strength_score": 55,
+    "battle_tags": [
+      "游资主导局",
+      "多头强攻",
+      "高位换手"
+    ],
+    "key_takeaway": "多方凭借核心席位和游资的强力买入，牢牢控制战局；空方虽有知名游资但力度不足，抵抗分散。"
+  }
+}

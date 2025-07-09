@@ -1,0 +1,155 @@
+{
+  "stock_info": {
+    "ts_code": "002015.SZ",
+    "name": "协鑫能科",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日跌幅偏离值达到7%的前5只证券"
+      ],
+      "interpretation": "该股票日跌幅偏离值达到7%，表明其股价在当天大幅下跌，显著偏离市场基准，这通常源于负面消息、基本面恶化或市场恐慌引发的抛售压力。这一现象反映了当前市场对该股票的悲观情绪和强烈看跌预期，博弈状态以空头主导为主，可能存在剧烈的多空分歧，其中卖盘力量占据优势，暗示投资者信心不足且后续可能面临持续调整风险。"
+    },
+    "overall_assessment": {
+      "verdict": "空方胜利，股价大幅下跌",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "大幅下跌9.96%和高换手率12.45%表明市场恐慌情绪蔓延，投资者抛售行为加剧。"
+      },
+      "capital_confrontation": {
+        "level": "激烈对抗",
+        "interpretation": "主力净卖出6829.29万元，买卖总额6.31亿元占总成交22.96%，显示多空对抗激烈，空方控盘力度强。"
+      },
+      "key_takeaway": "恐慌性抛售和主力资金大幅流出导致股价暴跌，凸显空方主导局面。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "中国银河证券股份有限公司北京中关村大街证券营业部",
+          "player_type": "量化",
+          "player_name": "量化抢筹",
+          "buy_amount": "0.40亿元",
+          "sell_amount": "51.53万元",
+          "net_amount": "0.40亿元",
+          "buy_rate": "1.46%",
+          "sell_rate": "0.02%",
+          "action_interpretation": "竞价扫货，制造弱转强",
+          "style_profile": {
+            "summary": "量化交易，擅长分歧回暖日竞价扫货制造弱转强。今天执行标准战法，后市可能吸引市场资金流入。",
+            "time_horizon": "短线",
+            "preferred_setup": "分歧回暖日竞价扫货",
+            "typical_exit": "高位出货"
+          }
+        },
+        {
+          "seat_name": "中国银河证券股份有限公司绍兴证券营业部",
+          "player_type": "知名游资",
+          "player_name": "赵老哥",
+          "buy_amount": "0.44亿元",
+          "sell_amount": "0.21亿元",
+          "net_amount": "0.23亿元",
+          "buy_rate": "1.61%",
+          "sell_rate": "0.76%",
+          "action_interpretation": "接力打板",
+          "style_profile": {
+            "summary": "知名游资，擅长主线题材龙头股接力打板。今天可能接力龙头股，后市激发资金持续接力。",
+            "time_horizon": "短线",
+            "preferred_setup": "主线题材龙头股",
+            "typical_exit": "高位出货"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.52亿元",
+          "sell_amount": "0.41亿元",
+          "net_amount": "0.10亿元",
+          "buy_rate": "1.88%",
+          "sell_rate": "1.50%",
+          "action_interpretation": "建仓或加仓",
+          "style_profile": {
+            "summary": "机构投资者，可能长线持有。今天净买入，后市可能继续增持或持有。",
+            "time_horizon": "长线",
+            "preferred_setup": "价值投资",
+            "typical_exit": "基本面恶化时"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.61亿元",
+          "sell_amount": "0.55亿元",
+          "net_amount": "623.91万元",
+          "buy_rate": "2.22%",
+          "sell_rate": "1.99%",
+          "action_interpretation": "建仓或加仓",
+          "style_profile": {
+            "summary": "机构投资者，可能长线持有。今天净买入，后市可能继续增持或持有。",
+            "time_horizon": "长线",
+            "preferred_setup": "价值投资",
+            "typical_exit": "基本面恶化时"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "深股通专用",
+          "player_type": "机构",
+          "player_name": "深股通专用",
+          "buy_amount": "0.81亿元",
+          "sell_amount": "1.11亿元",
+          "net_amount": "-2,989.74万元",
+          "buy_rate": "2.95%",
+          "sell_rate": "4.04%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "境外资金通道，通过深港通买卖。今天净卖出，后市可能资金流出或调整仓位。",
+            "time_horizon": "中长线",
+            "preferred_setup": "互联互通机制",
+            "typical_exit": "市场波动时调整"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "327.69万元",
+          "sell_amount": "0.45亿元",
+          "net_amount": "-4,204.85万元",
+          "buy_rate": "0.12%",
+          "sell_rate": "1.65%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "机构投资者，可能长线持有。今天净卖出，后市可能减仓或看空。",
+            "time_horizon": "长线",
+            "preferred_setup": "价值投资",
+            "typical_exit": "基本面恶化时"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "各席位买入金额占比分布均匀，最高占比约30.96%（机构专用），最低约20.30%（中国银河证券北京中关村大街），无单一席位主导。",
+      "synergy_analysis": "只有一个知名游资（赵老哥）上榜，其余席位为量化和机构类型，未出现多个知名游资同时上榜的迹象，协同作战可能性低。"
+    },
+    "seller_analysis": {
+      "pressure_level": "significant",
+      "pressure_desc": "卖压主要来自多个席位，包括深股通专用（代表境外资金）、机构专用（代表国内机构）和普通席位（可能为游资或大户），卖出金额均较大且净额为负，表明普遍的获利了结行为，而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前阶段：股价处于短期上涨趋势的末期，正转向下跌通道初期。量价关系：上榜日（2025-07-02）出现放量下跌（成交量202.11万手，跌幅-9.96%），结合前一日（2025-07-01）的高开低走放量（成交量285.63万手，涨幅仅2.37%，从高点15.0回落至14.26），显示高位抛压沉重，量价配合为放量滞涨后转为放量下跌。关键信号：7月1日形成长上影K线（开盘15.0、最高15.0、最低13.11、收盘14.26），表明上方强阻力；7月2日的大阴线（开盘14.37、最高14.61、最低12.84、收盘12.84）确认下跌趋势反转，并突破前低支撑位。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望：基于日跌幅偏离值达7%、恐慌性抛售和空方主导局面，股价面临持续下行压力。技术面确认下跌趋势（高位出货、放量下跌），市场情绪悲观，主力资金大幅流出，后市可能继续调整，反弹机会有限，需密切关注市场动态和基本面变化。",
+      "strategy": "操作策略建议：散户应优先风险控制，避免追涨杀跌。建议：1) 现有持仓者及时止损或减仓，设置明确止损位；2) 无持仓者观望，等待企稳信号（如成交量萎缩或技术指标反转）；3) 激进投资者可轻仓试水潜在短线反弹，但需快进快出，严格止盈止损，聚焦量化或游资席位动向。",
+      "risk_warning": "风险提示：主要风险包括股价进一步下跌、市场恐慌加剧、主力资金持续流出（如深股通和机构出货）、高换手率导致的流动性风险，以及潜在基本面恶化。投资此股亏损概率高，散户需评估自身风险承受能力，避免过度杠杆。"
+    }
+  },
+  "generated_at": "2025-07-03 15:36:41"
+}

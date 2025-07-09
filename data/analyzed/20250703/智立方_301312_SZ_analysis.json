@@ -1,0 +1,121 @@
+{
+  "stock_info": {
+    "ts_code": "301312.SZ",
+    "name": "智立方",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日换手率达到30%的前5只证券"
+      ],
+      "interpretation": "日换手率达到30%表明该股票在当日交易异常活跃，市场参与度极高，通常由重大消息或事件引发，反映了强烈的短期投机情绪。这种高换手率揭示了剧烈的多空分歧，买方和卖方博弈激烈，价格波动风险加大，同时暗示资金快速进出，显示出市场对该股的关注度提升和潜在炒作倾向。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "5.09%的显著涨幅和54.05%的极高换手率表明市场情绪亢奋，交易活跃，显示强烈买入意愿。"
+      },
+      "capital_confrontation": {
+        "level": "较强",
+        "interpretation": "净买入0.25亿元，大单成交额占比21.85%，且净买入率2.72%，结合流通市值17.01亿元（中小盘股特征），显示主力资金积极控盘，多方优势明显，但高换手率反映多空对抗激烈。"
+      },
+      "key_takeaway": "高换手率伴随强劲上涨，凸显主力资金推动的亢奋行情。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.15亿元",
+          "sell_amount": "684.85万元",
+          "net_amount": "570.11万元",
+          "buy_rate": "1.37%",
+          "sell_rate": "0.75%",
+          "action_interpretation": "做T操作，净买入570.11万元，表明短期加仓",
+          "style_profile": {
+            "summary": "今天在执行标准做T战法，净买入显示看好短期走势，后市可能继续做T推高股价或获利了结。",
+            "time_horizon": "短期",
+            "preferred_setup": "做T",
+            "typical_exit": "通过卖出平仓"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "674.37万元",
+          "sell_amount": "718.68万元",
+          "net_amount": "-44.31万元",
+          "buy_rate": "0.74%",
+          "sell_rate": "0.78%",
+          "action_interpretation": "做T操作，净卖出44.31万元",
+          "style_profile": {
+            "summary": "今天在执行标准做T战法，净卖出显示谨慎，后市可能根据市场波动调整仓位。",
+            "time_horizon": "短期",
+            "preferred_setup": "做T",
+            "typical_exit": "通过卖出平仓"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "622.60万元",
+          "sell_amount": "887.29万元",
+          "net_amount": "-264.69万元",
+          "buy_rate": "0.68%",
+          "sell_rate": "0.97%",
+          "action_interpretation": "做T操作，净卖出264.69万元",
+          "style_profile": {
+            "summary": "今天在执行标准做T战法，净卖出显示看空，后市可能继续做T或减仓。",
+            "time_horizon": "短期",
+            "preferred_setup": "做T",
+            "typical_exit": "通过卖出平仓"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "183.28万元",
+          "sell_amount": "0.10亿元",
+          "net_amount": "-862.40万元",
+          "buy_rate": "0.20%",
+          "sell_rate": "1.14%",
+          "action_interpretation": "净卖出862.40万元，出货行为",
+          "style_profile": {
+            "summary": "作为机构投资者，今天净卖出表明看空或调整仓位，后市可能继续减持或基于基本面评估观望。",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面分析",
+            "typical_exit": "目标价达成或基本面恶化时退出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方有四个席位，最大买家占买入总额的约29.4%，资金分布相对均匀，没有单一买家主导。",
+      "synergy_analysis": "只有一个知名游资上榜（东方财富证券股份有限公司拉萨东环路第一证券营业部），其他席位为普通席位，未观察到多个知名游资协同作战的迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "分析显示，主要卖压来自机构专用席位，其净卖出金额最高（-862.40万元），卖出率1.14%，表明特定主力在集中出货；其他席位如游资（做T操作）和普通席位虽有卖出，但规模较小，非主导因素。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于短期上涨趋势的主升浪阶段。从2025-06-25开始，股价大幅突破（涨幅20.01%），形成强劲上升趋势，且上榜日（2025-07-03）继续上涨5.09%。量价关系方面，上榜日成交量19.54万手显著高于平均9.69万手，为放量上涨；近期上涨日（如2025-06-26、2025-07-01、2025-07-02）均伴随高成交量，而回调日（如2025-06-27、2025-06-30）成交量萎缩，显示健康量价配合。关键信号包括2025-06-25的大阳线突破启动趋势，上榜日K线虽出现上影线（高点50.0，收盘47.06），但收盘强劲，未形成反转形态，表明买盘持续推动趋势加速。"
+    },
+    "final_verdict": {
+      "outlook": "短期市场情绪亢奋，股价处于加速上升趋势，主力资金推动强劲，但高换手率和机构出货反映多空分歧激烈，需警惕回调风险。后市可能继续冲高但波动加大。",
+      "strategy": "建议短线交易者逢低买入（关注支撑位46元附近），设置止损（如跌破45元），可参与做T操作以利用波动；避免追高，密切监控成交量和关键席位动向。",
+      "risk_warning": "高风险提示：高换手率（54.05%）加剧价格波动；机构持续出货可能引发抛压；上影线信号警示趋势反转风险；散户应严格控制仓位，设置严格止损以防快速亏损。"
+    }
+  },
+  "generated_at": "2025-07-03 19:00:48"
+}

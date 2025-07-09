@@ -1,0 +1,155 @@
+{
+  "stock_info": {
+    "ts_code": "603125.SH",
+    "name": "常青科技",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日换手率达到20%的前五只证券"
+      ],
+      "interpretation": "该上榜原因表明股票在交易日内换手率高达20%，反映了极高的交易活跃度和市场关注度，这通常由事件驱动或市场炒作引发。它揭示了当前市场存在强烈的多空分歧，投资者情绪高涨且博弈激烈，买卖双方快速进出，显示出浓厚的投机氛围而非长期共识。"
+    },
+    "overall_assessment": {
+      "verdict": "空方胜出",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "股价大幅下跌9.08%且换手率高达41.61%，表明市场恐慌情绪蔓延，投资者恐慌性抛售。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力卖出0.81亿元大于买入0.52亿元，净卖出2893.49万元，结合高换手率41.61%和主力金额占比17.76%，显示多空对抗激烈，空方控盘力度强。"
+      },
+      "key_takeaway": "今日核心看点：恐慌性抛售导致股价暴跌9.08%，主力资金净流出凸显空方主导。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.15亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.15亿元",
+          "buy_rate": "1.97%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "纯买入建仓，可能为后续做T准备",
+          "style_profile": {
+            "summary": "知名游资擅长日内做T。今日纯买入未卖出，未完全执行标准做T战法；后市可能卖出对冲，导致股价短期波动。",
+            "time_horizon": "日内",
+            "preferred_setup": "流动性好的股票高频交易",
+            "typical_exit": "当日或次日卖出对冲"
+          }
+        },
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.11亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.11亿元",
+          "buy_rate": "1.53%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入",
+          "style_profile": {
+            "summary": "境外资金通道代表国际投资者。今日买入执行标准互联互通机制；后市可能持续流入，视市场动态调整。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资或趋势跟踪",
+            "typical_exit": "基于基本面变化或市场趋势"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "891.09万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "891.09万元",
+          "buy_rate": "1.20%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "纯买入建仓，可能为后续做T准备",
+          "style_profile": {
+            "summary": "知名游资擅长日内做T。今日纯买入未卖出，未完全执行标准做T战法；后市可能卖出对冲，导致股价短期波动。",
+            "time_horizon": "日内",
+            "preferred_setup": "流动性好的股票高频交易",
+            "typical_exit": "当日或次日卖出对冲"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "中信证券股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.12亿元",
+          "net_amount": "-1,230.37万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.65%",
+          "action_interpretation": "卖出操作，可能为做T或出货",
+          "style_profile": {
+            "summary": "量化基金高频交易助涨助跌。今日卖出执行标准做T战法；后市可能继续做T，增加股价波动。",
+            "time_horizon": "短期或日内",
+            "preferred_setup": "算法套利和做T",
+            "typical_exit": "快速平仓或对冲"
+          }
+        },
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.14亿元",
+          "net_amount": "-1,422.45万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.91%",
+          "action_interpretation": "卖出",
+          "style_profile": {
+            "summary": "境外资金通道代表国际投资者。今日卖出可能反映资金流出；后市看空信号或调整。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资或趋势跟踪",
+            "typical_exit": "基于基本面变化或市场趋势"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.28亿元",
+          "net_amount": "-2,787.63万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "3.74%",
+          "action_interpretation": "卖出",
+          "style_profile": {
+            "summary": "专业机构投资者代表基金、券商等。今日卖出执行减仓策略；后市可能继续流出或观望。",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面分析或宏观策略",
+            "typical_exit": "基于估值或风险控制"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位资金分布均匀，最大买入占比为1.97%，各席位占比在0.98%至1.97%之间，没有单一主导席位。",
+      "synergy_analysis": "存在协同作战迹象，多个知名游资席位（东方财富证券拉萨团结路第二和东环路第二）同时上榜，均属于‘T王’类型，操作模式一致（每天做T），标签均为‘东方财富拉萨天团’，显示潜在协同操作。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要来自特定主力机构，如机构专用席位（卖出0.28亿元，占比3.74%）和沪股通专用席位（卖出0.14亿元，占比1.91%），表明大资金在计划性退出；量化基金和普通席位虽有卖出，但行为更偏向短期交易或未知风格，非普遍获利了结。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前股价处于上涨末期或趋势转折阶段。在连续两日涨停（2025-06-30和2025-07-01）后，高位出现放量下跌：龙虎榜当天（2025-07-03）成交量42.12万手（远高于平均15.54万手），价格大跌9.08%，形成放量下跌态势；前一日（2025-07-02）成交量57.41万手，价格高开低走下跌2.12%，显示卖压沉重。关键信号包括7月2日的长上影阴线（高开低走）和7月3日的大阴线，结合高位巨量，确认顶部形态，表明主力出货行为。"
+    },
+    "final_verdict": {
+      "outlook": "鉴于空方胜出、恐慌情绪蔓延以及高位出货的K线形态，后市可能继续下行，波动性极高，投机氛围浓厚，短期难有反弹。",
+      "strategy": "建议散户投资者立即减仓或止损；空仓者暂时观望，避免追高或抄底；若参与，优先短线操作，关注游资做T带来的日内机会但严控仓位。",
+      "risk_warning": "注意主力资金持续流出、机构集中出货可能导致股价进一步暴跌；恐慌抛售和高换手率加剧波动风险；游资高频交易（如T王做T）或量化基金操作会引发短期剧烈震荡。"
+    }
+  },
+  "generated_at": "2025-07-03 19:02:56"
+}

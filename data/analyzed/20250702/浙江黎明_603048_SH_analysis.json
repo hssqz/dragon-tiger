@@ -1,0 +1,138 @@
+{
+  "stock_info": {
+    "ts_code": "603048.SH",
+    "name": "浙江黎明",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+      ],
+      "interpretation": "该股票因收盘价格跌幅偏离值达到7%而上榜，表明当天经历了显著下跌，这反映了市场对该股票的强烈抛售压力和悲观情绪。原因可能包括公司基本面恶化、行业负面消息或市场整体调整，显示出当前市场博弈状态偏向空头主导，存在剧烈的多空分歧，但空头力量占据优势，暗示投资者信心不足和潜在风险加剧。"
+    },
+    "overall_assessment": {
+      "verdict": "空方胜利",
+      "confidence_score": 0.9,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "基于pct_change跌幅10.02%和turnover_rate5.67%，表明市场出现恐慌性抛售情绪。"
+      },
+      "capital_confrontation": {
+        "level": "控盘力度弱，对抗激烈",
+        "interpretation": "主力净卖出1738.60万元（net_amount），净买入率-11.35%（net_rate），主力资金占总成交26.76%（amount_rate），结合流通市值26.91亿元（float_values），空方主导明显，资金对抗激烈。"
+      },
+      "key_takeaway": "恐慌情绪主导下主力资金大幅流出导致股价大跌。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "338.00万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "338.00万元",
+          "buy_rate": "2.21%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "净买入建仓，可能为主封或接力建仓。",
+          "style_profile": {
+            "summary": "机构投资者，注重基本面；今日净买入建仓，执行标准战法；后市可能稳定持有或缓慢加仓。",
+            "time_horizon": "长期",
+            "preferred_setup": "价值投资，寻找低估股票",
+            "typical_exit": "基于基本面变化或目标价达成"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "226.83万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "226.83万元",
+          "buy_rate": "1.48%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "净买入建仓，但风格为做T，今日未卖出，可能非标准做T行为。",
+          "style_profile": {
+            "summary": "高频做T游资；今日只买入未卖出，可能不是标准做T；后市很可能在次日卖出做T套利。",
+            "time_horizon": "短期（日内）",
+            "preferred_setup": "波动性大的股票，做T获利",
+            "typical_exit": "日内或次日卖出获利"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "瑞银证券有限责任公司上海浦东新区花园石桥路第二证券营业部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "452.58万元",
+          "net_amount": "-452.58万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.95%",
+          "action_interpretation": "净卖出出货，可能为量化策略的一部分。",
+          "style_profile": {
+            "summary": "量化基金，频繁做T，助涨助跌；今日净卖出，可能执行出货或做T策略；后市可能继续做T助跌。",
+            "time_horizon": "短期",
+            "preferred_setup": "利用市场波动，假机构溢价等策略",
+            "typical_exit": "基于算法信号，快速进出"
+          }
+        },
+        {
+          "seat_name": "中信证券股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "454.44万元",
+          "net_amount": "-454.44万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.97%",
+          "action_interpretation": "净卖出出货，可能为量化策略的一部分。",
+          "style_profile": {
+            "summary": "量化基金，频繁做T，助涨助跌；今日净卖出，可能执行出货或做T策略；后市可能继续做T助跌。",
+            "time_horizon": "短期",
+            "preferred_setup": "利用市场波动，假机构溢价等策略",
+            "typical_exit": "基于算法信号，快速进出"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "728.11万元",
+          "net_amount": "-728.11万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "4.75%",
+          "action_interpretation": "净卖出出货，可能为量化策略的一部分。",
+          "style_profile": {
+            "summary": "量化基金，频繁做T，助涨助跌；今日净卖出，可能执行出货或做T策略；后市可能继续做T助跌。",
+            "time_horizon": "短期",
+            "preferred_setup": "利用市场波动，假机构溢价等策略",
+            "typical_exit": "基于算法信号，快速进出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方资金分布均匀，最大席位（机构专用）占比约28.6%，前两位席位占比约47.8%，无单一主导席位。",
+      "synergy_analysis": "仅有一个知名游资席位（东方财富证券股份有限公司拉萨东环路第二证券营业部）上榜，其他席位均为机构或普通席位，无多个知名游资协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "获利了结",
+      "pressure_desc": "卖压主要来源于多个量化基金和普通席位的普遍卖出行为。量化基金（占三个席位）采用频繁做T策略，表明是短期获利了结；普通席位（占两个席位）也参与卖出，无特定主力主导。整体卖压分散，非集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前股价处于上涨末期。量价关系显示，上榜日（2025-07-02）放量下跌（成交量8.32万手，远高于平均3.88万手），价跌量增，表明抛压沉重；前一日（2025-07-01）放量大涨（成交量16.26万手），价涨量增，但次日反转下跌，形成量价背离，暗示拉高出货行为。关键信号包括上榜日的大阴线形态（跌幅10.02%，收于最低点）和前日的放量大阳线，结合短期从低点16.78上涨至高点21.63后快速回落，确认趋势转折点。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望悲观，空方主导明显，恐慌情绪蔓延。股价处于高位出货阶段，放量下跌表明抛压沉重，趋势可能继续下行。投资者信心不足，量化基金做T可能加剧波动，短期难有反弹。",
+      "strategy": "操作策略建议以防守为主：空仓投资者避免抄底，观望等待企稳信号（如缩量止跌）；持仓投资者考虑止损或减仓控制风险；切勿追涨杀跌，优先保护本金。",
+      "risk_warning": "明确风险提示：量化基金频繁做T可能助跌，恐慌抛售或引发连锁下跌；基本面恶化风险未明，行业负面消息可能发酵；资金对抗激烈，波动性高，散户易受损失。务必设置止损，控制仓位在低水平。"
+    }
+  },
+  "generated_at": "2025-07-03 15:45:52"
+}

@@ -1,0 +1,155 @@
+{
+  "stock_info": {
+    "ts_code": "300665.SZ",
+    "name": "飞鹿股份",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日换手率达到30%的前5只证券"
+      ],
+      "interpretation": "日换手率达到30%表明该股票交易异常活跃，反映出市场对该股票的高度关注和参与，可能由重大新闻、事件或投机行为引发。从情绪和博弈状态看，这通常指示强烈的多空分歧，买卖双方激烈博弈，导致价格大幅波动，显示投资者对短期走势存在显著分歧而非一致的多头共识。"
+    },
+    "overall_assessment": {
+      "verdict": "空方占优",
+      "confidence_score": 0.7,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "价格上涨4.59%和高换手率57.79%表明市场交易活跃，情绪亢奋。"
+      },
+      "capital_confrontation": {
+        "level": "激烈对抗",
+        "interpretation": "主力净卖出4197.46万元（占流通市值14.70亿元的约2.86%），买卖差异大（买入0.54亿元 vs 卖出0.96亿元），结合高换手率，显示多空资金对抗激烈。"
+      },
+      "key_takeaway": "主力资金净流出，但股价逆势上涨，凸显散户或其他资金推动市场行情。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "中国银河证券股份有限公司北京中关村大街证券营业部",
+          "player_type": "量化",
+          "player_name": "量化抢筹",
+          "buy_amount": "0.11亿元",
+          "sell_amount": "14.27万元",
+          "net_amount": "0.11亿元",
+          "buy_rate": "1.34%",
+          "sell_rate": "0.02%",
+          "action_interpretation": "竞价扫货，制造弱转强分时吸引资金流入",
+          "style_profile": {
+            "summary": "量化交易者，擅长分歧回暖日竞价扫货制造弱转强。今天执行标准战法扫货，后市可能吸引市场资金推动股价上涨。",
+            "time_horizon": "短期",
+            "preferred_setup": "分歧回暖日，弱转强分时",
+            "typical_exit": "快速兑现或跟随市场流动"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "953.61万元",
+          "sell_amount": "200.67万元",
+          "net_amount": "752.94万元",
+          "buy_rate": "1.15%",
+          "sell_rate": "0.24%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "每日高频做T的游资，手法灵活。今天执行标准战法做T，后市可能继续日内交易不影响整体趋势。",
+            "time_horizon": "超短期(日内)",
+            "preferred_setup": "流动性好、波动大的股票",
+            "typical_exit": "日内卖出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "776.98万元",
+          "sell_amount": "125.39万元",
+          "net_amount": "651.59万元",
+          "buy_rate": "0.93%",
+          "sell_rate": "0.15%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "每日高频做T的游资，手法灵活。今天执行标准战法做T，后市可能继续日内交易不影响整体趋势。",
+            "time_horizon": "超短期(日内)",
+            "preferred_setup": "流动性好、波动大的股票",
+            "typical_exit": "日内卖出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "818.15万元",
+          "sell_amount": "256.52万元",
+          "net_amount": "561.63万元",
+          "buy_rate": "0.98%",
+          "sell_rate": "0.31%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "每日高频做T的游资，手法灵活。今天执行标准战法做T，后市可能继续日内交易不影响整体趋势。",
+            "time_horizon": "超短期(日内)",
+            "preferred_setup": "流动性好、波动大的股票",
+            "typical_exit": "日内卖出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "国泰海通证券股份有限公司宜昌沿江大道证券营业部",
+          "player_type": "知名游资",
+          "player_name": "消闲派",
+          "buy_amount": "4.50万元",
+          "sell_amount": "0.13亿元",
+          "net_amount": "-1,318.32万元",
+          "buy_rate": "0.01%",
+          "sell_rate": "1.59%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "稳健推土机选手，专攻首板次日高溢价。今天出货行为符合标准战法，后市可能股价回调。",
+            "time_horizon": "短期(1-2天)",
+            "preferred_setup": "首板，20CM首板",
+            "typical_exit": "次日高溢价退出"
+          }
+        },
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "4.70万元",
+          "sell_amount": "0.37亿元",
+          "net_amount": "-3,647.94万元",
+          "buy_rate": "0.01%",
+          "sell_rate": "4.39%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "量化打板者，纪律性强，操作首板二板次日严格退出。今天出货执行标准战法，后市股价可能承压。",
+            "time_horizon": "短期(次日)",
+            "preferred_setup": "首板或二板",
+            "typical_exit": "纪律性退出(兑现/纠错/清仓)"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "买方集中度较高，最大买方席位中国银河证券股份有限公司青岛秦岭路证券营业部占约33.04%，前三大买方席位合计占约70.73%。",
+      "synergy_analysis": "存在协同作战迹象，多个知名游资席位（如东方财富证券拉萨金融城南环路、东环路第一、东环路第二）同时上榜，均属于'东方财富拉萨天团'，且描述为'每天做T'，表明可能协同操作。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要来自特定主力'量化打板'的集中出货行为，其卖出额为0.37亿元（占总卖出额约40.7%），策略描述显示纪律性强，次日兑现。其他席位虽有卖出，但金额较小且分散，可能为普遍获利了结，但主导来源为集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前股价处于短期上涨趋势的高位阶段，从前期低点7.32元快速拉升至11.4元，涨幅显著。上榜日（2025-07-02）成交量激增至80.97万手，远超平均成交量12.90万手，形成放量上涨但价格收低于高点（高11.4元，收10.49元），显示价涨量增伴随高位抛压。关键信号为长上影K线形态，结合前一日大阳线突破，暗示获利了结和潜在趋势转折风险。"
+    },
+    "final_verdict": {
+      "outlook": "短期市场波动剧烈，高位出货信号和主力净流出显示潜在回调风险，散户推动的上涨可能不可持续，多空分歧大导致价格大幅震荡。",
+      "strategy": "建议散户保持谨慎，避免追高；持仓者设置止损在关键支撑位（如前低点7.32元附近），空仓者观望或轻仓短线交易，利用日内波动但及时止盈止损。",
+      "risk_warning": "主要风险包括高换手率（57.79%）引发的极端价格波动、主力集中出货（如量化打板纪律性退出）导致的快速下跌、空方占优（置信度70%）下的趋势反转风险，散户应严格控制仓位，避免过度投机。"
+    }
+  },
+  "generated_at": "2025-07-03 15:37:03"
+}

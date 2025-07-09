@@ -1,0 +1,189 @@
+{
+  "stock_info": {
+    "ts_code": "002278.SZ",
+    "name": "神开股份",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日换手率达到20%的前5只证券"
+      ],
+      "interpretation": "该股票日换手率达到20%，表明交易异常活跃，市场关注度极高，通常由重大事件或消息引发，如公司公告或行业热点推动资金快速流动。这反映了剧烈的多空分歧，买卖双方博弈激烈，市场情绪高度波动，投机氛围浓厚，而非一致的多头共识，暗示短期价格波动风险较大。"
+    },
+    "overall_assessment": {
+      "verdict": "轻微多方优势",
+      "confidence_score": 0.65,
+      "market_sentiment": {
+        "level": "分歧",
+        "interpretation": "小幅上涨0.40%但换手率高达47%，显示市场情绪分歧，买卖双方存在激烈博弈。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "大单买入1.67亿元和卖出1.66亿元接近平衡，净买入仅76.69万元（占比0.05%），结合流通市值33.92亿元，控盘力度弱，表明主力资金多空对抗激烈。"
+      },
+      "key_takeaway": "极高换手率47%下的资金平衡凸显多空激烈博弈。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "甬兴证券有限公司四川分公司",
+          "player_type": "知名游资",
+          "player_name": "余哥",
+          "buy_amount": "0.33亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.33亿元",
+          "buy_rate": "1.95%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封或建仓",
+          "style_profile": {
+            "summary": "擅长机构游资合力大妖股，今日净买入符合标准战法，后市可能继续合力推高。",
+            "time_horizon": "短期",
+            "preferred_setup": "大妖股机构合力",
+            "typical_exit": "高位分歧时退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.45亿元",
+          "sell_amount": "0.15亿元",
+          "net_amount": "0.31亿元",
+          "buy_rate": "2.69%",
+          "sell_rate": "0.87%",
+          "action_interpretation": "做T或部分加仓",
+          "style_profile": {
+            "summary": "",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.23亿元",
+          "sell_amount": "0.11亿元",
+          "net_amount": "0.12亿元",
+          "buy_rate": "1.37%",
+          "sell_rate": "0.64%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "每日做T，今日行为符合标准战法，后市可能继续日内交易。",
+            "time_horizon": "极短期",
+            "preferred_setup": "适合做T的股票",
+            "typical_exit": "日内了结"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.23亿元",
+          "sell_amount": "0.12亿元",
+          "net_amount": "0.11亿元",
+          "buy_rate": "1.38%",
+          "sell_rate": "0.74%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "每日做T，今日行为符合标准战法，后市可能继续日内交易。",
+            "time_horizon": "极短期",
+            "preferred_setup": "适合做T的股票",
+            "typical_exit": "日内了结"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.22亿元",
+          "sell_amount": "0.15亿元",
+          "net_amount": "742.16万元",
+          "buy_rate": "1.32%",
+          "sell_rate": "0.88%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "每日做T，今日行为符合标准战法，后市可能继续日内交易。",
+            "time_horizon": "极短期",
+            "preferred_setup": "适合做T的股票",
+            "typical_exit": "日内了结"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.18亿元",
+          "sell_amount": "0.16亿元",
+          "net_amount": "240.97万元",
+          "buy_rate": "1.07%",
+          "sell_rate": "0.93%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "每日做T，今日行为符合标准战法，后市可能继续日内交易。",
+            "time_horizon": "极短期",
+            "preferred_setup": "适合做T的股票",
+            "typical_exit": "日内了结"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "国融证券股份有限公司青岛分公司",
+          "player_type": "知名游资",
+          "player_name": "低位挖掘",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.28亿元",
+          "net_amount": "-2,810.54万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.67%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "善于低位挖掘补涨，今日高位分歧离场符合标准风控，后市可能转向新标的。",
+            "time_horizon": "短期",
+            "preferred_setup": "低位首板或跟风板",
+            "typical_exit": "高位分歧时及时离场"
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司上海分公司",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "247.69万元",
+          "sell_amount": "0.55亿元",
+          "net_amount": "-5,213.56万元",
+          "buy_rate": "0.15%",
+          "sell_rate": "3.24%",
+          "action_interpretation": "兑现或出货",
+          "style_profile": {
+            "summary": "量化打板首板二板，纪律性强，今日卖出符合规则，后市严格按兑现机制操作。",
+            "time_horizon": "极短期",
+            "preferred_setup": "首板二板",
+            "typical_exit": "次日不能秒板即兑现"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方包括知名游资余哥、机构专用和T王（多个席位），净买入金额分布较均匀：余哥占33%，机构占32%，T王合计占35%，没有单一买方主导。",
+      "synergy_analysis": "存在协同作战迹象，余哥擅长机构游资合力大妖股，机构专用同时买入，T王作为知名游资集团多席位操作，表明可能协同行动。"
+    },
+    "seller_analysis": {
+      "pressure_level": "中等",
+      "pressure_desc": "卖压主要来自知名游资的获利了结行为，如低位挖掘在分歧时离场和量化打板在次日兑现，而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前阶段：股价处于短期反弹的顶部区域，经历前期下跌后于6月23日启动反弹，7月2日涨停加速，7月3日上榜日高开低走。量价关系：上榜日成交量大幅放大至157.07万手（远高于平均65.52万手），但价格仅微涨0.40%，形成明显放量滞涨的价量背离信号。关键信号：上榜日K线为高开低走的长上影形态（开盘11.12，收盘10.15），暗示上方抛压沉重；结合前日涨停突破，但未能延续强势，显示获利盘出货行为。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望显示市场分歧激烈，多空博弈显著。高换手率47%结合轻微多方优势（信心分数0.65），但K线形态呈高位出货信号，放量滞涨且高开低走，暗示短期可能面临回调压力。买方协同（如余哥和机构合力）可能短暂支撑股价，但卖方获利了结行为（如低位挖掘和量化打板）可能抑制上行空间，预计后市震荡加剧，风险较高。",
+      "strategy": "操作策略建议：散户应谨慎操作，避免追高。持有者可考虑部分获利了结，锁定收益；空仓者宜观望或小仓位参与日内交易（利用T王风格的波动机会），关注关键支撑位（如前低点）和成交量变化。若股价站稳支撑并放量上涨，可轻仓跟进；否则，优先风险控制。",
+      "risk_warning": "风险提示：高换手率47%和分歧市场情绪导致短期波动剧烈，放量滞涨K线信号可能预示顶部形成，增加回调风险。卖方集中出货行为（如游资获利了结）可能加速下跌。投机氛围浓厚，不适合风险厌恶者，潜在损失可能较大。"
+    }
+  },
+  "generated_at": "2025-07-03 18:53:24"
+}

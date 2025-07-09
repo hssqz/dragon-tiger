@@ -1,0 +1,121 @@
+{
+  "stock_info": {
+    "ts_code": "002165.SZ",
+    "name": "红宝丽",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日跌幅偏离值达到7%的前5只证券"
+      ],
+      "interpretation": "该股票因日跌幅偏离值达到7%而登上龙虎榜，表明其价格在当日大幅下跌，远超市场平均水平，这通常由强烈的抛售压力驱动，反映了市场对该股票的悲观情绪和恐慌性卖出行为。当前博弈状态显示出剧烈的多空分歧，其中空头力量占据主导，可能源于负面消息、机构减持或获利了结，暗示短期风险较高，投资者需警惕进一步波动。"
+    },
+    "overall_assessment": {
+      "verdict": "空方获胜",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "股价下跌6.48%，换手率高达25.06%，表明市场恐慌性抛售，交易活跃度异常。"
+      },
+      "capital_confrontation": {
+        "level": "激烈对抗",
+        "interpretation": "主力买卖额接近（买入1.37亿元 vs 卖出1.48亿元），净卖出1087万元（净率-0.59%），控盘力度中等（占成交额15.40%），流通市值73.49亿元较小，净卖出影响相对放大。"
+      },
+      "key_takeaway": "主力净卖出叠加高换手率，凸显恐慌抛压主导今日战局。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.45亿元",
+          "sell_amount": "0.44亿元",
+          "net_amount": "62.34万元",
+          "buy_rate": "2.42%",
+          "sell_rate": "2.38%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "执行标准机构行为，买卖量接近，显示日内调整持仓。后市可能继续小幅波动交易或基于基本面调整。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资或基本面驱动",
+            "typical_exit": "基于基本面变化或长期目标达成"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.18亿元",
+          "sell_amount": "0.17亿元",
+          "net_amount": "37.15万元",
+          "buy_rate": "0.94%",
+          "sell_rate": "0.92%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "执行标准做T战法，买卖平衡。后市可能继续震荡交易，股价维持波动。",
+            "time_horizon": "短期",
+            "preferred_setup": "高流动性、高波动股票",
+            "typical_exit": "日内或短线获利了结"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.19亿元",
+          "sell_amount": "0.21亿元",
+          "net_amount": "-231.92万元",
+          "buy_rate": "1.02%",
+          "sell_rate": "1.14%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "执行标准做T战法，小幅净卖出。后市可能继续波段操作，股价震荡。",
+            "time_horizon": "短期",
+            "preferred_setup": "高波动股票",
+            "typical_exit": "短线退出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.17亿元",
+          "sell_amount": "0.20亿元",
+          "net_amount": "-311.24万元",
+          "buy_rate": "0.90%",
+          "sell_rate": "1.07%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "执行标准做T战法，净卖出略增。后市可能维持震荡交易，关注短期机会。",
+            "time_horizon": "短期",
+            "preferred_setup": "高波动股票",
+            "typical_exit": "日内或短线退出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "机构专用席位占买入总额的71.4%，表明买方高度集中。",
+      "synergy_analysis": "只有一个知名游资席位（东方财富证券股份有限公司拉萨东环路第二证券营业部）上榜，无多个游资同时上榜迹象，因此不存在协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "普遍",
+      "pressure_desc": "卖压来自多个席位，包括知名游资的日常获利了结交易（如东方财富拉萨天团的做T行为）和普通席位的卖出行为，表明是普遍的获利了结而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前股价处于上涨末期，因为在大幅连续上涨（20250701涨幅10.01%、20250702涨幅6.82%）后出现放量下跌。量价关系方面，上榜日（20250703）成交量182.35万手（高于平均106.51万手），放量下跌6.48%，与前两日放量上涨（20250701成交量254.04万手、20250702成交量335.64万手）形成对比，显示买盘减弱卖盘增强。关键信号为20250703的高开低走阴线，开盘10.47、最高10.48、最低10.02、收盘10.10，形成长上影线，是典型的顶部反转形态，暗示趋势可能转折。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望：恐慌抛压主导市场，高位出货信号明确，预计短期股价将继续承压，存在进一步下跌风险。趋势可能转折，投资者需警惕持续波动。",
+      "strategy": "操作策略：建议持仓者逢高减仓或设置止损；空仓投资者保持观望，避免抄底；可关注超跌反弹机会但需严格止损。",
+      "risk_warning": "风险提示：股价波动剧烈，高换手率可能导致流动性风险；游资频繁做T操作增加不确定性；基本面负面消息或机构减持可能放大跌幅。"
+    }
+  },
+  "generated_at": "2025-07-03 18:52:15"
+}

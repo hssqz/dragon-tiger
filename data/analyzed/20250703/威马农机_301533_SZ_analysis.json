@@ -1,0 +1,155 @@
+{
+  "stock_info": {
+    "ts_code": "301533.SZ",
+    "name": "威马农机",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日涨幅达到15%的前5只证券"
+      ],
+      "interpretation": "这只股票上榜的原因是日涨幅达到15%，表明其价格在当天经历了大幅上涨，且位列涨幅前五名。这反映了当前市场对该股票的强烈多头共识，买家力量主导推动股价飙升，可能源于利好消息或市场热点的集中买入行为，显示出投资者高度乐观情绪和一致买入行为，而非剧烈的多空分歧。"
+    },
+    "overall_assessment": {
+      "verdict": "多方获胜",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "涨幅高达19.99%且换手率34.25%远超正常水平，表明市场情绪亢奋，投资者积极追涨。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力买卖金额接近（买入0.73亿元，卖出0.75亿元），净流出仅129.47万元（占流通市值比例小），显示多空对抗激烈但控盘力度中等，无明显优势方。"
+      },
+      "key_takeaway": "股价暴涨19.99%但主力资金轻微净流出，凸显短期过热风险与多空激烈拉锯。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "华鑫证券有限责任公司深圳益田路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "益田路",
+          "buy_amount": "0.19亿元",
+          "sell_amount": "6.26万元",
+          "net_amount": "0.19亿元",
+          "buy_rate": "4.68%",
+          "sell_rate": "0.02%",
+          "action_interpretation": "主封或积极建仓",
+          "style_profile": {
+            "summary": "执行标准价值投机战法，今日大量买入显示情绪主导建仓；后市可能持股待涨并根据市场情绪逐步卖出。",
+            "time_horizon": "中线",
+            "preferred_setup": "价值投机",
+            "typical_exit": "逐步卖出"
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司上海宛平南路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "炒股养家",
+          "buy_amount": "0.14亿元",
+          "sell_amount": "1.27万元",
+          "net_amount": "0.14亿元",
+          "buy_rate": "3.29%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封或接力，利用通道优势封板",
+          "style_profile": {
+            "summary": "执行标准题材挖掘龙头战法，今日买入显示封板意图；后市隔日高位逐步离场可能性高。",
+            "time_horizon": "短线",
+            "preferred_setup": "题材龙头",
+            "typical_exit": "隔日高位逐步离场"
+          }
+        },
+        {
+          "seat_name": "中信建投证券股份有限公司福州东街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "大小说家",
+          "buy_amount": "899.68万元",
+          "sell_amount": "3.38万元",
+          "net_amount": "896.30万元",
+          "buy_rate": "2.18%",
+          "sell_rate": "0.01%",
+          "action_interpretation": "接力或建仓",
+          "style_profile": {
+            "summary": "执行主线题材弹性个股标准战法，今日买入显示弹性布局；后市可能快速进出追求收益。",
+            "time_horizon": "短线",
+            "preferred_setup": "创业板、北交所弹性个股",
+            "typical_exit": "快速卖出获利"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.13亿元",
+          "sell_amount": "0.15亿元",
+          "net_amount": "-183.25万元",
+          "buy_rate": "3.22%",
+          "sell_rate": "3.66%",
+          "action_interpretation": "做T或部分出货",
+          "style_profile": {
+            "summary": "执行机构调仓标准战法，今日净卖出显示减持意图；后市可能继续持有或根据基本面逐步减持。",
+            "time_horizon": "长线",
+            "preferred_setup": "价值投资",
+            "typical_exit": "逐步减持"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "250.13万元",
+          "sell_amount": "0.11亿元",
+          "net_amount": "-864.57万元",
+          "buy_rate": "0.61%",
+          "sell_rate": "2.70%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "执行机构减持标准战法，今日大幅净卖出显示出货；后市可能继续减持或观望。",
+            "time_horizon": "长线",
+            "preferred_setup": "价值投资",
+            "typical_exit": "逐步减持"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "498.86万元",
+          "sell_amount": "0.15亿元",
+          "net_amount": "-988.40万元",
+          "buy_rate": "1.21%",
+          "sell_rate": "3.61%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "执行机构减持标准战法，今日大幅净卖出显示出货；后市可能继续减持或调整仓位。",
+            "time_horizon": "长线",
+            "preferred_setup": "价值投资",
+            "typical_exit": "逐步减持"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "前三大知名游资席位（华鑫证券深圳益田路、华鑫证券上海宛平南路、中信建投福州东街）合计买入占比约79.23%，显著高于普通席位，显示买方高度集中。",
+      "synergy_analysis": "是，存在协同作战迹象，因为多个知名游资（益田路、炒股养家、大小说家）同时上榜，且均以买入为主，可能暗示联合操作。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要来自多个机构专用席位的大额卖出（总卖出约4100万元，占总卖出约57%），表明特定主力（如基金、券商等机构）在有组织地进行集中出货行为；普通席位虽有卖出（约3094万元），但规模较小且信息有限，不足以主导卖压。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于短期上涨趋势的加速阶段。从量价关系看，上榜日（2025-07-03）出现放量上涨（成交量9.74万手，远高于平均3.62万手），前几日如2025-07-02上涨时成交量放大至4.63万手，而2025-07-01下跌时成交量缩量至3.47万手，显示出良好的量价配合。关键信号包括：上榜日形成大阳线涨停板（涨幅19.99%），突破了2025-06-27的高点39.39元，成交量显著放大，表明买方力量强劲，推动趋势加速。"
+    },
+    "final_verdict": {
+      "outlook": "基于日涨幅19.99%和亢奋市场情绪，短期股价可能延续强势或高位震荡，但机构集中出货和轻微净流出显示潜在回调风险；后市需警惕多空拉锯加剧和情绪降温。",
+      "strategy": "短线投资者可轻仓逢低介入，设置严格止损（如5%-10%），快进快出跟随游资动向；长线投资者应观望，等待回调后结合基本面评估再决策；避免追高。",
+      "risk_warning": "高风险提示：股价短期过热（换手率34.25%），机构减持主导抛压，多空对抗激烈可能引发大幅波动；警惕高位套牢和情绪逆转风险，控制仓位并设置止损。"
+    }
+  },
+  "generated_at": "2025-07-03 19:00:32"
+}

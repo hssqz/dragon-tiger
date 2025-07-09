@@ -1,0 +1,223 @@
+{
+  "stock_info": {
+    "ts_code": "603936.SH",
+    "name": "博敏电子",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+      ],
+      "interpretation": "该股上榜原因表明其日收盘价格跌幅显著偏离基准值达到7%，成为市场中跌幅最大的股票之一，这通常由于负面事件、抛售压力或基本面恶化导致股价急剧下跌，说明该股表现远弱于整体市场。这反映了当前市场对该股票的强烈悲观情绪，抛售压力巨大，空头占据绝对主导地位，多头共识瓦解，存在恐慌性卖出或对不利信息的过度反应，博弈状态呈现单边下行趋势，投资者信心受挫。"
+    },
+    "overall_assessment": {
+      "verdict": "空方胜出",
+      "confidence_score": 0.8,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "股价大幅下跌8.78%，换手率高达21.90%，表明市场恐慌情绪蔓延，投资者急于抛售。"
+      },
+      "capital_confrontation": {
+        "level": "对抗激烈但空方主导",
+        "interpretation": "主力资金净买入0.32亿元（净买入率2.40%），但相对流通市值59.64亿元影响微弱（占比约0.54%）；主力成交额占总成交19.25%，显示多空对抗激烈，但空方力量更强。"
+      },
+      "key_takeaway": "尽管主力资金小幅净买入，但市场恐慌导致股价暴跌，空方占据绝对优势。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "长城证券股份有限公司杭州钱江路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "温州帮",
+          "buy_amount": "0.40亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.40亿元",
+          "buy_rate": "2.96%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封建仓",
+          "style_profile": {
+            "summary": "今日纯买入，执行深度控盘快速拉升标准战法，后市可能连续拉升。",
+            "time_horizon": "短期",
+            "preferred_setup": "次新股",
+            "typical_exit": "高位出货"
+          }
+        },
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.35亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.35亿元",
+          "buy_rate": "2.62%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "配置买入",
+          "style_profile": {
+            "summary": "作为境外资金通道，今日买入可能为长期配置，后市取决于宏观因素。",
+            "time_horizon": "中长期",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "中信证券股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.28亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.28亿元",
+          "buy_rate": "2.07%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "助涨接力",
+          "style_profile": {
+            "summary": "今日纯买入，符合助涨策略，后市可能做T或继续助涨。",
+            "time_horizon": "短期",
+            "preferred_setup": "热点股",
+            "typical_exit": "次日兑现或清仓"
+          }
+        },
+        {
+          "seat_name": "瑞银证券有限责任公司上海浦东新区花园石桥路第二证券营业部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.22亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.22亿元",
+          "buy_rate": "1.62%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "助涨接力",
+          "style_profile": {
+            "summary": "今日纯买入，符合助涨策略，后市可能做T或继续助涨。",
+            "time_horizon": "短期",
+            "preferred_setup": "热点股",
+            "typical_exit": "次日兑现或清仓"
+          }
+        },
+        {
+          "seat_name": "中国国际金融股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.21亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.21亿元",
+          "buy_rate": "1.56%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "助涨接力",
+          "style_profile": {
+            "summary": "今日纯买入，符合助涨策略，后市可能做T或继续助涨。",
+            "time_horizon": "短期",
+            "preferred_setup": "热点股",
+            "typical_exit": "次日兑现或清仓"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "中信证券股份有限公司东阳吴宁西路证券营业部",
+          "player_type": "普通席位",
+          "player_name": "普通席位",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.19亿元",
+          "net_amount": "-1,936.71万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.44%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "华泰证券股份有限公司上海武定路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "炒新一族",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.20亿元",
+          "net_amount": "-1,977.59万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.47%",
+          "action_interpretation": "出货止盈",
+          "style_profile": {
+            "summary": "今日卖出，符合超短一日游风格，后市可能离场。",
+            "time_horizon": "超短期",
+            "preferred_setup": "开板次新股",
+            "typical_exit": "一日游居多"
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司上海分公司",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.21亿元",
+          "net_amount": "-2,052.98万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.53%",
+          "action_interpretation": "纪律性兑现",
+          "style_profile": {
+            "summary": "今日卖出，执行风控纪律，后市若不强则清仓。",
+            "time_horizon": "短期",
+            "preferred_setup": "首板, 二板",
+            "typical_exit": "次日兑现/纠错/清仓"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司东莞总部一路证券营业部",
+          "player_type": "普通席位",
+          "player_name": "普通席位",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.24亿元",
+          "net_amount": "-2,445.87万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.82%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.29亿元",
+          "net_amount": "-2,924.61万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.17%",
+          "action_interpretation": "调仓卖出",
+          "style_profile": {
+            "summary": "作为境外资金通道，今日卖出可能为避险，后市中性。",
+            "time_horizon": "中长期",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位买额占比分布在1.56%至2.96%之间，差异较小，无单一席位主导，表明资金分布均匀。",
+      "synergy_analysis": "存在协同作战迹象。温州帮席位明确描述多席位联合出动；此外，多个量化基金席位（名称相同）可能协同操作，尽管描述未直接提及联合行动。"
+    },
+    "seller_analysis": {
+      "pressure_level": "获利了结",
+      "pressure_desc": "卖压来源于多个独立席位的普遍获利了结行为，包括知名游资（如炒新一族的超短兑现和量化打板的纪律性卖出）以及机构资金（沪股通）的调整，无明显特定主力集中出货迹象。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前股价处于上涨末期，从近期低点8.11元持续上涨至高点10.37元后出现反转。上榜日（2025-07-02）放量下跌，成交量138.04万手远高于平均40.39万手，而前一天（2025-07-01）虽放量上涨但次日量更大却价跌，显示抛压沉重。关键信号包括上榜日形成一根长实体大阴线，覆盖前一日涨幅，且成交量创近期新高，这是典型的高位出货形态。"
+    },
+    "final_verdict": {
+      "outlook": "后市面临持续下行压力，空方主导和市场恐慌情绪浓厚，K线高位出货形态显示抛压沉重。买方力量如温州帮的短期介入可能引发短暂反弹，但整体趋势偏空，投资者需高度谨慎。",
+      "strategy": "散户应优先风险控制：1) 未持仓者观望为主，避免抄底；2) 持仓者设置严格止损位，及时离场；3) 激进者可轻仓参与潜在反弹（如跟随量化基金助涨信号），但需快进快出并设置止损。",
+      "risk_warning": "高风险：恐慌性抛售和空方强势可能导致股价进一步暴跌；短期波动剧烈，量化基金和游资快速进出易引发闪崩；投资者需评估风险承受力，避免杠杆操作以防重大损失。"
+    }
+  },
+  "generated_at": "2025-07-03 15:49:14"
+}

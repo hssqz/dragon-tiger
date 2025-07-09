@@ -1,0 +1,155 @@
+{
+  "stock_info": {
+    "ts_code": "603124.SH",
+    "name": "江南新材",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日换手率达到20%的前五只证券"
+      ],
+      "interpretation": "日换手率达到20%表明该股票交易异常活跃，反映了市场对该股票的高度关注和参与度，这可能由机构或游资推动。这通常说明市场情绪偏向乐观但充满投机性，具体表现为强烈的多头共识推动价格上涨，但也可能暗示剧烈的多空分歧，导致价格波动加剧，整体博弈状态显示投资者意见分化，风险较高。"
+    },
+    "overall_assessment": {
+      "verdict": "空方略占优",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "分歧",
+        "interpretation": "换手率52.17%极高且股价上涨2.69%，显示市场情绪分歧，买卖双方争夺激烈。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力买入0.63亿元和卖出0.86亿元，净卖出2396.60万元，对抗激烈；控盘力度中等，因流通值15.72亿元较大，净卖出影响有限（占流通值约1.52%）。"
+      },
+      "key_takeaway": "高换手率52.17%下主力净卖出，凸显市场分歧和主力出货信号。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "瑞银证券有限责任公司上海浦东新区花园石桥路第二证券营业部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.18亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.18亿元",
+          "buy_rate": "2.16%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入助涨",
+          "style_profile": {
+            "summary": "今天纯买入，不符合其频繁做T的标准战法，可能是在积累仓位助推上涨；后市可能继续做T或短期助推后离场。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "快速进出，频繁做T"
+          }
+        },
+        {
+          "seat_name": "中信证券股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.13亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.13亿元",
+          "buy_rate": "1.59%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入助涨",
+          "style_profile": {
+            "summary": "今天纯买入，偏离频繁做T的标准战法，可能是在助涨；后市可能执行做T或短期获利了结。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "快速进出，频繁做T"
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司上海宛平南路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "炒股养家",
+          "buy_amount": "0.12亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.12亿元",
+          "buy_rate": "1.49%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封",
+          "style_profile": {
+            "summary": "今天纯买入，符合其利用通道优势制造一字板的标准战法；后市可能隔日高位逐步离场。",
+            "time_horizon": "短期",
+            "preferred_setup": "题材龙头，通道优势",
+            "typical_exit": "隔日高位逐步离场"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "华鑫证券有限责任公司上海分公司",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.10亿元",
+          "net_amount": "-1,025.89万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.25%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今天纯卖出，符合其纪律性强风控的标准战法；后市可能基于次日表现纠错买回或清仓。",
+            "time_horizon": "超短期",
+            "preferred_setup": "首板或二板",
+            "typical_exit": "次日不能秒板开盘兑现一半，不能走强清仓"
+          }
+        },
+        {
+          "seat_name": "瑞银证券有限责任公司上海浦东新区花园石桥路第二证券营业部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.11亿元",
+          "net_amount": "-1,088.81万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.33%",
+          "action_interpretation": "做T卖出",
+          "style_profile": {
+            "summary": "今天纯卖出，符合其频繁做T的标准战法；后市可能买回或继续短期做T。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "快速进出，频繁做T"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.29亿元",
+          "net_amount": "-2,946.86万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "3.59%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今天纯卖出，符合其助涨助跌的标准战法；后市可能短期离场或伺机做T买回。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "快速进出，频繁做T"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位买入金额分布较为均匀，最大买方瑞银证券有限责任公司上海浦东新区花园石桥路第二证券营业部占比约28.66%，前两大买方合计占比不足50%，无单一买方主导。",
+      "synergy_analysis": "仅有一个知名游资炒股养家上榜（华鑫证券有限责任公司上海宛平南路证券营业部），其他席位为量化基金或普通席位，无多个知名游资同时上榜迹象；量化基金席位策略相似但无直接协同证据。"
+    },
+    "seller_analysis": {
+      "pressure_level": "获利了结",
+      "pressure_desc": "卖压来自多个参与者，包括量化基金（频繁做T、助涨助跌）和知名游资（纪律性强、次日兑现），以及普通席位；卖出行为分散，无单一主力主导，表明是普遍的获利了结而非集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "上涨中继",
+      "trend_interpretation": "当前股价处于短期反弹趋势的中期阶段。从2025-06-27开始，股价从低点47.14持续反弹，7月1日大涨10%突破前期高点53.18，进入加速上涨期；7月2日虽继续上涨但冲高回落。量价关系显示，龙虎榜当日（2025-07-02）成交量显著放大至14.94万手（高于平均9.29万手），但价格仅涨2.69%，形成放量滞涨现象，与前一日放量上涨（11.29万手，涨10%）相比，表明高位存在抛压和分歧。关键信号包括7月1日的大阳线突破关键阻力位，确认反弹强度；7月2日的长上影线（高58.81，收盘54.9），暗示上方压力，预示短期整理需求。"
+    },
+    "final_verdict": {
+      "outlook": "市场情绪高度分歧，主力净卖出和高换手率52.17%凸显短期整理需求。股价处于上涨中继阶段，但放量滞涨和长上影线预示上方压力较大，后市可能进入回调或震荡整理，整体偏空。",
+      "strategy": "建议散户保持谨慎，避免追高；现有持仓者逢高减仓或设置止损位（如54元以下），空仓者观望等待更明确信号；短线交易者注意量化基金和游资的快速进出风险。",
+      "risk_warning": "高风险提示：高换手率导致价格波动剧烈；主力净卖出暗示出货压力；市场分歧可能引发快速反转；放量滞涨是短期见顶信号；散户易受损失，需严格风险管理。"
+    }
+  },
+  "generated_at": "2025-07-03 15:46:30"
+}

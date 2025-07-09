@@ -1,0 +1,87 @@
+{
+  "stock_info": {
+    "ts_code": "002816.SZ",
+    "name": "*ST和科",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "连续三个交易日内，涨幅偏离值累计达到12%的ST证券、*ST证券和未完成股改证券"
+      ],
+      "interpretation": "连续三个交易日内涨幅偏离值累计达到12%，针对ST、*ST和未完成股改证券，表明该高风险股票在短期内经历了异常强劲的上涨，这反映了市场强烈的多头共识情绪，投资者可能基于对公司重组、扭亏为盈或政策利好的乐观预期进行集中买入，推动价格持续攀升；同时，由于股票的高风险属性，博弈状态涉及高度投机行为，需警惕潜在的波动和回调风险。"
+    },
+    "overall_assessment": {
+      "verdict": "多方占优",
+      "confidence_score": 0.9,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "基于3.39%的涨幅和7.77%的高换手率，表明市场情绪亢奋，投资者积极追涨。"
+      },
+      "capital_confrontation": {
+        "level": "激烈且多方主导",
+        "interpretation": "主力资金成交额占比43.84%，净买入率6.35%，结合流通市值19.83亿元，净买入0.13亿元（占流通市值约0.66%），显示多空对抗激烈，但多方控盘力度强。"
+      },
+      "key_takeaway": "主力资金积极买入ST股，推动价格显著上涨3.39%。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "938.01万元",
+          "sell_amount": "226.65万元",
+          "net_amount": "711.36万元",
+          "buy_rate": "4.77%",
+          "sell_rate": "1.15%",
+          "action_interpretation": "建仓或加仓，净买入表明看好后市，可能是在布局投资而非做T",
+          "style_profile": {
+            "summary": "机构投资者，今日净买入符合标准投资战法，后市最可能剧本是持有或逐步加仓推动股价上涨",
+            "time_horizon": "长期",
+            "preferred_setup": "基本面良好、估值合理的股票",
+            "typical_exit": "基于基本面变化或达到目标价退出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "606.87万元",
+          "sell_amount": "0.10亿元",
+          "net_amount": "-439.89万元",
+          "buy_rate": "3.08%",
+          "sell_rate": "5.32%",
+          "action_interpretation": "减仓或出货，净卖出表明可能对后市不乐观或在锁定利润",
+          "style_profile": {
+            "summary": "机构投资者，今日净卖出可能偏离标准战法，后市最可能剧本是继续减持或观望",
+            "time_horizon": "长期",
+            "preferred_setup": "基本面良好的股票",
+            "typical_exit": "基于基本面恶化或目标价达成退出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位买入金额分布较均匀，最大买入占比为8.06%，其余席位占比在3.83%至4.77%之间，无单一席位主导。",
+      "synergy_analysis": "无协同作战迹象；所有席位均为普通席位或机构专用，无知名游资上榜，且席位风格未明或机构性质不涉及协同行为。"
+    },
+    "seller_analysis": {
+      "pressure_level": "高",
+      "pressure_desc": "卖压主要来自特定主力的集中出货，尤其是机构专用席位的大量卖出（1000万元），占比较高（5.32%）。其他普通席位虽有卖出，但机构行为主导卖压。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于短期上涨趋势的加速阶段，从6月23日低点16.4反弹后持续走高，7月2日创出新高20.09。量价关系上，上榜日成交量7.77万手，远超平均3.04万手，呈现放量上涨，表明买方力量强劲。关键信号包括7月1日价格跳空高开至19.18形成突破缺口，以及7月2日大阳线突破前期阻力位19.18，尽管有上影线显示短期压力，但整体趋势强化。"
+    },
+    "final_verdict": {
+      "outlook": "基于多方占优和市场情绪亢奋，短期趋势加速上涨，但ST股高波动性可能导致回调风险；后市看涨但需警惕压力位和机构分歧。",
+      "strategy": "短线投资者可逢低买入，设置止损于19.18支撑位；长线投资者应审慎评估公司基本面，避免追高。",
+      "risk_warning": "该股为ST证券，风险极高，波动剧烈；警惕机构卖出引发抛压、重组预期未兑现或政策变化导致大幅回调。"
+    }
+  },
+  "generated_at": "2025-07-03 15:33:49"
+}

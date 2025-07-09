@@ -1,0 +1,138 @@
+{
+  "stock_info": {
+    "ts_code": "301678.SZ",
+    "name": "新恒汇",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日换手率达到30%的前5只证券"
+      ],
+      "interpretation": "高换手率表明该股交易异常活跃，市场关注度极高，通常由事件驱动或投机行为引发。这反映了剧烈的多空分歧，买卖双方激烈博弈，价格波动显著，显示投资者情绪高度分化，存在短期投机热情而非稳定的多头共识。"
+    },
+    "overall_assessment": {
+      "verdict": "空方胜",
+      "confidence_score": 0.75,
+      "market_sentiment": {
+        "level": "分歧",
+        "interpretation": "价格下跌5.43%伴随极高换手率47.06%，显示市场情绪分歧，买卖双方激烈博弈，空头压力主导但多头抵抗活跃。"
+      },
+      "capital_confrontation": {
+        "level": "激烈对抗",
+        "interpretation": "主力买入1.52亿元与卖出1.45亿元接近，净买入仅750.96万元（净率0.61%），差额小；主力成交占比23.97%，在小盘股（流通市值25.05亿元）中影响力放大，表明多空对抗激烈但控盘力度有限。"
+      },
+      "key_takeaway": "高换手率下的显著价格下跌与主力小额净买入凸显市场深度分歧和多空激烈对抗。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.83亿元",
+          "sell_amount": "0.44亿元",
+          "net_amount": "0.39亿元",
+          "buy_rate": "6.74%",
+          "sell_rate": "3.58%",
+          "action_interpretation": "建仓或增持",
+          "style_profile": {
+            "summary": "今日净买入显著，执行标准机构战法（长期持有），后市可能继续持有或缓慢增持。",
+            "time_horizon": "长期",
+            "preferred_setup": "基本面驱动",
+            "typical_exit": "基于估值目标或事件驱动"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.14亿元",
+          "sell_amount": "0.11亿元",
+          "net_amount": "323.27万元",
+          "buy_rate": "1.12%",
+          "sell_rate": "0.85%",
+          "action_interpretation": "做T或小幅增持",
+          "style_profile": {
+            "summary": "买卖金额相近，执行机构做T策略，后市可能继续持仓或微调。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资结合波动",
+            "typical_exit": "基于市场波动或短期目标"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.16亿元",
+          "sell_amount": "0.12亿元",
+          "net_amount": "305.62万元",
+          "buy_rate": "1.25%",
+          "sell_rate": "1.01%",
+          "action_interpretation": "做T或小幅增持",
+          "style_profile": {
+            "summary": "买卖金额相近，执行机构做T策略，后市可能继续持仓或微调。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资结合波动",
+            "typical_exit": "基于市场波动或短期目标"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.11亿元",
+          "sell_amount": "0.13亿元",
+          "net_amount": "-155.44万元",
+          "buy_rate": "0.92%",
+          "sell_rate": "1.04%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今日做T，执行标准游资高频战法，后市可能继续日内交易。",
+            "time_horizon": "短期",
+            "preferred_setup": "高频波动交易",
+            "typical_exit": "日内或超短期退出"
+          }
+        },
+        {
+          "seat_name": "中国国际金融股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "899.17万元",
+          "sell_amount": "0.16亿元",
+          "net_amount": "-692.32万元",
+          "buy_rate": "0.73%",
+          "sell_rate": "1.29%",
+          "action_interpretation": "做T或出货",
+          "style_profile": {
+            "summary": "今日净卖出，执行量化做T策略（助涨助跌），后市可能继续助跌或调整仓位。",
+            "time_horizon": "短期",
+            "preferred_setup": "量化模型驱动",
+            "typical_exit": "快速退出基于算法信号"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "最大买方席位'机构专用'买额0.83亿元，占总买额1.25亿元的66.4%，其他席位买额均低于0.16亿元且买率低于1.25%，表明买方高度集中。",
+      "synergy_analysis": "席位中包括三个机构专用席位和一个普通营业部席位，但无知名游资上榜（机构席位代表基金、社保等非游资实体，普通席位未显示游资标签），无显著协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "high",
+      "pressure_desc": "The selling pressure is primarily from widespread profit-taking by various participants, including retail investors, quantitative funds, and short-term traders, rather than concentrated selling by specific major players."
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前阶段：股价处于短期上涨趋势的末期，正转向回调阶段。量价关系：上榜日（2025-07-02）下跌5.43%，成交量21.42万手，较前一日（22.87万手）减少，呈现缩量下跌；前几日（6月30日至7月1日）成交量从26.46万手降至22.87万手，显示买盘动力持续减弱。关键信号：上榜日K线形成长上影线（高点61.6，收盘55.05），表明上方抛压沉重；股价在6月25日高点71.88后未能突破，反弹高点逐步降低（6月30日63.87），结合连续阴线形态，确认下跌趋势形成。"
+    },
+    "final_verdict": {
+      "outlook": "基于当前分析，后市展望为短期下行压力显著，多空分歧激烈可能导致高波动。机构增持提供部分支撑，但整体趋势偏向回调，价格可能继续承压，反弹机会有限。",
+      "strategy": "操作策略建议：散户投资者应保持谨慎，避免追涨杀跌。当前持仓者可设置止损位（如55元以下）并考虑减仓；空仓者建议观望，等待趋势稳定或反转信号（如成交量放大伴随阳线）后再轻仓介入。",
+      "risk_warning": "风险提示：股价波动剧烈，存在进一步下跌风险；高换手率（47.06%）可能导致流动性问题和价格大幅震荡；量化基金和游资行为可能加剧下跌；买方高度集中但缺乏协同，支撑力度不足；整体空方主导，信心评分0.75，风险较高。"
+    }
+  },
+  "generated_at": "2025-07-03 15:45:40"
+}

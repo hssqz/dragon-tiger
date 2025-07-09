@@ -1,0 +1,104 @@
+{
+  "stock_info": {
+    "ts_code": "833427.BJ",
+    "name": "华维设计",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "当日换手率达到20%的前5只股票"
+      ],
+      "interpretation": "当日换手率达到20%表明该股票交易异常活跃，这反映了市场对该股票的高度关注和参与，通常由重大事件如新闻公告或热点题材驱动。这说明了当前市场存在剧烈的多空分歧，买卖双方博弈激烈，投资者对前景看法不一，导致频繁交易和价格波动，显示市场情绪波动较大且投机氛围浓厚。"
+    },
+    "overall_assessment": {
+      "verdict": "空方获胜",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "股价大幅下跌13.82%和高换手率35.08%表明市场恐慌情绪蔓延，抛售压力显著。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力资金净卖出652.64万元（净买入率-1.87%），龙虎榜金额占总成交22.11%，结合高换手率35.08%，显示多空对抗激烈且控盘力度中等。"
+      },
+      "key_takeaway": "恐慌抛售导致股价暴跌13.82%，主力资金净卖出，高换手率凸显市场活跃和分歧。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "712.84万元",
+          "sell_amount": "374.79万元",
+          "net_amount": "338.05万元",
+          "buy_rate": "2.04%",
+          "sell_rate": "1.07%",
+          "action_interpretation": "做T (净买入)",
+          "style_profile": {
+            "summary": "作为东方财富拉萨天团成员，今日执行标准做T战法，买卖兼有但净买入。后市预计继续日内高频交易，维持波动套利策略。",
+            "time_horizon": "超短期",
+            "preferred_setup": "高频做T",
+            "typical_exit": "日内了结"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "408.76万元",
+          "sell_amount": "805.74万元",
+          "net_amount": "-396.98万元",
+          "buy_rate": "1.17%",
+          "sell_rate": "2.31%",
+          "action_interpretation": "做T (净卖出)",
+          "style_profile": {
+            "summary": "作为东方财富拉萨天团成员，今日执行标准做T战法，买卖兼有但净卖出。后市预计继续日内波动操作，快速进出套利。",
+            "time_horizon": "超短期",
+            "preferred_setup": "高频做T",
+            "typical_exit": "日内了结"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "194.25万元",
+          "sell_amount": "808.42万元",
+          "net_amount": "-614.17万元",
+          "buy_rate": "0.56%",
+          "sell_rate": "2.32%",
+          "action_interpretation": "做T (净卖出)",
+          "style_profile": {
+            "summary": "作为东方财富拉萨天团成员，今日执行标准做T战法，买卖兼有但净卖出。后市预计维持高频交易模式，注重短期波动获利。",
+            "time_horizon": "超短期",
+            "preferred_setup": "高频做T",
+            "typical_exit": "日内了结"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位净买入额分布较为均匀，最大席位净买入占比约32.65%，无主导席位。",
+      "synergy_analysis": "仅有一个知名游资席位（东方财富证券拉萨团结路第一证券营业部）上榜，无其他知名游资同时出现迹象，因此不存在协同作战。"
+    },
+    "seller_analysis": {
+      "pressure_level": "高",
+      "pressure_desc": "卖压来源广泛，主要体现为普遍的获利了结行为，而非特定主力的集中出货。数据显示，多个席位（包括知名游资和普通席位）均卖出显著金额，其中知名游资席位（如东方财富拉萨天团）的行为模式为每日做T，表明短线获利了结；普通席位也参与卖出，但无特定主力集中迹象。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前股价处于短期快速上涨后的高位阶段，自2025-06-30起连续大幅上涨，于2025-07-01达到峰值后出现反转。量价关系显示，上榜日（2025-07-02）放量下跌（成交量17.76万手，较前一日略降但仍处高位），价跌量增，抛压显著；而前一日（2025-07-01）虽放量上涨（成交量20.25万手），但未能延续涨势。关键信号为高位长上影阴线（上影线长4.27元），结合前日大阳线，形成顶部反转形态，暗示机构抛售行为。"
+    },
+    "final_verdict": {
+      "outlook": "基于恐慌情绪、空方获胜和高位反转信号，后市预计股价可能进一步下跌或维持高波动，市场不稳定风险高。",
+      "strategy": "建议散户保持观望，避免追高；现有持仓设置严格止损；专业交易者可尝试日内短线套利但严格控制仓位和风险。",
+      "risk_warning": "高风险：高换手率和恐慌抛售可能导致股价剧烈波动、快速下跌；超短期交易主导，流动性风险高；高位反转形态暗示潜在持续下跌。"
+    }
+  },
+  "generated_at": "2025-07-03 15:46:45"
+}

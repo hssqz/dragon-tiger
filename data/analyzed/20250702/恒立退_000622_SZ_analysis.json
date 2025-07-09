@@ -1,0 +1,173 @@
+{
+  "stock_info": {
+    "ts_code": "000622.SZ",
+    "name": "恒立退",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "退市整理期"
+      ],
+      "interpretation": "退市整理期表明该股票因不符合上市条件而即将退出市场，这凸显了公司基本面严重恶化或违规问题，导致投资者面临清算风险。市场情绪极度悲观，表现为恐慌抛售和看空主导，博弈状态呈现剧烈多空分歧：空头力量强劲，投资者急于离场以避免损失；而少数投机多头可能试图抄底博取短期反弹，但整体缺乏共识，风险极高。"
+    },
+    "overall_assessment": {
+      "verdict": "平衡",
+      "confidence_score": 0.7,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "涨幅为0.00%和换手率仅2.92%表明市场情绪恐慌，投资者回避退市整理股票。"
+      },
+      "capital_confrontation": {
+        "level": "低烈度",
+        "interpretation": "主力净买入额微小（2.92万元），净率仅1.51%，且流通市值小（0.68亿元），资金对抗温和，控盘力度低。"
+      },
+      "key_takeaway": "核心看点：退市整理期下，市场恐慌主导，主力资金对抗温和，多空无明显胜负。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "36.39万元",
+          "sell_amount": "0.05万元",
+          "net_amount": "36.34万元",
+          "buy_rate": "18.83%",
+          "sell_rate": "0.02%",
+          "action_interpretation": "净买入为主，可能在建仓或接力，而非典型做T",
+          "style_profile": {
+            "summary": "今日大幅净买入偏离日常做T模式，可能在建仓；后市预计会进行做T操作或持有",
+            "time_horizon": "超短",
+            "preferred_setup": "做T操作",
+            "typical_exit": "卖出获利"
+          }
+        },
+        {
+          "seat_name": "湘财证券股份有限公司佛山星辰路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "佛山系",
+          "buy_amount": "16.00万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "16.00万元",
+          "buy_rate": "8.28%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "纯买入，早盘快速拉板，主封行为",
+          "style_profile": {
+            "summary": "执行标准超短战法，拉板日内龙头；后市次日可能冲高出局",
+            "time_horizon": "超短",
+            "preferred_setup": "一板个股快速拉板",
+            "typical_exit": "次日冲高出局"
+          }
+        },
+        {
+          "seat_name": "国新证券股份有限公司长沙韶山路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "14.99万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "14.99万元",
+          "buy_rate": "7.76%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "纯买入，打板建仓",
+          "style_profile": {
+            "summary": "执行量化打板策略，纪律性强；后市如果次日不能秒板开盘，会兑现一半仓位",
+            "time_horizon": "超短",
+            "preferred_setup": "首板或二板打板",
+            "typical_exit": "次日兑现或清仓"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.22万元",
+          "sell_amount": "13.92万元",
+          "net_amount": "-13.70万元",
+          "buy_rate": "0.12%",
+          "sell_rate": "7.20%",
+          "action_interpretation": "净卖出为主，可能在做T或出货",
+          "style_profile": {
+            "summary": "今日卖出为主，符合做T模式；后市可能回补买入或继续卖出",
+            "time_horizon": "超短",
+            "preferred_setup": "做T操作",
+            "typical_exit": "买入后卖出"
+          }
+        },
+        {
+          "seat_name": "华泰证券股份有限公司上海武定路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "炒新一族",
+          "buy_amount": "0.00万元",
+          "sell_amount": "17.18万元",
+          "net_amount": "-17.18万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "8.89%",
+          "action_interpretation": "纯卖出，出货行为",
+          "style_profile": {
+            "summary": "执行超短一日游策略，出货开板次新；后市可能转移到其他股票",
+            "time_horizon": "超短",
+            "preferred_setup": "开板次新联合出动",
+            "typical_exit": "一日游后卖出"
+          }
+        },
+        {
+          "seat_name": "国金证券股份有限公司上海互联网证券分公司",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.48万元",
+          "sell_amount": "17.77万元",
+          "net_amount": "-17.29万元",
+          "buy_rate": "0.25%",
+          "sell_rate": "9.20%",
+          "action_interpretation": "净卖出大，卖出为主，可能做T",
+          "style_profile": {
+            "summary": "卖出为主，体现做T风格；后市可能买入回补",
+            "time_horizon": "超短",
+            "preferred_setup": "做T操作",
+            "typical_exit": "卖出后买入"
+          }
+        },
+        {
+          "seat_name": "海通证券股份有限公司绍兴劳动路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "列夫",
+          "buy_amount": "0.00万元",
+          "sell_amount": "32.70万元",
+          "net_amount": "-32.70万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "16.92%",
+          "action_interpretation": "纯卖出，出货市场龙头",
+          "style_profile": {
+            "summary": "作为龙头战法专家，今日出货执行标准策略；后市可能寻找新龙头或观望",
+            "time_horizon": "短到中期",
+            "preferred_setup": "市场龙头",
+            "typical_exit": "龙头弱化时卖出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买家占18.83%，其他买家份额在7.74%到8.28%之间，分布相对均匀，赫芬达尔指数较低。",
+      "synergy_analysis": "存在协同作战迹象，因为多个知名游资（T王、佛山系、量化打板）同时上榜。"
+    },
+    "seller_analysis": {
+      "pressure_level": "high",
+      "pressure_desc": "卖压主要来自多个知名游资的普遍获利了结行为，包括高频做T、短线接力和龙头战法，而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "筑底阶段",
+      "trend_interpretation": "当前股价处于短期下跌后的筑底阶段。量价关系显示上榜日及前两日成交量持续萎缩（上榜日12.40万手，前一日16.15万手，再前一日23.12万手），价格横盘在0.15-0.16区间，呈现缩量整理态势。关键信号包括上榜日形成的平盘K线（开盘0.16、最高0.16、最低0.15、收盘0.16），表明多空平衡；结合前期从0.21高点大幅下跌后的低位整理，可能为未来反转铺垫，但尚未出现明确突破信号。"
+    },
+    "final_verdict": {
+      "outlook": "该股票处于退市整理期，公司基本面严重恶化，市场情绪极度恐慌，表现为恐慌抛售和剧烈多空分歧。尽管股价在0.15-0.16元区间筑底整理，量价关系显示缩量平衡，但未出现明确突破信号。知名游资参与博弈，存在短期反弹可能性，但整体不确定性极大，退市风险主导后市。",
+      "strategy": "强烈建议散户投资者避免参与该股票。仅适合高风险投机者进行超短线操作，如跟随游资动向（例如关注T王、佛山系的建仓信号），严格设置止损位在0.15元以下，并在股价跌破支撑或出现加速下跌时立即离场。操作应以日内或次日清仓为主，避免持仓过夜。",
+      "risk_warning": "主要风险包括：退市清算可能导致本金全部损失；市场恐慌引发流动性枯竭和价格剧烈波动；游资快速进出加剧不确定性；以及公司基本面持续恶化。投资者应仅使用可承受损失的资金，并充分评估自身风险承受能力。"
+    }
+  },
+  "generated_at": "2025-07-03 15:22:28",
+  "processed_at": "2025-07-03T15:22:28.329111"
+}

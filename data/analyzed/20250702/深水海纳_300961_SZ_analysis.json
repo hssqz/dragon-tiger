@@ -1,0 +1,138 @@
+{
+  "stock_info": {
+    "ts_code": "300961.SZ",
+    "name": "深水海纳",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日涨幅达到15%的前5只证券"
+      ],
+      "interpretation": "该股票单日涨幅达到15%，表明有强劲的买入需求和积极的市场反应，通常由利好消息、基本面改善或行业热点驱动。这反映了强烈的多头共识，市场参与者普遍看好该股票，买方力量主导，空头抵抗较弱，暗示投资者情绪高涨且博弈状态偏向一致看涨，而非多空分歧。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜出",
+      "confidence_score": 0.95,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "20.00%的涨幅表明市场情绪极度亢奋，16.47%的换手率进一步确认了强烈的买入热情和活跃交易。"
+      },
+      "capital_confrontation": {
+        "level": "较强控盘",
+        "interpretation": "主力净买入0.96亿元，净买入率达18.03%，结合主力成交占比39.45%和流通市值32.90亿元的中小盘特性，显示主力资金积极买入，控盘力度强，多空对抗中多方占据明显优势。"
+      },
+      "key_takeaway": "主力资金强势买入推动股价飙升20%，市场情绪高涨，凸显主力对中小盘股的主导作用。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.39亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.39亿元",
+          "buy_rate": "7.21%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封或接力首板/二板",
+          "style_profile": {
+            "summary": "执行标准量化打板战法：入场打板。后市剧本：如果次日不能秒板开盘，先兑现一半；上板则买回；不能走强则清仓。",
+            "time_horizon": "短期",
+            "preferred_setup": "首板、二板",
+            "typical_exit": "次日兑现一半或清仓"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司宜昌沿江大道证券营业部",
+          "player_type": "知名游资",
+          "player_name": "消闲派",
+          "buy_amount": "0.36亿元",
+          "sell_amount": "8.45万元",
+          "net_amount": "0.36亿元",
+          "buy_rate": "6.72%",
+          "sell_rate": "0.02%",
+          "action_interpretation": "打首板入场",
+          "style_profile": {
+            "summary": "执行标准推土机首板战法。后市剧本：首板次日有高溢价。",
+            "time_horizon": "短期",
+            "preferred_setup": "首板，20CM首板",
+            "typical_exit": "次日高溢价退出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "华泰证券股份有限公司无锡金融一街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "苏南帮",
+          "buy_amount": "0.00万元",
+          "sell_amount": "475.74万元",
+          "net_amount": "-475.74万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "0.89%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "未执行标准强顶3/4板战法；今天出货可能表示退出。后市剧本：看空或仓位调整。",
+            "time_horizon": "短期",
+            "preferred_setup": "3/4板",
+            "typical_exit": "强顶后出货"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东城区江苏大道证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "71.92万元",
+          "sell_amount": "605.43万元",
+          "net_amount": "-533.51万元",
+          "buy_rate": "0.13%",
+          "sell_rate": "1.13%",
+          "action_interpretation": "做T操作",
+          "style_profile": {
+            "summary": "执行标准做T战法。后市剧本：继续日内交易，不影响趋势。",
+            "time_horizon": "日内",
+            "preferred_setup": "做T",
+            "typical_exit": "T+0退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "23.94万元",
+          "sell_amount": "0.16亿元",
+          "net_amount": "-1,547.92万元",
+          "buy_rate": "0.04%",
+          "sell_rate": "2.94%",
+          "action_interpretation": "出货或减仓",
+          "style_profile": {
+            "summary": "机构在卖出，可能表示看空或调仓。后市剧本：机构退出可能引发信心下降。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资或基本面驱动",
+            "typical_exit": "基于基本面变化或目标达成"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位分布相对均匀，最大买方比例仅为7.21%，前五名买方总占比28.56%，且比例范围在3.79%到7.21%之间，无明显主导席位。",
+      "synergy_analysis": "存在协同作战的迹象，因为两个知名游资（量化打板和消闲派）同时上榜并净买入，买入比例分别为7.21%和6.72%，且均为首板风格，可能暗示协调行动。"
+    },
+    "seller_analysis": {
+      "pressure_level": "特定主力集中出货",
+      "pressure_desc": "卖压主要来自华泰证券股份有限公司无锡金融一街证券营业部（苏南帮）的集中出货行为，该席位操作风格为短庄，常在3/4板强顶一字板后协同出货；其他席位如T王和机构专用可能涉及获利了结，但非主导因素。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于上涨趋势的加速阶段。从短期趋势看，股价自2025-06-19低点15.54元反弹后，连续多日上涨，上榜日（2025-07-02）以20%涨停强势突破，确认进入主升浪加速期。量价关系方面，上榜日成交量25.01万手，较前一日18.74万手和前几日平均16.72万手显著放大，配合股价跳空高开至20.63元并收于21.66元，形成放量上涨的良性信号。关键信号包括：上榜日出现跳空高开涨停大阳线，突破前期高点18.8元（2025-06-26），且K线形态显示强势突破整理平台，量能放大验证买盘动能增强。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望积极，股价可能延续上涨趋势，但需警惕短期回调风险。综合主力资金强势买入和市场情绪亢奋，短期上行概率高；然而机构出货和卖压集中可能引发波动，投资者应密切关注开盘表现和量能变化。",
+      "strategy": "建议短期投资者持有观察，若次日开盘强势（如秒板）可加仓或部分持有，否则兑现一半获利；新投资者谨慎入场，优先选择低吸机会并设置止损位（如跌破20.63元）；避免追高，关注游资协同行动信号。",
+      "risk_warning": "风险包括机构出货可能导致信心下降、高位回调风险（股价已上涨20%）、市场情绪逆转引发快速下跌、卖方主力（如苏南帮）集中出货增加卖压；投资者应严格控制仓位，分散投资，及时止损。"
+    }
+  },
+  "generated_at": "2025-07-03 15:35:56"
+}

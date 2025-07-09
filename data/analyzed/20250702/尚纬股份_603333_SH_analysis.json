@@ -1,0 +1,138 @@
+{
+  "stock_info": {
+    "ts_code": "603333.SH",
+    "name": "尚纬股份",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券"
+      ],
+      "interpretation": "该股票因日收盘价格涨幅偏离值达到7%而上榜，表明其当日表现异常强劲，涨幅显著高于市场平均水平。这反映了市场对该股票的强烈多头共识，买方力量主导，可能由利好消息、基本面改善或热点题材驱动。市场情绪积极，显示出投资者对未来的看好预期，博弈状态偏向多头主导，空头相对弱势，短期可能伴随投机资金流入。"
+    },
+    "overall_assessment": {
+      "verdict": "多方获胜",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "涨幅10.05%达到涨停板，换手率11.48%显著高于平均水平，显示市场情绪亢奋且交易活跃。"
+      },
+      "capital_confrontation": {
+        "level": "较强控盘",
+        "interpretation": "龙虎榜净买入0.22亿元，净买入率3.89%，龙虎榜金额占成交金额17.00%，主力资金积极买入（买入0.60亿元 vs 卖出0.38亿元）；流通市值52.39亿元较大，但主力活动占比高，表明控盘力度较强，多空对抗相对温和。"
+      },
+      "key_takeaway": "主力资金积极介入推动股价涨停，市场情绪亢奋凸显强势。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.29亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.29亿元",
+          "buy_rate": "5.04%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓",
+          "style_profile": {
+            "summary": "今日只买入未卖出，不符合频繁做T的标准战法，可能在建仓；后市若股价上涨，可能卖出做T套利，若下跌则可能止损。",
+            "time_horizon": "短期",
+            "preferred_setup": "利用假机构和席位溢价",
+            "typical_exit": "通过卖出实现利润"
+          }
+        },
+        {
+          "seat_name": "瑞银证券有限责任公司上海浦东新区花园石桥路第二证券营业部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "868.43万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "868.43万元",
+          "buy_rate": "1.51%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "建仓",
+          "style_profile": {
+            "summary": "今日只买入未卖出，不符合频繁做T的标准战法，可能在建仓；后市若股价上涨，可能卖出做T套利，若下跌则可能止损。",
+            "time_horizon": "短期",
+            "preferred_setup": "利用假机构和席位溢价",
+            "typical_exit": "通过卖出实现利润"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "瑞银证券有限责任公司上海浦东新区花园石桥路第二证券营业部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "841.32万元",
+          "net_amount": "-841.32万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.47%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今日卖出操作，符合助涨助跌的风格，可能执行标准做T战法；后市若股价承压，可能继续卖出或观望。",
+            "time_horizon": "短期",
+            "preferred_setup": "利用假机构和席位溢价",
+            "typical_exit": "通过卖出实现利润"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "896.21万元",
+          "net_amount": "-896.21万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.56%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今日卖出操作，符合助涨助跌的风格，可能执行标准做T战法；后市若股价承压，可能继续卖出或观望。",
+            "time_horizon": "短期",
+            "preferred_setup": "利用假机构和席位溢价",
+            "typical_exit": "通过卖出实现利润"
+          }
+        },
+        {
+          "seat_name": "中信证券股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "967.34万元",
+          "net_amount": "-967.34万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.69%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今日卖出操作，符合助涨助跌的风格，可能执行标准做T战法；后市若股价承压，可能继续卖出或观望。",
+            "time_horizon": "短期",
+            "preferred_setup": "利用假机构和席位溢价",
+            "typical_exit": "通过卖出实现利润"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "最大买方席位（国泰海通证券股份有限公司总部）买方金额占比约48.28%，前两大买方席位合计占比约69.16%，显示买方资金高度集中。",
+      "synergy_analysis": "存在协同作战的迹象，因为两个量化基金席位（国泰海通证券股份有限公司总部和瑞银证券有限责任公司上海浦东新区花园石桥路第二证券营业部）同时上榜，策略一致（频繁做T，助涨助跌），可能协调行动。"
+    },
+    "seller_analysis": {
+      "pressure_level": "high",
+      "pressure_desc": "普遍的获利了结"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "底部启动信号",
+      "trend_interpretation": "当前股价处于筑底反弹的初期阶段，从近期最低点7.23反弹后，出现连续上涨。量价关系显示上榜日放量上涨（成交量71.34万手，远高于平均34.06万手），前一日也放量上涨（成交量40.12万手），形成量价齐升的良好配合。关键信号包括上榜日的大阳线形态（涨幅10.05%，收盘接近最高价）和突破近期阻力位（突破7月1日高点7.84），表明结束前期震荡整理，可能开启新上升趋势。"
+    },
+    "final_verdict": {
+      "outlook": "基于分析，该股近期表现异常强劲，市场情绪亢奋，主力资金积极介入推动股价涨停，技术面显示底部启动信号并突破阻力位，预示短期可能延续上涨趋势。但需警惕卖方获利了结压力和量化基金的短期套利行为，可能导致回调风险。",
+      "strategy": "建议散户投资者在股价回调时逢低分批建仓，设置止损位在7.84元附近；关注后续量能变化，若成交量持续放大可适当加仓，避免情绪高点追涨；短线操作者可利用波动进行日内交易，但需严格管理仓位。",
+      "risk_warning": "风险提示：市场情绪亢奋可能引发短期过热回调；卖方普遍获利了结压力较大；量化基金频繁做T套利或止损行为可能导致股价剧烈波动；高换手率显示投机性强，需警惕基本面变化。投资前务必设置止损，控制风险敞口。"
+    }
+  },
+  "generated_at": "2025-07-03 15:48:03"
+}

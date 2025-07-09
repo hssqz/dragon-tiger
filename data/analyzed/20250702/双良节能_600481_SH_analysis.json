@@ -1,0 +1,172 @@
+{
+  "stock_info": {
+    "ts_code": "600481.SH",
+    "name": "双良节能",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券"
+      ],
+      "interpretation": "该股票上榜的原因是日收盘价格涨幅偏离值达到7%，表明其当日涨幅远超市场平均水平，跻身涨幅最大前五只证券之列。这反映了当前市场对该股的强烈多头共识，投资者情绪高度乐观，主要由积极买入推动，可能受利好消息或资金流入驱动，显示多空分歧较小且多头占主导地位，暗示短期上涨动能强劲。"
+    },
+    "overall_assessment": {
+      "verdict": "多方获胜",
+      "confidence_score": 0.9,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "涨幅10.06%显示市场热情高涨，换手率8.53%表明交易活跃，整体情绪亢奋。"
+      },
+      "capital_confrontation": {
+        "level": "强控盘",
+        "interpretation": "主力资金净买入0.77亿元（净率9.52%），占成交金额21.49%，显示主力积极买入，控盘力度强，多空对抗中多方主导。"
+      },
+      "key_takeaway": "主力资金大幅净流入推动股价强势涨停。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.29亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.29亿元",
+          "buy_rate": "3.55%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "打板买入",
+          "style_profile": {
+            "summary": "今天执行量化打板标准战法，买入首板/二板；后市最可能剧本：如果次日不能秒板开盘，会先兑现一半，上板则买回，不能走强则清仓。",
+            "time_horizon": "超短线",
+            "preferred_setup": "首板、二板",
+            "typical_exit": "次日不能秒板开盘兑现一半，不能走强清仓"
+          }
+        },
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.22亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.22亿元",
+          "buy_rate": "2.66%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入",
+          "style_profile": {
+            "summary": "作为境外资金通道，今日买入代表外资流入；无特定标准战法；后市可能继续持有或根据市场调整。",
+            "time_horizon": "中长线",
+            "preferred_setup": "互联互通机制相关股票",
+            "typical_exit": "长期持有或策略性卖出"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司成都北一环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "成都系",
+          "buy_amount": "0.20亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.20亿元",
+          "buy_rate": "2.47%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "直线拉升封板",
+          "style_profile": {
+            "summary": "今天执行超短游资标准战法，直线拉升封板首板；后市最可能剧本：次日冲高砸盘。",
+            "time_horizon": "超短线",
+            "preferred_setup": "首板、超跌板、中小盘",
+            "typical_exit": "次日冲高砸盘"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "华泰证券股份有限公司江阴福泰路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "温州帮",
+          "buy_amount": "0.00万元",
+          "sell_amount": "824.20万元",
+          "net_amount": "-824.20万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.02%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今天可能在执行出货标准战法；后市最可能剧本：继续出货或转战其他次新股。",
+            "time_horizon": "短线",
+            "preferred_setup": "次新股、深度控盘",
+            "typical_exit": "快速出货"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "995.46万元",
+          "net_amount": "-995.46万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.23%",
+          "action_interpretation": "做T卖出",
+          "style_profile": {
+            "summary": "今天执行频繁做T战法，卖出仓位；后市最可能剧本：可能继续做T，助涨助跌。",
+            "time_horizon": "短线",
+            "preferred_setup": "利用席位溢价",
+            "typical_exit": "T+0或短期退出"
+          }
+        },
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.11亿元",
+          "net_amount": "-1,080.66万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.33%",
+          "action_interpretation": "卖出",
+          "style_profile": {
+            "summary": "作为境外资金通道，今日卖出代表外资流出；无特定标准战法；后市可能继续卖出或持有。",
+            "time_horizon": "中长线",
+            "preferred_setup": "互联互通机制相关股票",
+            "typical_exit": "长期持有或策略性卖出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.13亿元",
+          "net_amount": "-1,263.04万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.56%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "作为机构专用通道，今日卖出可能代表机构减持；无特定标准战法；后市取决于机构策略。",
+            "time_horizon": "中长线",
+            "preferred_setup": "机构偏好股票",
+            "typical_exit": "策略性卖出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买家占比约30.16%，其余买家占比在13.49%至23.02%之间，分布相对均匀，没有单一买家主导。",
+      "synergy_analysis": "存在协同作战迹象，因为开源证券（量化打板）和国泰海通证券（成都系）两个知名游资同时上榜，且风格相似，都聚焦短线打板操作。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要来自特定主力温州帮的集中出货行为，该席位作为知名游资深度控盘后出货；其他席位如量化基金和机构也在卖出，但整体性质以温州帮的主动出货为主导。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前阶段：股价在经历短暂回调后，进入上涨主升浪的初期阶段。量价关系：上榜日（2025-07-02）出现显著放量上涨，成交量达159.84万手，远高于平均48.89万手，价涨量增显示买方强劲；前一日（2025-07-01）缩量下跌，为突破蓄势。关键信号：大阳线形态，开盘价与最低价相同（4.78），收盘于最高点（5.25），突破6月30日高点5.06，形成强势突破信号，确认上涨趋势。"
+    },
+    "final_verdict": {
+      "outlook": "该股后市短期可能延续上涨趋势，多方动能强劲且趋势加速确认，但需警惕卖家集中出货和游资短线兑现带来的回调风险，波动性可能增加。",
+      "strategy": "建议短期投资者持仓观望，逢低布局支撑位（如前低4.78元附近）；未持有者等待回调买入机会，设置止损在4.70元下方；密切关注次日开盘情况，若不能秒板开盘则部分兑现利润，若股价走弱及时清仓。",
+      "risk_warning": "风险包括市场情绪亢奋引发泡沫、卖家如温州帮集中出货打压股价、游资短线操作加剧波动、外资和机构减持信号显示潜在流出压力；投资者应避免追高，严格止损，并实时监控资金流向。"
+    }
+  },
+  "generated_at": "2025-07-03 15:47:14"
+}

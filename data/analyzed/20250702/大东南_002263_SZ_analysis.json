@@ -1,0 +1,121 @@
+{
+  "stock_info": {
+    "ts_code": "002263.SZ",
+    "name": "大东南",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日振幅值达到15%的前5只证券"
+      ],
+      "interpretation": "日振幅值达到15%表明该股票在交易日内经历了剧烈的价格波动，这通常反映了市场参与者对该股的分歧较大，多空博弈激烈。振幅大说明既有强烈的买盘推动价格上涨，也有显著的卖盘导致价格下跌，暗示当前市场情绪高度不稳定，缺乏明确的多头或空头共识，可能源于消息面刺激、投机行为或技术面调整，显示出短期内的不确定性增强。"
+    },
+    "overall_assessment": {
+      "verdict": "空方胜出",
+      "confidence_score": 0.75,
+      "market_sentiment": {
+        "level": "分歧",
+        "interpretation": "股价下跌6.89%但换手率高达33.27%，显示买卖双方激烈博弈，市场情绪分歧明显。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力买卖额接近（买入2.75亿元，卖出2.41亿元），净买入微小（0.35亿元）仅占流通市值73.63亿元的0.475%，表明多空对抗激烈但主力控盘力度弱。"
+      },
+      "key_takeaway": "高换手率下的股价大跌，凸显市场分歧和主力资金微弱净流入的核心看点。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "深股通专用",
+          "player_type": "机构",
+          "player_name": "深股通专用",
+          "buy_amount": "0.76亿元",
+          "sell_amount": "0.11亿元",
+          "net_amount": "0.65亿元",
+          "buy_rate": "2.92%",
+          "sell_rate": "0.41%",
+          "action_interpretation": "主封或接力，净买入高表明积极建仓",
+          "style_profile": {
+            "summary": "作为境外资金通道，今天执行标准互联互通机制操作，看好后市；后市剧本：可能继续持有或增持",
+            "time_horizon": "中长期",
+            "preferred_setup": "互联互通机制股票",
+            "typical_exit": "基于政策变化或市场调整退出"
+          }
+        },
+        {
+          "seat_name": "平安证券股份有限公司深圳分公司",
+          "player_type": "知名游资",
+          "player_name": "红岭路",
+          "buy_amount": "0.28亿元",
+          "sell_amount": "988.83万元",
+          "net_amount": "0.18亿元",
+          "buy_rate": "1.08%",
+          "sell_rate": "0.38%",
+          "action_interpretation": "维护股价或吸筹，部分做T，符合二波战法",
+          "style_profile": {
+            "summary": "今天执行标准二波战法，维护核心个股；后市剧本：可能启动二波上涨",
+            "time_horizon": "中短线",
+            "preferred_setup": "核心个股二波",
+            "typical_exit": "高位出货或获利了结"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.16亿元",
+          "sell_amount": "0.21亿元",
+          "net_amount": "-419.68万元",
+          "buy_rate": "0.63%",
+          "sell_rate": "0.79%",
+          "action_interpretation": "做T操作，净卖出略多，可能高位出货",
+          "style_profile": {
+            "summary": "今天执行标准做T战法，净卖出调整；后市剧本：继续日内波动交易",
+            "time_horizon": "超短线",
+            "preferred_setup": "波动大个股",
+            "typical_exit": "日内了结或止损"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.11亿元",
+          "sell_amount": "0.22亿元",
+          "net_amount": "-1,092.81万元",
+          "buy_rate": "0.41%",
+          "sell_rate": "0.83%",
+          "action_interpretation": "出货或调整仓位，净卖出为主",
+          "style_profile": {
+            "summary": "作为机构，今天执行标准仓位管理，看空或获利了结；后市剧本：可能继续减持或观望",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资股",
+            "typical_exit": "基于基本面或市场趋势退出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买方深股通专用买入金额占提供数据总买入额的38.6%，其他买方份额在11.7%至21.8%之间分布较均匀，无单一买家主导。",
+      "synergy_analysis": "仅有一个知名游资（红岭路）上榜，无其他知名游资同时出现，因此不存在协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "获利了结",
+      "pressure_desc": "卖压来源于多个席位，包括机构、知名游资和普通席位，显示普遍的获利了结行为，而非特定主力的集中出货。具体表现为：机构席位净卖出1092.81万元，知名游资席位做T式卖出，普通席位贡献最大卖出量（如广发证券卖出1.23亿元），表明分散的卖出压力。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前股价处于短期上涨趋势的末期。量价关系上，上榜日（2025-07-02）放量下跌（成交量624.96万手，虽低于前一日758.69万手但远高于平均201.44万手），且前一日（2025-07-01）高成交量758.69万手但仅涨1.94%，形成长上影线（最高4.54，收盘4.21），表明高位抛压增大。关键信号包括7月1日的长上影线暗示上方阻力，以及7月2日的大阴线（开盘3.93，收盘3.92，跌幅-6.89%）跌破前日低点，确认趋势转折信号。"
+    },
+    "final_verdict": {
+      "outlook": "市场情绪高度分歧，空方占据优势（信心0.75），短期趋势末期确认高位出货，后市可能继续下行或震荡。中长期深股通资金积极建仓提供潜在支撑，但不确定性增强，需谨慎应对波动。",
+      "strategy": "短期观望或减仓，设置止损位在关键支撑（如前日低点3.92元），跌破则果断退出。中长期投资者关注深股通动向，等待企稳信号（如缩量或放量反弹）再分批建仓。避免追高和频繁交易，优先保护本金。",
+      "risk_warning": "高风险提示：日振幅达15%，波动剧烈可能导致快速亏损；卖压分散但持续，获利了结行为或加剧下跌；主力控盘弱，市场情绪不稳，易受消息冲击。严格控制仓位，使用止损工具，避免过度杠杆。"
+    }
+  },
+  "generated_at": "2025-07-03 15:35:03"
+}

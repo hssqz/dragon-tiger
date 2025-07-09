@@ -1,0 +1,87 @@
+{
+  "stock_info": {
+    "ts_code": "900952.SH",
+    "name": "退市锦B",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "退市整理的证券"
+      ],
+      "interpretation": "上榜原因'退市整理的证券'表明该股票正处于退市过程中，反映了公司经营状况严重恶化、财务风险极高，即将被终止上市，这凸显了市场对其基本面极度不看好。市场情绪高度悲观，投资者恐慌性抛售主导交易，导致价格剧烈下跌和异常波动；博弈状态以空头绝对优势为主，多头共识几乎缺失，尽管可能存在少量投机性买盘博取反弹，但整体呈现出强烈的风险规避和低流动性下的剧烈分歧。"
+    },
+    "overall_assessment": {
+      "verdict": "多方占优",
+      "confidence_score": 0.75,
+      "market_sentiment": {
+        "level": "分歧",
+        "interpretation": "股价上涨4.35%但换手率仅3.42%，显示市场情绪分歧，买卖双方博弈中无明显亢奋或恐慌。"
+      },
+      "capital_confrontation": {
+        "level": "中等对抗",
+        "interpretation": "主力资金净买入5.32万元（净买入率28.35%），但相对流通市值7.88亿元影响微弱，控盘力度不强，对抗激烈程度中等。"
+      },
+      "key_takeaway": "在退市整理背景下，主力资金净买入主导交易，但流通市值较大限制了市场影响力。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "中国银河证券股份有限公司北京阜成路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "赵老哥",
+          "buy_amount": "1.22万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "1.22万元",
+          "buy_rate": "6.53%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "接力",
+          "style_profile": {
+            "summary": "今日执行标准战法，接力龙头股。后市可能吸引资金接力，推动股价上涨。",
+            "time_horizon": "短期",
+            "preferred_setup": "龙头股、主线题材",
+            "typical_exit": "高点卖出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "华泰证券股份有限公司上海静安区广中西路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "炒新一族",
+          "buy_amount": "0.00万元",
+          "sell_amount": "3.79万元",
+          "net_amount": "-3.79万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "20.20%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今日执行标准战法，一日游后出货。后市股价可能承压或回调。",
+            "time_horizon": "非常短期",
+            "preferred_setup": "开板次新",
+            "typical_exit": "一日游后卖出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "最大买方席位招商证券股份有限公司北京海淀大街证券营业部买入占比40.38%，远高于其他席位（如第二名华泰证券股份有限公司长沙芙蓉中路证券营业部占比12.55%），显示买方力量集中于单一席位。",
+      "synergy_analysis": "只有一个知名游资席位（赵老哥）上榜，其他席位均为普通席位且无协同风格信息，没有多个知名游资同时出现的迹象，协同作战可能性低。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货为主",
+      "pressure_desc": "卖压主要来自特定主力'炒新一族'（知名游资）的集中出货，其卖出金额占比20.20%，为最高；次要来自其他普通席位的普遍获利了结，卖出金额较小且风格未明。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "数据不足",
+      "trend_interpretation": "未提供有效的K线数据（chart_data和summary为空），无法分析当前股价阶段、量价关系或关键K线形态。请提供完整的日K线数据以进行行为定性（如趋势加速或高位出货）和趋势解读。"
+    },
+    "final_verdict": {
+      "outlook": "该股票处于退市整理阶段，公司基本面严重恶化，即将终止上市。市场情绪高度悲观，尽管短期有主力资金净买入和游资接力推动股价上涨，但整体风险极高，后市展望极度负面，价格可能持续下跌或波动剧烈。",
+      "strategy": "强烈建议散户投资者避免持有或交易该股票。如果进行交易，只考虑超短线投机，设置严格止损（例如在买入价下方5%），并在股价反弹时迅速获利了结。优先选择其他低风险资产，并监控每日盘面变化。",
+      "risk_warning": "投资该股票面临极高风险：退市可能导致本金全部损失；市场情绪分歧和高波动性加剧不确定性；流动性可能枯竭，导致无法及时卖出；游资行为（如接力或出货）会放大短期波动。散户应完全规避此类高风险资产。"
+    }
+  },
+  "generated_at": "2025-07-03 15:47:07"
+}

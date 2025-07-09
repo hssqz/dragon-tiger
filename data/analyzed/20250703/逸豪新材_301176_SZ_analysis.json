@@ -1,0 +1,172 @@
+{
+  "stock_info": {
+    "ts_code": "301176.SZ",
+    "name": "逸豪新材",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日涨幅达到15%的前5只证券"
+      ],
+      "interpretation": "该股票上榜的原因是日涨幅显著达到15%，进入涨幅前5名，这表明其在当天市场中表现异常强劲，受到大量买入资金的追捧。这种大幅上涨反映了市场对该股票的强烈多头共识，投资者情绪高度乐观，可能基于基本面改善、利好消息或行业热点推动；博弈状态偏向买方主导，空头力量较弱，显示出市场对该股票的积极预期和一致看好。"
+    },
+    "overall_assessment": {
+      "verdict": "多方推动涨停但主力资金净流出",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "股价上涨20%涨停，换手率57.71%极高，反映市场情绪亢奋。"
+      },
+      "capital_confrontation": {
+        "level": "主力分歧，空方略优",
+        "interpretation": "主力净卖出1581.90万元，净率-1.68%，在流通市值18.39亿元的小盘股中影响显著；主力成交占比17.44%，换手率高显示对抗激烈。"
+      },
+      "key_takeaway": "主力资金在涨停中净卖出，需警惕后续调整风险。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "国泰海通证券股份有限公司河源越王大道证券营业部",
+          "player_type": "知名游资",
+          "player_name": "越王大道",
+          "buy_amount": "0.15亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.15亿元",
+          "buy_rate": "1.58%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封",
+          "style_profile": {
+            "summary": "今天买入热门股，执行标准短线战法。后市可能在高点纪律性卖出。",
+            "time_horizon": "短线",
+            "preferred_setup": "人气股、热门股",
+            "typical_exit": "纪律性强时退出"
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司成都交子大道证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.11亿元",
+          "sell_amount": "6.72万元",
+          "net_amount": "0.11亿元",
+          "buy_rate": "1.20%",
+          "sell_rate": "0.01%",
+          "action_interpretation": "打板",
+          "style_profile": {
+            "summary": "执行量化打板标准战法，买入首板或二板。后市剧本：明日开盘不强势则部分兑现。",
+            "time_horizon": "超短线",
+            "preferred_setup": "首板、二板",
+            "typical_exit": "次日不强势兑现一半或清仓"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "308.58万元",
+          "sell_amount": "947.61万元",
+          "net_amount": "-639.02万元",
+          "buy_rate": "0.33%",
+          "sell_rate": "1.01%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "执行机构标准行为，出货减仓。后市剧本：可能继续调整仓位。",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "东莞证券股份有限公司厦门分公司",
+          "player_type": "知名游资",
+          "player_name": "低位挖掘",
+          "buy_amount": "146.56万元",
+          "sell_amount": "0.11亿元",
+          "net_amount": "-959.88万元",
+          "buy_rate": "0.16%",
+          "sell_rate": "1.18%",
+          "action_interpretation": "高位分歧离场",
+          "style_profile": {
+            "summary": "今天在高位分歧时卖出，执行标准战法。后市剧本：寻找新低位补涨机会。",
+            "time_horizon": "短线",
+            "preferred_setup": "低位首板或跟风板",
+            "typical_exit": "高位分歧即离场"
+          }
+        },
+        {
+          "seat_name": "平安证券股份有限公司深圳分公司",
+          "player_type": "知名游资",
+          "player_name": "红岭路",
+          "buy_amount": "74.47万元",
+          "sell_amount": "0.13亿元",
+          "net_amount": "-1,216.66万元",
+          "buy_rate": "0.08%",
+          "sell_rate": "1.37%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今天卖出，可能调整仓位；不一定是标准战法。后市剧本：可能等待爆量后吸筹机会。",
+            "time_horizon": "中线",
+            "preferred_setup": "核心个股二波",
+            "typical_exit": "启动二波时退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "12.34万元",
+          "sell_amount": "0.18亿元",
+          "net_amount": "-1,789.23万元",
+          "buy_rate": "0.01%",
+          "sell_rate": "1.92%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "机构出货行为。后市剧本：减仓调整。",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "888.99万元",
+          "sell_amount": "0.37亿元",
+          "net_amount": "-2,835.40万元",
+          "buy_rate": "0.95%",
+          "sell_rate": "3.97%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "大额卖出，机构出货。后市剧本：可能持续减仓。",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方金额分布在五个席位中，最大买家占比约25.3%，前三位总和约65.8%，各席位占比在15%-25%之间，分布相对均匀，无明显主导席位。",
+      "synergy_analysis": "存在两个知名游资上榜：越王大道（短线风格）和量化打板（量化打板风格），但操作风格差异较大，无明显协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要来自机构投资者的集中出货，机构席位净卖出金额巨大（总计约6447.61万元），卖出率高（最高达3.97%），表明特定主力有计划地大规模卖出；知名游资虽有获利了结迹象（如'低位挖掘'的高位分歧离场策略），但整体以机构主导。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前阶段：股价处于短期下跌回调后的强劲反弹阶段，整体处于上涨趋势的主升浪加速期。量价关系：龙虎榜当日（2025-07-03）放量上涨（成交量32.53万手，显著高于近期平均21.75万手），价涨量增，与前一日（2025-07-02）的温和放量上涨形成正向配合。关键信号：出现涨停大阳线（涨幅20.00%），突破前期高点（2025-06-23的29.28），形成强势突破形态，确认趋势加速信号。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望：股票处于上涨趋势加速期，市场情绪亢奋，但主力资金净流出和机构集中出货表明存在调整风险。投资者应密切关注开盘表现和资金流向，后市可能波动加剧，有回调压力。",
+      "strategy": "操作策略建议：短线操作，如果次日开盘强势（如高开或快速上涨），可持有或部分加仓；否则，兑现利润或减仓。避免追高，等待回调机会，控制仓位。",
+      "risk_warning": "风险提示：主力分歧和机构出货可能导致股价快速下跌；高换手率（57.71%）预示变盘风险；散户需设置止损，避免过度杠杆和情绪化交易。"
+    }
+  },
+  "generated_at": "2025-07-03 18:55:09"
+}

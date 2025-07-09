@@ -1,0 +1,87 @@
+{
+  "stock_info": {
+    "ts_code": "900952.SH",
+    "name": "退市锦B",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "退市整理的证券"
+      ],
+      "interpretation": "该股票因退市整理而上榜，表明其处于退市边缘，风险极高，通常源于公司财务困境或违规行为，导致投资者被迫进行清算交易。这反映了当前市场对该股票的极度悲观情绪，恐慌性抛售主导，多空博弈呈现强烈的空头共识，分歧极小，几乎没有多头支撑，市场信号暗示投资者普遍回避和逃离风险。"
+    },
+    "overall_assessment": {
+      "verdict": "多方占优",
+      "confidence_score": 0.8,
+      "market_sentiment": {
+        "level": "分歧",
+        "interpretation": "股价上涨4.17%显示乐观情绪，但换手率仅1.69%表明市场参与度低，投资者态度谨慎。"
+      },
+      "capital_confrontation": {
+        "level": "主力控盘较强",
+        "interpretation": "净买入额3.21万元，净买入率33.79%，且流通市值8.42亿元较小，主力资金（大额买入8.20万元 vs 大额卖出5.00万元）主导市场，对抗程度中等。"
+      },
+      "key_takeaway": "在退市整理背景下，主力净买入推动股价异常上涨。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "中国银河证券股份有限公司北京阜成路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "赵老哥",
+          "buy_amount": "0.62万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.62万元",
+          "buy_rate": "6.58%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "接力",
+          "style_profile": {
+            "summary": "今日执行标准接力战法，后市可能继续推高股价或吸引更多资金接力。",
+            "time_horizon": "短期",
+            "preferred_setup": "龙头股、主线题材",
+            "typical_exit": "快速获利了结或接力后卖出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "华泰证券股份有限公司上海静安区广中西路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "炒新一族",
+          "buy_amount": "0.00万元",
+          "sell_amount": "2.87万元",
+          "net_amount": "-2.87万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "30.19%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今日执行一日游出货战法，后市可能股票回调或新资金介入。",
+            "time_horizon": "非常短期",
+            "preferred_setup": "开板次新",
+            "typical_exit": "当日或次日卖出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买方席位占比33.13%，前两名席位合计占比60.81%，买方资金分布较为均匀。",
+      "synergy_analysis": "只有一名知名游资（赵老哥）上榜，无其他知名游资同时出现，因此不存在协同作战的迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "高",
+      "pressure_desc": "卖压主要来自特定主力的集中出货，由知名游资'炒新一族'（华泰证券股份有限公司上海静安区广中西路证券营业部）主导，其卖出金额占比30.19%，远超其他普通席位；其他席位卖出金额较小且分散，可能代表普遍的获利了结行为，但贡献较低。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "数据缺失",
+      "trend_interpretation": "由于提供的K线数据为空（chart_data: []），无法进行龙虎榜上榜行为分析。具体要点如下：当前阶段无法确定，因为缺乏股价趋势数据；量价关系无法分析，因为缺少成交量和价格信息；关键信号无法识别，因为没有K线形态或技术指标可供参考。请提供有效的近期K线数据以完成分析。"
+    },
+    "final_verdict": {
+      "outlook": "股票处于退市整理阶段，风险极高，主力资金推动的异常上涨可能不可持续。市场情绪分歧，换手率低，后市可能出现回调或高波动，投资者应高度谨慎。",
+      "strategy": "散户应避免买入该股票。如果已持有，建议在股价反弹时果断卖出止损。不追涨，避免短线投机，优先观望。",
+      "risk_warning": "高退市风险可能导致投资全部损失；主力出货（如炒新一族）可能引发股价大跌；市场波动性高，数据缺失无法确认趋势；散户易受主力操作影响，需警惕流动性风险。"
+    }
+  },
+  "generated_at": "2025-07-03 19:07:09"
+}

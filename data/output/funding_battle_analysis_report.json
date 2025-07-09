@@ -1,0 +1,106 @@
+{
+  "stock_info": {
+    "ts_code": "Unknown",
+    "name": "Unknown",
+    "trade_date": "Unknown"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日涨幅偏离值达到7%的前5只证券"
+      ],
+      "signal_strength": "最强",
+      "interpretation": "反映资金最强烈的做多意愿。重点关注连板情况，连板是市场总情绪的温度计。"
+    },
+    "overall_assessment": {
+      "verdict": "多头胜利",
+      "confidence_score": 0.9,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "涨停（9.99%）和高换手率（16.46%）表明市场情绪亢奋，买方主导交易，推动股价强势上行。"
+      },
+      "capital_confrontation": {
+        "level": "高强度买方主导",
+        "interpretation": "龙虎榜总买入（2.37亿元）远大于总卖出（1.09亿元），净买入额（1.28亿元）占比高（8.76%），结合高换手率（16.46%），表明多空对抗激烈，但多头控盘力度强，筹码交换充分。"
+      },
+      "key_takeaway": "主力资金大幅净流入推动小盘股涨停，筹码交换充分，后市有望延续强势。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "国泰海通证券股份有限公司成都北一环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "成都系",
+          "net_amount": "0.41亿元",
+          "action_interpretation": "主封涨停，引导资金合力封板",
+          "style_profile": {
+            "summary": "执行标准战法：超跌首板直线拉升封板；后市剧本：次日冲高后可能砸盘",
+            "time_horizon": "超短（日内至次日）",
+            "preferred_setup": "首板个股，中小盘",
+            "typical_exit": "次日冲高砸盘"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "net_amount": "-698.68万元",
+          "action_interpretation": "做T操作，日内买卖平衡",
+          "style_profile": {
+            "summary": "执行标准战法：日内做T；后市剧本：可能继续日内交易",
+            "time_horizon": "日内",
+            "preferred_setup": "做T交易",
+            "typical_exit": "盘中交易，无固定退出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "net_amount": "-912.75万元",
+          "action_interpretation": "做T操作，日内买卖平衡",
+          "style_profile": {
+            "summary": "执行标准战法：日内做T；后市剧本：可能继续日内交易",
+            "time_horizon": "日内",
+            "preferred_setup": "做T交易",
+            "typical_exit": "盘中交易，无固定退出"
+          }
+        },
+        {
+          "seat_name": "平安证券股份有限公司福州长乐北路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "温州帮",
+          "net_amount": "-968.46万元",
+          "action_interpretation": "出货，获利了结",
+          "style_profile": {
+            "summary": "可能执行出货战法；后市剧本：继续出货或转移至新标的",
+            "time_horizon": "短线",
+            "preferred_setup": "次新股，多席位联合",
+            "typical_exit": "快速拉升后出货"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位中最大买家占比为4.46%，所有买家占比分布均匀（从4.46%至1.58%），无明显高度集中现象。",
+      "synergy_analysis": "只有一个知名游资席位（成都系）上榜，其他均为普通席位，无多个知名游资同时出现，因此不存在协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "高",
+      "pressure_desc": "卖压主要来自普遍的获利了结行为，普通席位（如华泰证券南京大光路和国元证券宁波分公司）贡献了大部分卖出量；同时，有特定主力如温州帮（平安证券福州长乐北路证券营业部）的集中出货迹象，其特征为深度控盘和多席位联合操作。"
+    },
+    "historical_context": {
+      "behavior_type": "强势反弹",
+      "trend_interpretation": "股价在短期回调后放量涨停，显示多头力量主导，上升趋势有望延续。"
+    },
+    "final_verdict": {
+      "outlook": "短期市场情绪亢奋，买方主导强势，股价有望延续上升趋势。但买方席位分散且主要游资可能次日冲高后砸盘，增加波动风险。",
+      "strategy": "建议短线操作，逢低吸纳，避免追高。持有者可部分获利了结，新投资者等待回调机会。密切关注连板情况和成交量变化。",
+      "risk_warning": "高风险提示：高换手率和高情绪可能导致股价剧烈波动；主要游资如成都系有次日砸盘倾向；卖方出货压力存在；市场情绪易反转，需警惕回调风险。"
+    }
+  },
+  "generated_at": "2025-06-30 18:36:01"
+}

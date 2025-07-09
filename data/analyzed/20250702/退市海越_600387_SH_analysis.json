@@ -1,0 +1,138 @@
+{
+  "stock_info": {
+    "ts_code": "600387.SH",
+    "name": "退市海越",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "退市整理的证券"
+      ],
+      "interpretation": "上榜原因'退市整理的证券'表明该股票正处于退市过程中，通常源于公司财务困境、违规或其他触发退市条件的问题，说明该股票已失去上市资格且面临重大风险。这反映了当前市场对该股票的极度悲观情绪，投资者恐慌性抛售形成强烈的空头共识，几乎没有多头博弈空间，整体市场信号高度负面，预示着股票的终结和投资价值的丧失。"
+    },
+    "overall_assessment": {
+      "verdict": "空方占优",
+      "confidence_score": 0.75,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "股价下跌2.15%且换手率仅2.49%，显示交易兴趣低迷和市场恐慌情绪。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力净买入299.46万元（净率32.27%），但股价下跌，结合流通市值3.68亿元（小盘股），净买入影响力被放大，凸显多空对抗激烈和主力控盘不足。"
+      },
+      "key_takeaway": "主力资金逆势净买入未能提振股价，退市整理风险主导市场，空方占据上风。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "海通证券股份有限公司南京广州路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "南京帮",
+          "buy_amount": "52.75万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "52.75万元",
+          "buy_rate": "5.69%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "接力拉升",
+          "style_profile": {
+            "summary": "今日净买入，执行标准短庄战法，后市可能继续拉升或对倒出货。",
+            "time_horizon": "短线",
+            "preferred_setup": "题材股连续拉板",
+            "typical_exit": "对倒拉升后出货"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司山南香曲东路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "23.00万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "23.00万元",
+          "buy_rate": "2.48%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "做T（买入部分）",
+          "style_profile": {
+            "summary": "今日买入仓位，执行标准做T战法，后市很可能卖出做T。",
+            "time_horizon": "超短线",
+            "preferred_setup": "波动大股票",
+            "typical_exit": "日内或短期卖出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "海通证券股份有限公司南京广州路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "南京帮",
+          "buy_amount": "0.00万元",
+          "sell_amount": "42.97万元",
+          "net_amount": "-42.97万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "4.63%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今日净卖出，执行标准短庄出货行为，后市需关注是否继续减持或调整仓位。",
+            "time_horizon": "短线",
+            "preferred_setup": "题材股连续拉板",
+            "typical_exit": "对倒拉升后出货"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.00万元",
+          "sell_amount": "52.47万元",
+          "net_amount": "-52.47万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "5.65%",
+          "action_interpretation": "做T（卖出）",
+          "style_profile": {
+            "summary": "今日卖出，执行标准做T战法，后市可能买入回补或继续波动交易。",
+            "time_horizon": "超短线",
+            "preferred_setup": "波动大股票",
+            "typical_exit": "日内或短期了结"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司山南香曲东路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.00万元",
+          "sell_amount": "62.58万元",
+          "net_amount": "-62.58万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "6.74%",
+          "action_interpretation": "做T（卖出部分）",
+          "style_profile": {
+            "summary": "今日卖出仓位，结合买入行为完成标准做T操作，后市可能继续高抛低吸。",
+            "time_horizon": "超短线",
+            "preferred_setup": "波动大股票",
+            "typical_exit": "日内或短期卖出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "国信证券绍兴分公司买入比例高达48.24%，远超其他席位（均低于10%），买方力量高度集中。",
+      "synergy_analysis": "存在两个知名游资（南京帮和T王）上榜，但南京帮通常协同江苏本地席位而本数据无相关席位，T王专注于每日做T操作；无明确协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "普遍",
+      "pressure_desc": "卖压主要来自普通席位和做T游资的获利了结行为，而非特定主力集中出货；普通席位贡献了较高卖出额（华泰证券和申万宏源合计占比18.73%），且T王席位（东方财富）的日常做T操作也表明获利了结倾向。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势转折点",
+      "trend_interpretation": "当前阶段：股价处于下跌通道中的短期反弹末期，整体趋势仍为下行。量价关系：上榜日（20250702）缩量下跌，成交量10.08万手，低于13日平均20.21万手及前一日11.47万手，显示买方动力不足且抛压减轻。关键信号：前几日反弹（如20250627放量上涨5.75%）量能未能持续放大，上榜日形成阴线并跌破前日低点，确认反弹乏力，预示趋势可能转向新一轮下跌。"
+    },
+    "final_verdict": {
+      "outlook": "该股票正处于退市整理阶段，源于财务困境或违规，市场情绪极度恐慌，空方主导。整体趋势处于下跌通道末端，反弹乏力，技术分析显示缩量下跌预示新一轮下行风险，后市前景高度负面，投资价值丧失殆尽。",
+      "strategy": "建议散户投资者立即卖出所有持仓，避免任何买入操作。优先考虑观望或完全回避此股票。即使有游资短线波动机会，风险过高，不适合散户参与。持仓者应尽快离场以最小化损失。",
+      "risk_warning": "主要风险包括：1. 退市风险可能导致股票价值归零；2. 市场恐慌情绪加剧抛售压力；3. 游资短线操作带来高度波动性和不确定性；4. 低换手率（仅2.49%）导致流动性不足，难以退出；5. 主力资金逆势买入未能提振股价，反映基本面严重恶化。"
+    }
+  },
+  "generated_at": "2025-07-03 15:46:42"
+}

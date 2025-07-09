@@ -1,0 +1,138 @@
+{
+  "stock_info": {
+    "ts_code": "300527.SZ",
+    "name": "中船应急",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "连续三个交易日内，涨幅偏离值累计达到30%的证券"
+      ],
+      "interpretation": "该上榜原因表明该股票在短期内经历了显著的价格上涨，偏离市场平均水平，这通常由强劲的买入力量驱动，如利好消息、行业热点或资金炒作。它反映了当前市场对该股票的强烈多头共识，投资者情绪高涨且看多氛围浓厚，显示出资金大量涌入和多方主导的博弈状态；尽管可能存在短期过热风险，但整体指向乐观预期和积极的市场信号。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜出",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "高涨幅（13.14%）和高换手率（23.29%）表明市场情绪亢奋，投资者交易活跃。"
+      },
+      "capital_confrontation": {
+        "level": "激烈但多方主导",
+        "interpretation": "主力资金买入3.96亿元，卖出2.90亿元，净买入1.06亿元，且主力成交占比15.77%，表明多空对抗激烈，但多方控盘力度较强。"
+      },
+      "key_takeaway": "连续三个交易日涨幅偏离值累计30%，主力资金积极买入推动股价大涨，市场情绪亢奋。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "深股通专用",
+          "player_type": "机构",
+          "player_name": "深股通专用",
+          "buy_amount": "0.87亿元",
+          "sell_amount": "0.12亿元",
+          "net_amount": "0.76亿元",
+          "buy_rate": "2.01%",
+          "sell_rate": "0.26%",
+          "action_interpretation": "大额净买入建仓",
+          "style_profile": {
+            "summary": "境外资金通道，通过深港通机制执行标准投资策略。今日大额净买入符合互联互通模式，后市可能继续持有或增持标的。",
+            "time_horizon": "中长期",
+            "preferred_setup": "互联互通标的股票",
+            "typical_exit": "根据市场条件调整持仓或长期持有"
+          }
+        },
+        {
+          "seat_name": "中国银河证券股份有限公司北京中关村大街证券营业部",
+          "player_type": "量化",
+          "player_name": "量化抢筹",
+          "buy_amount": "0.43亿元",
+          "sell_amount": "911.16万元",
+          "net_amount": "0.34亿元",
+          "buy_rate": "1.00%",
+          "sell_rate": "0.21%",
+          "action_interpretation": "竞价扫货制造弱转强",
+          "style_profile": {
+            "summary": "量化交易者，擅长分歧回暖日执行标准竞价扫货战法。今日行为吸引市场资金，后市可能推高股价并短期获利。",
+            "time_horizon": "超短期",
+            "preferred_setup": "分歧回暖日的个股",
+            "typical_exit": "次日或短期获利了结"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "国泰海通证券股份有限公司宜昌沿江大道证券营业部",
+          "player_type": "知名游资",
+          "player_name": "消闲派",
+          "buy_amount": "0.37亿元",
+          "sell_amount": "0.40亿元",
+          "net_amount": "-290.55万元",
+          "buy_rate": "0.85%",
+          "sell_rate": "0.92%",
+          "action_interpretation": "微幅净卖出或做T",
+          "style_profile": {
+            "summary": "稳健推土机选手，专注首板高胜率。今日小幅净卖出执行风控策略，后市若持有可能等待次日高溢价。",
+            "time_horizon": "短期",
+            "preferred_setup": "20CM首板个股",
+            "typical_exit": "次日冲高获利了结"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.59亿元",
+          "sell_amount": "0.65亿元",
+          "net_amount": "-521.79万元",
+          "buy_rate": "1.36%",
+          "sell_rate": "1.48%",
+          "action_interpretation": "做T或调整持仓",
+          "style_profile": {
+            "summary": "代表基金、券商等机构投资者，执行标准操作。今日买卖均衡净卖出，后市可能继续根据策略调整。",
+            "time_horizon": "中短期",
+            "preferred_setup": "机构偏好标的",
+            "typical_exit": "根据估值或市场条件卖出"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司成都北一环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "成都系",
+          "buy_amount": "0.61亿元",
+          "sell_amount": "0.68亿元",
+          "net_amount": "-741.80万元",
+          "buy_rate": "1.39%",
+          "sell_rate": "1.56%",
+          "action_interpretation": "出货执行次日砸盘策略",
+          "style_profile": {
+            "summary": "超短游资，擅长超跌首板直线拉升。今日净卖出符合标准战法，后市可能转向其他中小盘标的。",
+            "time_horizon": "超短期",
+            "preferred_setup": "超跌中小盘首板",
+            "typical_exit": "次日冲高砸盘"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位买入金额总规模约2.39亿元，最大席位深股通专用占比约36.4%，其余席位占比在18-28%之间，分布较为均匀。",
+      "synergy_analysis": "席位中仅中国银河证券股份有限公司北京中关村大街证券营业部为知名量化游资（标签：量化抢筹），其他席位包括机构（深股通专用）和普通席位（无明确风格），无证据表明多个知名游资协同作战。"
+    },
+    "seller_analysis": {
+      "pressure_level": "普遍",
+      "pressure_desc": "卖压主要来自多个知名游资（如消闲派和成都系）和机构投资者的获利了结行为，表现为普遍的卖出趋势，而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于短期上涨趋势的主升浪阶段。量价关系方面，上榜日(2025-07-02)成交量达229.88万手（远超平均81.32万手），与前一日(2025-07-01)的150.74万手形成连续放量上涨，量价配合健康。关键信号包括7月1日大阳线（涨幅20.04%）突破前期高点（如6月20日的9.4元），7月2日继续放量上行，形成强势加速形态。"
+    },
+    "final_verdict": {
+      "outlook": "该股票当前处于强势上涨趋势的主升浪阶段，市场情绪亢奋，多方资金主导（主力净买入1.06亿元），量价配合健康，短期有继续冲高潜力；但连续三个交易日涨幅偏离值累计30%表明短期过热，需警惕技术性回调。中长期看，深股通等机构资金介入可能提供支撑。",
+      "strategy": "建议散户投资者分批建仓，避免追高，设置止损位在关键支撑点（如前高9.4元）。短期交易者关注量化席位（如中国银河证券北京中关村大街）动向，及时获利了结；中长期投资者可持有，观察深股通后续动作，并监测成交量变化。",
+      "risk_warning": "主要风险包括：1. 短期涨幅过大可能引发技术性回调；2. 量化游资（如'量化抢筹'）可能次日获利了结，导致股价剧烈波动；3. 高换手率（23.29%）显示市场分歧大，价格波动加剧；4. 卖方席位（如'成都系'）执行次日砸盘策略，可能加速下跌。"
+    }
+  },
+  "generated_at": "2025-07-03 15:34:46"
+}

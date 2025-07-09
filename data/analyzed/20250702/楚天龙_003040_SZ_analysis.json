@@ -1,0 +1,172 @@
+{
+  "stock_info": {
+    "ts_code": "003040.SZ",
+    "name": "楚天龙",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日跌幅偏离值达到7%的前5只证券"
+      ],
+      "interpretation": "该股因日跌幅偏离值达到7%而上榜，表明其在交易日内经历了显著下跌，幅度远超市场基准指数，这通常源于负面消息、业绩不及预期或行业整体承压。这反映了当前市场对该股票的悲观情绪和恐慌抛售，显示出剧烈的多空分歧，其中空头力量占据主导地位，投资者应警惕后续风险并关注潜在超跌反弹机会。"
+    },
+    "overall_assessment": {
+      "verdict": "空方胜出",
+      "confidence_score": 0.95,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "股价大幅下跌9.98%，换手率达16.79%，结合日跌幅偏离值达到7%的上榜原因，表明市场恐慌情绪蔓延，引发抛售潮。"
+      },
+      "capital_confrontation": {
+        "level": "中等",
+        "interpretation": "主力资金净卖出8093.43万元（净率-4.57%），卖出额1.97亿元高于买入额1.16亿元，但流通市值103.80亿元较大，净卖出影响相对有限，控盘力度弱；高换手率反映多空对抗激烈程度中等。"
+      },
+      "key_takeaway": "主力资金的大幅净卖出是驱动股价暴跌9.98%和上榜的核心因素。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.21亿元",
+          "sell_amount": "0.12亿元",
+          "net_amount": "864.43万元",
+          "buy_rate": "1.16%",
+          "sell_rate": "0.68%",
+          "action_interpretation": "做T操作，以买入为主",
+          "style_profile": {
+            "summary": "执行标准做T战法，后市可能继续日内交易，无大举动作。",
+            "time_horizon": "短期（日内）",
+            "preferred_setup": "震荡市或高流动性股票",
+            "typical_exit": "日内卖出或次日了结"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.26亿元",
+          "sell_amount": "0.18亿元",
+          "net_amount": "856.84万元",
+          "buy_rate": "1.49%",
+          "sell_rate": "1.01%",
+          "action_interpretation": "做T操作，以买入为主",
+          "style_profile": {
+            "summary": "执行标准做T战法，后市可能继续日内交易，无大举动作。",
+            "time_horizon": "短期（日内）",
+            "preferred_setup": "震荡市或高流动性股票",
+            "typical_exit": "日内卖出或次日了结"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.19亿元",
+          "sell_amount": "0.13亿元",
+          "net_amount": "597.40万元",
+          "buy_rate": "1.09%",
+          "sell_rate": "0.75%",
+          "action_interpretation": "做T操作，以买入为主",
+          "style_profile": {
+            "summary": "执行标准做T战法，后市可能继续日内交易，无大举动作。",
+            "time_horizon": "短期（日内）",
+            "preferred_setup": "震荡市或高流动性股票",
+            "typical_exit": "日内卖出或次日了结"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "深股通专用",
+          "player_type": "机构",
+          "player_name": "深股通专用",
+          "buy_amount": "0.29亿元",
+          "sell_amount": "0.30亿元",
+          "net_amount": "-104.03万元",
+          "buy_rate": "1.64%",
+          "sell_rate": "1.70%",
+          "action_interpretation": "轻微卖出或平衡操作",
+          "style_profile": {
+            "summary": "执行互联互通机制，后市可能中性跟随市场波动。",
+            "time_horizon": "中短期",
+            "preferred_setup": "跨境投资机会",
+            "typical_exit": "根据市场条件退出"
+          }
+        },
+        {
+          "seat_name": "联储证券股份有限公司浙江分公司",
+          "player_type": "知名游资",
+          "player_name": "上塘路",
+          "buy_amount": "4.40万元",
+          "sell_amount": "0.22亿元",
+          "net_amount": "-2,231.92万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.26%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "出货行为，可能获利了结；后市转向新目标如次新首板。",
+            "time_horizon": "短期",
+            "preferred_setup": "次新股、首板机会",
+            "typical_exit": "获利了结或止损"
+          }
+        },
+        {
+          "seat_name": "东兴证券股份有限公司福州五四路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "温州帮",
+          "buy_amount": "9.75万元",
+          "sell_amount": "0.23亿元",
+          "net_amount": "-2,251.88万元",
+          "buy_rate": "0.01%",
+          "sell_rate": "1.28%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "出货，可能结束拉升；后市寻找新次新目标深度控盘。",
+            "time_horizon": "短期到中期",
+            "preferred_setup": "次新股深度控盘",
+            "typical_exit": "快速卖出或对倒退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.48亿元",
+          "net_amount": "-4,780.77万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.70%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "机构减持，可能基于策略；后市观望或继续调整仓位。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资",
+            "typical_exit": "逐步减持"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "买方主要由东方财富证券的三个拉萨营业部主导，占总净买入的72.3%（2318.67万元），其余为普通席位（27.7%），表明资金高度集中于同一集团。",
+      "synergy_analysis": "三个席位（东环路第一、金融城南环路、团结路第一）均来自东方财富证券拉萨营业部，同为知名游资'T王'，共享相同交易模式（每天做T）和标签'东方财富拉萨天团'，表明可能存在协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "dispersed",
+      "pressure_desc": "卖压来源于多个不同类型的席位，包括机构（如深股通专用和机构专用）和知名游资（如温州帮和上塘路），卖出金额分布均匀，表明是普遍的获利了结行为，而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前阶段：股价处于短期上涨趋势的末期，前期高点25.92（2025-06-24）附近未能有效突破，随后出现大幅回调。量价关系：上榜日（2025-07-02）大幅下跌9.98%，成交量76.70万手，相比前一日（2025-07-01）上涨时的114.61万手明显缩量，形成缩量下跌态势，显示抛压增加但承接不足。关键信号：上榜日形成大阴线，几乎跌停，收盘价远低于开盘价，与前一日阳线构成看跌吞没形态；价格在前期高点附近遇阻回落，确认阻力位有效性，暗示主力资金在高位获利了结。"
+    },
+    "final_verdict": {
+      "outlook": "短期市场情绪恐慌，空方主导，股价可能继续承压；技术面显示高位出货形态，缩量下跌暗示承接不足；关注潜在超跌反弹机会，但需基本面改善信号。",
+      "strategy": "建议散户投资者观望为主，避免盲目抄底或追高；如有持仓，立即设置止损位（如前低点附近）；轻仓者可尝试短线反弹交易（如日内T+0），但需快进快出并严格止盈止损。",
+      "risk_warning": "高风险提示：主力资金大幅净流出（如机构出货），可能导致股价进一步下跌；市场恐慌情绪加剧波动；买方集中做T行为增加短期不确定性；行业负面消息或业绩风险未解除。"
+    }
+  },
+  "generated_at": "2025-07-03 15:37:25"
+}

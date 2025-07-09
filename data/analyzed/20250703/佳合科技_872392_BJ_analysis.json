@@ -1,0 +1,121 @@
+{
+  "stock_info": {
+    "ts_code": "872392.BJ",
+    "name": "佳合科技",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "当日换手率达到20%"
+      ],
+      "interpretation": "换手率达到20%表明该股票交易异常活跃，市场关注度极高，可能由重大事件或投机行为驱动。这反映了当前市场对该股票存在剧烈的多空分歧，买卖双方激烈博弈，投资者情绪高度分化，股价波动风险显著增加，而非形成单一趋势共识。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜出",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "涨幅15.49%和换手率26.28%显示市场情绪亢奋，投资者热情高涨，交易活跃。"
+      },
+      "capital_confrontation": {
+        "level": "温和控盘",
+        "interpretation": "主力资金净买入225.25万元，买卖额接近（买入0.22亿元 vs 卖出0.20亿元），净率0.98%，控盘力度中等；流通市值8.84亿元较小，放大资金影响力，但对抗激烈程度低。"
+      },
+      "key_takeaway": "高换手率26.28%推动股价大涨15.49%，上榜原因显示市场热情主导战局。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "395.76万元",
+          "sell_amount": "134.40万元",
+          "net_amount": "261.36万元",
+          "buy_rate": "1.72%",
+          "sell_rate": "0.59%",
+          "action_interpretation": "今天在做T操作，买入395.76万元并卖出134.40万元，净买入261.36万元，表明以做T买入为主。",
+          "style_profile": {
+            "summary": "执行标准做T战法，今日净买入符合其日常模式；后市可能继续做T操作，维持短期持仓调整。",
+            "time_horizon": "短期",
+            "preferred_setup": "日内做T交易",
+            "typical_exit": "通过卖出部分持仓获利了结"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "301.11万元",
+          "sell_amount": "70.84万元",
+          "net_amount": "230.27万元",
+          "buy_rate": "1.31%",
+          "sell_rate": "0.31%",
+          "action_interpretation": "今天在做T操作，买入301.11万元并卖出70.84万元，净买入230.27万元，显示做T买入行为。",
+          "style_profile": {
+            "summary": "执行标准做T战法，今日净买入延续其风格；后市可能继续做T操作，进行短期仓位管理。",
+            "time_horizon": "短期",
+            "preferred_setup": "日内做T交易",
+            "typical_exit": "通过卖出持仓实现利润锁定"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "252.28万元",
+          "sell_amount": "298.12万元",
+          "net_amount": "-45.84万元",
+          "buy_rate": "1.10%",
+          "sell_rate": "1.30%",
+          "action_interpretation": "今天在做T操作，买入252.28万元并卖出298.12万元，净卖出45.84万元，表明以做T卖出为主。",
+          "style_profile": {
+            "summary": "执行标准做T战法，今日净卖出符合其日常模式；后市可能继续做T调整，进行短期仓位优化。",
+            "time_horizon": "短期",
+            "preferred_setup": "日内做T交易",
+            "typical_exit": "通过买入回补或卖出持仓平衡头寸"
+          }
+        },
+        {
+          "seat_name": "平安证券股份有限公司福州长乐北路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "温州帮",
+          "buy_amount": "126.35万元",
+          "sell_amount": "355.19万元",
+          "net_amount": "-228.84万元",
+          "buy_rate": "0.55%",
+          "sell_rate": "1.55%",
+          "action_interpretation": "今天大额卖出355.19万元，少量买入126.35万元，净卖出228.84万元，可能是在出货或调整持仓。",
+          "style_profile": {
+            "summary": "今日大额卖出可能为出货阶段；后市可能继续出货或寻找新次新股目标，执行其深度控盘后退出策略。",
+            "time_horizon": "短期至中期",
+            "preferred_setup": "次新股深度控盘，多席位联合对倒拉升",
+            "typical_exit": "快速拉升后集中出货获利"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买家（国信证券深圳互联网分公司）买入金额占比约30.44%，前三大买家累计占比约68.25%，五个席位买入金额分布均匀（288.03万至561.14万），无明显主导。",
+      "synergy_analysis": "存在协同作战迹象，因为席位4（东方财富证券拉萨团结路）和席位5（东方财富证券拉萨东环路）均为知名游资'东方财富拉萨天团'成员，类型为'知名游资'，风格相似（每天做T），可能协同操作。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要来源于知名游资'温州帮'的集中出货行为，其卖出额为355.19万元，占总卖出比例显著，且操作模式为深度控盘后快速出货；其他席位如T王的日常做T交易和普通席位的卖出可能涉及获利了结，但无特定主力信息。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于上涨趋势的加速阶段。在龙虎榜当天（2025-07-03），成交量剧增至9.56万手（远高于平均2.63万手），配合价格大涨15.49%，形成放量上涨格局，显示买方力量强劲。关键信号包括大阳线形态（开盘21.84、收盘24.3、高点25.5）和突破前期高点21.72（2025-06-25），表明趋势加速启动。"
+    },
+    "final_verdict": {
+      "outlook": "基于多方胜出和市场情绪亢奋，后市股价有望延续上涨趋势，但高换手率26.28%显示多空分歧激烈，波动风险显著，需警惕短期回调。",
+      "strategy": "散户可考虑逢低买入参与日内做T交易，参考关键支撑位24.0元设置止损；避免追高，优先选择回调入场，目标短期获利了结。",
+      "risk_warning": "风险提示：高换手率和温州帮集中出货可能导致股价剧烈波动；游资主导的做T操作易引发快速反转，投资者应严格控制仓位，止损位严格执行，防范意外抛压。"
+    }
+  },
+  "generated_at": "2025-07-03 19:08:34"
+}

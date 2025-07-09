@@ -1,0 +1,172 @@
+{
+  "stock_info": {
+    "ts_code": "600152.SH",
+    "name": "维科技术",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日换手率达到20%的前五只证券"
+      ],
+      "interpretation": "该股票上榜的原因是日换手率达到20%，这表明市场交易异常活跃，通常由重大利好消息、题材炒作或机构资金进出驱动，反映了高度的市场关注度和流动性。这揭示了当前市场存在剧烈的多空分歧，买方看好后市积极买入，卖方则因获利了结或看跌预期而积极卖出，博弈状态激烈，股价波动加剧，可能暗示短期不确定性增加。"
+    },
+    "overall_assessment": {
+      "verdict": "空方胜",
+      "confidence_score": 0.8,
+      "market_sentiment": {
+        "level": "分歧",
+        "interpretation": "股价下跌6.09%但换手率高达29.09%，表明市场存在多空分歧。"
+      },
+      "capital_confrontation": {
+        "level": "低",
+        "interpretation": "主力净卖出额较小（-393.62万元），相对于流通市值39.15亿元影响微弱（约0.1%），显示资金对抗不激烈。"
+      },
+      "key_takeaway": "核心看点：高换手率伴随股价下跌，突显市场分歧，主力资金影响有限。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.17亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.17亿元",
+          "buy_rate": "1.42%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入参与拉升，可能为做T的一部分",
+          "style_profile": {
+            "summary": "是，执行标准频繁做T战法；后市剧本：可能继续做T助涨或助跌，引发股价波动。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构入场和席位溢价",
+            "typical_exit": "高抛低吸"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.15亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.15亿元",
+          "buy_rate": "1.26%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "做T买入",
+          "style_profile": {
+            "summary": "是，执行标准每天做T战法；后市剧本：可能卖出回补完成T操作。",
+            "time_horizon": "超短期",
+            "preferred_setup": "做T操作",
+            "typical_exit": "卖出完成T"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.15亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.15亿元",
+          "buy_rate": "1.22%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "做T买入",
+          "style_profile": {
+            "summary": "是，执行标准每天做T战法；后市剧本：可能卖出回补完成T操作。",
+            "time_horizon": "超短期",
+            "preferred_setup": "做T操作",
+            "typical_exit": "卖出完成T"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.16亿元",
+          "net_amount": "-1,552.54万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.28%",
+          "action_interpretation": "做T卖出",
+          "style_profile": {
+            "summary": "是，执行标准每天做T战法；后市剧本：可能买入回补完成T操作。",
+            "time_horizon": "超短期",
+            "preferred_setup": "做T操作",
+            "typical_exit": "买入回补"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.16亿元",
+          "net_amount": "-1,574.46万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.30%",
+          "action_interpretation": "做T卖出",
+          "style_profile": {
+            "summary": "是，执行标准每天做T战法；后市剧本：可能买入回补完成T操作。",
+            "time_horizon": "超短期",
+            "preferred_setup": "做T操作",
+            "typical_exit": "买入回补"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.17亿元",
+          "net_amount": "-1,661.51万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.37%",
+          "action_interpretation": "做T卖出",
+          "style_profile": {
+            "summary": "是，执行标准每天做T战法；后市剧本：可能买入回补完成T操作。",
+            "time_horizon": "超短期",
+            "preferred_setup": "做T操作",
+            "typical_exit": "买入回补"
+          }
+        },
+        {
+          "seat_name": "中国银河证券股份有限公司北京中关村大街证券营业部",
+          "player_type": "量化",
+          "player_name": "量化抢筹",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.32亿元",
+          "net_amount": "-3,244.70万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.68%",
+          "action_interpretation": "策略性出货",
+          "style_profile": {
+            "summary": "是，执行标准量化交易战法；后市剧本：可能在分歧回暖日竞价扫货制造弱转强，吸引资金流入。",
+            "time_horizon": "短期",
+            "preferred_setup": "分歧回暖日竞价扫货",
+            "typical_exit": "制造弱转强后出货"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买方席位占比32.61%，其余席位占比在16.30%-18.48%之间，分布较为均匀，无主导席位。",
+      "synergy_analysis": "存在协同作战迹象，两个知名游资席位（东方财富拉萨天团）同时上榜，买入金额均为0.15亿元，风格一致（每天做T），表明可能协同行动。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要来自特定主力团体，特别是东方财富证券拉萨系的多个营业部（拉萨天团），他们作为知名游资以每日做T交易模式操作，以及中国银河证券的量化席位，这表示集中性抛售而非普遍的散户获利了结。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前股价处于快速上涨后的高位调整阶段。量价关系显示，上榜日（2025-07-02）放量下跌（成交量153.93万手），前一日（2025-07-01）放量上涨（成交量198.27万手），形成量能激增但价格反转的背离信号。关键信号包括上榜日的长上影阴线（最高8.26，最低7.35，收盘7.40），表明高位抛压沉重，结合7月1日创出新高（8.37）后未能守住，暗示趋势可能转向调整或反转。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望：市场存在剧烈多空分歧，高换手率伴随股价下跌，主力资金以做T操作为主，短期波动加剧。股价处于高位调整阶段，量价背离信号明显，可能继续震荡下行或反转，投资者需警惕不确定性增加。",
+      "strategy": "操作策略建议：散户应保持谨慎，避免追高。可考虑短线波段操作，如跟随主力做T模式高抛低吸，严格设置止损点（例如低于当前价5%）。仓位控制在30%以内，优先观望市场信号（如量能稳定或反弹确认）后再行动。",
+      "risk_warning": "风险提示：主力集中出货（特别是量化策略性出货）可能导致快速回调，高波动性易引发短期亏损。市场分歧大，股价高位放量下跌，存在趋势反转风险，投资者需防范大幅回撤和流动性风险。"
+    }
+  },
+  "generated_at": "2025-07-03 15:45:23"
+}

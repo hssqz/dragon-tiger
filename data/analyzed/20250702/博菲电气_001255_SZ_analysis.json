@@ -1,0 +1,172 @@
+{
+  "stock_info": {
+    "ts_code": "001255.SZ",
+    "name": "博菲电气",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日换手率达到20%的前5只证券"
+      ],
+      "interpretation": "日换手率达到20%表明该股票交易异常活跃，反映出市场存在剧烈的多空分歧。买卖双方力量激烈博弈，显示出投资者对短期价格波动的高度关注和投机行为浓厚。这通常意味着市场情绪波动较大，可能是重大事件或消息驱动了交易量激增，投资者在积极博弈短期方向，而非形成强烈的多头共识。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜利",
+      "confidence_score": 0.9,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "股价涨停10.01%，换手率高达55.95%，表明市场情绪亢奋，投资者积极追涨。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力资金净买入0.30亿元，龙虎榜成交占总成交36.59%，且换手率高，显示多空对抗激烈，多方控盘力度强。"
+      },
+      "key_takeaway": "今日涨停伴随高换手，主力资金净买入，凸显多方主导的强势行情。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.15亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.15亿元",
+          "buy_rate": "4.21%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "打板买入",
+          "style_profile": {
+            "summary": "今天执行标准量化打板战法，后市最可能剧本：次日开盘不强则兑现部分或清仓。",
+            "time_horizon": "短期",
+            "preferred_setup": "首板、二板",
+            "typical_exit": "次日开盘不强兑现一半，不能走强清仓"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.14亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.14亿元",
+          "buy_rate": "4.06%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入建仓",
+          "style_profile": {
+            "summary": "今天买入建仓，是标准机构行为，后市可能中长期持有。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资",
+            "typical_exit": "基本面变化或目标价达到"
+          }
+        },
+        {
+          "seat_name": "中泰证券股份有限公司常州惠国路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.13亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.13亿元",
+          "buy_rate": "3.70%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "打板买入",
+          "style_profile": {
+            "summary": "今天执行标准量化打板战法，后市最可能剧本：次日开盘不强则兑现部分或清仓。",
+            "time_horizon": "短期",
+            "preferred_setup": "首板、二板",
+            "typical_exit": "次日开盘不强兑现一半，不能走强清仓"
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司佛山南海海五路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "低位挖掘",
+          "buy_amount": "952.48万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "952.48万元",
+          "buy_rate": "2.67%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "挖掘买入",
+          "style_profile": {
+            "summary": "今天执行标准低位挖掘战法，后市最可能剧本：持股至高位分歧时离场。",
+            "time_horizon": "短期",
+            "preferred_setup": "低位补涨机会",
+            "typical_exit": "高位分歧时离场"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "396.66万元",
+          "sell_amount": "500.34万元",
+          "net_amount": "-103.68万元",
+          "buy_rate": "1.11%",
+          "sell_rate": "1.40%",
+          "action_interpretation": "减仓",
+          "style_profile": {
+            "summary": "今天净卖出，可能是减仓，后市可能继续观望或调整仓位。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资",
+            "typical_exit": "基本面变化或目标价达到"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "358.50万元",
+          "sell_amount": "653.96万元",
+          "net_amount": "-295.46万元",
+          "buy_rate": "1.00%",
+          "sell_rate": "1.83%",
+          "action_interpretation": "减仓",
+          "style_profile": {
+            "summary": "今天净卖出，可能是减仓，后市可能继续观望或调整仓位。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资",
+            "typical_exit": "基本面变化或目标价达到"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.18亿元",
+          "net_amount": "-1,757.72万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "4.93%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今天净卖出，可能是出货，后市可能继续调整仓位或观望。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资",
+            "typical_exit": "基本面变化或目标价达到"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买家东亚前海证券有限责任公司四川分公司仅占5.69%的买入比例，其他买家分布均匀，占比在2.67%至4.21%之间，无单一主导席位。",
+      "synergy_analysis": "存在协同作战迹象，多个知名游资同时上榜：开源证券股份有限公司西安西大街证券营业部和中泰证券股份有限公司常州惠国路证券营业部均采用量化打板策略，操作高度相似；华鑫证券有限责任公司佛山南海海五路证券营业部作为低位挖掘游资也参与买入。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要来自特定主力（机构投资者）的集中出货，第五个机构专用席位净卖出1757.72万元，占比4.93%，是最大单笔卖出；其他机构席位也有显著卖出。普通席位虽有卖出，但机构主导卖压，表明主力策略性撤退而非普遍获利了结。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于短期上涨趋势的加速阶段。从2025-06-23低点29.02开始反弹，经过小幅调整后，上榜日（2025-07-02）放量上涨（成交量10.38万手，远高于平均1.96万手），前一日（2025-07-01）缩量下跌（成交量1.66万手），量价配合显示买方力量强劲，调整后爆发。关键信号包括上榜日形成大阳线（涨幅10.01%）并突破前期高点32.58（2025-06-30），确认趋势加速。"
+    },
+    "final_verdict": {
+      "outlook": "短期市场情绪亢奋，多方主导强势，股价有望延续上涨趋势；但高换手率和机构出货表明中期回调风险增加，投资者需警惕市场分歧加剧。",
+      "strategy": "已持仓者建议部分持有，设置止损于关键支撑位32.58元；新投资者避免追高，可等待回调或量能稳定后介入；关注次日开盘强度，量化打板游资可能兑现利润，及时调整仓位。",
+      "risk_warning": "高换手率（55.95%）带来剧烈价格波动风险；机构集中出货可能引发快速下跌；短期游资行为（如次日兑现）易导致股价反转；亢奋市场情绪易受外部消息冲击，放大损失。"
+    }
+  },
+  "generated_at": "2025-07-03 15:37:39"
+}

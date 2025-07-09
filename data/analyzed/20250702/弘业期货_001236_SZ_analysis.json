@@ -1,0 +1,155 @@
+{
+  "stock_info": {
+    "ts_code": "001236.SZ",
+    "name": "弘业期货",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日跌幅偏离值达到7%的前5只证券"
+      ],
+      "interpretation": "这只股票因日跌幅偏离值达到7%而上榜，表明其价格大幅下跌，远超市场平均水平，通常由负面事件、基本面恶化或恐慌性抛售引发。这反映了强烈的负面市场情绪，投资者抛售意愿高涨，可能源于公司业绩下滑、行业利空或整体市场风险厌恶。当前市场博弈状态显示空头主导，多头信心薄弱，存在剧烈的多空分歧，但空头力量明显占优，可能导致短期持续承压。"
+    },
+    "overall_assessment": {
+      "verdict": "空方胜出",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "股价暴跌10.01%且换手率高达32.33%，表明市场出现恐慌性抛售情绪。"
+      },
+      "capital_confrontation": {
+        "level": "激烈对抗，空方主导",
+        "interpretation": "大额卖出2.22亿元远超买入1.05亿元，净卖出1.176亿元占流通市值2.78%，显示空方强力控盘且多空对抗激烈。"
+      },
+      "key_takeaway": "核心看点在于恐慌性抛售导致股价重挫10%，主力资金净卖出显著。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.14亿元",
+          "sell_amount": "0.13亿元",
+          "net_amount": "133.47万元",
+          "buy_rate": "1.00%",
+          "sell_rate": "0.90%",
+          "action_interpretation": "做T（日内买卖平衡操作）",
+          "style_profile": {
+            "summary": "今日执行标准战法（每天做T），后市剧本：继续日内交易，不影响股价趋势。",
+            "time_horizon": "短线（日内）",
+            "preferred_setup": "T+0交易",
+            "typical_exit": "当日卖出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.15亿元",
+          "sell_amount": "0.15亿元",
+          "net_amount": "37.91万元",
+          "buy_rate": "1.09%",
+          "sell_rate": "1.06%",
+          "action_interpretation": "做T或平衡操作（买卖接近）",
+          "style_profile": {
+            "summary": "机构今日微调非标准战法，后市剧本：中性观望，可能持有或小幅调整。",
+            "time_horizon": "中线",
+            "preferred_setup": "价值投资或趋势跟随",
+            "typical_exit": "基于估值或市场条件"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.14亿元",
+          "sell_amount": "0.28亿元",
+          "net_amount": "-1,419.17万元",
+          "buy_rate": "1.00%",
+          "sell_rate": "2.02%",
+          "action_interpretation": "出货（净卖出显著）",
+          "style_profile": {
+            "summary": "今日非标准战法（机构通常中线操作），后市剧本：资金流出可能持续。",
+            "time_horizon": "中线",
+            "preferred_setup": "价值调整或风险控制",
+            "typical_exit": "基于基本面变化"
+          }
+        },
+        {
+          "seat_name": "中国银河证券股份有限公司北京中关村大街证券营业部",
+          "player_type": "量化",
+          "player_name": "量化抢筹",
+          "buy_amount": "20.73万元",
+          "sell_amount": "0.22亿元",
+          "net_amount": "-2,220.85万元",
+          "buy_rate": "0.01%",
+          "sell_rate": "1.60%",
+          "action_interpretation": "出货（净卖出为主）",
+          "style_profile": {
+            "summary": "今日非其标准扫货战法，后市剧本：可能观望或寻找分歧回暖新机会。",
+            "time_horizon": "短线",
+            "preferred_setup": "分歧回暖日竞价扫货",
+            "typical_exit": "快速止盈止损"
+          }
+        },
+        {
+          "seat_name": "深股通专用",
+          "player_type": "机构",
+          "player_name": "深股通专用",
+          "buy_amount": "0.36亿元",
+          "sell_amount": "0.69亿元",
+          "net_amount": "-3,357.74万元",
+          "buy_rate": "2.55%",
+          "sell_rate": "4.95%",
+          "action_interpretation": "出货或资金流出（净卖出显著）",
+          "style_profile": {
+            "summary": "今日资金流出非标准机制操作，后市剧本：境外资金压力可能加大。",
+            "time_horizon": "不定（跨境投资）",
+            "preferred_setup": "互联互通机制",
+            "typical_exit": "基于国际资金流动"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "314.14万元",
+          "sell_amount": "0.39亿元",
+          "net_amount": "-3,536.43万元",
+          "buy_rate": "0.22%",
+          "sell_rate": "2.75%",
+          "action_interpretation": "出货（净卖出显著）",
+          "style_profile": {
+            "summary": "今日非标准战法，后市剧本：机构减持可能引发调整压力。",
+            "time_horizon": "中线",
+            "preferred_setup": "风险规避",
+            "typical_exit": "基于市场波动"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位买入金额分布均衡，最大买入比例约37%，无单一席位占主导地位。",
+      "synergy_analysis": "只有一个知名游资（东方财富拉萨团结路第一证券营业部）上榜，无多个知名游资同时操作迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "high",
+      "pressure_desc": "卖压主要来自特定主力的集中出货"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前股价处于下跌通道初期，此前经历了从2025-06-24至2025-06-30的连续涨停主升浪。上榜日（2025-07-02）及前一日（2025-07-01）均出现放量下跌，成交量分别为105.54万手和149.09万手，较前期上涨阶段平均成交量（约59.49万手）显著放大，表明抛压沉重，量价配合显示卖出主导。关键信号包括连续两个跌停板，形成顶部反转形态，上榜日K线为长阴线（开盘13.66，收盘12.94，跌幅10.01%），无显著上影线，反映开盘后直接跌停，市场情绪急剧恶化。"
+    },
+    "final_verdict": {
+      "outlook": "基于恐慌性抛售和空方主导的市场情绪，后市可能持续承压，股价有进一步下跌风险。买方力量分散且微弱，无强力支撑，短期反弹可能性低。",
+      "strategy": "建议散户保持谨慎观望，避免盲目抄底。优先设置止损位，短线交易者严格控制仓位，避免追高操作。",
+      "risk_warning": "风险包括持续机构出货压力、恐慌抛售可能加剧股价下跌、高换手率带来的流动性风险，以及市场情绪恶化引发的快速波动。"
+    }
+  },
+  "generated_at": "2025-07-03 15:35:39"
+}

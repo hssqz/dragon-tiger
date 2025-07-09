@@ -1,0 +1,242 @@
+{
+  "stock_info": {
+    "ts_code": "000026.SZ",
+    "name": "飞亚达",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日涨幅偏离值达到7%的前5只证券",
+        "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+      ],
+      "interpretation": "这些上榜原因表明该股票在短期内经历了显著的价格上涨，单日涨幅偏离值达到7%突显了强烈的多头推动和买方主导力量，连续三天累计涨幅偏离值达到20%则反映了持续的多头动能和市场看涨共识。这暗示当前市场情绪高度乐观，买方力量占据绝对优势，可能由基本面利好、行业热点或资金追逐驱动，而非剧烈的多空分歧，显示出较强的多头一致性和上涨趋势。"
+    },
+    "overall_assessment": {
+      "verdict": "多头略胜",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "涨幅9.99%涨停显示强劲多头情绪，但换手率23.85%较高暗示潜在分歧。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力净买入仅0.32亿元（净买入率1.99%），占总成交额22.97%，多空力量接近，对抗激烈，控盘力度中等。"
+      },
+      "key_takeaway": "主力资金分歧中推动涨停，高换手率凸显市场波动风险。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.54亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.54亿元",
+          "buy_rate": "3.51%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "纯买入，建仓或主封",
+          "style_profile": {
+            "summary": "机构投资者今日净买入，执行标准价值建仓策略。后市可能继续持有或基于基本面加仓。",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面良好、估值合理的股票",
+            "typical_exit": "基于基本面恶化或目标估值达成时退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.54亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.54亿元",
+          "buy_rate": "1.73%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "纯买入，建仓",
+          "style_profile": {
+            "summary": "机构投资者今日净买入，执行标准建仓策略。后市可能长期持仓或调整头寸。",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面驱动、低风险机会",
+            "typical_exit": "当基本面变化或市场风险升高时退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.29亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.29亿元",
+          "buy_rate": "1.90%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "纯买入，建仓",
+          "style_profile": {
+            "summary": "机构投资者今日净买入，执行标准投资策略。后市可能稳步增持或监控基本面。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资、稳定增长标的",
+            "typical_exit": "基于业绩不及预期或估值过高时退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.34亿元",
+          "sell_amount": "882.24万元",
+          "net_amount": "0.25亿元",
+          "buy_rate": "2.20%",
+          "sell_rate": "0.57%",
+          "action_interpretation": "买入为主，少量卖出，可能做T锁定利润",
+          "style_profile": {
+            "summary": "机构投资者今日净买入但少量卖出，执行部分锁定策略。后市可能维持持仓或微调。",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面稳健、短期波动机会",
+            "typical_exit": "当短期目标达成或风险增加时逐步退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.42亿元",
+          "sell_amount": "0.19亿元",
+          "net_amount": "0.23亿元",
+          "buy_rate": "1.35%",
+          "sell_rate": "0.62%",
+          "action_interpretation": "买入为主，少量卖出，可能做T",
+          "style_profile": {
+            "summary": "机构投资者今日净买入伴随卖出，执行标准调整策略。后市可能持有核心仓位或优化组合。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值与成长结合的机会",
+            "typical_exit": "基于长期基本面趋势或市场环境变化退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.55亿元",
+          "sell_amount": "0.44亿元",
+          "net_amount": "0.10亿元",
+          "buy_rate": "1.75%",
+          "sell_rate": "1.41%",
+          "action_interpretation": "买卖均有，做T操作",
+          "style_profile": {
+            "summary": "机构投资者今日做T，执行标准套利策略。后市可能维持中性仓位或伺机而动。",
+            "time_horizon": "中长期",
+            "preferred_setup": "波动市场中套利机会",
+            "typical_exit": "当套利空间消失或风险回报比下降时退出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.41亿元",
+          "sell_amount": "0.52亿元",
+          "net_amount": "-1,140.60万元",
+          "buy_rate": "1.30%",
+          "sell_rate": "1.66%",
+          "action_interpretation": "卖出为主，出货或减仓",
+          "style_profile": {
+            "summary": "机构投资者今日净卖出，执行标准减仓策略。后市可能观望或逐步退出。",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面转弱或高估值标的",
+            "typical_exit": "当投资逻辑破坏或达到止损点时退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.15亿元",
+          "sell_amount": "0.27亿元",
+          "net_amount": "-1,245.32万元",
+          "buy_rate": "0.95%",
+          "sell_rate": "1.76%",
+          "action_interpretation": "卖出为主，出货",
+          "style_profile": {
+            "summary": "机构投资者今日净卖出，执行风险控制策略。后市可能减少暴露或转向防御。",
+            "time_horizon": "中长期",
+            "preferred_setup": "风险规避、流动性管理",
+            "typical_exit": "基于市场下行或基本面恶化信号退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.15亿元",
+          "sell_amount": "0.42亿元",
+          "net_amount": "-2,724.48万元",
+          "buy_rate": "0.96%",
+          "sell_rate": "2.72%",
+          "action_interpretation": "卖出为主，出货",
+          "style_profile": {
+            "summary": "机构投资者今日大幅净卖出，执行标准退出策略。后市可能彻底清仓或保留少量头寸。",
+            "time_horizon": "中长期",
+            "preferred_setup": "高估值或业绩下滑标的",
+            "typical_exit": "当目标达成或风险过高时果断退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.53亿元",
+          "net_amount": "-5,265.24万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.68%",
+          "action_interpretation": "纯卖出，出货",
+          "style_profile": {
+            "summary": "机构投资者今日纯卖出，执行清仓策略。后市可能完全退出或转向其他资产。",
+            "time_horizon": "中长期",
+            "preferred_setup": "止损或重组投资组合",
+            "typical_exit": "基于系统性风险或投资周期结束退出"
+          }
+        },
+        {
+          "seat_name": "财通证券股份有限公司杭州上塘路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "上塘路",
+          "buy_amount": "9.79万元",
+          "sell_amount": "0.48亿元",
+          "net_amount": "-4,780.92万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.53%",
+          "action_interpretation": "主要卖出，出货",
+          "style_profile": {
+            "summary": "顶级节奏大师今日出货，执行标准套利退出策略。后市可能转向新机会或等待情绪低点。",
+            "time_horizon": "短线",
+            "preferred_setup": "次新股、首板交易",
+            "typical_exit": "根据市场情绪变化和纪律严明退出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位包括6个机构专用席位和4个普通席位，最高买入比例为3.51%，整体买入比例分布较均匀，无单一席位或少数席位主导交易。",
+      "synergy_analysis": "不存在协同作战迹象，席位中无知名游资上榜，所有席位均为机构专用或普通席位类型，无明显协同操作证据。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要来自多个机构专用席位和知名游资'上塘路'的集中出货行为，表明特定主力（如大型机构投资者）在看空或策略性卖出，而非普遍的获利了结。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前阶段：股价处于短期主升浪的加速阶段，自近期低点连续大幅上涨。量价关系：上榜日（20250702）放量涨停，成交量达87.00万手（近期最高），配合价格飙升9.99%，显示买盘强劲；前一日（20250701）高开低走但量能维持高位（85.20万手），表明短暂调整后资金持续涌入。关键信号：上榜日出现大阳线涨停，突破前高17.40（20250701高点），确认趋势加速；前一日形成长上影线，暗示洗盘后迅速恢复上涨。"
+    },
+    "final_verdict": {
+      "outlook": "短期股价可能延续上行趋势，多头动能强劲，但高换手率和机构分歧暗示回调风险增加，需警惕市场情绪反转。",
+      "strategy": "短线投资者可逢低轻仓参与，设置严格止损位；中长期投资者应等待回调确认基本面支撑后再分批建仓。",
+      "risk_warning": "高换手率（23.85%）和机构集中出货可能导致股价大幅波动或回调；若市场情绪逆转，可能引发抛售潮。"
+    }
+  },
+  "generated_at": "2025-07-03 15:01:56",
+  "processed_at": "2025-07-03T15:01:56.992162"
+}

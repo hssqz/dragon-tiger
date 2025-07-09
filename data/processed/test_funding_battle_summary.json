@@ -1,0 +1,105 @@
+{
+  "ts_code": "000525.SZ",
+  "name": "红太阳",
+  "basic_info": {
+    "close": 9.03,
+    "pct_change": "9.99%",
+    "turnover_rate": "16.46%",
+    "amount": "14.59亿元",
+    "net_amount": "1.28亿元",
+    "net_rate": "8.76%",
+    "amount_rate": "23.77%"
+  },
+  "long_side": {
+    "total_amount_on_list": "2.37亿元",
+    "player_count": 5,
+    "famous_player_count": 1,
+    "core_players": [
+      {
+        "seat_name": "中信证券股份有限公司浙江分公司",
+        "player_type": "普通席位",
+        "role_tags": [
+          "主导多头"
+        ],
+        "reasons": [
+          "净买入金额最大"
+        ]
+      },
+      {
+        "seat_name": "国泰海通证券股份有限公司成都北一环路证券营业部",
+        "player_type": "知名游资",
+        "role_tags": [
+          "核心游资",
+          "成都系"
+        ],
+        "reasons": [
+          "知名游资参与",
+          "风格明确"
+        ],
+        "analysis": {
+          "actions": "净买入0.41亿元，是多方核心力量之一。此操作与该游资'打板'的风格相符，表现出强势进攻姿态。",
+          "intention": "基于其风格和操作，推断其意图是引导市场情绪，博取次日高溢价。"
+        }
+      }
+    ],
+    "summary": {
+      "concentration": "55.0%",
+      "style_tags": [
+        "普通席位主导",
+        "打板"
+      ],
+      "conclusion": "由普通席位主导，知名游资'成都系'积极参与，形成合力猛攻。"
+    }
+  },
+  "short_side": {
+    "total_amount_on_list": "1.09亿元",
+    "player_count": 5,
+    "famous_player_count": 3,
+    "core_players": [
+      {
+        "seat_name": "国元证券股份有限公司宁波分公司",
+        "player_type": "普通席位",
+        "role_tags": [
+          "主力砸盘"
+        ],
+        "reasons": [
+          "卖出金额最大"
+        ]
+      },
+      {
+        "seat_name": "平安证券股份有限公司福州长乐北路证券营业部",
+        "player_type": "知名游资",
+        "role_tags": [
+          "游资出货"
+        ],
+        "reasons": [
+          "知名游资参与"
+        ],
+        "analysis": {
+          "actions": "净卖出0.10亿元，卖出金额0.15亿元。此操作与该游资'坐庄/主力'的风格相符，表现出获利了结姿态。",
+          "intention": "基于其风格，推断其意图是套现盈利，减少仓位风险。"
+        }
+      }
+    ],
+    "summary": {
+      "concentration": "68.0%",
+      "style_tags": [
+        "短线交易",
+        "获利了结"
+      ],
+      "conclusion": "多名游资分散抛售，普通席位主力砸盘，缺乏统一战术。"
+    }
+  },
+  "battle_assessment": {
+    "winner": "多方",
+    "net_advantage": "1.28亿元",
+    "long_strength_score": 85,
+    "short_strength_score": 45,
+    "battle_tags": [
+      "游资主导局",
+      "多头强攻",
+      "高位换手"
+    ],
+    "key_takeaway": "多方凭借核心力量的压倒性优势，牢牢控制战局，空方抵抗分散。"
+  }
+}

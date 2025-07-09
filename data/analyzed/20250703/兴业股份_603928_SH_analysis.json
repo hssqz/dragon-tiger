@@ -1,0 +1,189 @@
+{
+  "stock_info": {
+    "ts_code": "603928.SH",
+    "name": "兴业股份",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+      ],
+      "interpretation": "这个上榜原因表明该股票在交易日收盘时价格大幅下跌，跌幅偏离值达到7%，反映了市场对该股票的强烈看空情绪和抛售压力。这通常源于对公司基本面恶化、行业负面消息或整体市场调整的担忧，导致投资者集中卖出，显示出空头在博弈中占据主导地位，而多头支撑不足，暗示当前市场情绪偏向悲观，并可能加剧短期波动风险。"
+    },
+    "overall_assessment": {
+      "verdict": "空方获胜",
+      "confidence_score": 0.9,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "股价暴跌10%伴随高换手率21.21%，反映市场恐慌性抛售情绪。"
+      },
+      "capital_confrontation": {
+        "level": "空方主导",
+        "interpretation": "主力资金净卖出2090.42万元，净额率-1.87%，且主力交易占比15.26%，表明空方在对抗中占据优势。"
+      },
+      "key_takeaway": "恐慌情绪下主力资金大幅净卖出，导致股价跌停。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.16亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.16亿元",
+          "buy_rate": "1.44%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入",
+          "style_profile": {
+            "summary": "高频做T交易者",
+            "time_horizon": "短期",
+            "preferred_setup": "活跃个股的日内波动",
+            "typical_exit": "日内或次日卖出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.15亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.15亿元",
+          "buy_rate": "1.35%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入",
+          "style_profile": {
+            "summary": "高频做T交易者",
+            "time_horizon": "短期",
+            "preferred_setup": "活跃个股的日内波动",
+            "typical_exit": "日内或次日卖出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.15亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.15亿元",
+          "buy_rate": "1.33%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入",
+          "style_profile": {
+            "summary": "高频做T交易者",
+            "time_horizon": "短期",
+            "preferred_setup": "活跃个股的日内波动",
+            "typical_exit": "日内或次日卖出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.12亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.12亿元",
+          "buy_rate": "1.09%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "买入",
+          "style_profile": {
+            "summary": "高频做T交易者",
+            "time_horizon": "短期",
+            "preferred_setup": "活跃个股的日内波动",
+            "typical_exit": "日内或次日卖出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "平安证券股份有限公司深圳分公司",
+          "player_type": "知名游资",
+          "player_name": "红岭路",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.16亿元",
+          "net_amount": "-1,562.05万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.40%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "趋势维护型游资",
+            "time_horizon": "中期",
+            "preferred_setup": "核心个股的第一波爆量后吸筹",
+            "typical_exit": "启动二波后退出"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.17亿元",
+          "net_amount": "-1,673.24万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.50%",
+          "action_interpretation": "卖出",
+          "style_profile": {
+            "summary": "量化高频交易",
+            "time_horizon": "短期",
+            "preferred_setup": "利用假机构入场和席位溢价",
+            "typical_exit": "快速卖出"
+          }
+        },
+        {
+          "seat_name": "华泰证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.19亿元",
+          "net_amount": "-1,901.45万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.70%",
+          "action_interpretation": "卖出",
+          "style_profile": {
+            "summary": "量化高频交易",
+            "time_horizon": "短期",
+            "preferred_setup": "利用假机构入场和席位溢价",
+            "typical_exit": "快速卖出"
+          }
+        },
+        {
+          "seat_name": "中信证券股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.27亿元",
+          "net_amount": "-2,674.88万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.40%",
+          "action_interpretation": "卖出",
+          "style_profile": {
+            "summary": "量化高频交易",
+            "time_horizon": "短期",
+            "preferred_setup": "利用假机构入场和席位溢价",
+            "typical_exit": "快速卖出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "买方席位中，77.33%的买入金额来自东方财富拉萨天团席位（四个席位），仅一个普通席位贡献较小，表明买方高度集中在同一集团。",
+      "synergy_analysis": "存在协同作战迹象，四个知名游资席位（东方财富拉萨天团）同时上榜，均标记为'T王'、行为一致净买入且无卖出，显示潜在团队操作。"
+    },
+    "seller_analysis": {
+      "pressure_level": "普遍的获利了结",
+      "pressure_desc": "卖压主要来自量化基金的频繁做T行为和知名游资的调整，显示为普遍的获利了结而非特定主力集中出货；量化基金（三个席位，卖率总和约5.60%）主导，结合普通席位，表明分散的获利了结行为。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前股价处于短期上涨趋势的末期，从起始低点10.6元快速上涨至近期高点22.29元后，出现放量下跌信号。上榜日（2025-07-03）放量55.58万手（高于平均43.13万手），收盘大跌10%，形成大阴线（开盘21.01，收盘19.71），显示价跌量增，表明资金集中流出。关键信号包括大阴线形态，结合前几日上涨时放量（如2025-07-02放量59.52万手上涨8.09%），但上榜日反转放量下跌，暗示顶部抛压增大，趋势可能转折。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望偏空，恐慌情绪主导下股价已跌停，空方力量强势且主力资金大幅净流出，结合高位出货的K线信号和量化基金抛压，短期可能延续调整或进一步下跌；多头仅靠高频做T游资支撑，但他们的短期操作可能加剧波动，整体市场情绪脆弱，需警惕基本面恶化或行业负面消息的持续影响。",
+      "strategy": "操作策略建议以谨慎观望为主：散户投资者应避免在当前恐慌情绪下追涨杀跌，持有仓位者优先设置止损位（如跌破关键支撑19.50元），未持仓者暂不入场；若短线交易，可关注游资'T王'的日内反弹机会但严格止盈止损，避免隔夜风险，整体偏向轻仓或空仓等待市场情绪稳定。",
+      "risk_warning": "风险提示：股价高波动风险显著，量化基金和游资的快速卖出可能导致瞬间大幅下跌；空方主导下趋势转折信号强，潜在跌幅或超预期；高频交易行为增加不确定性，基本面恶化风险未解除；散户操作需防流动性陷阱和情绪化决策，避免过度杠杆。"
+    }
+  },
+  "generated_at": "2025-07-03 19:02:18"
+}

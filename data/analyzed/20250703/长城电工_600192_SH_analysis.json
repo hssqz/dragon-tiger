@@ -1,0 +1,103 @@
+{
+  "stock_info": {
+    "ts_code": "600192.SH",
+    "name": "长城电工",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日换手率达到20%的前五只证券"
+      ],
+      "interpretation": "该股票因日换手率达到20%而上榜，这表明交易异常活跃，市场对该股的关注度极高。高换手率通常源于重大事件、新闻或市场炒作，反映了强烈的投机情绪和多空分歧：买卖双方在涨跌幅限制下激烈博弈，暗示市场对股票前景存在不确定性，而非单一方向共识。"
+    },
+    "overall_assessment": {
+      "verdict": "空方胜出",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "价格下跌3.48%伴随35.04%高换手率，显示市场恐慌性抛售。"
+      },
+      "capital_confrontation": {
+        "level": "激烈空方主导",
+        "interpretation": "主力资金净卖出9667.82万元（占流通值约2.19%），卖出额高于买入额，换手率高，显示空方控盘且对抗激烈。"
+      },
+      "key_takeaway": "高换手率下的主力净卖出导致股价下跌是今日战局的核心看点。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.27亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.27亿元",
+          "buy_rate": "1.59%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "纯买入操作，可能为日内做T策略的买入部分，未进行卖出。",
+          "style_profile": {
+            "summary": "未完全执行标准做T战法（仅买入未卖出）；后市可能明天卖出完成T操作，延续日内交易模式。",
+            "time_horizon": "日内",
+            "preferred_setup": "在活跃股上执行高频做T",
+            "typical_exit": "日内或次日卖出锁定利润"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.26亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.26亿元",
+          "buy_rate": "1.54%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "纯买入操作，利用假机构席位溢价入场，未进行卖出。",
+          "style_profile": {
+            "summary": "执行标准战法（假机构溢价入场）；后市可能频繁做T助涨助跌，资金成分复杂影响股价波动。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构席位溢价策略入场",
+            "typical_exit": "频繁做T止盈或止损"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.19亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.19亿元",
+          "buy_rate": "1.14%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "纯买入操作，可能为日内做T策略的买入部分，未进行卖出。",
+          "style_profile": {
+            "summary": "未完全执行标准做T战法（仅买入未卖出）；后市可能明天卖出完成T操作，延续日内交易模式。",
+            "time_horizon": "日内",
+            "preferred_setup": "在活跃股上执行高频做T",
+            "typical_exit": "日内或次日卖出锁定利润"
+          }
+        }
+      ],
+      "selling_force": []
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位买入比例分布均匀，最大买入比例为1.89%，最小为1.03%，所有席位比例相近，无显著主导买方。",
+      "synergy_analysis": "存在协同作战迹象：多个知名游资席位（东方财富拉萨天团）同时上榜，均为T王类型，可能表示协同操作。"
+    },
+    "seller_analysis": {
+      "pressure_level": "分散",
+      "pressure_desc": "卖压来自多个普通席位，表明普遍的获利了结行为，而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前阶段: 股价在经历连续三个交易日的大幅上涨（涨幅均接近10%）后，于2025-07-03高开低走，表明处于短期上涨趋势的末期或顶部区域。量价关系: 上涨过程中成交量逐步放大（从32.97万手增至38.50万手），配合价格上涨；但上榜日成交量巨幅放大至154.77万手（远高于平均31.13万手），价格大跌3.48%，形成典型的放量下跌态势，显示高位抛压沉重。关键信号: 上榜日K线为光头光脚大阴线（开盘即最高点11.39，收盘接近最低点9.99），高开低走形态，是高位反转的明确信号，预示趋势可能转向下行。"
+    },
+    "final_verdict": {
+      "outlook": "后市面临显著下行压力。高换手率下的主力净卖出、恐慌情绪和K线高位反转信号（放量下跌、光头光脚阴线）表明股价可能延续跌势。买方虽有短期高频交易（如游资做T和量化入场），但未卖出操作可能加剧波动，而非提供持续支撑。",
+      "strategy": "建议散户保持谨慎观望。避免追涨或抄底；现有持仓者应考虑在反弹时减仓或卖出，设置严格止损。短期交易者需高度警惕日内波动，仅适合经验丰富者在设定止盈止损前提下轻仓操作。",
+      "risk_warning": "高风险警示：投机情绪高涨导致高换手率（35.04%），可能引发剧烈价格波动。主力资金净卖出、市场恐慌和潜在协同操作（如游资协同）增加了不确定性，投资者面临快速亏损风险。"
+    }
+  },
+  "generated_at": "2025-07-03 19:00:04"
+}

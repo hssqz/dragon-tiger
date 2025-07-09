@@ -1,0 +1,155 @@
+{
+  "stock_info": {
+    "ts_code": "301150.SZ",
+    "name": "中一科技",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日涨幅达到15%的前5只证券"
+      ],
+      "interpretation": "该股票因日涨幅达到15%而上榜，表明其当日表现极为强劲，这反映了市场对该股票的强烈多头共识和高度乐观情绪。投资者情绪高涨，买盘主导市场，导致股价大幅上涨，暗示可能存在利好消息或基本面改善，吸引了大量资金流入，而空头力量相对较弱，体现了积极的博弈状态和一致看涨预期。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜利",
+      "confidence_score": 0.95,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "涨幅达19.99%接近涨停，换手率22.44%较高，显示市场情绪亢奋，投资者热情高涨。"
+      },
+      "capital_confrontation": {
+        "level": "主力强力控盘",
+        "interpretation": "主力净买入0.72亿元（净买入率12.47%），主力成交占比24.27%，且流通市值28.18亿元较小，资金对抗中多方占优，控盘力度强。"
+      },
+      "key_takeaway": "主力资金强势买入推动涨停，市场情绪亢奋。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.37亿元",
+          "sell_amount": "929.79万元",
+          "net_amount": "0.28亿元",
+          "buy_rate": "6.38%",
+          "sell_rate": "1.61%",
+          "action_interpretation": "建仓或加仓",
+          "style_profile": {
+            "summary": "执行标准机构建仓行为，后市可能继续持有或根据基本面调整仓位。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资或基本面驱动",
+            "typical_exit": "基于基本面变化或目标价达成"
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司上海分公司",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.15亿元",
+          "sell_amount": "9.49万元",
+          "net_amount": "0.14亿元",
+          "buy_rate": "2.52%",
+          "sell_rate": "0.02%",
+          "action_interpretation": "打板买入",
+          "style_profile": {
+            "summary": "执行标准量化打板战法，后市可能次日兑现一半或纠错买回。",
+            "time_horizon": "短期",
+            "preferred_setup": "首板或二板股票",
+            "typical_exit": "次日不能秒板开盘则兑现一半，上板买回，否则清仓"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.14亿元",
+          "sell_amount": "464.71万元",
+          "net_amount": "984.78万元",
+          "buy_rate": "2.51%",
+          "sell_rate": "0.80%",
+          "action_interpretation": "建仓或加仓",
+          "style_profile": {
+            "summary": "执行标准机构建仓行为，后市可能继续持有或根据基本面调整仓位。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资或基本面驱动",
+            "typical_exit": "基于基本面变化或目标价达成"
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司上海西藏中路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "982.60万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "982.60万元",
+          "buy_rate": "1.70%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "打板买入",
+          "style_profile": {
+            "summary": "执行标准量化打板战法，后市可能次日兑现一半或纠错买回。",
+            "time_horizon": "短期",
+            "preferred_setup": "首板或二板股票",
+            "typical_exit": "次日不能秒板开盘则兑现一半，上板买回，否则清仓"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "553.95万元",
+          "sell_amount": "550.62万元",
+          "net_amount": "3.33万元",
+          "buy_rate": "0.96%",
+          "sell_rate": "0.95%",
+          "action_interpretation": "做T操作",
+          "style_profile": {
+            "summary": "执行标准做T战法，后市可能继续日内滚动操作。",
+            "time_horizon": "超短期",
+            "preferred_setup": "高波动性股票",
+            "typical_exit": "日内了结或持续滚动"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "377.96万元",
+          "sell_amount": "972.45万元",
+          "net_amount": "-594.49万元",
+          "buy_rate": "0.65%",
+          "sell_rate": "1.68%",
+          "action_interpretation": "减仓或出货",
+          "style_profile": {
+            "summary": "执行标准机构减仓行为，后市可能继续减持或基于风险控制调整。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值评估",
+            "typical_exit": "基于基本面恶化或目标达成"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "最大买方席位机构专用买入金额占总额的36.15%，前两名买家占56.67%，前四名买家占85.00%，显示买方高度集中在少数席位。",
+      "synergy_analysis": "存在协同作战迹象，多个知名游资（华鑫证券上海分公司量化打板、华鑫证券上海西藏中路营业部量化打板、东方财富拉萨东环路第二营业部T王）同时上榜。"
+    },
+    "seller_analysis": {
+      "pressure_level": "High",
+      "pressure_desc": "集中出货"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "超跌反弹",
+      "trend_interpretation": "当前股价处于短期下跌后的反弹阶段。从整体趋势看，上榜日前两天（2025-07-01和2025-07-02）连续下跌（跌幅分别为-4.24%和-3.11%），股价触及低位；上榜日（2025-07-03）则大幅上涨19.99%，实现涨停。量价关系上，上榜日成交量26.47万手，远高于前一日9.18万手的缩量下跌，形成放量上涨信号，显示买方积极介入。关键信号包括上榜日出现的大阳线涨停（实体长，从20.0元涨至23.89元）和长下影线（低点19.41元），表明下方支撑强劲，并突破前两日高点，预示潜在趋势反转或反弹延续。"
+    },
+    "final_verdict": {
+      "outlook": "基于强劲的多头共识、主力强力控盘和超跌反弹信号，后市短期内可能延续上涨趋势，但需警惕游资短期兑现行为带来的波动。市场情绪亢奋和量能放大支撑反弹延续，投资者应密切关注后续量能和基本面支撑。",
+      "strategy": "建议已持有者部分止盈锁定利润，未持有者等待回调至关键支撑位（如上榜日低点19.41元附近）或突破确认后谨慎介入。避免追高，设置止损位，并关注机构持续买入信号。",
+      "risk_warning": "风险包括：市场情绪亢奋可能导致过度投机和快速回调；游资量化策略（如次日不能秒板则兑现）可能引发股价波动；卖方机构减仓暗示潜在看空；高换手率（22.44%）和涨幅接近涨停（19.99%）增加短期风险；基本面改善需验证，以防利好消息未兑现。"
+    }
+  },
+  "generated_at": "2025-07-03 18:53:33"
+}

@@ -1,0 +1,138 @@
+{
+  "stock_info": {
+    "ts_code": "001236.SZ",
+    "name": "弘业期货",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "连续三个交易日内，跌幅偏离值累计达到20%的证券"
+      ],
+      "interpretation": "该上榜原因表明股票在短期内经历了显著的下跌，累计跌幅偏离值达20%，这反映了市场对该股的强烈抛售压力和悲观情绪，说明投资者普遍担忧基本面恶化、负面事件或行业利空，导致恐慌性卖出行为。当前的博弈状态显示空头主导，多空分歧剧烈，空方力量强劲，可能源于机构减持或市场恐慌，暗示短期风险较高，需警惕进一步下行压力。"
+    },
+    "overall_assessment": {
+      "verdict": "空方胜出",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "分歧",
+        "interpretation": "价格下跌1.85%伴随高换手率25.16%，表明交易活跃但方向不明，市场情绪分歧而非恐慌或亢奋。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力净卖出1.097亿元，占流通市值2.35%（基于float_values 41.46亿元），龙虎榜成交占比14.86%，显示主力资金控盘力度强，多空对抗激烈，空方主导。"
+      },
+      "key_takeaway": "主力大幅净卖出推动股价下跌，高换手率凸显市场分歧。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "中国银河证券股份有限公司北京中关村大街证券营业部",
+          "player_type": "量化",
+          "player_name": "量化抢筹",
+          "buy_amount": "0.50亿元",
+          "sell_amount": "0.35亿元",
+          "net_amount": "0.14亿元",
+          "buy_rate": "1.07%",
+          "sell_rate": "0.76%",
+          "action_interpretation": "在分歧回暖日执行竞价扫货，制造弱转强分时，买入为主，卖出为辅，推动股价上涨。",
+          "style_profile": {
+            "summary": "今天执行标准量化战法：分歧回暖日竞价扫货制造弱转强，吸引市场资金流入。后市剧本：若成功吸引跟风资金，股价可能延续涨势；否则面临回落风险。",
+            "time_horizon": "短线",
+            "preferred_setup": "分歧回暖日竞价阶段",
+            "typical_exit": "策略性高位出货或根据量化信号调整"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.46亿元",
+          "sell_amount": "0.44亿元",
+          "net_amount": "169.25万元",
+          "buy_rate": "0.98%",
+          "sell_rate": "0.94%",
+          "action_interpretation": "买卖量相近，小幅净买入，可能在做T（日内交易）或微调持仓，无明显主导方向。",
+          "style_profile": {
+            "summary": "机构资金今日操作中性，未执行明显战法。后市剧本：可能维持持仓，观望市场变化。",
+            "time_horizon": "中长线",
+            "preferred_setup": "价值投资或基本面驱动",
+            "typical_exit": "基本面恶化或达到目标价"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.44亿元",
+          "sell_amount": "0.49亿元",
+          "net_amount": "-505.24万元",
+          "buy_rate": "0.93%",
+          "sell_rate": "1.04%",
+          "action_interpretation": "净卖出，可能是在出货或减仓，表明看跌或锁定利润。",
+          "style_profile": {
+            "summary": "机构资金今日小幅卖出，操作保守。后市剧本：可能继续持有或小幅调整。",
+            "time_horizon": "中长线",
+            "preferred_setup": "基本面分析",
+            "typical_exit": "目标达成或风险增加"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.63亿元",
+          "sell_amount": "0.70亿元",
+          "net_amount": "-703.52万元",
+          "buy_rate": "1.35%",
+          "sell_rate": "1.50%",
+          "action_interpretation": "净卖出较大，可能是在主动出货或减仓，表明较强看跌意愿。",
+          "style_profile": {
+            "summary": "机构资金今日净卖出较多，未执行标准战法。后市剧本：若持续卖出，可能加大股价下行压力。",
+            "time_horizon": "中长线",
+            "preferred_setup": "价值重估或事件驱动",
+            "typical_exit": "基本面变化或盈利兑现"
+          }
+        },
+        {
+          "seat_name": "深股通专用",
+          "player_type": "机构",
+          "player_name": "深股通专用",
+          "buy_amount": "0.81亿元",
+          "sell_amount": "1.00亿元",
+          "net_amount": "-1,894.44万元",
+          "buy_rate": "1.73%",
+          "sell_rate": "2.14%",
+          "action_interpretation": "净卖出较大，可能是在出货，境外资金看跌或调整仓位。",
+          "style_profile": {
+            "summary": "深股通资金今日净卖出，执行调整策略。后市剧本：若持续流出，可能压制股价；否则中性。",
+            "time_horizon": "中长线",
+            "preferred_setup": "互联互通机制下的价值投资",
+            "typical_exit": "基本面变化或目标达成"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位有两个，买入金额分别为0.50亿元和0.46亿元，占比相近（约52.08%和47.92%），分布均匀，无单一主导买方。",
+      "synergy_analysis": "只有一个量化交易席位（中国银河证券北京中关村大街营业部）和一个机构专用席位，类型不同，无多个知名游资同时上榜迹象，无协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "high",
+      "pressure_desc": "卖压主要来自普遍的获利了结行为，而非特定主力的集中出货。数据中多个卖方席位（包括机构专用、深股通专用和普通席位）均显示净卖出，其中普通席位净卖出金额较高，但整体卖压来源分散，表明广泛的市场参与者获利后卖出。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "下跌中继",
+      "trend_interpretation": "当前阶段：股价处于快速下跌趋势的调整阶段，从高点15.98元连续三日大幅回落，跌幅累计超过20%。量价关系：上榜日（2025-07-03）成交量82.14万手，高于平均成交量60.44万手但低于前两日的149.09万手和105.54万手，价格下跌1.85%，呈现量缩价跌特征，表明抛压有所减弱但空头仍占优。关键信号：K线形态为带上下影线的阴线，低点12.44元跌破前日低点，收盘略高于低点，显示多空争夺激烈但未形成反转，暗示下跌趋势可能延续。"
+    },
+    "final_verdict": {
+      "outlook": "短期股价可能继续承压下行，市场分歧较大但空方主导趋势未改；下跌中继形态和量缩价跌信号暗示调整后或延续跌势，需警惕基本面恶化或行业利空引发的进一步抛售。",
+      "strategy": "建议散户投资者观望为主，避免盲目抄底；持有者应优先减仓或设置止损位（如跌破关键支撑点12.44元），关注量化席位推动的弱转强信号但仅小仓位试探；未持仓者暂不入场，等待趋势反转确认。",
+      "risk_warning": "风险较高，包括主力持续净卖出、卖压分散且高企、基本面担忧加剧短期下行压力；高换手率（25.16%）预示波动剧烈，流动性风险增加；若深股通或机构持续出货，跌幅可能扩大至20%以上。"
+    }
+  },
+  "generated_at": "2025-07-03 18:54:56"
+}

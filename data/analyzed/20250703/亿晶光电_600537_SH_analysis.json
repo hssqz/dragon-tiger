@@ -1,0 +1,275 @@
+{
+  "stock_info": {
+    "ts_code": "600537.SH",
+    "name": "亿晶光电",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+        "非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+      ],
+      "interpretation": "这些上榜原因表明该股票在单个交易日涨幅偏离值达7%且连续三个交易日累计涨幅偏离值达20%，显示出短期内强劲的上涨趋势和超常表现。这反映了当前市场对该股票有强烈的多头共识，投资者情绪高度乐观，买盘持续主导，股价攀升势头稳固，无明显多空分歧迹象，暗示资金集中流入和市场信心充足。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜利",
+      "confidence_score": 0.9,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "涨幅10.06%显示强烈看涨情绪，换手率9.43%表明交易活跃，整体市场情绪亢奋。"
+      },
+      "capital_confrontation": {
+        "level": "多方主导",
+        "interpretation": "主力净买入0.49亿元，净买入率6.81%，龙虎榜占比28.07%，结合流通市值41.43亿元较小，主力资金控盘力度强，多空对抗中多方明显占优。"
+      },
+      "key_takeaway": "主力资金强势买入推动股价涨停，显示多方力量持续增强。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "东亚前海证券有限责任公司上海分公司",
+          "player_type": "知名游资",
+          "player_name": "思明南路",
+          "buy_amount": "0.29亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.29亿元",
+          "buy_rate": "4.02%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封或接力基本面个股",
+          "style_profile": {
+            "summary": "执行标准选股战法入场，基于基本面支撑，后市可能持有或根据市场预期调整仓位。",
+            "time_horizon": "短期",
+            "preferred_setup": "基本面支撑的个股",
+            "typical_exit": "灵活退出，基于个股预期变化"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司成都北一环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "成都系",
+          "buy_amount": "0.20亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.20亿元",
+          "buy_rate": "2.82%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封首板并直线拉升",
+          "style_profile": {
+            "summary": "执行标准超跌板战法入场，后市可能次日冲高后砸盘。",
+            "time_horizon": "超短期",
+            "preferred_setup": "首板中小盘个股",
+            "typical_exit": "次日冲高砸盘"
+          }
+        },
+        {
+          "seat_name": "甬兴证券有限公司宁波和源路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "宁波和源路",
+          "buy_amount": "0.18亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.18亿元",
+          "buy_rate": "2.47%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "高位接力或排一字板",
+          "style_profile": {
+            "summary": "执行标准高位接力战法入场，后市可能根据情绪节点果断出货。",
+            "time_horizon": "短期",
+            "preferred_setup": "高位个股",
+            "typical_exit": "出货毫不拖泥带水"
+          }
+        },
+        {
+          "seat_name": "甬兴证券有限公司宁波和源路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "宁波和源路",
+          "buy_amount": "0.18亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.18亿元",
+          "buy_rate": "4.64%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "高位接力或排一字板",
+          "style_profile": {
+            "summary": "执行标准高位接力战法入场，后市可能根据情绪节点果断出货。",
+            "time_horizon": "短期",
+            "preferred_setup": "高位个股",
+            "typical_exit": "出货毫不拖泥带水"
+          }
+        },
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.15亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.15亿元",
+          "buy_rate": "2.14%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "打板入场首板或二板",
+          "style_profile": {
+            "summary": "执行标准量化打板战法入场，后市可能次日不能秒板则兑现一半。",
+            "time_horizon": "超短期",
+            "preferred_setup": "首板或二板",
+            "typical_exit": "纪律性兑现或清仓"
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司深圳分公司",
+          "player_type": "知名游资",
+          "player_name": "湖州劳动路",
+          "buy_amount": "358.47万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "358.47万元",
+          "buy_rate": "0.94%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "接力操作",
+          "style_profile": {
+            "summary": "执行接力战法入场，后市可能联动江浙资金操控股价。",
+            "time_horizon": "短期",
+            "preferred_setup": "接力个股",
+            "typical_exit": "联动出货"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "华鑫证券有限责任公司上海分公司",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.00万元",
+          "sell_amount": "769.08万元",
+          "net_amount": "-769.08万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.01%",
+          "action_interpretation": "纪律性兑现",
+          "style_profile": {
+            "summary": "执行标准量化打板战法出货，后市可能继续纪律性操作。",
+            "time_horizon": "超短期",
+            "preferred_setup": "首板或二板",
+            "typical_exit": "次日兑现或纠错"
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司上海宛平南路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "炒股养家",
+          "buy_amount": "0.00万元",
+          "sell_amount": "805.89万元",
+          "net_amount": "-805.89万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.12%",
+          "action_interpretation": "高位逐步离场",
+          "style_profile": {
+            "summary": "执行标准隔日离场战法出货，后市可能挖掘新题材龙头。",
+            "time_horizon": "短期",
+            "preferred_setup": "题材龙头",
+            "typical_exit": "隔日高位逐步离场"
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司上海宛平南路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "炒股养家",
+          "buy_amount": "0.00万元",
+          "sell_amount": "805.89万元",
+          "net_amount": "-805.89万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.10%",
+          "action_interpretation": "高位逐步离场",
+          "style_profile": {
+            "summary": "执行标准隔日离场战法出货，后市可能挖掘新题材龙头。",
+            "time_horizon": "短期",
+            "preferred_setup": "题材龙头",
+            "typical_exit": "隔日高位逐步离场"
+          }
+        },
+        {
+          "seat_name": "东亚前海证券有限责任公司上海分公司",
+          "player_type": "知名游资",
+          "player_name": "思明南路",
+          "buy_amount": "0.00万元",
+          "sell_amount": "960.24万元",
+          "net_amount": "-960.24万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.34%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "执行灵活退出战法出货，后市可能根据基本面变化调整策略。",
+            "time_horizon": "短期",
+            "preferred_setup": "基本面支撑个股",
+            "typical_exit": "灵活退出"
+          }
+        },
+        {
+          "seat_name": "东亚前海证券有限责任公司上海分公司",
+          "player_type": "知名游资",
+          "player_name": "思明南路",
+          "buy_amount": "0.00万元",
+          "sell_amount": "960.24万元",
+          "net_amount": "-960.24万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.51%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "执行灵活退出战法出货，后市可能根据基本面变化调整策略。",
+            "time_horizon": "短期",
+            "preferred_setup": "基本面支撑个股",
+            "typical_exit": "灵活退出"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.11亿元",
+          "net_amount": "-1,146.60万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.99%",
+          "action_interpretation": "做T或出货",
+          "style_profile": {
+            "summary": "执行频繁做T战法出货，后市可能继续助涨助跌操作。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构溢价个股",
+            "typical_exit": "频繁做T"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.15亿元",
+          "net_amount": "-1,481.16万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.06%",
+          "action_interpretation": "做T或出货",
+          "style_profile": {
+            "summary": "执行频繁做T战法出货，后市可能继续助涨助跌操作。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构溢价个股",
+            "typical_exit": "频繁做T"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方金额分布较均匀，最大买家华鑫证券有限责任公司深圳财富大厦证券营业部占比5.12%，其他多个买家如东亚前海证券有限责任公司上海分公司（4.02%）、国泰海通证券股份有限公司成都北一环路证券营业部（2.82%）等占比在0.94%至5.12%之间，无单一主导者。",
+      "synergy_analysis": "存在多个知名游资同时上榜（思明南路、成都系、宁波和源路、量化打板、湖州劳动路），其中湖州劳动路的描述提到'常常与江浙资金联动'，且宁波和源路位于宁波（江浙地区），表明可能有协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "High",
+      "pressure_desc": "卖压主要来自普遍的'获利了结'行为，涉及多个知名游资席位（如炒股养家、量化打板、思明南路）的短期操作策略（如隔日兑现、高位离场）和量化基金的频繁交易（如做T），而非特定主力的'集中出货'。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于短期上涨趋势的加速阶段，股价从前期整理平台（约2.8-2.9元区间）突破后快速拉升。量价关系上，上榜日（20250703）放量上涨（成交量111.63万手，远高于平均32.14万手），价涨量增；前一日（20250702）同样放量涨停（成交量108.34万手），显示强劲买方动能和量价配合良好。关键信号包括20250702的大阳线突破关键阻力位（前高2.99元），以及20250703的连续放量涨停，确认趋势加速和主升浪启动。"
+    },
+    "final_verdict": {
+      "outlook": "基于强劲的上涨趋势和市场亢奋情绪，后市短期内可能继续上涨，但需警惕获利回吐和游资快速退出导致的波动。",
+      "strategy": "散户可考虑短线参与，逢低买入并设置止损位（例如前低支撑位）；密切关注龙虎榜席位动向，及时止盈；避免追高，优先选择回调机会入场。",
+      "risk_warning": "风险包括高位回调风险、游资协同出货导致价格快速下跌、量化基金助涨助跌增加波动性；散户应控制仓位，设置严格止损以管理风险。"
+    }
+  },
+  "generated_at": "2025-07-03 19:02:47"
+}

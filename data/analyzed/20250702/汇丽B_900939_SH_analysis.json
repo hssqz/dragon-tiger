@@ -1,0 +1,87 @@
+{
+  "stock_info": {
+    "ts_code": "900939.SH",
+    "name": "汇丽B",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+      ],
+      "interpretation": "该上榜原因表明股票价格在当日收盘时大幅下跌，偏离值达到7%，通常由市场抛售压力驱动，反映投资者对该股票的悲观情绪和避险行为。当前市场情绪偏向空头共识，博弈状态显示空头占优且多空分歧较小，可能源于负面消息、业绩不佳或整体市场疲软，暗示短期股价下行风险较大。"
+    },
+    "overall_assessment": {
+      "verdict": "空方小胜",
+      "confidence_score": 0.9,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "股价大幅下跌9.13%，换手率仅3.70%，表明市场恐慌情绪主导，但交易活跃度不高，暗示恐慌性抛售缺乏买盘承接。"
+      },
+      "capital_confrontation": {
+        "level": "控盘力度弱，对抗不激烈",
+        "interpretation": "龙虎榜净卖出3.07万元，占流通市值（0.39亿元）比例极小（约-0.08%），主力资金未大幅撤退，且龙虎榜成交占总成交37.69%，显示参与度高但对抗强度低。"
+      },
+      "key_takeaway": "核心看点是股价暴跌9.13%却无显著主力资金流出，暗示恐慌抛售主导但无强力空头打压。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "申万宏源证券有限公司北京劲松九区证券营业部",
+          "player_type": "知名游资",
+          "player_name": "低位挖掘",
+          "buy_amount": "3.66万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "3.66万元",
+          "buy_rate": "2.52%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "挖掘低位首板或跟风板，进行买入操作。",
+          "style_profile": {
+            "summary": "今日执行标准战法：挖掘低位补涨机会。后市剧本：若题材延续，可能持有；高位分歧时及时离场。",
+            "time_horizon": "短线",
+            "preferred_setup": "题材爆发后挖掘补涨机会",
+            "typical_exit": "高位分歧时及时离场"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "海通证券股份有限公司杭州富春路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "温州帮",
+          "buy_amount": "0.00万元",
+          "sell_amount": "4.10万元",
+          "net_amount": "-4.10万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.82%",
+          "action_interpretation": "出货行为，可能获利了结。",
+          "style_profile": {
+            "summary": "今日执行标准战法：彪悍出货。后市剧本：转向其他次新股，继续深度控盘操作。",
+            "time_horizon": "短线",
+            "preferred_setup": "深度控盘次新股",
+            "typical_exit": "对倒拉升后出货"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买方席位买入占比仅5.67%，买方分布较为均匀，无单一主导席位。",
+      "synergy_analysis": "仅有一个知名游资席位上榜（申万宏源证券），无多个知名游资协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "中等",
+      "pressure_desc": "卖压主要来源于普通席位的普遍获利了结行为，同时有特定主力（温州帮）的集中出货迹象。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "数据不可用",
+      "trend_interpretation": "由于输入的K线数据为空，无法进行行为分析。具体原因：当前阶段无法判断；量价关系缺乏数据支持；关键信号如K线形态或技术指标缺失。"
+    },
+    "final_verdict": {
+      "outlook": "短期股价下行风险较大，恐慌情绪主导市场，但买方游资的低位挖掘行为可能提供反弹机会。整体空方占优，多空分歧小，后市可能继续波动下行，需密切关注市场动态和题材延续性。",
+      "strategy": "短线投资者可轻仓参与低位补涨机会，设置止损位并高位分歧时及时离场；长期投资者建议观望，等待技术信号明确或市场情绪改善。",
+      "risk_warning": "主要风险包括恐慌抛售加剧导致股价进一步下跌、主力出货持续、以及K线数据缺失带来的技术分析不确定性。务必控制仓位，设置严格止损，避免追高。"
+    }
+  },
+  "generated_at": "2025-07-03 15:46:44"
+}

@@ -1,0 +1,199 @@
+
+                <!DOCTYPE html>
+                <html lang="zh-CN">
+                <head>
+                    <meta charset="utf-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>(002104)  - 龙虎榜多空博弈席位图</title>
+                    
+                    <!-- TailwindCSS 3.0+ -->
+                    <script src="https://cdn.tailwindcss.com"></script>
+                    <script>
+                        tailwind.config = {
+                            theme: {
+                                extend: {
+                                    colors: {
+                                        'gushen': {
+                                            'primary': '#356BFD',     // GushenAI 主色蓝
+                                            'accent': '#FB9D0E',      // GushenAI 辅色橙
+                                            'light': '#EAEFFB',       // GushenAI 浅色
+                                            'bg': '#FAFBFC',          // GushenAI 背景色
+                                            'buy': '#FF4444',         // 红色买方
+                                            'sell': '#00AA66'         // 绿色卖方
+                                        }
+                                    },
+                                    fontFamily: {
+                                        'sans': ["'PingFang SC'", "'Microsoft YaHei'", 'sans-serif']
+                                    }
+                                }
+                            }
+                        }
+                    </script>
+                    
+                    <!-- Plotly.js -->
+                    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+                    
+                    <!-- Font Awesome -->
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+                    
+                    <style>
+                        body {
+                            background: linear-gradient(135deg, #FAFBFC 0%, #EAEFFB 100%);
+                        }
+                        .gushen-gradient {
+                            background: linear-gradient(135deg, rgba(53, 107, 253, 0.1) 0%, rgba(53, 107, 253, 0.05) 100%);
+                        }
+                        .gushen-shadow {
+                            box-shadow: 0 20px 25px -5px rgba(53, 107, 253, 0.1), 0 10px 10px -5px rgba(53, 107, 253, 0.04);
+                        }
+                        .animate-fade-in {
+                            animation: fadeIn 1s ease-in-out;
+                        }
+                        .animate-slide-up {
+                            animation: slideUp 0.8s ease-out;
+                        }
+                        @keyframes fadeIn {
+                            from { opacity: 0; }
+                            to { opacity: 1; }
+                        }
+                        @keyframes slideUp {
+                            from { 
+                                opacity: 0;
+                                transform: translateY(30px);
+                            }
+                            to { 
+                                opacity: 1;
+                                transform: translateY(0);
+                            }
+                        }
+                        .tech-glow {
+                            position: relative;
+                        }
+                        .tech-glow::before {
+                            content: '';
+                            position: absolute;
+                            top: -2px;
+                            left: -2px;
+                            right: -2px;
+                            bottom: -2px;
+                            background: linear-gradient(45deg, rgba(255, 68, 68, 0.3), rgba(0, 170, 102, 0.3));
+                            border-radius: inherit;
+                            z-index: -1;
+                            filter: blur(10px);
+                            opacity: 0.7;
+                        }
+                        .bg-gushen-buy { background-color: #FF4444; }
+                        .bg-gushen-sell { background-color: #00AA66; }
+                        .text-gushen-primary { color: #356BFD; }
+                        .text-gushen-accent { color: #FB9D0E; }
+                    </style>
+                </head>
+                <body class="min-h-screen font-sans text-gray-900">
+                    <!-- 主容器 -->
+                    <div class="min-h-screen flex flex-col items-center justify-center p-4 lg:p-8">
+                        <!-- 顶部标题区域 -->
+                        <div class="animate-fade-in text-center mb-8">
+                            <div class="flex items-center justify-center mb-4">
+                                <i class="fas fa-chart-line text-gushen-primary text-3xl mr-3"></i>
+                                <h1 class="text-3xl lg:text-4xl font-bold text-gray-800">
+                                    <span class="text-gushen-primary">Gushen AI</span> 龙虎榜分析
+                                </h1>
+                            </div>
+                            <p class="text-lg text-gray-600 flex items-center justify-center">
+                                <i class="fas fa-robot text-gushen-accent mr-2"></i>
+                                <span class="font-semibold">AI驱动的智能投资决策平台</span>
+                            </p>
+                        </div>
+                        
+                        <!-- 图表容器 -->
+                        <div class="animate-slide-up w-full max-w-7xl">
+                            <div class="bg-white rounded-2xl gushen-shadow tech-glow gushen-gradient p-6 lg:p-8">
+                                <!-- 图表标题栏 -->
+                                <div class="flex items-center justify-between mb-6 pb-4 border-b border-gushen-light">
+                                    <div class="flex items-center">
+                                        <div class="bg-gushen-primary bg-opacity-10 rounded-lg p-3 mr-4">
+                                            <i class="fas fa-balance-scale text-gushen-primary text-xl"></i>
+                                        </div>
+                                        <div>
+                                            <h2 class="text-xl font-bold text-gray-800">(002104)  - 龙虎榜多空博弈席位图</h2>
+                                            <p class="text-sm text-gray-500 mt-1">
+                                                <i class="fas fa-clock mr-1 text-gushen-primary"></i>
+                                                <span class="text-gushen-primary font-semibold">实时数据分析</span> · <span class="text-gushen-accent font-semibold">AI智能解读</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center space-x-3">
+                                        <div class="bg-gushen-primary bg-opacity-10 rounded-lg px-3 py-2">
+                                            <span class="text-gushen-primary font-semibold text-sm">
+                                                <i class="fas fa-users mr-1"></i>
+                                                <span class="text-gushen-primary font-bold">席位博弈</span>
+                                            </span>
+                                        </div>
+                                        <div class="bg-gushen-accent bg-opacity-10 rounded-lg px-3 py-2">
+                                            <span class="text-gushen-accent font-semibold text-sm">
+                                                <i class="fas fa-chart-bar mr-1"></i>
+                                                <span class="text-gushen-accent font-bold">资金流向</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- 主图表区域 -->
+                                <div id="battle_chart" class="w-full">
+                                    <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                            <div id="battle_chart" class="plotly-graph-div" style="height:700px; width:1400px;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("battle_chart")) {                    Plotly.newPlot(                        "battle_chart",                        [{"customdata":["\u003cspan style='color:#FB9D0E'\u003e\u003cb\u003e[机]\u003c\u002fb\u003e\u003c\u002fspan\u003e 深股通专用\u003cspan style='color:#356BFD'\u003e\u003cb\u003e【深股通专用】\u003c\u002fb\u003e\u003c\u002fspan\u003e","\u003cspan style='color:#1F2937'\u003e[普]\u003c\u002fspan\u003e 区江苏路营业部\u003cspan style='color:#356BFD'\u003e\u003cb\u003e【普通席位】\u003c\u002fb\u003e\u003c\u002fspan\u003e","\u003cspan style='color:#1F2937'\u003e[普]\u003c\u002fspan\u003e 广发汕头金砂路\u003cspan style='color:#356BFD'\u003e\u003cb\u003e【普通席位】\u003c\u002fb\u003e\u003c\u002fspan\u003e","\u003cspan style='color:#8B5CF6'\u003e\u003cb\u003e[游]\u003c\u002fb\u003e\u003c\u002fspan\u003e 东莞四川\u003cspan style='color:#356BFD'\u003e\u003cb\u003e【低位挖掘】\u003c\u002fb\u003e\u003c\u002fspan\u003e","\u003cspan style='color:#8B5CF6'\u003e\u003cb\u003e[游]\u003c\u002fb\u003e\u003c\u002fspan\u003e 城南环路营业部\u003cspan style='color:#356BFD'\u003e\u003cb\u003e【T王】\u003c\u002fb\u003e\u003c\u002fspan\u003e"],"hoverinfo":"none","marker":{"color":"#00AA66","line":{"color":"white","width":1},"opacity":0.9},"name":"卖方席位","orientation":"h","text":["\u003cb\u003e\u003cspan style='color:#FB9D0E'\u003e\u003cb\u003e[机]\u003c\u002fb\u003e\u003c\u002fspan\u003e 深股通专用\u003cspan style='color:#356BFD'\u003e\u003cb\u003e【深股通专用】\u003c\u002fb\u003e\u003c\u002fspan\u003e\u003c\u002fb\u003e\u003cbr\u003e\u003cb\u003e10395万元\u003c\u002fb\u003e","\u003cb\u003e\u003cspan style='color:#1F2937'\u003e[普]\u003c\u002fspan\u003e 区江苏路营业部\u003cspan style='color:#356BFD'\u003e\u003cb\u003e【普通席位】\u003c\u002fb\u003e\u003c\u002fspan\u003e\u003c\u002fb\u003e\u003cbr\u003e\u003cb\u003e10035万元\u003c\u002fb\u003e","\u003cb\u003e\u003cspan style='color:#1F2937'\u003e[普]\u003c\u002fspan\u003e 广发汕头金砂路\u003cspan style='color:#356BFD'\u003e\u003cb\u003e【普通席位】\u003c\u002fb\u003e\u003c\u002fspan\u003e\u003c\u002fb\u003e\u003cbr\u003e\u003cb\u003e7342万元\u003c\u002fb\u003e","\u003cb\u003e\u003cspan style='color:#8B5CF6'\u003e\u003cb\u003e[游]\u003c\u002fb\u003e\u003c\u002fspan\u003e 东莞四川\u003cspan style='color:#356BFD'\u003e\u003cb\u003e【低位挖掘】\u003c\u002fb\u003e\u003c\u002fspan\u003e\u003c\u002fb\u003e\u003cbr\u003e\u003cb\u003e2850万元\u003c\u002fb\u003e","\u003cb\u003e\u003cspan style='color:#8B5CF6'\u003e\u003cb\u003e[游]\u003c\u002fb\u003e\u003c\u002fspan\u003e 城南环路营业部\u003cspan style='color:#356BFD'\u003e\u003cb\u003e【T王】\u003c\u002fb\u003e\u003c\u002fspan\u003e\u003c\u002fb\u003e\u003cbr\u003e\u003cb\u003e1142万元\u003c\u002fb\u003e"],"textfont":{"color":"#1F2937","family":"'PingFang SC', 'Microsoft YaHei', sans-serif","size":11},"textposition":"outside","x":[-10394.55,-10034.59,-7341.78,-2850.14,-1141.97],"y":["\u003cb\u003e买一\u002f卖一\u003c\u002fb\u003e","\u003cb\u003e买二\u002f卖二\u003c\u002fb\u003e","\u003cb\u003e买三\u002f卖三\u003c\u002fb\u003e","\u003cb\u003e买四\u002f卖四\u003c\u002fb\u003e","\u003cb\u003e买五\u002f卖五\u003c\u002fb\u003e"],"type":"bar"},{"customdata":["\u003cspan style='color:#1F2937'\u003e[普]\u003c\u002fspan\u003e 中信浙江\u003cspan style='color:#356BFD'\u003e\u003cb\u003e【普通席位】\u003c\u002fb\u003e\u003c\u002fspan\u003e","\u003cspan style='color:#1F2937'\u003e[普]\u003c\u002fspan\u003e 广发深圳深南东路\u003cspan style='color:#356BFD'\u003e\u003cb\u003e【普通席位】\u003c\u002fb\u003e\u003c\u002fspan\u003e","\u003cspan style='color:#FB9D0E'\u003e\u003cb\u003e[机]\u003c\u002fb\u003e\u003c\u002fspan\u003e 机构专用\u003cspan style='color:#356BFD'\u003e\u003cb\u003e【机构专用】\u003c\u002fb\u003e\u003c\u002fspan\u003e","\u003cspan style='color:#1F2937'\u003e[普]\u003c\u002fspan\u003e 庆江北嘴营业部\u003cspan style='color:#356BFD'\u003e\u003cb\u003e【普通席位】\u003c\u002fb\u003e\u003c\u002fspan\u003e","\u003cspan style='color:#1F2937'\u003e[普]\u003c\u002fspan\u003e 中信浙江\u003cspan style='color:#356BFD'\u003e\u003cb\u003e【普通席位】\u003c\u002fb\u003e\u003c\u002fspan\u003e"],"hoverinfo":"none","marker":{"color":"#FF4444","line":{"color":"white","width":1},"opacity":0.9},"name":"买方席位","orientation":"h","text":["\u003cb\u003e\u003cspan style='color:#1F2937'\u003e[普]\u003c\u002fspan\u003e 中信浙江\u003cspan style='color:#356BFD'\u003e\u003cb\u003e【普通席位】\u003c\u002fb\u003e\u003c\u002fspan\u003e\u003c\u002fb\u003e\u003cbr\u003e\u003cb\u003e4000万元\u003c\u002fb\u003e","\u003cb\u003e\u003cspan style='color:#1F2937'\u003e[普]\u003c\u002fspan\u003e 广发深圳深南东路\u003cspan style='color:#356BFD'\u003e\u003cb\u003e【普通席位】\u003c\u002fb\u003e\u003c\u002fspan\u003e\u003c\u002fb\u003e\u003cbr\u003e\u003cb\u003e3900万元\u003c\u002fb\u003e","\u003cb\u003e\u003cspan style='color:#FB9D0E'\u003e\u003cb\u003e[机]\u003c\u002fb\u003e\u003c\u002fspan\u003e 机构专用\u003cspan style='color:#356BFD'\u003e\u003cb\u003e【机构专用】\u003c\u002fb\u003e\u003c\u002fspan\u003e\u003c\u002fb\u003e\u003cbr\u003e\u003cb\u003e3700万元\u003c\u002fb\u003e","\u003cb\u003e\u003cspan style='color:#1F2937'\u003e[普]\u003c\u002fspan\u003e 庆江北嘴营业部\u003cspan style='color:#356BFD'\u003e\u003cb\u003e【普通席位】\u003c\u002fb\u003e\u003c\u002fspan\u003e\u003c\u002fb\u003e\u003cbr\u003e\u003cb\u003e3400万元\u003c\u002fb\u003e","\u003cb\u003e\u003cspan style='color:#1F2937'\u003e[普]\u003c\u002fspan\u003e 中信浙江\u003cspan style='color:#356BFD'\u003e\u003cb\u003e【普通席位】\u003c\u002fb\u003e\u003c\u002fspan\u003e\u003c\u002fb\u003e\u003cbr\u003e\u003cb\u003e3300万元\u003c\u002fb\u003e"],"textfont":{"color":"#1F2937","family":"'PingFang SC', 'Microsoft YaHei', sans-serif","size":11},"textposition":"outside","x":[4000.0,3900.0,3700.0,3400.0000000000005,3300.0],"y":["\u003cb\u003e买一\u002f卖一\u003c\u002fb\u003e","\u003cb\u003e买二\u002f卖二\u003c\u002fb\u003e","\u003cb\u003e买三\u002f卖三\u003c\u002fb\u003e","\u003cb\u003e买四\u002f卖四\u003c\u002fb\u003e","\u003cb\u003e买五\u002f卖五\u003c\u002fb\u003e"],"type":"bar"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"\u003cb style='color:#1F2937'\u003e资金流向 (万元)\u003c\u002fb\u003e"},"tickfont":{"size":12,"family":"'PingFang SC', 'Microsoft YaHei', sans-serif","color":"#1F2937"},"showgrid":true,"gridcolor":"#E5E7EB","zeroline":true,"zerolinecolor":"#1F2937","zerolinewidth":3,"range":[-13512.914999999999,13512.914999999999],"fixedrange":true},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"\u003cb style='color:#1F2937'\u003e席位排名\u003c\u002fb\u003e"},"tickfont":{"size":12,"family":"'PingFang SC', 'Microsoft YaHei', sans-serif","color":"#FB9D0E"},"showgrid":true,"gridcolor":"#E5E7EB","categoryorder":"array","categoryarray":["\u003cb\u003e买五\u002f卖五\u003c\u002fb\u003e","\u003cb\u003e买四\u002f卖四\u003c\u002fb\u003e","\u003cb\u003e买三\u002f卖三\u003c\u002fb\u003e","\u003cb\u003e买二\u002f卖二\u003c\u002fb\u003e","\u003cb\u003e买一\u002f卖一\u003c\u002fb\u003e"],"fixedrange":true},"shapes":[{"line":{"color":"#1F2937","width":3},"type":"line","x0":0,"x1":0,"xref":"x","y0":0,"y1":1,"yref":"y domain"}],"title":{"font":{"family":"'PingFang SC', 'Microsoft YaHei', sans-serif"},"text":"\u003cb style='font-size:22px;color:#356BFD'\u003e(002104)  - 龙虎榜多空博弈席位图\u003c\u002fb\u003e\u003cbr\u003e\u003cbr\u003e\u003cspan style='font-size:13px;line-height:2.0;color:#1F2937'\u003e\u003cb\u003e收盘价:\u003c\u002fb\u003e 14.71 &nbsp;&nbsp; \u003cb\u003e涨跌幅:\u003c\u002fb\u003e \u003cspan style='color:#FF4444'\u003e\u003cb\u003e10.02%\u003c\u002fb\u003e\u003c\u002fspan\u003e &nbsp;&nbsp; \u003cb\u003e换手率:\u003c\u002fb\u003e 38.07% &nbsp;&nbsp; \u003cb\u003e成交额:\u003c\u002fb\u003e 67.74亿元\u003c\u002fspan\u003e\u003cbr\u003e\u003cspan style='font-size:13px;line-height:2.0;color:#1F2937'\u003e\u003cb\u003e龙虎榜净额:\u003c\u002fb\u003e \u003cspan style='color:#00AA66'\u003e\u003cb\u003e-1,391.39万元\u003c\u002fb\u003e\u003c\u002fspan\u003e(-0.21%) &nbsp;&nbsp; \u003cb\u003e买入占比:\u003c\u002fb\u003e \u003cspan style='color:#FF4444'\u003e\u003cb\u003e9.05%\u003c\u002fb\u003e\u003c\u002fspan\u003e &nbsp;&nbsp; \u003cb\u003e卖出占比:\u003c\u002fb\u003e \u003cspan style='color:#00AA66'\u003e\u003cb\u003e9.26%\u003c\u002fb\u003e\u003c\u002fspan\u003e &nbsp;&nbsp; \u003cb\u003e流通市值:\u003c\u002fb\u003e 88.21亿元\u003c\u002fspan\u003e","x":0.5,"y":0.98},"margin":{"l":100,"r":100,"t":160,"b":100},"font":{"family":"'PingFang SC', 'Microsoft YaHei', sans-serif","color":"#1F2937"},"plot_bgcolor":"#FAFBFC","paper_bgcolor":"#FAFBFC","height":700,"width":1400,"barmode":"overlay","showlegend":false,"annotations":[{"arrowcolor":"#FF4444","arrowhead":2,"bgcolor":"rgba(255, 68, 68, 0.1)","bordercolor":"#FF4444","borderwidth":2,"font":{"color":"#FF4444","family":"'PingFang SC', 'Microsoft YaHei', sans-serif","size":14},"showarrow":true,"text":"\u003cb\u003e买方席位\u003c\u002fb\u003e","x":7276.184999999999,"y":4.7},{"arrowcolor":"#00AA66","arrowhead":2,"bgcolor":"rgba(0, 170, 102, 0.1)","bordercolor":"#00AA66","borderwidth":2,"font":{"color":"#00AA66","family":"'PingFang SC', 'Microsoft YaHei', sans-serif","size":14},"showarrow":true,"text":"\u003cb\u003e卖方席位\u003c\u002fb\u003e","x":-7276.184999999999,"y":4.7}]},                        {"displayModeBar": false, "responsive": true}                    )                };            </script>        </div>
+</body>
+</html>
+                                </div>
+                                
+                                <!-- 底部说明区域 -->
+                                <div class="mt-6 pt-4 border-t border-gushen-light">
+                                    <div class="flex flex-wrap items-center justify-between text-sm text-gray-600">
+                                        <div class="flex items-center space-x-4">
+                                            <div class="flex items-center">
+                                                <div class="w-4 h-4 bg-gushen-buy rounded mr-2 opacity-90"></div>
+                                                <span><strong class="text-gushen-primary">买方席位</strong> - <span class="text-gushen-accent">主力资金流入</span>（红色表示多方）</span>
+                                            </div>
+                                            <div class="flex items-center">
+                                                <div class="w-4 h-4 bg-gushen-sell rounded mr-2 opacity-90"></div>
+                                                <span><strong class="text-gushen-primary">卖方席位</strong> - <span class="text-gushen-accent">资金流出压力</span>（绿色表示空方）</span>
+                                            </div>
+                                        </div>
+                                        <div class="flex items-center text-gray-500">
+                                            <i class="fas fa-info-circle mr-1 text-gushen-primary"></i>
+                                            <span><span class="text-gushen-accent font-semibold">数据来源：龙虎榜</span> | 由 <strong class="text-gushen-primary">Gushen AI</strong> 智能分析</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 底部品牌区域 -->
+                        <div class="animate-fade-in mt-8 text-center">
+                            <div class="flex items-center justify-center text-gray-500 text-sm">
+                                <i class="fas fa-shield-alt text-gushen-primary mr-2"></i>
+                                <span>Powered by <strong class="text-gushen-primary">Gushen AI</strong> · 智能投资新时代</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <script>
+                        // 添加交互效果
+                        document.addEventListener('DOMContentLoaded', function() {
+                            const chartContainer = document.querySelector('.tech-glow');
+                            if (chartContainer) {
+                                chartContainer.addEventListener('mouseenter', function() {
+                                    this.style.transform = 'translateY(-5px)';
+                                    this.style.transition = 'transform 0.3s ease';
+                                });
+                                chartContainer.addEventListener('mouseleave', function() {
+                                    this.style.transform = 'translateY(0)';
+                                });
+                            }
+                        });
+                    </script>
+                </body>
+                </html>
+                

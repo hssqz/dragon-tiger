@@ -1,0 +1,155 @@
+{
+  "stock_info": {
+    "ts_code": "002104.SZ",
+    "name": "恒宝股份",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日换手率达到20%的前5只证券"
+      ],
+      "interpretation": "日换手率达到20%表明该股票交易异常活跃，市场关注度极高，反映了投资者在重大事件或信息驱动下积极买卖。这说明了当前市场存在剧烈的多空分歧，买卖双方博弈激烈，而非一致性的多头或空头共识，高换手率往往伴随着价格波动，暗示市场情绪波动大，投资者在快速调整仓位。"
+    },
+    "overall_assessment": {
+      "verdict": "空方占优",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "股价上涨5.95%和换手率40.34%显示投资者情绪高涨，交易活跃。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力买入4.20亿元，卖出4.54亿元，净卖出0.34亿元(-0.73%)，结合流通市值119.58亿元，净卖出影响较小，但买卖额大表明多空对抗激烈，空方略占上风。"
+      },
+      "key_takeaway": "主力净卖出而股价大涨5.95%，换手率高达40.34%，暗示散户推动上涨，主力或正出货。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "中国银河证券股份有限公司大连黄河路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "陈小群",
+          "buy_amount": "0.82亿元",
+          "sell_amount": "24.88万元",
+          "net_amount": "0.82亿元",
+          "buy_rate": "1.76%",
+          "sell_rate": "0.01%",
+          "action_interpretation": "主封介入",
+          "style_profile": {
+            "summary": "擅长趋势龙头分歧打板，理解力优秀，今日主封介入符合标准战法，后市可能推高股价或锁仓。",
+            "time_horizon": "短期到中期",
+            "preferred_setup": "分歧打板介入",
+            "typical_exit": "趋势结束或目标达成时卖出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.47亿元",
+          "sell_amount": "0.42亿元",
+          "net_amount": "479.94万元",
+          "buy_rate": "1.00%",
+          "sell_rate": "0.90%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "每日做T交易，今日做T符合标准战法，后市继续日内交易，对趋势影响小。",
+            "time_horizon": "超短期（日内）",
+            "preferred_setup": "日内波动交易",
+            "typical_exit": "当日平仓"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.45亿元",
+          "sell_amount": "0.45亿元",
+          "net_amount": "88.25万元",
+          "buy_rate": "0.97%",
+          "sell_rate": "0.96%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "每日做T交易，今日做T符合标准战法，后市继续日内交易，对趋势影响小。",
+            "time_horizon": "超短期（日内）",
+            "preferred_setup": "日内波动交易",
+            "typical_exit": "当日平仓"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "深股通专用",
+          "player_type": "机构",
+          "player_name": "深股通专用",
+          "buy_amount": "1.31亿元",
+          "sell_amount": "1.45亿元",
+          "net_amount": "-1,357.43万元",
+          "buy_rate": "2.81%",
+          "sell_rate": "3.11%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "代表境外资金通道，偏好价值投资，今日净卖出可能减仓，后市可能流出或观望。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资或套利机会",
+            "typical_exit": "达到目标价或市场变化时退出"
+          }
+        },
+        {
+          "seat_name": "财通证券股份有限公司温岭中华路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "广东帮",
+          "buy_amount": "0.24亿元",
+          "sell_amount": "0.51亿元",
+          "net_amount": "-2,740.58万元",
+          "buy_rate": "0.51%",
+          "sell_rate": "1.10%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "操作反复拉升模式，今日出货可能在调整阶段，后市等待机会再次拉升或退出。",
+            "time_horizon": "短期到中期",
+            "preferred_setup": "'大阳线-调整-大阳线'模式",
+            "typical_exit": "拉升后卖出获利"
+          }
+        },
+        {
+          "seat_name": "中信建投证券股份有限公司杭州庆春路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "杭州帮",
+          "buy_amount": "133.61万元",
+          "sell_amount": "0.51亿元",
+          "net_amount": "-4,982.58万元",
+          "buy_rate": "0.03%",
+          "sell_rate": "1.10%",
+          "action_interpretation": "大幅出货",
+          "style_profile": {
+            "summary": "波段操作游资，偏好老股票，多营业部协同，今日大幅出货，后市可能完全退出。",
+            "time_horizon": "短期到中期",
+            "preferred_setup": "多营业部波段操作",
+            "typical_exit": "波段高点卖出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买方席位中国银河证券股份有限公司大连黄河路证券营业部占比约47.13%，其他两个席位占比相近（约27.01%和25.86%），资金分布相对均匀。",
+      "synergy_analysis": "存在多个知名游资同时上榜（陈小群和T王），可能暗示协同作战的迹象，但无直接证据。"
+    },
+    "seller_analysis": {
+      "pressure_level": "high",
+      "pressure_desc": "卖压主要来自特定主力的集中出货行为，涉及知名游资（如广东帮和杭州帮）和深股通机构的策略性抛售，而非普遍的获利了结。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "上涨中继",
+      "trend_interpretation": "当前股价处于短期上涨趋势中的整理反弹阶段。量价关系显示，上榜日（2025-07-03）放量上涨（成交量241.91万手，较前两日230.36万手增加），价涨量增配合良好；前两日（2025-07-01和2025-07-02）下跌时缩量（223.54万手和230.36万手），表明抛压减轻。关键信号为收出大阳线（开盘18.86，收盘19.94，涨幅5.95%），收盘接近最高点19.98，暗示买盘强劲，可能突破前高20.44（2025-06-30）。"
+    },
+    "final_verdict": {
+      "outlook": "市场情绪亢奋，交易活跃（换手率40.34%，股价涨5.95%），但空方占优（主力净卖出0.34亿元）。股价处于上涨中继阶段，量价配合良好，可能突破前高20.44；然而，主力出货迹象（深股通、广东帮、杭州帮净卖出）和散户推动上涨暗示潜在回调风险，后市波动大。",
+      "strategy": "散户建议观望或谨慎操作；持有者逢高减仓，目标价参考前高20.44；激进者可轻仓试多，设止损于18.86（上榜日开盘价），突破20.44后追涨但严格止损。",
+      "risk_warning": "高换手率（40.34%）和高波动性加剧价格剧烈波动风险；主力集中出货显示空方压力强；散户推动上涨可能不可持续，警惕快速反转和大幅回调；协同作战迹象不明，增加不确定性。"
+    }
+  },
+  "generated_at": "2025-07-03 18:54:36"
+}

@@ -1,0 +1,189 @@
+{
+  "stock_info": {
+    "ts_code": "601718.SH",
+    "name": "际华集团",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日价格振幅达到15%的前五只证券"
+      ],
+      "interpretation": "上榜原因显示该股票日内价格振幅高达15%，表明市场波动剧烈，这通常由强烈的多空分歧引发，买卖双方博弈激烈，价格在盘中大幅震荡。反映了当前市场情绪高度不稳定，可能受突发事件、消息面或投机行为驱动，而非单一方向的多头或空头共识，暗示投资者对股票前景存在显著分歧和风险偏好波动。"
+    },
+    "overall_assessment": {
+      "verdict": "空方略占优",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "分歧",
+        "interpretation": "价格跌幅达-4.18%表明悲观情绪，但高换手率19.46%显示买卖活跃，反映多空激烈对抗的市场分歧。"
+      },
+      "capital_confrontation": {
+        "level": "中等激烈，空方略强",
+        "interpretation": "主力资金净卖出-4,440.78万元（净率-1.18%），结合龙虎榜成交占比15.11%和总成交37.70亿元，显示控盘力度较强，但流通市值181.37亿元稀释了净卖出影响，导致对抗程度中等激烈。"
+      },
+      "key_takeaway": "高换手率19.46%下的价格大跌-4.18%，凸显多空分歧和主力资金净卖出的活跃对抗。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.93亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.93亿元",
+          "buy_rate": "2.46%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "增持",
+          "style_profile": {
+            "summary": "作为境外资金通道，今日纯买入操作符合互联互通机制，执行标准战法。后市可能稳定持有或继续增持。",
+            "time_horizon": "长期",
+            "preferred_setup": "大盘股或特定互联互通股票",
+            "typical_exit": "长期持有或根据市场变化退出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.61亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.61亿元",
+          "buy_rate": "1.63%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "接力",
+          "style_profile": {
+            "summary": "以每天做T著称，今日纯买入可能为接力行为，未执行标准做T战法。后市可能明日卖出做T。",
+            "time_horizon": "短期",
+            "preferred_setup": "做T机会",
+            "typical_exit": "次日卖出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.38亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.38亿元",
+          "buy_rate": "1.02%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "接力",
+          "style_profile": {
+            "summary": "以每天做T著称，今日纯买入可能为接力行为，未执行标准做T战法。后市可能明日卖出做T。",
+            "time_horizon": "短期",
+            "preferred_setup": "做T机会",
+            "typical_exit": "次日卖出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.35亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.35亿元",
+          "buy_rate": "0.93%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "接力",
+          "style_profile": {
+            "summary": "以每天做T著称，今日纯买入可能为接力行为，未执行标准做T战法。后市可能明日卖出做T。",
+            "time_horizon": "短期",
+            "preferred_setup": "做T机会",
+            "typical_exit": "次日卖出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.35亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.35亿元",
+          "buy_rate": "0.92%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "接力",
+          "style_profile": {
+            "summary": "以每天做T著称，今日纯买入可能为接力行为，未执行标准做T战法。后市可能明日卖出做T。",
+            "time_horizon": "短期",
+            "preferred_setup": "做T机会",
+            "typical_exit": "次日卖出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "国泰海通证券股份有限公司总部",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.43亿元",
+          "net_amount": "-4,324.48万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.15%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "量化基金频繁做T，今日纯卖出操作符合风格，执行标准战法。后市可能买入做T或调整仓位。",
+            "time_horizon": "短期",
+            "preferred_setup": "做T策略",
+            "typical_exit": "频繁进出"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司宜昌沿江大道证券营业部",
+          "player_type": "知名游资",
+          "player_name": "消闲派",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.45亿元",
+          "net_amount": "-4,502.09万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.19%",
+          "action_interpretation": "获利了结",
+          "style_profile": {
+            "summary": "手法稳健的首板选手，今日卖出可能为首板后获利了结，执行标准战法。后市可能寻找新首板机会。",
+            "time_horizon": "短期",
+            "preferred_setup": "首板",
+            "typical_exit": "次日高溢价卖出"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司成都北一环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "成都系",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.51亿元",
+          "net_amount": "-5,082.98万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.35%",
+          "action_interpretation": "砸盘",
+          "style_profile": {
+            "summary": "超短游资偏爱超跌板，今日卖出符合次日冲高砸盘风格，执行标准战法。后市可能瞄准新中小盘股首板。",
+            "time_horizon": "超短期",
+            "preferred_setup": "超跌板、首板",
+            "typical_exit": "次日冲高卖出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方包括一个机构席位（沪股通专用，占比约35.5%）和四个知名游资席位（总占比约64.5%），最大买方占比不高，整体分布较为分散。",
+      "synergy_analysis": "存在协同作战迹象，多个知名游资席位（东方财富拉萨天团）同时上榜，交易模式均为'每天做T'，且标签一致，表明可能协同操作。"
+    },
+    "seller_analysis": {
+      "pressure_level": "获利了结",
+      "pressure_desc": "卖压主要来自多个短期交易者，包括量化基金、知名游资（如消闲派和成都系）以及普通席位，这些实体基于其交易风格（如次日高溢价、冲高砸盘、频繁做T）在股价上涨后普遍进行获利了结，而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "高位出货",
+      "trend_interpretation": "当前股价处于短期上涨趋势的末期，从2.69元快速上涨至4.73元后，上榜日出现放量下跌信号。量价关系方面，上榜日成交量高达854.53万手（远高于平均267.60万手），形成放量下跌格局；前两日（2025-06-30和2025-07-01）股价大涨但成交量极低（35.69万手和24.02万手），显示量价背离，表明上涨乏力。关键信号包括上榜日K线形成长上影线（最高4.73元，收盘4.13元），暗示高位抛压沉重，以及前两日的无量空涨，共同指向顶部反转风险。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望显示市场情绪高度分歧，空方略占优势，结合高位出货信号和短期游资行为，股价可能面临持续下行压力或剧烈震荡。投资者需警惕反转风险，并关注多空博弈动态。",
+      "strategy": "操作策略建议散户保持谨慎，避免追高买入；持仓者应设置止损点（如4.00元附近），考虑逐步减仓；空仓者以观望为主，若短线交易可轻仓参与高抛低吸，但需紧盯沪股通资金动向作为长期参考。",
+      "risk_warning": "明确风险包括：股价日内振幅达15%的剧烈波动风险、短期抛压风险（如T王游资次日卖出）、高位放量下跌确认的顶部反转风险、以及市场情绪突变导致的流动性风险。"
+    }
+  },
+  "generated_at": "2025-07-03 15:46:38"
+}

@@ -1,0 +1,121 @@
+{
+  "stock_info": {
+    "ts_code": "688303.SH",
+    "name": "大全能源",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "有价格涨跌幅限制的日收盘价格涨幅达到15%的前五只证券"
+      ],
+      "interpretation": "该上榜原因表明该股票在当日交易中涨幅显著超过市场平均水平，进入涨幅榜前五名，这说明了市场对该股票的强劲买方动能和异常积极的表现。这反映了当前市场存在强烈的多头共识，投资者普遍看好该股票的前景，可能由利好因素如公司业绩超预期、行业热点或资金集中流入驱动；博弈状态显示多头占据绝对主导地位，空头力量被压制，市场情绪高涨且偏向乐观。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜利",
+      "confidence_score": 0.85,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "涨幅高达15.68%，换手率7.23%偏高，显示市场情绪亢奋。"
+      },
+      "capital_confrontation": {
+        "level": "温和",
+        "interpretation": "大额资金净买入0.60亿元，但仅占流通市值的0.46%，控盘力度弱；大额成交占比24.08%，对抗不激烈。"
+      },
+      "key_takeaway": "股价大幅上涨15.68%，主力资金净流入凸显多方主导。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.41亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.41亿元",
+          "buy_rate": "4.50%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "净买入，建仓行为",
+          "style_profile": {
+            "summary": "作为境外资金通道，今天净买入执行标准建仓。后市可能继续流入或持有。",
+            "time_horizon": "中长期",
+            "preferred_setup": "蓝筹股或高流动性股票",
+            "typical_exit": "基于市场条件缓慢减持"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.13亿元",
+          "net_amount": "-1,254.57万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.38%",
+          "action_interpretation": "净卖出，出货行为",
+          "style_profile": {
+            "summary": "机构投资者，今天净卖出可能获利了结。后市可能承压或调整。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资或特定策略",
+            "typical_exit": "有序卖出或调仓"
+          }
+        },
+        {
+          "seat_name": "中信证券股份有限公司上海分公司",
+          "player_type": "量化",
+          "player_name": "量化基金",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.14亿元",
+          "net_amount": "-1,370.78万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "1.51%",
+          "action_interpretation": "净卖出，量化策略的一部分",
+          "style_profile": {
+            "summary": "量化基金，频繁做T，今天净卖出助跌。后市可能继续波动做T。",
+            "time_horizon": "短期",
+            "preferred_setup": "假机构+席位溢价",
+            "typical_exit": "频繁交易或快速退出"
+          }
+        },
+        {
+          "seat_name": "沪股通专用",
+          "player_type": "机构",
+          "player_name": "沪股通专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.26亿元",
+          "net_amount": "-2,580.11万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.83%",
+          "action_interpretation": "净卖出，资金流出",
+          "style_profile": {
+            "summary": "境外资金通道，今天净卖出表示流出。后市可能继续流出或观望。",
+            "time_horizon": "中长期",
+            "preferred_setup": "蓝筹股或高流动性股票",
+            "typical_exit": "基于市场条件减持"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位买入额分布较为均匀，最大买入比例为4.50%（沪股通专用），其他席位买入比例在1.50%至3.27%之间，无明显主导席位。",
+      "synergy_analysis": "无协同作战迹象；席位中沪股通专用为机构性质，其余均为普通席位且无知名游资标签，缺乏合作证据。"
+    },
+    "seller_analysis": {
+      "pressure_level": "significant",
+      "pressure_desc": "卖压来源于多个卖方席位，包括机构、量化基金和普通席位，表现为普遍的获利了结行为，而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于上涨趋势的主升浪初期。量价关系方面，上榜日（2025-07-02）放量上涨，成交量39.95万手远高于平均11.36万手，配合价格大涨15.68%，形成价涨量增的强势信号；前一日（2025-07-01）虽放量下跌但被迅速反转，显示买盘强劲。关键信号包括上榜日出现大阳线形态，实体巨大，突破前高24.5（对比2025-06-30高点21.7），形成突破阻力位的加速信号，暗示新一波上涨启动。"
+    },
+    "final_verdict": {
+      "outlook": "后市展望：股价处于上涨趋势加速阶段，突破前高24.5元暗示新一波上涨可能启动，多头主导且沪股通资金流入支撑中长期上行潜力。但市场情绪亢奋、换手率偏高和显著卖压（来自机构、量化基金获利了结）提示短期回调风险，预计后市震荡上行，需密切关注资金流向和支撑位。",
+      "strategy": "操作策略：建议持有现有仓位，逢股价回调至关键支撑位24.5元附近分批买入；设置止损位在24.0元以控制风险；避免在亢奋情绪中追高，优先关注沪股通资金动向作为加仓信号。",
+      "risk_warning": "风险提示：市场情绪亢奋可能导致快速回调；卖压显著（多席位获利了结），易引发波动；买方集中度分散，缺乏协同作战，削弱持续上涨动力；控盘力度弱，股价易受资金流动影响；量化基金短期做T行为增加不确定性。"
+    }
+  },
+  "generated_at": "2025-07-03 15:47:30"
+}

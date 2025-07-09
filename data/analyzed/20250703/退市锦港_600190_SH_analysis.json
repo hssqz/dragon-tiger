@@ -1,0 +1,156 @@
+{
+  "stock_info": {
+    "ts_code": "600190.SH",
+    "name": "退市锦港",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "退市整理的证券",
+        "非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+      ],
+      "interpretation": "该股票因退市整理和连续三个交易日涨幅偏离值累计达到20%而上榜。退市整理表明公司面临重大退市风险，反映了基本面恶化或监管问题，通常为负面信号；大幅涨幅则显示市场投机情绪高涨，可能是由利好消息或博弈重组机会驱动。这反映了剧烈的多空分歧：多头在押注潜在反转或借壳上市，而空头担忧退市不确定性，市场情绪高度波动且博弈激烈。"
+    },
+    "overall_assessment": {
+      "verdict": "多头占优",
+      "confidence_score": 0.75,
+      "market_sentiment": {
+        "level": "分歧",
+        "interpretation": "涨幅6.82%显示乐观情绪，但换手率1.80%较低表明市场参与度不足，存在分歧。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "净买入251.20万元（净率17.41%）和大额交易占比45.88%显示主力资金控盘力度强，多空对抗激烈，尤其流通市值8.42亿元较小，放大资金影响。"
+      },
+      "key_takeaway": "主力资金在退市整理背景下积极买入，推动股价大幅上涨。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "国新证券股份有限公司长沙韶山路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "51.97万元",
+          "sell_amount": "0.00万元",
+          "net_amount": "51.97万元",
+          "buy_rate": "3.60%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "打板",
+          "style_profile": {
+            "summary": "今日买入符合其量化打板标准战法，后市剧本：若次日不能秒板开盘则兑现一半，上板则纠错买回，否则清仓。",
+            "time_horizon": "超短",
+            "preferred_setup": "首板、二板",
+            "typical_exit": "次日兑现/纠错/清仓"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "华泰证券股份有限公司无锡解放西路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "炒新一族",
+          "buy_amount": "0.00万元",
+          "sell_amount": "37.83万元",
+          "net_amount": "-37.83万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.62%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今日卖出符合其超短一日游风格，后市剧本：可能继续出货或转向其他次新股。",
+            "time_horizon": "超短",
+            "preferred_setup": "开板次新",
+            "typical_exit": "一日游卖出"
+          }
+        },
+        {
+          "seat_name": "华泰证券股份有限公司上海武定路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "炒新一族",
+          "buy_amount": "0.00万元",
+          "sell_amount": "119.14万元",
+          "net_amount": "-119.14万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.21%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今日卖出符合其超短一日游风格，后市剧本：可能继续出货或转向其他次新股。",
+            "time_horizon": "超短",
+            "preferred_setup": "开板次新",
+            "typical_exit": "一日游卖出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.00万元",
+          "sell_amount": "49.39万元",
+          "net_amount": "-49.39万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "3.42%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今日卖出是其日常做T的一部分，后市剧本：可能继续日内交易做T。",
+            "time_horizon": "日内",
+            "preferred_setup": "做T",
+            "typical_exit": "日内卖出"
+          }
+        },
+        {
+          "seat_name": "平安证券股份有限公司深圳深南东路罗湖商务中心证券营业部",
+          "player_type": "知名游资",
+          "player_name": "敢死队",
+          "buy_amount": "0.00万元",
+          "sell_amount": "126.54万元",
+          "net_amount": "-126.54万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.35%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今日卖出可能是在执行其吃庄家策略，后市剧本：可能继续出货或寻找新目标攻击。",
+            "time_horizon": "超短",
+            "preferred_setup": "吃庄家",
+            "typical_exit": "快速出货"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.00万元",
+          "sell_amount": "147.63万元",
+          "net_amount": "-147.63万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.74%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今日卖出是其日常做T的一部分，后市剧本：可能继续日内交易做T。",
+            "time_horizon": "日内",
+            "preferred_setup": "做T",
+            "typical_exit": "日内卖出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "前三买方席位合计买入金额832.20万元，占总买入额1468.53万元的56.67%，显示高度集中。",
+      "synergy_analysis": "仅有一个知名游资席位（国新证券长沙韶山路），无多个知名游资同时上榜迹象，协同作战可能性低。"
+    },
+    "seller_analysis": {
+      "pressure_level": "获利了结",
+      "pressure_desc": "卖压主要来自多个知名游资（如炒新一族、T王和敢死队）以及普通席位的普遍卖出行为。知名游资的短线操作风格（如超短、一日游和每日做T）表明他们在获利了结，而普通席位的参与（占总卖出额约50%）进一步支持了普遍的卖出压力，而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "超跌反弹",
+      "trend_interpretation": "当前阶段：股价处于超跌后的反弹阶段，从2025-06-30的大跌低点0.36连续三天上涨至0.47，但仍低于前高0.50，显示短期反弹而非强劲趋势。量价关系：上榜日（2025-07-03）出现价涨量缩现象，收盘涨6.82%但成交量仅32.05万手，较前一日59.25万手减少；整体反弹中成交量波动，从大跌日放量177.42万手后反弹初期缩量（7月1日32.09万手），后量增（7月2日59.25万手），最后缩量，表明上涨动力减弱。关键信号：K线形态显示连续三天阳线（7月1日、2日、3日），形成反弹序列，但上榜日缩量上涨且未突破关键阻力位0.50，缺乏大阳线或突破信号，暗示反弹可能乏力。"
+    },
+    "final_verdict": {
+      "outlook": "该股票处于退市整理阶段，短期反弹但动力不足，市场情绪高度分歧。后市可能继续波动，向上空间有限，需关注是否突破关键阻力位0.50元，否则反弹可能衰竭。",
+      "strategy": "建议短线交易者轻仓参与，设置严格止损位（如0.45元），若股价次日秒板开盘可持有，否则兑现部分或清仓；长线投资者应避免介入，聚焦超短操作。",
+      "risk_warning": "高风险警示：公司面临重大退市风险，基本面恶化；主力资金博弈激烈，可能导致股价剧烈波动或快速回调；游资行为不可预测，易引发短期抛售潮。"
+    }
+  },
+  "generated_at": "2025-07-03 19:02:26"
+}

@@ -1,0 +1,138 @@
+{
+  "stock_info": {
+    "ts_code": "002623.SZ",
+    "name": "亚玛顿",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+      ],
+      "interpretation": "该上榜原因表明股票在连续三个交易日内涨幅大幅超越市场基准，显示出强劲的短期上涨动力和超额收益，这通常由积极消息或热点驱动。它反映了当前市场对该股票强烈的多头共识，情绪高度乐观，买盘活跃且持续，空头抵抗较弱，暗示投资者信心高涨和资金集中流入的博弈状态。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜出",
+      "confidence_score": 0.9,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "股价涨停（涨幅10.02%）且换手率低（1.29%），显示市场情绪高度亢奋，买方力量一致主导。"
+      },
+      "capital_confrontation": {
+        "level": "激烈但多方主导",
+        "interpretation": "主力资金净买入0.55亿元（净买入率29.16%），龙虎榜成交占总成交65.23%，结合流通市值37.50亿元（中小盘），多方控盘力度强；卖出额0.34亿元表明一定对抗，但激烈程度中等。"
+      },
+      "key_takeaway": "今日多方主力强势买入推动股价涨停，市场情绪亢奋。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "华鑫证券有限责任公司上海茅台路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "炒股养家",
+          "buy_amount": "0.12亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.12亿元",
+          "buy_rate": "6.56%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "主封或建仓题材龙头",
+          "style_profile": {
+            "summary": "执行标准战法，利用通道优势挖掘题材龙头建仓；后市剧本：隔日高位逐步离场",
+            "time_horizon": "短线",
+            "preferred_setup": "题材龙头",
+            "typical_exit": "高位逐步离场"
+          }
+        },
+        {
+          "seat_name": "平安证券股份有限公司河南分公司",
+          "player_type": "知名游资",
+          "player_name": "温州帮",
+          "buy_amount": "843.16万元",
+          "sell_amount": "26.37万元",
+          "net_amount": "816.79万元",
+          "buy_rate": "4.48%",
+          "sell_rate": "0.14%",
+          "action_interpretation": "建仓或对倒拉升初期",
+          "style_profile": {
+            "summary": "执行深度控盘策略建仓；后市剧本：快速对倒拉升后出货",
+            "time_horizon": "短线",
+            "preferred_setup": "次新股",
+            "typical_exit": "对倒拉升后出货"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "华泰证券股份有限公司福州五一北路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "深圳帮",
+          "buy_amount": "0.00万元",
+          "sell_amount": "436.95万元",
+          "net_amount": "-436.95万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "2.32%",
+          "action_interpretation": "做T或出货",
+          "style_profile": {
+            "summary": "执行标准做T策略卖出；后市剧本：继续活跃做T",
+            "time_horizon": "短线",
+            "preferred_setup": "人气股",
+            "typical_exit": "做T"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "763.05万元",
+          "net_amount": "-763.05万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "4.06%",
+          "action_interpretation": "出货或调仓",
+          "style_profile": {
+            "summary": "执行调仓或获利了结；后市剧本：根据基本面调整持仓",
+            "time_horizon": "中长线",
+            "preferred_setup": "基本面好股",
+            "typical_exit": "逐步减仓"
+          }
+        },
+        {
+          "seat_name": "海通证券股份有限公司常州健身路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "温州帮",
+          "buy_amount": "0.00万元",
+          "sell_amount": "0.12亿元",
+          "net_amount": "-1,226.40万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "6.52%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "执行快速拉升后出货策略；后市剧本：继续出货或转战其他次新股",
+            "time_horizon": "短线",
+            "preferred_setup": "次新股",
+            "typical_exit": "快速出货"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买方席位买入占比为19.66%，其他席位占比在4.48%至10.55%之间，分布较均匀，无单一主导席位。",
+      "synergy_analysis": "存在两个知名游资同时上榜：炒股养家和温州帮。温州帮的操盘风格明确提及多席位协同作战，结合两者同时买入，显示可能有协同操作迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中",
+      "pressure_desc": "卖压主要来自特定主力的集中出货，其中温州帮（海通证券常州健身路证券营业部）卖出量最大（6.52%），机构专用次之（4.06%），其风格均指向有组织的出货行为；而普通席位和深圳帮的卖出相对较小，表明获利了结成分较低。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于短期上涨趋势的主升浪末期，连续涨停后创出新高。量价关系方面，上榜日（2025-07-03）出现价涨量缩现象（收盘涨停但成交量2.57万手较前一日8.16万手大幅减少），可能预示短期买盘减弱；而前一日（2025-07-02）放量涨停显示强劲买入意愿。关键信号包括上榜日的一字涨停K线形态（开盘、最高、最低、收盘价相同），表明市场情绪极度乐观，以及突破前期整理平台（15元左右区域）。"
+    },
+    "final_verdict": {
+      "outlook": "短期市场情绪高度亢奋，多方主导推动股价处于主升浪末期，但价涨量缩信号显示买盘减弱；后市可能高位震荡或面临调整压力，需警惕游资快速离场和卖方集中出货带来的下行风险。",
+      "strategy": "持有者应逐步减仓或设置止盈点锁定利润；未持有者避免追高，耐心等待回调或趋势确认后介入；短线交易者可密切监控游资动向，在股价高位时及时获利了结。",
+      "risk_warning": "高风险因素包括价涨量缩预示短期买盘衰竭、卖方集中出货（如温州帮和机构）可能导致价格急跌、游资短线操作引发剧烈波动、市场情绪亢奋易放大调整幅度；中小盘特性（流通市值37.50亿元）加剧波动性。"
+    }
+  },
+  "generated_at": "2025-07-03 18:52:59"
+}

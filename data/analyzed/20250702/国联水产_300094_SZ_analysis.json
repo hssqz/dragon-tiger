@@ -1,0 +1,189 @@
+{
+  "stock_info": {
+    "ts_code": "300094.SZ",
+    "name": "国联水产",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日涨幅达到15%的前5只证券"
+      ],
+      "interpretation": "该股票因日涨幅达到15%而进入龙虎榜前5只证券，这表明其在当天出现异常强劲的上涨表现，涨幅远超市场平均水平。这反映了市场对该股的强烈多头情绪，买家主导市场，显示出高度的乐观预期和买入共识；整体博弈状态偏向多头主导，空头力量较弱，暗示投资者对短期前景的积极看好和集中的买入行为。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜出",
+      "confidence_score": 0.9,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "涨幅达20.11%，换手率33.09%，表明市场情绪亢奋，交易高度活跃。"
+      },
+      "capital_confrontation": {
+        "level": "强力控盘",
+        "interpretation": "主力净买入1.20亿元，净率7.87%，主力交易占比17.45%，结合流通市值48.20亿元，影响显著，显示主力资金强力买入控盘。"
+      },
+      "key_takeaway": "主力资金强力介入推动股价大涨，高换手凸显市场亢奋情绪。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "国泰海通证券股份有限公司成都北一环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "成都系",
+          "buy_amount": "0.55亿元",
+          "sell_amount": "104.14万元",
+          "net_amount": "0.54亿元",
+          "buy_rate": "3.58%",
+          "sell_rate": "0.07%",
+          "action_interpretation": "主封首板，引导资金合力封板",
+          "style_profile": {
+            "summary": "今日执行标准超跌板首板战法，后市最可能剧本是次日冲高砸盘。",
+            "time_horizon": "超短期",
+            "preferred_setup": "首板、中小盘个股",
+            "typical_exit": "次日冲高砸盘"
+          }
+        },
+        {
+          "seat_name": "国泰海通证券股份有限公司宜昌沿江大道证券营业部",
+          "player_type": "知名游资",
+          "player_name": "消闲派",
+          "buy_amount": "0.53亿元",
+          "sell_amount": "20.33万元",
+          "net_amount": "0.53亿元",
+          "buy_rate": "3.46%",
+          "sell_rate": "0.01%",
+          "action_interpretation": "主封首板",
+          "style_profile": {
+            "summary": "今日执行标准推土机首板战法，后市最可能剧本是次日高溢价后退出。",
+            "time_horizon": "短期",
+            "preferred_setup": "20CM首板",
+            "typical_exit": "次日高溢价后退出"
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司上海分公司",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.17亿元",
+          "sell_amount": "6.60万元",
+          "net_amount": "0.17亿元",
+          "buy_rate": "1.11%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "打板买入",
+          "style_profile": {
+            "summary": "今日执行标准量化打板战法，后市最可能剧本是次日开盘不秒板则兑现或清仓。",
+            "time_horizon": "短期",
+            "preferred_setup": "首板、二板",
+            "typical_exit": "纪律性强，次日兑现或清仓"
+          }
+        },
+        {
+          "seat_name": "中国银河证券股份有限公司宜昌新世纪证券营业部",
+          "player_type": "知名游资",
+          "player_name": "瑞鹤仙",
+          "buy_amount": "0.17亿元",
+          "sell_amount": "19.13万元",
+          "net_amount": "0.16亿元",
+          "buy_rate": "1.09%",
+          "sell_rate": "0.01%",
+          "action_interpretation": "独立买入支持",
+          "style_profile": {
+            "summary": "今日执行独立操作标准战法，后市最可能剧本是独来独往根据市场情况退出。",
+            "time_horizon": "不定",
+            "preferred_setup": "独立操作",
+            "typical_exit": "独来独往退出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.19亿元",
+          "sell_amount": "655.19万元",
+          "net_amount": "0.12亿元",
+          "buy_rate": "1.24%",
+          "sell_rate": "0.43%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今日执行标准做T战法，后市最可能剧本是继续日内或次日做T操作。",
+            "time_horizon": "短期",
+            "preferred_setup": "做T",
+            "typical_exit": "做T退出"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.15亿元",
+          "sell_amount": "0.11亿元",
+          "net_amount": "391.85万元",
+          "buy_rate": "0.99%",
+          "sell_rate": "0.73%",
+          "action_interpretation": "做T",
+          "style_profile": {
+            "summary": "今日执行标准做T战法，后市最可能剧本是继续日内或次日做T操作。",
+            "time_horizon": "短期",
+            "preferred_setup": "做T",
+            "typical_exit": "做T退出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.13亿元",
+          "sell_amount": "0.15亿元",
+          "net_amount": "-219.51万元",
+          "buy_rate": "0.84%",
+          "sell_rate": "0.99%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今日执行减持策略，后市最可能剧本是继续观望或调整持仓。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资或策略投资",
+            "typical_exit": "减持或清仓"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "335.49万元",
+          "sell_amount": "0.12亿元",
+          "net_amount": "-847.84万元",
+          "buy_rate": "0.22%",
+          "sell_rate": "0.78%",
+          "action_interpretation": "出货",
+          "style_profile": {
+            "summary": "今日执行减持策略，后市最可能剧本是继续观望或调整持仓。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资或策略投资",
+            "typical_exit": "减持或清仓"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "前两大买方席位（成都系和消闲派）买入金额合计1.08亿元，占总买入金额1.76亿元的61.36%，占比显著高，其他席位买入金额均低于0.2亿元且占比小。",
+      "synergy_analysis": "存在多个知名游资同时上榜，但风格各异：成都系偏好超跌板，消闲派专注首板，瑞鹤仙独来独往，量化打板和T王独立操作，无明显协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "普遍的获利了结",
+      "pressure_desc": "卖压来自多个席位，包括机构专用和普通营业部，卖出金额分布均匀（均在0.12亿至0.15亿元之间），无特定主力席位主导，表明是普遍的获利了结行为。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "底部启动信号",
+      "trend_interpretation": "当前股价处于从盘整阶段向上涨初期过渡的转折点。上榜日（2025-07-02）放巨量上涨，成交量365.85万手远超15日平均61.90万手，价涨量增显示强势买入动能；前几日（如2025-07-01成交量38.79万手）量能平稳但未配合上涨。关键信号为突破性大阳线（涨幅20.11%），收盘价4.36突破前期高点（2025-06-17的3.72），确认脱离震荡区间。"
+    },
+    "final_verdict": {
+      "outlook": "短期市场情绪亢奋，主力资金强力推动股价，技术面呈现底部启动信号，突破前期高点，预示可能继续冲高；但需警惕知名游资（如成都系、消闲派）短期获利了结导致的回调风险。中长期走势取决于基本面支撑和机构动向，存在不确定性。",
+      "strategy": "建议散户短线操作：次日开盘密切观察股价强度（如高开或秒板），若维持强势可轻仓买入；目标设定在冲高时卖出（参考游资典型退出点），设置止损位（如-5%）；避免追高，优先选择盘中回调机会。",
+      "risk_warning": "高换手率（33.09%）和大幅涨幅（20.11%）暗示投机过度，股价波动风险高；机构出货行为表明中长期分歧；游资短期操作（如次日砸盘或退出）可能引发快速回撤。严格控制仓位（不超过总资金10%），设置止损纪律。"
+    }
+  },
+  "generated_at": "2025-07-03 15:36:22"
+}

@@ -1,0 +1,121 @@
+{
+  "stock_info": {
+    "ts_code": "002342.SZ",
+    "name": "巨力索具",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+      ],
+      "interpretation": "连续三个交易日涨幅偏离值累计达到20%表明该股票在短期内经历了显著的价格上涨，远超市场平均水平，这通常由强劲的买方力量驱动。这反映了当前市场对该股票的强烈多头共识，投资者普遍持乐观态度，可能源于利好消息、基本面改善或投机性资金流入，显示出市场信心高涨且买入压力持续，博弈状态偏向一致看涨，而非剧烈多空分歧。"
+    },
+    "overall_assessment": {
+      "verdict": "多方胜出",
+      "confidence_score": 0.9,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "涨幅9.94%接近涨停且换手率22.11%较高，表明市场情绪亢奋，交易活跃。"
+      },
+      "capital_confrontation": {
+        "level": "强烈",
+        "interpretation": "主力净买入1.18亿元（净率6.03%），买入额2.33亿元显著高于卖出额1.15亿元，且龙虎榜成交占比17.73%，显示多方强势控盘，对抗激烈但多方主导。"
+      },
+      "key_takeaway": "主力资金强势流入推动股价涨停。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.51亿元",
+          "sell_amount": "459.28万元",
+          "net_amount": "0.46亿元",
+          "buy_rate": "2.59%",
+          "sell_rate": "0.23%",
+          "action_interpretation": "净买入主导，可能建仓或增持",
+          "style_profile": {
+            "summary": "执行标准机构建仓行为，后市可能继续持有或基于基本面调整。",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资或趋势跟随",
+            "typical_exit": "目标价达成或基本面恶化"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.54亿元",
+          "sell_amount": "0.25亿元",
+          "net_amount": "0.29亿元",
+          "buy_rate": "2.77%",
+          "sell_rate": "1.26%",
+          "action_interpretation": "买入卖出活跃，净买入，可能做T或仓位调整",
+          "style_profile": {
+            "summary": "买入卖出量均大，可能执行仓位调整或做T，后市取决于个股表现。",
+            "time_horizon": "中长期",
+            "preferred_setup": "稳健投资",
+            "typical_exit": "估值过高或风险增加"
+          }
+        },
+        {
+          "seat_name": "华鑫证券有限责任公司上海宛平南路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "炒股养家",
+          "buy_amount": "0.19亿元",
+          "sell_amount": "0.18亿元",
+          "net_amount": "24.32万元",
+          "buy_rate": "0.95%",
+          "sell_rate": "0.94%",
+          "action_interpretation": "买卖平衡，净额小，执行做T策略",
+          "style_profile": {
+            "summary": "今日做T，符合其利用通道和隔日离场的风格。后市可能高位逐步卖出。",
+            "time_horizon": "短线",
+            "preferred_setup": "题材龙头，一字板机会",
+            "typical_exit": "隔日高位逐步离场"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东莞证券股份有限公司四川分公司",
+          "player_type": "知名游资",
+          "player_name": "低位挖掘",
+          "buy_amount": "860.54万元",
+          "sell_amount": "0.12亿元",
+          "net_amount": "-317.96万元",
+          "buy_rate": "0.44%",
+          "sell_rate": "0.60%",
+          "action_interpretation": "净卖出，可能出货或获利了结",
+          "style_profile": {
+            "summary": "净卖出行为，符合其在高位分歧时及时离场的风格。后市可能寻找新的低位机会。",
+            "time_horizon": "短线",
+            "preferred_setup": "低位首板或跟风板",
+            "typical_exit": "高位分歧时及时离场"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "买方主要由两个机构专用席位主导，合计占总买入金额的57.38%（0.51亿元和0.54亿元），其他席位占比均低于20%，表明高度集中。",
+      "synergy_analysis": "仅有一个知名游资席位（炒股养家）上榜，其他席位为机构或普通席位，没有多个知名游资同时出现，因此不存在协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "显著",
+      "pressure_desc": "卖压主要来自普遍的获利了结行为，而非特定主力集中出货。其中，知名游资'低位挖掘'在高位分歧时及时离场，体现典型获利了结模式；普通席位虽有较大卖出量，但无集中出货迹象，整体卖压分布广泛。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于上涨主升浪阶段。在龙虎榜当天（2025-07-03），股价涨停收盘，成交量显著放大至211.08万手，相比前一日（55.59万手）大幅增加，形成放量上涨的态势，量价配合健康。关键信号包括7月2日的一字涨停突破前期高点（突破7月1日高点6.40），以及7月3日的大阳线确认趋势加速，整体显示强劲上升动力。"
+    },
+    "final_verdict": {
+      "outlook": "后市预计维持上行趋势，受机构资金强势流入和市场情绪亢奋支撑，但需警惕高位获利了结引发的短期回调风险。",
+      "strategy": "建议持有现有头寸，逢低分批买入；中长期投资者可基于基本面增持，短线投资者避免追高，关注机构动向和量价配合。",
+      "risk_warning": "风险包括高换手率（22.11%）导致的波动性加大、获利盘了结压力、情绪过热可能引发回调，以及游资做T行为增加短期不确定性；投资者应控制仓位并设置止损。"
+    }
+  },
+  "generated_at": "2025-07-03 18:52:22"
+}

@@ -1,0 +1,121 @@
+{
+  "stock_info": {
+    "ts_code": "920088.BJ",
+    "name": "科力股份",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "当日换手率达到20%的前5只股票"
+      ],
+      "interpretation": "当日换手率达到20%表明该股票交易量激增，市场关注度极高，这通常意味着投资者参与活跃。它反映了当前市场存在剧烈的多空分歧，买卖双方博弈激烈，可能由突发新闻、板块轮动或情绪波动驱动，整体情绪显示出兴奋与焦虑并存，暗示该股票正处于热点状态。"
+    },
+    "overall_assessment": {
+      "verdict": "空方占优",
+      "confidence_score": 0.8,
+      "market_sentiment": {
+        "level": "分歧",
+        "interpretation": "价格下跌2.81%伴随高换手率26.52%，表明市场存在显著分歧，卖方压力主导但交易活跃，反映不确定性。"
+      },
+      "capital_confrontation": {
+        "level": "低度对抗",
+        "interpretation": "主力资金净买入628.73万元（占流通市值10.37亿元的0.61%），买卖额接近（l_buy 0.26亿元 vs l_sell 0.20亿元），控盘力度弱，多空对抗温和。"
+      },
+      "key_takeaway": "高换手率下的价格下跌突显市场分歧，主力资金操作温和。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "321.08万元",
+          "sell_amount": "305.10万元",
+          "net_amount": "15.98万元",
+          "buy_rate": "1.15%",
+          "sell_rate": "1.10%",
+          "action_interpretation": "做T操作，买卖平衡，净买入小",
+          "style_profile": {
+            "summary": "执行标准战法——每天做T。后市最可能的剧本：继续日内高频交易，增加短期波动但不改变长期趋势。",
+            "time_horizon": "短期（日内）",
+            "preferred_setup": "高波动性股票，流动性充足",
+            "typical_exit": "快速获利了结或止损"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨团结路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "434.91万元",
+          "sell_amount": "459.38万元",
+          "net_amount": "-24.47万元",
+          "buy_rate": "1.56%",
+          "sell_rate": "1.65%",
+          "action_interpretation": "做T操作，买卖接近平衡，净卖出小",
+          "style_profile": {
+            "summary": "执行标准战法——每天做T。后市最可能的剧本：维持日内交易，导致股价震荡但无趋势性影响。",
+            "time_horizon": "短期（日内）",
+            "preferred_setup": "波动市场环境，流动性好",
+            "typical_exit": "日内了结头寸"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第一证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "326.81万元",
+          "sell_amount": "368.82万元",
+          "net_amount": "-42.01万元",
+          "buy_rate": "1.17%",
+          "sell_rate": "1.33%",
+          "action_interpretation": "做T操作，净卖出",
+          "style_profile": {
+            "summary": "执行标准战法——每天做T。后市最可能的剧本：高频交易持续，对个股短期压力有限。",
+            "time_horizon": "短期（日内）",
+            "preferred_setup": "流动性充足个股",
+            "typical_exit": "快速进出平仓"
+          }
+        },
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨东环路第二证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "186.47万元",
+          "sell_amount": "510.25万元",
+          "net_amount": "-323.78万元",
+          "buy_rate": "0.67%",
+          "sell_rate": "1.83%",
+          "action_interpretation": "做T操作，净卖出较大",
+          "style_profile": {
+            "summary": "执行标准战法——每天做T。后市最可能的剧本：日内卖出压力可能延续，但整体为短期行为。",
+            "time_horizon": "短期（日内）",
+            "preferred_setup": "高波动股票",
+            "typical_exit": "日内获利了结或止损"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "高度集中",
+      "concentration_desc": "最大买家中原证券股份有限公司深圳分公司占买方总额的63.33%",
+      "synergy_analysis": "只有一个知名游资（东方财富证券股份有限公司拉萨团结路第一证券营业部）上榜，无多个知名游资协同作战迹象"
+    },
+    "seller_analysis": {
+      "pressure_level": "高",
+      "pressure_desc": "卖压主要来自普遍的获利了结行为，涉及多个游资席位（如东方财富拉萨天团）的日常做T交易和普通投资者卖出，而非特定主力的集中出货。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "底部整理",
+      "trend_interpretation": "当前阶段：股价从前期高点67.99元大幅回调后，处于短期筑底阶段，在40-45元区间内震荡整理。量价关系：龙虎榜当日（2025-07-03）缩量下跌2.81%，成交量6.40万手显著低于平均成交量11.60万手，显示卖压减轻；前一日（2025-07-02）放量上涨4.49%但未能持续突破阻力位，表明买方力量不足且市场观望情绪浓厚。关键信号：当日K线形成高开低走阴线实体，带有上影线（最高45.68元），凸显上方45元附近阻力较强；价格在40元关键支撑位上方波动，但缺乏明确突破或反转形态，如大阳线或平台整理信号。"
+    },
+    "final_verdict": {
+      "outlook": "后市预计维持震荡整理格局，40元为关键支撑位，45元为强阻力位。市场分歧显著，空方占优但交易活跃，短期波动可能加大，缺乏明确趋势。需密切关注量能变化和关键价位突破。",
+      "strategy": "建议散户采取谨慎策略：1) 在40元支撑位附近轻仓试多，设置止损于39元下方；2) 若放量突破45元阻力位可跟进买入；3) 避免追高，关注日内波段机会或短线操作，仓位控制在总资金的20%以内。",
+      "risk_warning": "风险提示：1) 市场不确定性高，卖压可能持续导致价格下破40元支撑，引发进一步下跌；2) 游资做T行为加剧短期波动，增加操作风险；3) 主力资金参与度低，上涨动力不足，流动性风险存在。投资者应严格执行止损，避免重仓。"
+    }
+  },
+  "generated_at": "2025-07-03 19:11:08"
+}

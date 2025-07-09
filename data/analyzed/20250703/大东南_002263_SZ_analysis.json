@@ -1,0 +1,121 @@
+{
+  "stock_info": {
+    "ts_code": "002263.SZ",
+    "name": "大东南",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日涨幅偏离值达到7%的前5只证券"
+      ],
+      "interpretation": "该股票因日涨幅偏离值达到7%而登上龙虎榜前5名，这表明其价格在当日有异常大幅度的上涨，通常源于强烈的市场买入兴趣，如利好消息、行业热点或资金集中推动。这反映了当前市场对该股票的多头共识较强，买方力量主导，显示出乐观情绪和投资热情，而非多空分歧，暗示短期内有持续上涨潜力。"
+    },
+    "overall_assessment": {
+      "verdict": "多方小胜",
+      "confidence_score": 0.8,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "基于9.95%的涨幅和34.89%的高换手率，市场情绪亢奋，显示强势买入意愿。"
+      },
+      "capital_confrontation": {
+        "level": "激烈",
+        "interpretation": "主力买入2.19亿元，卖出2.06亿元，净额仅0.13亿元（net_rate 0.53%），结合流通市值80.96亿元，净流入影响力小，显示多空对抗激烈但控盘力度弱。"
+      },
+      "key_takeaway": "高换手率34.89%伴随涨停，凸显市场亢奋但主力资金分歧显著。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "平安证券股份有限公司深圳分公司",
+          "player_type": "知名游资",
+          "player_name": "红岭路",
+          "buy_amount": "0.31亿元",
+          "sell_amount": "0.14亿元",
+          "net_amount": "0.17亿元",
+          "buy_rate": "1.24%",
+          "sell_rate": "0.57%",
+          "action_interpretation": "吸筹进场",
+          "style_profile": {
+            "summary": "执行标准战法：在核心个股第一波爆量后吸筹维护股价，后市可能启动二波行情。",
+            "time_horizon": "中期",
+            "preferred_setup": "核心个股的二波行情",
+            "typical_exit": "高位出货或趋势反转时退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.30亿元",
+          "sell_amount": "0.15亿元",
+          "net_amount": "0.15亿元",
+          "buy_rate": "1.19%",
+          "sell_rate": "0.60%",
+          "action_interpretation": "建仓或加仓",
+          "style_profile": {
+            "summary": "机构席位净买入，可能在积累仓位，后市持有或继续投资。",
+            "time_horizon": "长期",
+            "preferred_setup": "基本面优良个股",
+            "typical_exit": "基本面恶化或目标价达成"
+          }
+        },
+        {
+          "seat_name": "深股通专用",
+          "player_type": "机构",
+          "player_name": "深股通专用",
+          "buy_amount": "0.60亿元",
+          "sell_amount": "0.49亿元",
+          "net_amount": "0.11亿元",
+          "buy_rate": "2.41%",
+          "sell_rate": "1.96%",
+          "action_interpretation": "小幅加仓或做T",
+          "style_profile": {
+            "summary": "境外资金通道小幅净买入，可能跟随趋势，后市取决于市场动向。",
+            "time_horizon": "短期至中期",
+            "preferred_setup": "高流动性蓝筹股",
+            "typical_exit": "市场调整时减仓"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "东方财富证券股份有限公司拉萨金融城南环路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "T王",
+          "buy_amount": "0.16亿元",
+          "sell_amount": "0.21亿元",
+          "net_amount": "-466.93万元",
+          "buy_rate": "0.64%",
+          "sell_rate": "0.83%",
+          "action_interpretation": "做T，高抛",
+          "style_profile": {
+            "summary": "执行标准战法：每天做T，今日净卖出可能高抛，后市继续日内交易。",
+            "time_horizon": "超短期",
+            "preferred_setup": "高波动性个股",
+            "typical_exit": "日内平仓或短期持有"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位买入占比分布均匀，最大单一席位深股通专用仅占2.41%，其他席位占比均在1.19%至1.35%之间，无明显主导买方。",
+      "synergy_analysis": "仅有一个知名游资'红岭路'（平安证券深圳分公司）上榜，无多个知名游资同时出现，因此无协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "high",
+      "pressure_desc": "The selling pressure is primarily due to widespread profit-taking by multiple ordinary seats, as indicated by significant net selling across several common seats without a dominant player, rather than concentrated selling by a specific major force."
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "上涨中继",
+      "trend_interpretation": "当前阶段：股价处于短期上涨趋势中的回调反弹阶段，整体处于主升浪中期，经历了短暂调整后重新启动。量价关系：上榜日放量上涨（成交量655.30万手，较前一日624.96万手增加），价格从低点3.53大幅反弹至4.31，量价配合积极；前一日放量下跌显示抛压被有效消化。关键信号：上榜日形成大阳线，覆盖前日阴线，呈现阳包阴形态，表明多头强势回归，同时股价在调整后快速回升，确认趋势延续。"
+    },
+    "final_verdict": {
+      "outlook": "基于日涨幅偏离值达7%的强劲买入兴趣和市场亢奋情绪，短期股价有继续上涨潜力，处于上涨中继阶段，但主力资金分歧显著且控盘力度弱，可能导致波动加大。",
+      "strategy": "建议散户在回调时逢低买入，设置止损位（如4.10元附近）；避免追高，关注成交量变化；短期交易为主，中期可持有但需密切关注主力动向如红岭路和机构的操作。",
+      "risk_warning": "高换手率34.89%暗示获利了结压力；主力资金净流入仅0.13亿元，分歧大，可能导致快速反转；市场情绪亢奋易受负面消息冲击；设置严格止损以控制风险。"
+    }
+  },
+  "generated_at": "2025-07-03 18:52:31"
+}

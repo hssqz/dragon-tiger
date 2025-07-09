@@ -1,0 +1,121 @@
+{
+  "stock_info": {
+    "ts_code": "002295.SZ",
+    "name": "精艺股份",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+      ],
+      "interpretation": "连续三个交易日内涨幅偏离值累计达到20%表明该股票在短期内经历了异常强劲的上涨，这通常是由市场资金集中流入或利好消息推动所致，反映了强烈的多头共识；投资者情绪高度乐观，积极买入推动股价上行，显示出市场对该股的信心高涨，博弈状态中多方占据绝对主导，空方力量较弱，暗示股价上涨趋势可能持续，但也需警惕短期过热风险。"
+    },
+    "overall_assessment": {
+      "verdict": "多头胜出",
+      "confidence_score": 0.9,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "涨幅9.98%接近涨停且换手率仅1.82%，表明市场一致看涨情绪强烈。"
+      },
+      "capital_confrontation": {
+        "level": "强控盘",
+        "interpretation": "主力净买入额0.35亿元（净买入率27.03%），主力成交占比60.80%，流通市值25.93亿元较小，控盘力度强，多空对抗不激烈。"
+      },
+      "key_takeaway": "主力资金持续买入推动股价连续涨停，市场情绪高度亢奋。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "开源证券股份有限公司西安西大街证券营业部",
+          "player_type": "知名游资",
+          "player_name": "量化打板",
+          "buy_amount": "0.22亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.22亿元",
+          "buy_rate": "16.62%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "打板买入",
+          "style_profile": {
+            "summary": "执行标准量化打板战法，买入首板或二板。后市若明日不能秒板开盘，可能兑现一半仓位；若不能走强，则清仓。",
+            "time_horizon": "短线",
+            "preferred_setup": "首板、二板",
+            "typical_exit": "次日开盘不秒板则兑现一半，不能上板则清仓"
+          }
+        },
+        {
+          "seat_name": "中信证券股份有限公司杭州凤起路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "N周二",
+          "buy_amount": "862.86万元",
+          "sell_amount": "0.73万元",
+          "net_amount": "862.13万元",
+          "buy_rate": "6.65%",
+          "sell_rate": "0.01%",
+          "action_interpretation": "低吸或打板买入",
+          "style_profile": {
+            "summary": "执行短线趋势交易战法，今日可能低吸或打板买入。后市可能根据趋势持有或逐步退出。",
+            "time_horizon": "短线",
+            "preferred_setup": "低吸、打板",
+            "typical_exit": "趋势反转时退出"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "296.00万元",
+          "sell_amount": "410.68万元",
+          "net_amount": "-114.68万元",
+          "buy_rate": "2.28%",
+          "sell_rate": "3.16%",
+          "action_interpretation": "减仓",
+          "style_profile": {
+            "summary": "执行机构标准减仓操作，符合谨慎投资风格。后市可能继续观望或基于基本面调整仓位。",
+            "time_horizon": "中长线",
+            "preferred_setup": "价值投资或趋势跟随",
+            "typical_exit": "基于基本面或市场状况退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "90.20万元",
+          "sell_amount": "237.80万元",
+          "net_amount": "-147.61万元",
+          "buy_rate": "0.70%",
+          "sell_rate": "1.83%",
+          "action_interpretation": "减仓",
+          "style_profile": {
+            "summary": "执行机构标准减仓操作，符合谨慎投资风格。后市可能继续观望或基于基本面调整仓位。",
+            "time_horizon": "中长线",
+            "preferred_setup": "价值投资或趋势跟随",
+            "typical_exit": "基于基本面或市场状况退出"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买方席位买入占比为16.62%，所有席位买入占比分布均匀（16.62%、7.98%、6.65%、5.66%、4.03%），无单一主导席位。",
+      "synergy_analysis": "存在协同作战迹象，因有多个知名游资同时上榜：开源证券（量化打板）和中信证券（N周二）。"
+    },
+    "seller_analysis": {
+      "pressure_level": "获利了结",
+      "pressure_desc": "卖方席位数据显示卖压来源较为普遍，包括两个机构专用席位和三个普通营业部席位。机构席位净卖出总额约648.48万元，普通席位净卖出总额约1523.11万元，占总卖出额的大部分。这表明卖压主要由多个投资者在获利后了结仓位驱动，而非特定主力的集中出货行为。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前阶段: 股价处于上涨趋势的加速阶段，从近期低点7.77元(2025-06-20)反弹后，突破前高8.49元(2025-06-26)，进入主升浪。量价关系: 上榜日(2025-07-03)缩量涨停，成交量4.56万手较前一日9.04万手显著减少，显示抛压减弱且买盘强劲；前一日(2025-07-02)放量大涨10.05%，成交量9.04万手较前日6.58万手增加，量价配合良好，表明突破有效。关键信号: 7月2日出现大阳线突破关键阻力位(前高8.49元)，7月3日一字涨停板确认上涨动能加速，无上影线显示强势控盘。"
+    },
+    "final_verdict": {
+      "outlook": "基于连续大涨、多头主导和市场情绪亢奋，后市有望延续上涨趋势，但需警惕短期过热风险。",
+      "strategy": "短线投资者应密切关注次日开盘表现：若开盘秒板可持有，否则根据游资策略（如量化打板可能兑现一半或清仓）逐步退出；避免追高，长期投资者需评估基本面。",
+      "risk_warning": "风险包括游资快速退出引发波动、机构持续减仓显示谨慎、涨幅过大后技术回调可能，以及亢奋情绪导致非理性波动。"
+    }
+  },
+  "generated_at": "2025-07-03 18:53:26"
+}

@@ -1,0 +1,206 @@
+{
+  "stock_info": {
+    "ts_code": "002938.SZ",
+    "name": "鹏鼎控股",
+    "trade_date": "20250703"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "日涨幅偏离值达到7%的前5只证券"
+      ],
+      "interpretation": "该股票因日涨幅偏离值达到7%而上榜，这表明其价格在当日大幅上涨，显著高于市场平均水平，通常由强劲的买方力量推动；这反映了当前市场对该股票存在强烈的多头共识，投资者情绪乐观且买入意愿集中，表明资金积极追捧，可能源于利好消息或行业热点，博弈状态偏向一致上涨，多空分歧较小。"
+    },
+    "overall_assessment": {
+      "verdict": "多头占优",
+      "confidence_score": 0.8,
+      "market_sentiment": {
+        "level": "亢奋",
+        "interpretation": "股价涨停10.00%显示市场情绪亢奋，但换手率仅3.25%较低，表明部分投资者锁仓观望，存在潜在分歧。"
+      },
+      "capital_confrontation": {
+        "level": "激烈对抗",
+        "interpretation": "主力资金净卖出8,373.88万元（净率-3.20%），但股价涨停显示强劲买入对抗；主力成交占比37.00%较高，控盘力度不足，多空对抗激烈。"
+      },
+      "key_takeaway": "主力净卖出背景下股价强势涨停，凸显散户或游资的积极买入主导战局。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "深股通专用",
+          "player_type": "机构",
+          "player_name": "深股通专用",
+          "buy_amount": "2.39亿元",
+          "sell_amount": "0.90亿元",
+          "net_amount": "1.49亿元",
+          "buy_rate": "9.11%",
+          "sell_rate": "3.42%",
+          "action_interpretation": "建仓或加仓，作为境外资金通道执行投资策略",
+          "style_profile": {
+            "summary": "执行标准互联互通机制投资，今日建仓行为符合长期策略，后市可能继续持有或基于基本面调整",
+            "time_horizon": "中长期",
+            "preferred_setup": "价值投资和基本面分析",
+            "typical_exit": "基于市场周期或基本面变化退出"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.64亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.64亿元",
+          "buy_rate": "2.43%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "纯买入建仓新头寸",
+          "style_profile": {
+            "summary": "标准机构建仓行为，后市可能中长期持有",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面驱动投资",
+            "typical_exit": "目标价达成或基本面恶化"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.51亿元",
+          "sell_amount": "0.00万元",
+          "net_amount": "0.51亿元",
+          "buy_rate": "1.96%",
+          "sell_rate": "0.00%",
+          "action_interpretation": "纯买入建仓",
+          "style_profile": {
+            "summary": "标准机构建仓行为，后市可能中长期持有",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面驱动投资",
+            "typical_exit": "目标价达成或基本面恶化"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.52亿元",
+          "sell_amount": "0.13亿元",
+          "net_amount": "0.39亿元",
+          "buy_rate": "1.98%",
+          "sell_rate": "0.50%",
+          "action_interpretation": "买入为主，有小幅卖出，可能是在做T或调整仓位",
+          "style_profile": {
+            "summary": "机构调整仓位行为，后市可能继续持有核心头寸",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面分析",
+            "typical_exit": "战略调整或目标达成"
+          }
+        },
+        {
+          "seat_name": "国盛证券有限责任公司宁波天童南路证券营业部",
+          "player_type": "知名游资",
+          "player_name": "天童南路",
+          "buy_amount": "0.34亿元",
+          "sell_amount": "18.00万元",
+          "net_amount": "0.34亿元",
+          "buy_rate": "1.31%",
+          "sell_rate": "0.01%",
+          "action_interpretation": "纯买入，可能是在主封或接力题材股",
+          "style_profile": {
+            "summary": "执行标准题材挖掘战法，今日买入捕捉拐点，后市可能快速拉升后获利了结",
+            "time_horizon": "短期",
+            "preferred_setup": "题材热点和拐点捕捉",
+            "typical_exit": "获利后迅速离场"
+          }
+        }
+      ],
+      "selling_force": [
+        {
+          "seat_name": "招商证券股份有限公司郑州商务外环路证券营业部",
+          "player_type": "普通席位",
+          "player_name": "普通席位",
+          "buy_amount": "51.96万元",
+          "sell_amount": "0.53亿元",
+          "net_amount": "-5,284.22万元",
+          "buy_rate": "0.02%",
+          "sell_rate": "2.04%",
+          "action_interpretation": "卖出为主，行为出货",
+          "style_profile": {
+            "summary": "",
+            "time_horizon": "",
+            "preferred_setup": "",
+            "typical_exit": ""
+          }
+        },
+        {
+          "seat_name": "平安证券股份有限公司深圳蛇口招商路招商大厦证券营业部",
+          "player_type": "知名游资",
+          "player_name": "红岭路",
+          "buy_amount": "278.31万元",
+          "sell_amount": "0.64亿元",
+          "net_amount": "-6,098.56万元",
+          "buy_rate": "0.11%",
+          "sell_rate": "2.44%",
+          "action_interpretation": "卖出多，买入少，行为出货，可能是在结束维护阶段获利了结",
+          "style_profile": {
+            "summary": "今日出货行为符合其趋势维护战法，后市可能寻找新机会或等待二波",
+            "time_horizon": "中期",
+            "preferred_setup": "核心个股维护和二波运作",
+            "typical_exit": "二波启动后或获利目标达成"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "1.24亿元",
+          "net_amount": "-12,354.41万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "4.72%",
+          "action_interpretation": "纯卖出，行为出货",
+          "style_profile": {
+            "summary": "标准机构出货行为，后市可能继续减持或观望",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面驱动",
+            "typical_exit": "战略调整或估值过高"
+          }
+        },
+        {
+          "seat_name": "机构专用",
+          "player_type": "机构",
+          "player_name": "机构专用",
+          "buy_amount": "0.00万元",
+          "sell_amount": "1.83亿元",
+          "net_amount": "-18,291.36万元",
+          "buy_rate": "0.00%",
+          "sell_rate": "6.99%",
+          "action_interpretation": "纯卖出出货",
+          "style_profile": {
+            "summary": "标准机构出货行为，后市可能继续减持或观望",
+            "time_horizon": "中长期",
+            "preferred_setup": "基本面驱动",
+            "typical_exit": "战略调整或估值过高"
+          }
+        }
+      ]
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "最大买家深股通专用占净买入的44.21%，其他买家包括多个机构席位和一家游资共享剩余份额，无单一主导买家。",
+      "synergy_analysis": "只有一家知名游资天童南路上榜，其他席位均为机构专用或深股通，不存在多个知名游资协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "集中出货",
+      "pressure_desc": "卖压主要来自机构专用席位，合计卖出3.07亿元，占总卖出金额的72.4%，表明特定主力（机构投资者）在集中出货；游资和普通席位卖出量较小，分别为15.1%和12.5%，非普遍获利了结。"
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "趋势加速",
+      "trend_interpretation": "当前股价处于短期上涨趋势的加速阶段。从数据整体看，股价从2025-06-13收盘30.08元稳步上涨至2025-07-03收盘35.74元，近期在2025-07-01大涨5.46%后，2025-07-02回调3.82%，但2025-07-03立即涨停10.00%，创出新高35.74元。量价关系上，上榜日（2025-07-03）成交量大幅放大至75.03万手，远高于平均31.03万手，形成放量上涨态势；前一日（2025-07-02）成交量缩量至29.32万手，价跌量缩，表明抛压有限；整体量价配合显示买盘强劲。关键信号包括上榜日出现一根大阳线涨停K线（开盘32.97元，收盘35.74元，无显著上影线），并突破前期高点34.01元（2025-07-01高点），确认了上涨趋势的加速和突破信号。"
+    },
+    "final_verdict": {
+      "outlook": "基于多头占优和趋势加速态势，短期股价可能继续上行，突破新高后或维持强势，但主力机构集中出货和低换手率（3.25%）暗示潜在回调风险，市场情绪亢奋中隐含分歧。",
+      "strategy": "建议散户短线投资者可在支撑位（如前低32.97元）轻仓介入，设置止损于30.08元；长线投资者可持有但部分获利了结，避免追高，并密切关注深股通和游资动向。",
+      "risk_warning": "风险包括：主力机构净卖出（-3.20%）可能引发大幅下跌、低换手率预示锁仓投资者潜在抛压、多空对抗激烈导致剧烈波动，以及游资（如天童南路）短期获利了结带来的快速回调风险。"
+    }
+  },
+  "generated_at": "2025-07-03 18:55:03"
+}

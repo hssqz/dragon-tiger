@@ -1,0 +1,533 @@
+{
+  "meta": {
+    "trade_date": "20250702",
+    "trade_date_display": "2025-07-02",
+    "total_stocks": 68,
+    "successful_analysis": 68,
+    "analysis_success_rate": "100.0%",
+    "post_generation_enabled": true,
+    "total_posts": 68,
+    "successful_posts": 68,
+    "skipped_posts": 0,
+    "post_success_rate": "100.0%",
+    "generated_at": "2025-07-03T16:48:53.649027",
+    "processing_mode": "high_concurrency_parallel",
+    "max_workers": 16,
+    "api_delay": 0.1
+  },
+  "stock_list": [
+    {
+      "name": "工智退",
+      "ts_code": "000584.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_工智退_gushen_post_v2.1_163229.md"
+    },
+    {
+      "name": "康达新材",
+      "ts_code": "002669.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_康达新材_gushen_post_v2.1_163243.md"
+    },
+    {
+      "name": "智立方",
+      "ts_code": "301312.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_智立方_gushen_post_v2.1_163240.md"
+    },
+    {
+      "name": "退市九有",
+      "ts_code": "600462.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_退市九有_gushen_post_v2.1_163253.md"
+    },
+    {
+      "name": "楚天龙",
+      "ts_code": "003040.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_楚天龙_gushen_post_v2.1_163248.md"
+    },
+    {
+      "name": "博菲电气",
+      "ts_code": "001255.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_博菲电气_gushen_post_v2.1_163316.md"
+    },
+    {
+      "name": "坤博精工",
+      "ts_code": "873570.BJ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_坤博精工_gushen_post_v2.1_163233.md"
+    },
+    {
+      "name": "际华集团",
+      "ts_code": "601718.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_际华集团_gushen_post_v2.1_163235.md"
+    },
+    {
+      "name": "国联水产",
+      "ts_code": "300094.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_国联水产_gushen_post_v2.1_163254.md"
+    },
+    {
+      "name": "再升科技",
+      "ts_code": "603601.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_再升科技_gushen_post_v2.1_163242.md"
+    },
+    {
+      "name": "博亚精工",
+      "ts_code": "300971.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_博亚精工_gushen_post_v2.1_163313.md"
+    },
+    {
+      "name": "退市海越",
+      "ts_code": "600387.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_退市海越_gushen_post_v2.1_163231.md"
+    },
+    {
+      "name": "华维设计",
+      "ts_code": "833427.BJ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_华维设计_gushen_post_v2.1_163249.md"
+    },
+    {
+      "name": "*ST和科",
+      "ts_code": "002816.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_*ST和科_gushen_post_v2.1_163304.md"
+    },
+    {
+      "name": "重庆钢铁",
+      "ts_code": "601005.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_重庆钢铁_gushen_post_v2.1_163226.md"
+    },
+    {
+      "name": "尚纬股份",
+      "ts_code": "603333.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_尚纬股份_gushen_post_v2.1_163242.md"
+    },
+    {
+      "name": "弘业期货",
+      "ts_code": "001236.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_弘业期货_gushen_post_v2.1_163610.md"
+    },
+    {
+      "name": "深水海纳",
+      "ts_code": "300961.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_深水海纳_gushen_post_v2.1_163635.md"
+    },
+    {
+      "name": "红宝丽",
+      "ts_code": "002165.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_红宝丽_gushen_post_v2.1_163638.md"
+    },
+    {
+      "name": "退市锦港",
+      "ts_code": "600190.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_退市锦港_gushen_post_v2.1_163544.md"
+    },
+    {
+      "name": "大东南",
+      "ts_code": "002263.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_大东南_gushen_post_v2.1_163657.md"
+    },
+    {
+      "name": "欧晶科技",
+      "ts_code": "001269.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_欧晶科技_gushen_post_v2.1_163631.md"
+    },
+    {
+      "name": "克莱特",
+      "ts_code": "831689.BJ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_克莱特_gushen_post_v2.1_163635.md"
+    },
+    {
+      "name": "御银股份",
+      "ts_code": "002177.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_御银股份_gushen_post_v2.1_163751.md"
+    },
+    {
+      "name": "柳钢股份",
+      "ts_code": "601003.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_柳钢股份_gushen_post_v2.1_163737.md"
+    },
+    {
+      "name": "恒立退",
+      "ts_code": "000622.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_恒立退_gushen_post_v2.1_163745.md"
+    },
+    {
+      "name": "诚邦股份",
+      "ts_code": "603316.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_诚邦股份_gushen_post_v2.1_163703.md"
+    },
+    {
+      "name": "东岳硅材",
+      "ts_code": "300821.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_东岳硅材_gushen_post_v2.1_163630.md"
+    },
+    {
+      "name": "融发核电",
+      "ts_code": "002366.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_融发核电_gushen_post_v2.1_163719.md"
+    },
+    {
+      "name": "南方路机",
+      "ts_code": "603280.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_南方路机_gushen_post_v2.1_163645.md"
+    },
+    {
+      "name": "维科技术",
+      "ts_code": "600152.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_维科技术_gushen_post_v2.1_163725.md"
+    },
+    {
+      "name": "凯美特气",
+      "ts_code": "002549.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_凯美特气_gushen_post_v2.1_163732.md"
+    },
+    {
+      "name": "大全能源",
+      "ts_code": "688303.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_大全能源_gushen_post_v2.1_163924.md"
+    },
+    {
+      "name": "应急转债",
+      "ts_code": "123048.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_应急转债_gushen_post_v2.1_164028.md"
+    },
+    {
+      "name": "汇丽B",
+      "ts_code": "900939.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_汇丽B_gushen_post_v2.1_164031.md"
+    },
+    {
+      "name": "内蒙一机",
+      "ts_code": "600967.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_内蒙一机_gushen_post_v2.1_164048.md"
+    },
+    {
+      "name": "大烨智能",
+      "ts_code": "300670.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_大烨智能_gushen_post_v2.1_164002.md"
+    },
+    {
+      "name": "安妮股份",
+      "ts_code": "002235.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_安妮股份_gushen_post_v2.1_164127.md"
+    },
+    {
+      "name": "协鑫能科",
+      "ts_code": "002015.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_协鑫能科_gushen_post_v2.1_164052.md"
+    },
+    {
+      "name": "塞力医疗",
+      "ts_code": "603716.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_塞力医疗_gushen_post_v2.1_164047.md"
+    },
+    {
+      "name": "赛伍技术",
+      "ts_code": "603212.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_赛伍技术_gushen_post_v2.1_164054.md"
+    },
+    {
+      "name": "新恒汇",
+      "ts_code": "301678.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_新恒汇_gushen_post_v2.1_164107.md"
+    },
+    {
+      "name": "长龄液压",
+      "ts_code": "605389.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_长龄液压_gushen_post_v2.1_164140.md"
+    },
+    {
+      "name": "人乐退",
+      "ts_code": "002336.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_人乐退_gushen_post_v2.1_164127.md"
+    },
+    {
+      "name": "科力股份",
+      "ts_code": "920088.BJ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_科力股份_gushen_post_v2.1_164132.md"
+    },
+    {
+      "name": "湖南天雁",
+      "ts_code": "600698.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_湖南天雁_gushen_post_v2.1_164141.md"
+    },
+    {
+      "name": "飞鹿股份",
+      "ts_code": "300665.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_飞鹿股份_gushen_post_v2.1_164127.md"
+    },
+    {
+      "name": "常青科技",
+      "ts_code": "603125.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_常青科技_gushen_post_v2.1_164144.md"
+    },
+    {
+      "name": "欣灵电气",
+      "ts_code": "301388.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_欣灵电气_gushen_post_v2.1_164312.md"
+    },
+    {
+      "name": "*ST新元",
+      "ts_code": "300472.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_*ST新元_gushen_post_v2.1_164400.md"
+    },
+    {
+      "name": "北方铜业",
+      "ts_code": "000737.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_北方铜业_gushen_post_v2.1_164413.md"
+    },
+    {
+      "name": "博敏电子",
+      "ts_code": "603936.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_博敏电子_gushen_post_v2.1_164457.md"
+    },
+    {
+      "name": "方正阀门",
+      "ts_code": "920082.BJ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_方正阀门_gushen_post_v2.1_164503.md"
+    },
+    {
+      "name": "爱建集团",
+      "ts_code": "600643.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_爱建集团_gushen_post_v2.1_164506.md"
+    },
+    {
+      "name": "江南新材",
+      "ts_code": "603124.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_江南新材_gushen_post_v2.1_164525.md"
+    },
+    {
+      "name": "北方长龙",
+      "ts_code": "301357.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_北方长龙_gushen_post_v2.1_164446.md"
+    },
+    {
+      "name": "中程退",
+      "ts_code": "300208.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_中程退_gushen_post_v2.1_164512.md"
+    },
+    {
+      "name": "好上好",
+      "ts_code": "001298.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_好上好_gushen_post_v2.1_164603.md"
+    },
+    {
+      "name": "昂利康",
+      "ts_code": "002940.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_昂利康_gushen_post_v2.1_164550.md"
+    },
+    {
+      "name": "兴业股份",
+      "ts_code": "603928.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_兴业股份_gushen_post_v2.1_164546.md"
+    },
+    {
+      "name": "中船应急",
+      "ts_code": "300527.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_中船应急_gushen_post_v2.1_164530.md"
+    },
+    {
+      "name": "梦洁股份",
+      "ts_code": "002397.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_梦洁股份_gushen_post_v2.1_164516.md"
+    },
+    {
+      "name": "退市锦B",
+      "ts_code": "900952.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_退市锦B_gushen_post_v2.1_164534.md"
+    },
+    {
+      "name": "大连重工",
+      "ts_code": "002204.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_大连重工_gushen_post_v2.1_164534.md"
+    },
+    {
+      "name": "双良节能",
+      "ts_code": "600481.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_双良节能_gushen_post_v2.1_164659.md"
+    },
+    {
+      "name": "秀强股份",
+      "ts_code": "300160.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_秀强股份_gushen_post_v2.1_164813.md"
+    },
+    {
+      "name": "浙江黎明",
+      "ts_code": "603048.SH",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_浙江黎明_gushen_post_v2.1_164756.md"
+    },
+    {
+      "name": "飞亚达",
+      "ts_code": "000026.SZ",
+      "analysis_status": "success",
+      "post_status": "success",
+      "post_file": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/20250702_飞亚达_gushen_post_v2.1_164853.md"
+    }
+  ],
+  "summary_stats": {
+    "verdict_distribution": {
+      "空头胜出": 1,
+      "多方胜利": 7,
+      "多头胜出": 3,
+      "多方占优": 6,
+      "空方胜出": 6,
+      "空方略占优": 2,
+      "多方胜出": 6,
+      "多方获胜但面临空方压力": 1,
+      "空方占优": 3,
+      "空方获胜": 1,
+      "多方胜利，主力资金净流出": 1,
+      "多方获胜": 5,
+      "多头略占上风": 1,
+      "多方胜": 2,
+      "多方在价格上获胜，但资金面显示空方压力": 1,
+      "平衡": 1,
+      "多方获胜但主力资金撤退": 1,
+      "多头获胜": 1,
+      "空方胜": 3,
+      "空方小胜": 1,
+      "空方主导": 1,
+      "空方胜利，股价大幅下跌": 1,
+      "空方胜利": 3,
+      "空方略占优势": 2,
+      "多方主导价格上升，但空方资金流出显示潜在压力": 1,
+      "多方大胜": 1,
+      "多空分歧，空方施压但多方主导价格": 1,
+      "多头占优": 1,
+      "多头微弱优势": 1,
+      "多头略占优势": 1,
+      "多方略占优势": 1,
+      "多头略胜": 1
+    },
+    "average_confidence": 0.83
+  }
+}

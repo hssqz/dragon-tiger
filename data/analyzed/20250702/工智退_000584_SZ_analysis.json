@@ -1,0 +1,70 @@
+{
+  "stock_info": {
+    "ts_code": "000584.SZ",
+    "name": "工智退",
+    "trade_date": "20250702"
+  },
+  "analysis_report": {
+    "listing_reason_analysis": {
+      "reasons": [
+        "退市整理期"
+      ],
+      "interpretation": "退市整理期表明该股票已进入退市程序，处于高风险和不确定性阶段，说明公司基本面恶化或违规导致强制退市。这反映了当前市场对该股票的极度悲观情绪，投资者恐慌抛售主导，多头共识缺失，博弈状态呈现空头主导，市场预期公司前景黯淡，缺乏反弹动力。"
+    },
+    "overall_assessment": {
+      "verdict": "空头胜出",
+      "confidence_score": 0.8,
+      "market_sentiment": {
+        "level": "恐慌",
+        "interpretation": "价格下跌4.17%且换手率仅2.01%，表明市场恐慌情绪浓厚，投资者抛售意愿强而买盘乏力。"
+      },
+      "capital_confrontation": {
+        "level": "空头主导，控盘中等",
+        "interpretation": "主力资金净卖出9.29万元（l_sell > l_buy），大单占比73.82%显示控盘活跃，但净额相对流通市值1.75亿元影响轻微（约-0.053%），对抗激烈程度较低。"
+      },
+      "key_takeaway": "在退市整理期背景下，空头主导导致价格下跌和市场恐慌情绪加剧。"
+    },
+    "key_forces": {
+      "buying_force": [
+        {
+          "seat_name": "平安证券股份有限公司浙江分公司",
+          "player_type": "知名游资",
+          "player_name": "温州帮",
+          "buy_amount": "17.00万元",
+          "sell_amount": "1.15万元",
+          "net_amount": "15.85万元",
+          "buy_rate": "4.69%",
+          "sell_rate": "0.32%",
+          "action_interpretation": "建仓",
+          "style_profile": {
+            "summary": "今天正在执行标准深度控盘战法，建仓次新股，后市很可能继续快速拉升连续涨停。",
+            "time_horizon": "短期",
+            "preferred_setup": "次新股",
+            "typical_exit": "高位对倒派发"
+          }
+        }
+      ],
+      "selling_force": []
+    },
+    "buyer_analysis": {
+      "concentration_level": "相对分散",
+      "concentration_desc": "买方席位买入金额分布较为均匀，最高买入占比为12.19%（来自中国中金财富证券有限公司广州番禺东兴路证券营业部），其余席位占比均低于8%，表明没有单一买方主导市场。",
+      "synergy_analysis": "仅有一个知名游资席位（温州帮）上榜（平安证券股份有限公司浙江分公司），其他席位均为普通席位且风格未明，未发现多个知名游资同时出现的协同作战迹象。"
+    },
+    "seller_analysis": {
+      "pressure_level": "Medium",
+      "pressure_desc": "The selling pressure comes from widespread profit-taking by ordinary investors, as evidenced by multiple ordinary seats with similar selling amounts and no dominant specific player."
+    },
+    "kline_behavior_analysis": {
+      "behavior_type": "底部启动信号",
+      "trend_interpretation": "当前股价处于筑底阶段，从前期大幅下跌后，在低位0.22-0.24区间震荡整理。量价关系方面，上榜日前一日（2025-07-01）放量上涨（成交量40.28万手，涨幅9.09%），显示买方介入增强；上榜日（2025-07-02）缩量下跌（成交量15.24万手，跌幅4.17%），表明抛压有限，属于健康调整。关键信号：7月1日出现带下影线的小阳线（开盘0.24、收盘0.24、最低0.23），暗示0.23附近支撑有效，结合整体缩量企稳，预示底部可能形成并启动反弹。"
+    },
+    "final_verdict": {
+      "outlook": "该股票处于退市整理期，空头主导且市场恐慌情绪浓厚，整体前景极度悲观。尽管技术指标显示底部启动信号和游资建仓可能带来短期反弹机会，但退市风险极高，后市预计将继续下跌或剧烈波动，多头反弹动力不足。",
+      "strategy": "建议散户投资者完全避免介入该股票。若追求高风险投机，可考虑在严格止损条件下快进快出（如设置止损位在0.23元以下），捕捉潜在短期反弹，但切勿长期持有。操作重点应放在风险控制和资本保全上。",
+      "risk_warning": "该股票已进入退市程序，公司基本面恶化或违规导致强制退市风险极高，可能导致投资本金全部损失。市场情绪恐慌、流动性差、价格波动剧烈，即使游资介入也难改整体下行趋势。普通投资者应远离，不适合风险承受能力低者。"
+    }
+  },
+  "generated_at": "2025-07-03 15:10:36",
+  "processed_at": "2025-07-03T15:10:36.858834"
+}
