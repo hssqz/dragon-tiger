@@ -1,6 +1,7 @@
 """
-Gushen AI - 龙虎榜帖子生成器 V2.1 (故事化风格版)
+Gushen AI - 龙虎榜帖子生成器 V2.1 (故事化风格版) - 火山引擎版本
 基于 Gushen_AI_Post_Style_Guide-1.md 的风格，实现两阶段帖子生成器
+使用火山引擎提供的DeepSeek API
 
 功能:
 1. 阶段一: 生成故事化的帖子主干内容
@@ -8,26 +9,26 @@ Gushen AI - 龙虎榜帖子生成器 V2.1 (故事化风格版)
 3. 保存完整帖子到 Markdown 文件
 
 作者: AI
-版本: V2.1
+版本: V2.1-Huoshan
 """
 
 import json
 import os
 import logging
 from datetime import datetime
-from deepseek_interface import DeepSeekInterface
+from huoshan_deepseek_interface import HuoshanDeepSeekInterface
 
 # 配置日志
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
-logger = logging.getLogger('post_generator_v2')
+logger = logging.getLogger('huoshan_post_generator_v2')
 
 
-class PostGeneratorV2:
+class HuoshanPostGeneratorV2:
     """
-    龙虎榜帖子生成器 V2.1
+    龙虎榜帖子生成器 V2.1 - 火山引擎版本
     
     实现两阶段生成流程:
     - 阶段一: 生成故事化帖子主干内容
@@ -36,8 +37,8 @@ class PostGeneratorV2:
     
     def __init__(self):
         """初始化帖子生成器"""
-        self.deepseek = DeepSeekInterface()
-        logger.info("PostGeneratorV2 初始化完成")
+        self.huoshan = HuoshanDeepSeekInterface()
+        logger.info("HuoshanPostGeneratorV2 初始化完成")
     
     def load_analysis_data(self, json_file_path):
         """
@@ -286,7 +287,7 @@ class PostGeneratorV2:
         # 构建Prompt
         system_prompt, user_prompt = self.build_stage1_prompt(analysis_data)
         
-        # 调用DeepSeek API
+        # 调用火山引擎API
         try:
             # 使用messages格式调用
             messages = [
@@ -294,13 +295,13 @@ class PostGeneratorV2:
                 {"role": "user", "content": user_prompt}
             ]
             
-            # 直接传入prompt字符串（根据deepseek_interface.py的实现）
+            # 直接传入prompt字符串（根据huoshan_deepseek_interface.py的实现）
             full_prompt = f"System: {system_prompt}\n\nUser: {user_prompt}"
             
-            stage1_content, thinking_process = self.deepseek.generate_text_with_thinking(
+            stage1_content, thinking_process = self.huoshan.generate_text_with_thinking(
                 full_prompt,
-                max_tokens=65536,
-                temperature=0.6,
+                max_tokens=32768,
+                temperature=0.7,
                 timeout=180
             )
             
@@ -335,17 +336,17 @@ class PostGeneratorV2:
     "QA": {"questioner": {"nickname": "明天能回本吗", "content": "..."}, "answerer": {"content": "..."}}
 }"""
         
-        # 调用DeepSeek JSON API
+        # 调用火山引擎 JSON API
         try:
             # 合并prompt
             full_prompt = f"{system_prompt}\n\n{user_prompt}"
             
-            json_result = self.deepseek.generate_json_output_with_validation(
+            json_result = self.huoshan.generate_json_output_with_validation(
                 full_prompt,
                 json_schema,
                 required_fields=["title", "bull_comment", "bear_comment", "QA"],
-                max_tokens=65536,
-                temperature=0.6,
+                max_tokens=32768,
+                temperature=0.7,
                 timeout=180
             )
             
@@ -464,7 +465,7 @@ class PostGeneratorV2:
             trade_date = stock_info.get("trade_date", "unknown")
             timestamp = datetime.now().strftime("%H%M%S")
             
-            filename = f"{trade_date}_{stock_name}_gushen_post_v2.1_{timestamp}.md"
+            filename = f"{trade_date}_{stock_name}_huoshan_post_v2.1_{timestamp}.md"
             filepath = os.path.join(output_dir, filename)
             
             logger.info(f"准备保存文件: {os.path.abspath(filepath)}")
@@ -569,7 +570,7 @@ def test_generator():
     """测试帖子生成器"""
     try:
         # 初始化生成器
-        generator = PostGeneratorV2()
+        generator = HuoshanPostGeneratorV2()
         
         # 测试数据路径 - 使用华盛锂电的测试数据
         current_dir = os.path.dirname(os.path.abspath(__file__))

@@ -1,8 +1,29 @@
 # 龙虎榜AI分析系统 - 项目对接指导文档
 
+## 📋 最近更新 (2025-07-28)
+
+### 🚀 核心功能优化
+1. **帖子生成器重大升级** (`post_generator_v2(huoshan).py`)
+   - ✨ **Prompt全面优化**：帖子主体内容生成prompt大幅改进，可视化程度显著提升
+   - 🎯 **评论区功能完善**：三角色评论区固定了nickname，交互体验更加一致
+   - 🔥 **火山引擎API优化**：专门配置温度参数（JSON生成0.5，帖子生成0.7）以平衡准确性与创造性
+
+2. **分析引擎精准调优** (`funding_battle_analyzer.py`)
+   - 📊 **K线模块优化**：模块六K线分析prompt精简，删除冗余示例，提升分析效率
+
+3. **数据洞察新增** (`market_sentiment_stats.py`)
+   - 📈 **每日汇总报告**：全新的龙虎榜每日分析汇总功能，提供市场情绪统计
+   - 🎯 **风险评估**：按情绪级别（亢奋/恐慌/分歧）分类展示，便于快速识别市场机会
+   - 💡 **智能洞察**：自动识别核心参与者（机构vs知名游资），提供更深层的市场理解
+
+### 🔧 技术改进
+- **温度参数精调**：针对不同任务类型优化AI生成参数，JSON格式输出更稳定，创意内容更丰富
+- **火山引擎适配**：专门为火山引擎DeepSeek API进行接口优化和参数调优
+
+---
 ## 项目概述
 
-本项目是一个基于AI的龙虎榜数据分析系统，通过深度学习技术（DeepSeek API）对A股龙虎榜数据进行智能分析，生成专业的投资分析报告和可视化图表。
+本项目是一个基于AI的龙虎榜数据分析系统，通过（DeepSeek API）对A股龙虎榜数据进行智能分析，生成专业的投资分析报告和可视化图表。
 
 ### 核心功能
 1. **数据获取**：从Tushare API获取龙虎榜、个股席位、K线等数据
@@ -199,6 +220,39 @@ python utils/stock_data_extractor.py data/processed/20250702_processed_data.json
 python utils/stock_data_extractor.py data/processed/20250702_processed_data.json -l
 ```
 
+### 8. market_sentiment_stats.py - 每日汇总报告生成器 🆕
+**位置**: `data/analyzed/market_sentiment_stats.py`
+
+**主要功能**：
+- 📅 按日期分组统计个股情绪水平分布（亢奋/恐慌/分歧）
+- 📊 生成美观的控制台报告展示和Markdown文件输出
+- 👥 识别核心参与者（机构vs知名游资动向）
+- 📈 K线形态分析统计（高位出货、低位吸筹等技术形态）
+- 🎯 提供个股情绪洞察和风险评估
+
+**核心功能**：
+```python
+def scan_market_sentiment_levels()  # 扫描所有分析文件，按日期统计
+def analyze_core_players(buying_force, selling_force)  # 分析核心参与者
+def display_statistics(daily_stats, total_stocks, error_files)  # 控制台展示
+def save_to_file(daily_stats, total_stocks)  # 保存Markdown报告
+```
+
+**输出特点**：
+- **情绪分布统计**：按亢奋/恐慌/分歧三个维度分类展示
+- **核心玩家识别**：自动识别知名游资（如方新侠、赵老哥等）参与情况
+- **风险等级评估**：基于情绪分布自动评估整体市场风险
+- **Markdown报告**：生成格式化的每日汇总报告文件
+
+**使用方式**：
+```bash
+# 生成当日汇总报告
+python data/analyzed/market_sentiment_stats.py
+
+# 输出文件示例
+# lhb_daily_analysis_summary_20250728_102157.md
+```
+
 ## 二、主要脚本和工具
 
 ### 1. dragon_tiger_pipeline.py - 完整流水线
@@ -227,18 +281,6 @@ python dragon_tiger_pipeline.py --date 20250702 --enable-post
 python dragon_tiger_pipeline.py --batch data/extracted/*.json
 ```
 
-### 2. test_summary_stats_aggregator.py - 统计聚合工具
-**位置**: 项目根目录
-
-**主要功能**：
-- 遍历分析结果目录，聚合统计信息
-- 生成summary_stats摘要
-- 支持多维度数据统计
-
-**使用方式**：
-```python
-python test_summary_stats_aggregator.py
-```
 
 ## 三、测试数据说明
 
@@ -379,7 +421,7 @@ visualizer.generate_report('processed_data.json', 'visualization.html')
 
 ### 1. API配置
 - Tushare Token：需要注册Tushare账号获取
-- DeepSeek API Key：需要注册DeepSeek账号获取
+- DeepSeek API Key：需要注册DeepSeek账号获取（支持官方API和火山引擎API）
 - 建议将密钥保存在.env文件中，不要硬编码
 
 ### 2. 数据质量
@@ -387,9 +429,13 @@ visualizer.generate_report('processed_data.json', 'visualization.html')
 - 会自动识别并过滤可转债数据
 - 席位数据会自动去重和整合
 
-### 3. AI调用优化
+### 3. AI调用优化 🆕
 - funding_battle_analyzer采用合并模块设计，减少API调用次数
 - 每次完整分析需要5次API调用
+- **温度参数优化**：
+  - JSON格式输出：temperature=0.5（确保结构化输出稳定性）
+  - 创意内容生成：temperature=0.7（平衡创造性与准确性）
+- **火山引擎API支持**：专门适配火山引擎DeepSeek接口，提供更稳定的服务
 - 建议控制调用频率，避免超限
 
 ### 4. 错误处理
@@ -426,12 +472,14 @@ visualizer.generate_report('processed_data.json', 'visualization.html')
 ## 七、开发建议
 
 1. **扩展数据源**：可以考虑接入更多数据源，如东方财富、同花顺等
-2. **优化AI提示词**：根据实际效果调整各模块的prompt
+2. **优化AI提示词**：根据实际效果调整各模块的prompt（已针对可视化和评论区进行优化 ✅）
 3. **增加缓存机制**：对于频繁请求的数据可以加入缓存
 4. **批量处理**：可以扩展支持批量处理多只股票
 5. **定时任务**：可以设置定时任务自动生成每日报告
 6. **性能优化**：dragon_tiger_pipeline已支持高并发，可根据API限制调整max_workers
 7. **监控告警**：增加数据异常和分析失败的监控机制
+8. **市场情绪追踪 🆕**：利用新增的market_sentiment_stats功能，建立情绪指标追踪体系
+9. **温度参数调优 🆕**：根据不同任务类型继续优化AI生成参数，提升内容质量
 
 ## 八、常见问题
 
@@ -487,9 +535,17 @@ python dragon_tiger_pipeline.py --date 20250702
 如有任何问题，请联系项目负责人或查看项目文档。
 
 ---
-文档版本：V2.0
-更新日期：2025-07-09
+文档版本：V2.1
+更新日期：2025-01-XX
 更新内容：
+- 🚀 新增帖子生成器重大升级说明（post_generator_v2(huoshan).py）
+- 📊 新增每日汇总报告生成器功能说明（market_sentiment_stats.py）
+- ⚡ 更新K线分析模块优化信息（funding_battle_analyzer.py）
+- 🔧 新增火山引擎API和温度参数配置说明
+- 💡 补充新功能使用建议和开发指南
+
+历史版本：
+V2.0 (2025-07-09)：
 - 新增stock_data_extractor.py工具说明
 - 补充根目录测试脚本说明
 - 详细说明data目录结构

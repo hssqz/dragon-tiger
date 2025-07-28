@@ -612,7 +612,7 @@ if __name__ == "__main__":
     visualizer = SeatVisualization()
     
     # 测试数据文件路径
-    test_file = "core/test-seat-4.json"
+    test_file = "/Users/qishen-zhen/Cursor/dragon & tiger/core/test-seat-4.json"
 
     # 动态生成文件名
     data = visualizer.load_data(test_file)

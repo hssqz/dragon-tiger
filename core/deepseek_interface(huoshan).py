@@ -1,5 +1,5 @@
 """
-用于与DeepSeek API进行交互，使用OpenAI兼容格式调用DeepSeek API
+用于与火山引擎提供的DeepSeek API进行交互，使用OpenAI兼容格式调用
 """
 
 import os
@@ -10,51 +10,50 @@ from openai import OpenAI
 
 # 配置日志
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-logger = logging.getLogger('deepseek_interface')
+logger = logging.getLogger('huoshan_deepseek_interface')
 
 # 加载环境变量
 load_dotenv()
  
-class DeepSeekInterface:
+class HuoshanDeepSeekInterface:
     """
-    DeepSeek API接口类
-    使用OpenAI兼容格式调用DeepSeek API生成内容
+    火山引擎DeepSeek API接口类
+    使用OpenAI兼容格式调用火山引擎提供的DeepSeek API生成内容
     """
     
     def __init__(self, api_key=None, model_version=None):
         """
-        初始化DeepSeek接口
+        初始化火山引擎DeepSeek接口
         
         参数:
-            api_key(str): DeepSeek API密钥，默认从环境变量获取
-            model_version(str): 模型版本，默认从环境变量获取，若不存在则使用deepseek-reasoner
+            api_key(str): 火山引擎API密钥，默认从环境变量获取
+            model_version(str): 模型版本，默认使用deepseek-r1-250528
         """
         # 如果未提供API密钥，从环境变量中获取
-        self.api_key = api_key or os.getenv("DEEPSEEK_API_KEY")
+        self.api_key = api_key or os.getenv("HUOSHAN_API_KEY", "43a030ac-8ea1-4fd9-b05a-49a11bfe4f72")
         if not self.api_key:
-            raise ValueError("未提供API密钥，请通过参数传入或设置DEEPSEEK_API_KEY环境变量")
+            raise ValueError("未提供API密钥，请通过参数传入或设置HUOSHAN_API_KEY环境变量")
         
-        # 如果未提供模型版本，从环境变量中获取，若不存在则使用默认值deepseek-reasoner
-        # deepseek-reasoner模型指向DeepSeek-R1-0528，支持推理思考过程
-        self.model_version = model_version or os.getenv("DEEPSEEK_MODEL_VERSION", "deepseek-reasoner")
-        logger.info(f"初始化DeepSeek接口，使用模型: {self.model_version}")
+        # 如果未提供模型版本，使用默认值deepseek-r1-250528
+        self.model_version = model_version or os.getenv("HUOSHAN_MODEL_VERSION", "deepseek-r1-250528")
+        logger.info(f"初始化火山引擎DeepSeek接口，使用模型: {self.model_version}")
         
-        # 初始化OpenAI客户端，配置DeepSeek API
+        # 初始化OpenAI客户端，配置火山引擎API
         self.client = OpenAI(
             api_key=self.api_key,
-            base_url="https://api.deepseek.com",
+            base_url="https://ark.cn-beijing.volces.com/api/v3",
         )
     
     def generate_text_with_thinking(self, prompt, max_tokens=65536, temperature=1.3, timeout=180):
         """
-        使用DeepSeek生成文本并展示思考过程
-        注意：对于deepseek-reasoner模型，推理过程在流式输出中体现
+        使用火山引擎DeepSeek生成文本并展示思考过程
+        注意：对于deepseek-r1模型，推理过程在流式输出中体现
         
         参数:
             prompt(str): 提示词
             max_tokens(int): 最大生成token数量
             temperature(float): 生成文本的随机性，越高越随机
-            timeout(int): API请求超时时间(秒)，默认120秒
+            timeout(int): API请求超时时间(秒)，默认180秒
             
         返回:
             tuple: (生成的文本, 思考过程)
@@ -62,7 +61,7 @@ class DeepSeekInterface:
         try:
             # 记录提示词长度
             prompt_length = len(prompt)
-            logger.info(f"发送流式请求到DeepSeek API，启用推理过程，提示词长度: {prompt_length}字符")
+            logger.info(f"发送流式请求到火山引擎API，启用推理过程，提示词长度: {prompt_length}字符")
             
             # 构建提示词，指示模型进行详细思考
             messages = [
@@ -133,7 +132,7 @@ class DeepSeekInterface:
             str: 生成的文本
         """
         try:
-            logger.info(f"发送非流式请求到DeepSeek API")
+            logger.info(f"发送非流式请求到火山引擎API")
             
             messages = [
                 {"role": "system", "content": "你是一个专业的金融分析助手。"},
@@ -174,7 +173,7 @@ class DeepSeekInterface:
             tuple: (生成的文本, 推理过程)
         """
         try:
-            logger.info(f"发送流式请求到DeepSeek API，启用实时输出...")
+            logger.info(f"发送流式请求到火山引擎API，启用实时输出...")
             
             messages = [
                 {"role": "system", "content": "请在回答前详细思考分析问题，提供你的推理过程。"},
@@ -230,7 +229,7 @@ class DeepSeekInterface:
 
     def generate_json_output(self, prompt, json_schema_example, max_tokens=65536, temperature=1.0, timeout=180, max_retries=3):
         """
-        使用DeepSeek生成结构化JSON输出
+        使用火山引擎DeepSeek生成结构化JSON输出
         
         参数:
             prompt(str): 用户提示词
@@ -265,15 +264,16 @@ JSON格式示例：
         # 重试机制，处理可能的空content问题
         for attempt in range(max_retries):
             try:
-                logger.info(f"发送JSON格式请求到DeepSeek API (尝试 {attempt + 1}/{max_retries})")
+                logger.info(f"发送JSON格式请求到火山引擎API (尝试 {attempt + 1}/{max_retries})")
                 
+                # 注意：火山引擎API可能不支持response_format参数，需要通过prompt引导
                 response = self.client.chat.completions.create(
                     model=self.model_version,
                     messages=messages,
                     max_tokens=max_tokens,
                     temperature=temperature,
                     timeout=timeout,
-                    response_format={'type': 'json_object'}
+                    stream=False
                 )
                 
                 content = response.choices[0].message.content
@@ -289,6 +289,13 @@ JSON格式示例：
                 
                 # 尝试解析JSON
                 try:
+                    # 清理可能的markdown代码块标记
+                    if content.startswith("```json"):
+                        content = content[7:]
+                    if content.endswith("```"):
+                        content = content[:-3]
+                    content = content.strip()
+                    
                     json_result = json.loads(content)
                     logger.info(f"成功获取JSON响应，解析成功")
                     return json_result
@@ -353,50 +360,50 @@ if __name__ == "__main__":
     try:
         # 加载环境变量并初始化接口
         load_dotenv()
-        deepseek_interface = DeepSeekInterface()
+        huoshan_interface = HuoshanDeepSeekInterface()
         
         # 测试提示词
         test_prompt = "请简述龙虎榜席位分析的意义"
         
-        # # 测试方法1: generate_text_simple (简单非流式)
-        # print("\n===== 测试 generate_text_simple =====")
-        # print("正在生成，请稍候...")
-        # answer_simple = deepseek_interface.generate_text_simple(test_prompt, temperature=0.7)
-        # print("\n=== 简单回答 ===")
-        # print(answer_simple)
-        # print("\n=== 测试1完成 ===\n")
+        # 测试方法1: generate_text_simple (简单非流式)
+        print("\n===== 测试 generate_text_simple =====")
+        print("正在生成，请稍候...")
+        answer_simple = huoshan_interface.generate_text_simple(test_prompt, temperature=0.7)
+        print("\n=== 简单回答 ===")
+        print(answer_simple)
+        print("\n=== 测试1完成 ===\n")
 
-        # # 测试方法2: generate_text_with_thinking (不实时显示)
-        # print("\n===== 测试 generate_text_with_thinking =====")
-        # print("正在生成，请稍候...")
-        # answer1, thinking1 = deepseek_interface.generate_text_with_thinking(test_prompt, temperature=0.7)
+        # 测试方法2: generate_text_with_thinking (不实时显示)
+        print("\n===== 测试 generate_text_with_thinking =====")
+        print("正在生成，请稍候...")
+        answer1, thinking1 = huoshan_interface.generate_text_with_thinking(test_prompt, temperature=0.7)
         
-        # print("\n=== 推理过程 ===")
-        # print(thinking1)
-        # print("\n=== 最终回答 ===")
-        # print(answer1)
-        # print("\n=== 测试2完成 ===\n")
+        print("\n=== 推理过程 ===")
+        print(thinking1)
+        print("\n=== 最终回答 ===")
+        print(answer1)
+        print("\n=== 测试2完成 ===\n")
 
-        # # 测试方法3: stream_output_with_thinking (实时显示)
-        # print("\n===== 测试 stream_output_with_thinking =====")
-        # print("正在测试DeepSeek API，流式输出推理过程和回答...")
-        # 
-        # # 定义回调函数
-        # def print_thinking(content):
-        #     print(content, end="", flush=True)
-        #     
-        # def print_answer(content):
-        #     print(content, end="", flush=True)
-        # 
-        # # 执行流式生成
-        # print("\n=== 推理过程 ===\n")
-        # answer2, thinking2 = deepseek_interface.stream_output_with_thinking(
-        #     test_prompt, 
-        #     callback_thinking=print_thinking,
-        #     callback_answer=print_answer,
-        #     temperature=0.7
-        # )
-        # print("\n\n=== 测试3完成 ===\n")
+        # 测试方法3: stream_output_with_thinking (实时显示)
+        print("\n===== 测试 stream_output_with_thinking =====")
+        print("正在测试火山引擎API，流式输出推理过程和回答...")
+        
+        # 定义回调函数
+        def print_thinking(content):
+            print(content, end="", flush=True)
+            
+        def print_answer(content):
+            print(content, end="", flush=True)
+        
+        # 执行流式生成
+        print("\n=== 推理过程 ===\n")
+        answer2, thinking2 = huoshan_interface.stream_output_with_thinking(
+            test_prompt, 
+            callback_thinking=print_thinking,
+            callback_answer=print_answer,
+            temperature=0.7
+        )
+        print("\n\n=== 测试3完成 ===\n")
 
         # 测试方法4: generate_json_output (JSON格式输出)
         print("\n===== 测试 generate_json_output =====")
@@ -416,7 +423,7 @@ if __name__ == "__main__":
 }"""
         
         print("正在生成JSON格式分析...")
-        json_result = deepseek_interface.generate_json_output(
+        json_result = huoshan_interface.generate_json_output(
             json_prompt,
             json_example,
             max_tokens=65536,
@@ -434,7 +441,7 @@ if __name__ == "__main__":
         print("\n===== 测试 generate_json_output_with_validation =====")
         required_fields = ["stock_code", "stock_name", "rating"]
         print("正在生成带验证的JSON格式分析...")
-        validated_result = deepseek_interface.generate_json_output_with_validation(
+        validated_result = huoshan_interface.generate_json_output_with_validation(
             json_prompt,
             json_example,
             required_fields=required_fields,
