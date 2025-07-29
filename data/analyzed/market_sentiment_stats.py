@@ -28,6 +28,54 @@ from collections import defaultdict
 from datetime import datetime
 
 
+def generate_stock_title(stock_name, level, verdict, behavior_type, core_players, ts_code):
+    """生成个股分析标题"""
+    emoji_map = {
+        '亢奋': '🚀',
+        '恐慌': '😰',
+        '分歧': '🤔'
+    }
+    
+    # 获取情绪emoji
+    emotion_emoji = emoji_map.get(level, '📊')
+    
+    # 基于核心参与者生成标题差异化
+    players_summary = core_players.get('summary', '普通散户')
+    
+    # 根据不同情况生成标题模板
+    if '机构' in players_summary and any(trader in players_summary for trader in ['买', '卖', '博弈']):
+        # 机构+游资博弈
+        title = f"{emotion_emoji} {stock_name}：机构游资激烈博弈，{behavior_type}态势明确"
+    elif '机构' in players_summary:
+        # 纯机构参与
+        if '买' in players_summary:
+            title = f"{emotion_emoji} {stock_name}：机构重金抄底，{behavior_type}信号强烈"
+        else:
+            title = f"{emotion_emoji} {stock_name}：机构大举减仓，{behavior_type}趋势确立"
+    elif any(famous_trader in players_summary for famous_trader in ['佛山', '淮海', '东莞', '华鑫', '光大']):
+        # 知名游资参与
+        if '博弈' in players_summary:
+            title = f"{emotion_emoji} {stock_name}：知名游资对决升级，{behavior_type}成关键"
+        elif '买' in players_summary:
+            title = f"{emotion_emoji} {stock_name}：游资大佬重仓出击，{behavior_type}爆发在即"
+        else:
+            title = f"{emotion_emoji} {stock_name}：游资高位派发，{behavior_type}风险加剧"
+    else:
+        # 普通散户或其他情况
+        if level == '亢奋':
+            title = f"{emotion_emoji} {stock_name}：散户情绪高涨，{behavior_type}值得关注"
+        elif level == '恐慌':
+            title = f"{emotion_emoji} {stock_name}：恐慌抛售加剧，{behavior_type}底部显现"
+        else:
+            title = f"{emotion_emoji} {stock_name}：多空分歧严重，{behavior_type}方向待定"
+    
+    # 生成文件链接（基于ts_code）
+    link_url = f"./analysis/{ts_code}_analysis.html"
+    
+    # 返回Markdown链接格式
+    return f"[{title}]({link_url})"
+
+
 def analyze_core_players(buying_force, selling_force):
     """分析核心参与者，重点关注知名游资"""
     players = {
@@ -168,6 +216,9 @@ def scan_market_sentiment_levels():
                 # 分析核心参与者
                 core_players = analyze_core_players(buying_force, selling_force)
                 
+                # 生成个股分析标题
+                stock_title = generate_stock_title(stock_name, level, verdict, behavior_type, core_players, ts_code)
+                
                 # 添加到统计中
                 stock_entry = {
                     'name': stock_name,
@@ -178,7 +229,8 @@ def scan_market_sentiment_levels():
                     'confidence_score': confidence_score,
                     'interpretation': interpretation,
                     'behavior_type': behavior_type,
-                    'core_players': core_players
+                    'core_players': core_players,
+                    'title': stock_title  # 新增题目字段
                 }
                 
                 daily_stats[date_item][level].append(stock_entry)
@@ -245,9 +297,12 @@ def display_statistics(daily_stats, total_stocks, error_files):
                 behavior_type = stock.get('behavior_type', 'Unknown')
                 core_players = stock.get('core_players', {})
                 players_summary = core_players.get('summary', '普通散户')
+                title = stock.get('title', f"[{stock['name']}分析](./analysis/{stock['ts_code']}_analysis.html)")
                 prefix = "│   ├─" if i < len(display_stocks) - 1 else "│   └─"
                 
-                stock_info = f"{stock['name']}({stock['ts_code']}) - {verdict} - {behavior_type} - {players_summary} (置信度:{confidence:.2f})"
+                # 从markdown链接中提取纯文本标题用于控制台显示
+                title_text = title.split(']')[0][1:] if '[' in title and ']' in title else f"{stock['name']}分析"
+                stock_info = f"{title_text} (置信度:{confidence:.2f})"
                 print(f"{prefix} {stock_info}" + " " * (98 - len(f"{prefix} {stock_info}")) + "│")
             
             # 如果股票太多，显示省略信息
@@ -386,16 +441,17 @@ def save_to_file(daily_stats, total_stocks):
             
             md_content.append(f"#### {emoji} {level}情绪个股 ({len(stocks)}只)")
             md_content.append("")
-            md_content.append("| 股票名称 | 代码 | 分析结论 | K线形态 | 核心参与者 |")
-            md_content.append("|---------|------|---------|---------|----------|")
+            md_content.append("| 代码 | 分析结论 | K线形态 | 核心参与者 | 题目 |")
+            md_content.append("|------|---------|---------|----------|------|")
             
             for stock in stocks:
                 verdict = stock.get('verdict', 'Unknown')
                 behavior_type = stock.get('behavior_type', 'Unknown')
                 core_players = stock.get('core_players', {})
                 players_summary = core_players.get('summary', '普通散户')
+                title = stock.get('title', f"[{stock['name']}分析](./analysis/{stock['ts_code']}_analysis.html)")
                 
-                md_content.append(f"| {stock['name']} | {stock['ts_code']} | {verdict} | {behavior_type} | {players_summary} |")
+                md_content.append(f"| {stock['ts_code']} | {verdict} | {behavior_type} | {players_summary} | {title} |")
             
             md_content.append("")
         
