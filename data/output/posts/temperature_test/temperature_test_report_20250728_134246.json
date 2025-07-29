@@ -1,0 +1,106 @@
+{
+  "test_config": {
+    "temperatures": [
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      1.0,
+      1.2
+    ],
+    "runs_per_temperature": 2,
+    "max_workers": 3,
+    "total_time_seconds": 625.5443360805511
+  },
+  "summary": {
+    "total_tasks": 12,
+    "successful_tasks": 12,
+    "failed_tasks": 0
+  },
+  "results": [
+    {
+      "success": true,
+      "temperature": 0.6,
+      "run_number": 1,
+      "post_filepath": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/temperature_test/20250703_华盛锂电_huoshan_post_v2.1_133416-0.6-run1.md",
+      "content_length": 3165
+    },
+    {
+      "success": true,
+      "temperature": 0.5,
+      "run_number": 2,
+      "post_filepath": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/temperature_test/20250703_华盛锂电_huoshan_post_v2.1_133420-0.5-run2.md",
+      "content_length": 3834
+    },
+    {
+      "success": true,
+      "temperature": 0.5,
+      "run_number": 1,
+      "post_filepath": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/temperature_test/20250703_华盛锂电_huoshan_post_v2.1_133422-0.5-run1.md",
+      "content_length": 2638
+    },
+    {
+      "success": true,
+      "temperature": 0.6,
+      "run_number": 2,
+      "post_filepath": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/temperature_test/20250703_华盛锂电_huoshan_post_v2.1_133622-0.6-run2.md",
+      "content_length": 3369
+    },
+    {
+      "success": true,
+      "temperature": 0.7,
+      "run_number": 2,
+      "post_filepath": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/temperature_test/20250703_华盛锂电_huoshan_post_v2.1_133632-0.7-run2.md",
+      "content_length": 3054
+    },
+    {
+      "success": true,
+      "temperature": 0.7,
+      "run_number": 1,
+      "post_filepath": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/temperature_test/20250703_华盛锂电_huoshan_post_v2.1_133725-0.7-run1.md",
+      "content_length": 3500
+    },
+    {
+      "success": true,
+      "temperature": 0.8,
+      "run_number": 1,
+      "post_filepath": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/temperature_test/20250703_华盛锂电_huoshan_post_v2.1_133837-0.8-run1.md",
+      "content_length": 2849
+    },
+    {
+      "success": true,
+      "temperature": 0.8,
+      "run_number": 2,
+      "post_filepath": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/temperature_test/20250703_华盛锂电_huoshan_post_v2.1_133910-0.8-run2.md",
+      "content_length": 3592
+    },
+    {
+      "success": true,
+      "temperature": 1.0,
+      "run_number": 1,
+      "post_filepath": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/temperature_test/20250703_华盛锂电_huoshan_post_v2.1_133932-1.0-run1.md",
+      "content_length": 3081
+    },
+    {
+      "success": true,
+      "temperature": 1.0,
+      "run_number": 2,
+      "post_filepath": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/temperature_test/20250703_华盛锂电_huoshan_post_v2.1_134056-1.0-run2.md",
+      "content_length": 2837
+    },
+    {
+      "success": true,
+      "temperature": 1.2,
+      "run_number": 1,
+      "post_filepath": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/temperature_test/20250703_华盛锂电_huoshan_post_v2.1_134140-1.2-run1.md",
+      "content_length": 3462
+    },
+    {
+      "success": true,
+      "temperature": 1.2,
+      "run_number": 2,
+      "post_filepath": "/Users/qishen-zhen/Cursor/dragon & tiger/data/output/posts/temperature_test/20250703_华盛锂电_huoshan_post_v2.1_134246-1.2-run2.md",
+      "content_length": 3318
+    }
+  ]
+}
