@@ -19,7 +19,7 @@ import os
 
 class SeatVisualization:
     """龙虎榜席位可视化类"""
-    
+
     def __init__(self):
         """初始化可视化配置"""
         # GushenAI 设计语言颜色方案 + 中国股市传统颜色逻辑
@@ -39,13 +39,13 @@ class SeatVisualization:
         }
         self.type_colors = {
             '量化': '#356BFD',      # GushenAI 主色蓝
-            '机构': '#FB9D0E',      # GushenAI 辅色橙
+            '机构': '#FA8072',      # GushenAI 辅色橙
             '知名游资': '#8B5CF6',  # 紫色变种
             '普通席位': '#6B7280'   # 中性灰
         }
-        
 
-        
+
+
     def load_data(self, json_file: str) -> Dict[str, Any]:
         """加载龙虎榜数据"""
         try:
@@ -55,12 +55,12 @@ class SeatVisualization:
         except Exception as e:
             print(f"数据加载失败: {e}")
             return {}
-    
+
     def format_amount(self, amount: str) -> float:
         """格式化金额字符串为数值"""
         if not amount or amount == "0.00万元":
             return 0.0
-        
+
         # 移除万元、亿元等单位，转换为万元统一单位
         amount_clean = re.sub(r'[万元亿]', '', amount)
         # 移除逗号分隔符
@@ -72,13 +72,21 @@ class SeatVisualization:
             return value
         except:
             return 0.0
-    
+
+    def format_amount_display(self, amount: float):
+        if amount > 10**4:
+            return str(round(float(amount) / 10**4, 2)) + '亿元'
+        elif amount > 1:
+            return str(round(float(amount), 2)) + '万元'
+        else:
+            return str(round(float(amount) * 10**4, 2)) + '元'
+
     def get_player_type_icon(self, player_type: str) -> str:
         """获取席位类型对应的文本图标"""
         type_map = {
-            '量化': f"<span style='color:{self.colors['accent']}'><b>[量]</b></span>",
-            '机构': f"<span style='color:{self.colors['secondary']}'><b>[机]</b></span>", 
-            '知名游资': f"<span style='color:#8B5CF6'><b>[游]</b></span>",
+            '量化': f"<span style='color:{self.type_colors['量化']}'><b>[量]</b></span>",
+            '机构': f"<span style='color:{self.type_colors['机构']}'><b>[机]</b></span>",
+            '知名游资': f"<span style='color:{self.type_colors['知名游资']}'><b>[游]</b></span>",
             '普通席位': f"<span style='color:{self.colors['text']}'>[普]</span>"
         }
         return type_map.get(player_type, f"<span style='color:{self.colors['text']}'>[普]</span>")
@@ -88,54 +96,56 @@ class SeatVisualization:
         name = player_info.get('name', '未知')
         player_type = player_info.get('type', '普通席位')
         styles = player_info.get('style', [])
-        
+
         if name != '未知机构' and name != '未知':
             return f"<span style='color:{self.colors['accent']}'><b>【{name}】</b></span>"
         elif '知名游资' in player_type:
             return f"<span style='color:#8B5CF6'><b>【知名游资】</b></span>"
         else:
             return ""
-    
+
     def create_seat_battle_chart(self, stock_data: Dict[str, Any]) -> go.Figure:
         """创建席位多空博弈图"""
         basic_info = stock_data.get('basic_info', {})
         seat_data = stock_data.get('seat_data', {})
-        
+
         # 处理买方席位数据
         buy_seats_raw = seat_data.get('buy_seats', [])
         sell_seats_raw = seat_data.get('sell_seats', [])
-        
+
         # 按金额大小排序买方和卖方席位
-        buy_seats_sorted = sorted(buy_seats_raw, 
-                                key=lambda x: self.format_amount(x.get('net_amount', '0')), 
+        buy_seats_sorted = sorted(buy_seats_raw,
+                                key=lambda x: self.format_amount(x.get('net_amount', '0')),
                                 reverse=True)[:5]  # 买入金额从大到小，取前5
-        
-        sell_seats_sorted = sorted(sell_seats_raw, 
-                                 key=lambda x: abs(self.format_amount(x.get('net_amount', '0'))), 
+
+        sell_seats_sorted = sorted(sell_seats_raw,
+                                 key=lambda x: abs(self.format_amount(x.get('net_amount', '0'))),
                                  reverse=True)[:5]  # 卖出金额从大到小，取前5
-        
+
         # 创建子图
         fig = make_subplots(
             rows=1, cols=1,
             subplot_titles=[""],  # 清空副标题，整合到主标题中
             specs=[[{"secondary_y": False}]]
         )
-        
+
         # 处理数据，确保买卖方数量一致
         max_seats = max(len(buy_seats_sorted), len(sell_seats_sorted))
-        
+
         # 准备数据数组
         position_labels = []
         sell_names = []
         sell_amounts = []
+        sell_amounts_display = []
         buy_names = []
         buy_amounts = []
-        
+        buy_amounts_display = []
+
         for i in range(max_seats):
             if i == 0:
                 position_labels.append("<b>买一/卖一</b>")
             elif i == 1:
-                position_labels.append("<b>买二/卖二</b>") 
+                position_labels.append("<b>买二/卖二</b>")
             elif i == 2:
                 position_labels.append("<b>买三/卖三</b>")
             elif i == 3:
@@ -149,7 +159,7 @@ class SeatVisualization:
                     position_labels.append(f"<b>买{chinese_nums[i+1]}/卖{chinese_nums[i+1]}</b>")
                 else:
                     position_labels.append(f"<b>买{i+1}/卖{i+1}</b>")
-            
+
             # 处理卖方数据（按金额从大到小）
             if i < len(sell_seats_sorted):
                 seat = sell_seats_sorted[i]
@@ -159,16 +169,18 @@ class SeatVisualization:
                 player_tag = self.get_player_tag(player_info)
                 player_type = player_info.get('type', '普通席位')
                 type_icon = self.get_player_type_icon(player_type)
-                
+
                 # 简化席位名称显示
                 short_name = self._shorten_seat_name(seat_name)
                 display_name = f"{type_icon} {short_name}{player_tag}"
                 sell_names.append(display_name)
                 sell_amounts.append(-net_amount)  # 负值用于左侧显示
+                sell_amounts_display.append(self.format_amount_display(net_amount))
             else:
                 sell_names.append("")
                 sell_amounts.append(0)
-            
+                sell_amounts_display.append("")
+
             # 处理买方数据（按金额从大到小）
             if i < len(buy_seats_sorted):
                 seat = buy_seats_sorted[i]
@@ -178,16 +190,18 @@ class SeatVisualization:
                 player_tag = self.get_player_tag(player_info)
                 player_type = player_info.get('type', '普通席位')
                 type_icon = self.get_player_type_icon(player_type)
-                
+
                 # 简化席位名称显示
                 short_name = self._shorten_seat_name(seat_name)
                 display_name = f"{type_icon} {short_name}{player_tag}"
                 buy_names.append(display_name)
                 buy_amounts.append(net_amount)
+                buy_amounts_display.append(self.format_amount_display(net_amount))
             else:
                 buy_names.append("")
                 buy_amounts.append(0)
-        
+                buy_amounts_display.append("")
+
         # 创建卖方柱状图（左侧，绿色）
         fig.add_trace(go.Bar(
             y=position_labels,
@@ -199,14 +213,14 @@ class SeatVisualization:
                 line=dict(color='white', width=1),
                 opacity=0.9  # 添加透明度
             ),
-            text=[f"<b>{name}</b><br><b>{abs(amount):.0f}万元</b>" if amount != 0 else "" 
-                  for name, amount in zip(sell_names, sell_amounts)],
+            text=[f"<b>{name}</b><br><b>{amount_display}</b>"
+                  for name, amount_display in zip(sell_names, sell_amounts_display)],
             textposition='outside',
-            textfont=dict(size=11, color=self.colors['text'], family="'PingFang SC', 'Microsoft YaHei', sans-serif"),
+            textfont=dict(size=15, color=self.colors['text'], family="'PingFang SC', 'Microsoft YaHei', sans-serif"),
             hoverinfo='none',
             customdata=sell_names
         ))
-        
+
         # 创建买方柱状图（右侧，红色）
         fig.add_trace(go.Bar(
             y=position_labels,
@@ -218,20 +232,20 @@ class SeatVisualization:
                 line=dict(color='white', width=1),
                 opacity=0.9  # 添加透明度
             ),
-            text=[f"<b>{name}</b><br><b>{amount:.0f}万元</b>" if amount != 0 else "" 
-                  for name, amount in zip(buy_names, buy_amounts)],
+            text=[f"<b>{name}</b><br><b>{amount_display}</b>"
+                  for name, amount_display in zip(buy_names, buy_amounts_display)],
             textposition='outside',
-            textfont=dict(size=11, color=self.colors['text'], family="'PingFang SC', 'Microsoft YaHei', sans-serif"),
+            textfont=dict(size=15, color=self.colors['text'], family="'PingFang SC', 'Microsoft YaHei', sans-serif"),
             hoverinfo='none',
             customdata=buy_names
         ))
-        
+
         # 添加中轴线
         fig.add_vline(x=0, line_width=3, line_color=self.colors['text'])
-        
+
         # 计算最大金额用于设置轴范围
         max_amount = max([abs(x) for x in sell_amounts + buy_amounts]) if (sell_amounts + buy_amounts) else 1000
-        
+
         # 准备关键指标数据
         close_price = basic_info.get('close', '0.00')
         pct_change = basic_info.get('pct_change', '0%')
@@ -242,38 +256,26 @@ class SeatVisualization:
         net_rate = basic_info.get('net_rate', '0%')
         l_buy = basic_info.get('l_buy', '0')
         l_sell = basic_info.get('l_sell', '0')
-        
+
         # 计算买入占比和卖出占比
         amount_num = self.format_amount(amount)
         l_buy_num = self.format_amount(l_buy)
         l_sell_num = self.format_amount(l_sell)
-        
+
         buy_ratio = f"{l_buy_num/amount_num*100:.2f}%" if amount_num > 0 else "0%"
         sell_ratio = f"{l_sell_num/amount_num*100:.2f}%" if amount_num > 0 else "0%"
-        
+
         # 格式化股票代码（去掉.SZ/.SH后缀）
         stock_code = stock_data.get('ts_code', '').split('.')[0] if stock_data.get('ts_code') else ''
-        stock_name = basic_info.get('name', '')
-        
+        stock_name = stock_data.get('name', '')
+
         # 更新布局
         fig.update_layout(
             title=dict(
-                text=f"<b style='font-size:22px;color:{self.colors['accent']}'>({stock_code}) {stock_name} - 龙虎榜多空博弈席位图</b><br><br>" +
-                     f"<span style='font-size:13px;line-height:2.0;color:{self.colors['text']}'>" +
-                     f"<b>收盘价:</b> {close_price} &nbsp;&nbsp; " +
-                     f"<b>涨跌幅:</b> <span style='color:{self.colors['up'] if '+' in pct_change or (not '-' in pct_change and pct_change != '0%') else self.colors['down']}'><b>{pct_change}</b></span> &nbsp;&nbsp; " +
-                     f"<b>换手率:</b> {turnover_rate} &nbsp;&nbsp; " +
-                     f"<b>成交额:</b> {amount}" +
-                     f"</span><br>" +
-                     f"<span style='font-size:13px;line-height:2.0;color:{self.colors['text']}'>" +
-                     f"<b>龙虎榜净额:</b> <span style='color:{self.colors['positive'] if not '-' in net_amount and net_amount != '0' else self.colors['negative']}'><b>{net_amount}</b></span>({net_rate}) &nbsp;&nbsp; " +
-                     f"<b>买入占比:</b> <span style='color:{self.colors['positive']}'><b>{buy_ratio}</b></span> &nbsp;&nbsp; " +
-                     f"<b>卖出占比:</b> <span style='color:{self.colors['negative']}'><b>{sell_ratio}</b></span> &nbsp;&nbsp; " +
-                     f"<b>流通市值:</b> {float_values}" +
-                     f"</span>",
+                text=f"<b>({stock_code}) {stock_name} - 龙虎榜多空博弈席位图</b>",
                 x=0.5,
-                y=0.98,
-                font=dict(family="'PingFang SC', 'Microsoft YaHei', sans-serif")
+                y=0.92,
+                font=dict(size=25, color=self.colors['accent'], family="'PingFang SC', 'Microsoft YaHei', sans-serif")
             ),
             xaxis=dict(
                 title=dict(text="<b style='color:" + self.colors['text'] + "'>资金流向 (万元)</b>"),
@@ -282,7 +284,7 @@ class SeatVisualization:
                 zeroline=True,
                 zerolinecolor=self.colors['text'],
                 zerolinewidth=3,
-                tickfont=dict(size=12, family="'PingFang SC', 'Microsoft YaHei', sans-serif", color=self.colors['text']),
+                tickfont=dict(size=15, family="'PingFang SC', 'Microsoft YaHei', sans-serif", color=self.colors['text']),
                 range=[-max_amount * 1.3, max_amount * 1.3],  # 设置对称范围
                 fixedrange=True
             ),
@@ -290,7 +292,7 @@ class SeatVisualization:
                 title=dict(text="<b style='color:" + self.colors['text'] + "'>席位排名</b>"),
                 showgrid=True,
                 gridcolor=self.colors['grid'],
-                tickfont=dict(size=12, family="'PingFang SC', 'Microsoft YaHei', sans-serif", color=self.colors['secondary']),
+                tickfont=dict(size=15, family="'PingFang SC', 'Microsoft YaHei', sans-serif", color=self.colors['secondary']),
                 categoryorder='array',
                 categoryarray=position_labels[::-1],  # 反转显示顺序，买一卖一在顶部
                 fixedrange=True
@@ -298,15 +300,65 @@ class SeatVisualization:
             plot_bgcolor=self.colors['background'],
             paper_bgcolor=self.colors['background'],
             height=700,
-            width=1400,
+            width=max(1200, min(2200, int(max_amount * 3 + 800))),  # 根据最大金额动态调整宽度
             margin=dict(l=100, r=100, t=160, b=100),
             font=dict(family="'PingFang SC', 'Microsoft YaHei', sans-serif", color=self.colors['text']),
             barmode='overlay',  # 重叠模式
             showlegend=False
         )
-        
 
-        
+
+
+        # 添加关键指标注释 - 第一行
+        # 涨跌幅颜色判断
+        try:
+            pct_value = float(pct_change.replace('%', '')) if pct_change else 0
+            pct_color = self.colors['positive'] if pct_value > 0 else self.colors['negative'] if pct_value < 0 else 'black'
+        except (ValueError, AttributeError):
+            pct_color = 'black'
+
+        fig.add_annotation(
+            text=f"<b>收盘价</b>: {close_price}\t\t\t<b>涨跌幅</b>: <span style='color:{pct_color}'>{pct_change}</span>\t\t\t<b>换手率</b>: {turnover_rate}\t\t\t<b>成交额</b>: {amount}",
+            xref="paper", yref="paper",
+            x=0.5, y=1.16,
+            showarrow=False,
+            font=dict(size=15, color=self.colors['text'], family="'PingFang SC', 'Microsoft YaHei', sans-serif"),
+            align="center"
+        )
+
+        # 添加关键指标注释 - 第二行
+        # 龙虎榜净额颜色判断
+        try:
+            # 清理货币字符串
+            clean_net = net_amount.replace('万', '').replace('亿', '').replace('-', '').replace('元', '').replace(',', '')
+            net_value = float(clean_net) if clean_net else 0
+            net_color = self.colors['positive'] if not net_amount.startswith('-') and net_value > 0 else self.colors['negative'] if net_amount.startswith('-') else 'black'
+        except (ValueError, AttributeError):
+            net_color = 'black'
+
+        # 买入占比颜色判断
+        try:
+            buy_ratio_value = float(buy_ratio.replace('%', '')) if buy_ratio else 0
+            buy_color = self.colors['positive'] if buy_ratio_value > 0 else self.colors['negative'] if buy_ratio_value < 0 else 'black'
+        except (ValueError, AttributeError):
+            buy_color = 'black'
+
+        # 卖出占比颜色判断
+        try:
+            sell_ratio_value = float(sell_ratio.replace('%', '')) if sell_ratio else 0
+            sell_color = self.colors['positive'] if sell_ratio_value > 0 else self.colors['negative'] if sell_ratio_value < 0 else 'black'
+        except (ValueError, AttributeError):
+            sell_color = 'black'
+
+        fig.add_annotation(
+            text=f"<b>龙虎榜净额</b>: <span style='color:{net_color}'>{net_amount} ({net_rate})</span>\t\t\t<b>买入占比</b>: <span style='color:{buy_color}'>{buy_ratio}</span>\t\t\t<b>卖出占比</b>: <span style='color:{sell_color}'>{sell_ratio}</span>\t\t\t<b>流通市值</b>: {float_values}",
+            xref="paper", yref="paper",
+            x=0.5, y=1.11,
+            showarrow=False,
+            font=dict(size=15, color=self.colors['text'], family="'PingFang SC', 'Microsoft YaHei', sans-serif"),
+            align="center"
+        )
+
         # 添加买卖方区域标识
         fig.add_annotation(
             x=max_amount * 0.7,
@@ -315,12 +367,12 @@ class SeatVisualization:
             showarrow=True,
             arrowhead=2,
             arrowcolor=self.colors['buy'],
-            font=dict(size=14, color=self.colors['buy'], family="'PingFang SC', 'Microsoft YaHei', sans-serif"),
+            font=dict(size=16, color=self.colors['buy'], family="'PingFang SC', 'Microsoft YaHei', sans-serif"),
             bgcolor=f"rgba(255, 68, 68, 0.1)",  # 红色透明背景
             bordercolor=self.colors['buy'],
             borderwidth=2
         )
-        
+
         fig.add_annotation(
             x=-max_amount * 0.7,
             y=len(position_labels) - 0.3,
@@ -328,56 +380,56 @@ class SeatVisualization:
             showarrow=True,
             arrowhead=2,
             arrowcolor=self.colors['sell'],
-            font=dict(size=14, color=self.colors['sell'], family="'PingFang SC', 'Microsoft YaHei', sans-serif"),
+            font=dict(size=16, color=self.colors['sell'], family="'PingFang SC', 'Microsoft YaHei', sans-serif"),
             bgcolor=f"rgba(0, 170, 102, 0.1)",  # 绿色透明背景
             bordercolor=self.colors['sell'],
             borderwidth=2
         )
-        
+
         return fig
-    
+
     def _shorten_seat_name(self, full_name: str) -> str:
         """简化席位名称，保持关键信息"""
         # 移除常见的公司类型词汇
         name = full_name.replace('证券股份有限公司', '').replace('有限责任公司', '')
         name = name.replace('证券营业部', '营业部').replace('分公司', '')
         name = name.replace('股份有限公司', '')
-        
+
         # 特殊处理知名席位
         if '拉萨团结路第' in name:
             if '第一' in name:
                 return '东财拉萨一部'
             elif '第二' in name:
                 return '东财拉萨二部'
-        
+
         if '华泰证券' in name and '南京' in name:
             return '华泰南京'
-        
+
         if '中信证券' in name:
             city_match = re.search(r'中信证券(\w{2,4})', name)
             if city_match:
                 return f"中信{city_match.group(1)}"
-        
+
         # 提取城市和关键词
         patterns = [
             r'(\w{2,4})(\w+路|\w+街|\w+大道)',  # 城市+路名
             r'(\w{2,4})(营业部)',   # 城市+营业部
             r'(\w{2,6})(证券)',     # 证券公司简称
         ]
-        
+
         for pattern in patterns:
             match = re.search(pattern, name)
             if match:
                 if len(match.group(0)) <= 8:  # 如果提取的名称不太长
                     return match.group(0)
-        
+
         # 如果没有匹配，返回前10个字符
         return name[:10] + ('...' if len(name) > 10 else '')
 
 
-    
 
-    
+
+
     def generate_report(self, json_file: str, output_html: str = None):
         """生成席位多空博弈图报告"""
         # 加载数据
@@ -385,16 +437,22 @@ class SeatVisualization:
         if not data or 'stocks' not in data:
             print("数据格式错误或为空")
             return
-        
+
         stock_data = data['stocks'][0]  # 取第一只股票
         basic_info = stock_data.get('basic_info', {})
-        
+
         # 只创建席位多空博弈图
         battle_chart = self.create_seat_battle_chart(stock_data)
+        # battle_chart.write_image(
+        #     'tmp.png',
+        #     format='png',
+        #     width=battle_chart.layout.width,
+        #     height=battle_chart.layout.height
+        # )
 
         # 显示图表（禁用交互）
-        battle_chart.show(config={'displayModeBar': False})
-        
+        # battle_chart.show(config={'displayModeBar': False})
+
         # 保存HTML报告
         if output_html:
             with open(output_html, 'w', encoding='utf-8') as f:
@@ -402,10 +460,10 @@ class SeatVisualization:
                 stock_code = stock_data.get('ts_code', '').split('.')[0] if stock_data.get('ts_code') else ''
                 stock_name = basic_info.get('name', '')
                 html_title = f"({stock_code}) {stock_name} - 龙虎榜多空博弈席位图"
-                
+
                 # 简化图表渲染，避免复杂的字符串操作
                 chart_html = battle_chart.to_html(include_plotlyjs=False, div_id="battle_chart", config={'displayModeBar': False, 'responsive': True})
-                
+
                 f.write(f"""
                 <!DOCTYPE html>
                 <html lang="zh-CN">
@@ -413,7 +471,7 @@ class SeatVisualization:
                     <meta charset="utf-8">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
                     <title>{html_title}</title>
-                    
+
                     <!-- TailwindCSS 3.0+ -->
                     <script src="https://cdn.tailwindcss.com"></script>
                     <script>
@@ -437,13 +495,13 @@ class SeatVisualization:
                             }}
                         }}
                     </script>
-                    
+
                     <!-- Plotly.js -->
                     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-                    
+
                     <!-- Font Awesome -->
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-                    
+
                     <style>
                         body {{
                             background: linear-gradient(135deg, #FAFBFC 0%, #EAEFFB 100%);
@@ -465,11 +523,11 @@ class SeatVisualization:
                             to {{ opacity: 1; }}
                         }}
                         @keyframes slideUp {{
-                            from {{ 
+                            from {{
                                 opacity: 0;
                                 transform: translateY(30px);
                             }}
-                            to {{ 
+                            to {{
                                 opacity: 1;
                                 transform: translateY(0);
                             }}
@@ -512,7 +570,7 @@ class SeatVisualization:
                                 <span class="font-semibold">AI驱动的智能投资决策平台</span>
                             </p>
                         </div>
-                        
+
                         <!-- 图表容器 -->
                         <div class="animate-slide-up w-full max-w-7xl">
                             <div class="bg-white rounded-2xl gushen-shadow tech-glow gushen-gradient p-6 lg:p-8">
@@ -545,12 +603,12 @@ class SeatVisualization:
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <!-- 主图表区域 -->
                                 <div id="battle_chart" class="w-full">
                                     {chart_html}
                                 </div>
-                                
+
                                 <!-- 底部说明区域 -->
                                 <div class="mt-6 pt-4 border-t border-gushen-light">
                                     <div class="flex flex-wrap items-center justify-between text-sm text-gray-600">
@@ -572,7 +630,7 @@ class SeatVisualization:
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- 底部品牌区域 -->
                         <div class="animate-fade-in mt-8 text-center">
                             <div class="flex items-center justify-center text-gray-500 text-sm">
@@ -581,7 +639,7 @@ class SeatVisualization:
                             </div>
                         </div>
                     </div>
-                    
+
                     <script>
                         // 添加交互效果
                         document.addEventListener('DOMContentLoaded', function() {{
@@ -608,9 +666,9 @@ if __name__ == "__main__":
     print("=" * 60)
     print("🚀 Gushen AI 龙虎榜席位多空博弈图测试")
     print("=" * 60)
-    
+
     visualizer = SeatVisualization()
-    
+
     # 测试数据文件路径
     test_file = "/Users/qishen-zhen/Cursor/dragon & tiger/core/test-seat-4.json"
 
@@ -622,17 +680,17 @@ if __name__ == "__main__":
         stock_name = data['stocks'][0].get('name', '未知股票')
 
     output_html_file = f"{stock_name}_龙虎榜可视化测试报告.html"
-    
+
     # 获取文件的绝对路径以便清晰展示
     output_html_path = os.path.abspath(output_html_file)
-    
+
     print(f"📊 正在读取测试数据: {test_file}")
     print(f"🎨 生成可视化图表...")
-    
+
     try:
         # 生成可视化报告
         visualizer.generate_report(test_file, output_html=output_html_file)
-        
+
         print("\n✅ 席位多空博弈图生成成功！")
         print(f"📁 HTML报告已保存: {output_html_path}")
         print("\n📋 生成的图表:")
@@ -641,7 +699,7 @@ if __name__ == "__main__":
         print("   🎨 按金额大小排序，买方红色，卖方绿色")
         print("   📊 包含完整的关键指标信息")
         print("\n🎉 龙虎榜席位可视化功能运行良好！")
-        
+
     except Exception as e:
         print(f"❌ 测试过程中出现错误: {e}")
         print("请检查数据文件格式和依赖库是否正确")
