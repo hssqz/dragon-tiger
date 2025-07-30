@@ -286,7 +286,8 @@ class SeatVisualization:
                 zerolinewidth=3,
                 tickfont=dict(size=15, family="'PingFang SC', 'Microsoft YaHei', sans-serif", color=self.colors['text']),
                 range=[-max_amount * 1.3, max_amount * 1.3],  # 设置对称范围
-                fixedrange=True
+                fixedrange=True,
+                showticklabels=False,
             ),
             yaxis=dict(
                 title=dict(text="<b style='color:" + self.colors['text'] + "'>席位排名</b>"),
