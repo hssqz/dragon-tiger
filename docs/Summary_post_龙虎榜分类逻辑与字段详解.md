@@ -138,15 +138,13 @@ sentiment_fields = {
 ```python
 # 综合评估数据提取：market_sentiment_stats.py:203-205
 assessment_fields = {
-    'verdict': overall_assessment.get('verdict', 'Unknown'),           # 分析结论
-    'confidence_score': overall_assessment.get('confidence_score', 0)  # 置信度评分
+    'verdict': overall_assessment.get('verdict', 'Unknown')           # 分析结论
 }
 ```
 
 | 字段名 | 数据路径 | 类型 | 描述 | 取值范围 |
 |-------|---------|------|------|---------|
 | `verdict` | `data.analysis_report.overall_assessment.verdict` | String | 最终分析结论 | "看多"/"看空"/"中性" |
-| `confidence_score` | `data.analysis_report.overall_assessment.confidence_score` | Float | 分析置信度 | 0.0 - 1.0 |
 
 ### 4. K线行为分析字段
 
@@ -348,7 +346,6 @@ level = market_sentiment.get('level', 'Unknown')
 | `level` | `overall_assessment.market_sentiment.level` | String | **主分类依据** | "Unknown" |  
 | `interpretation` | `overall_assessment.market_sentiment.interpretation` | String | 情绪解释说明 | "" |
 | `verdict` | `overall_assessment.verdict` | String | 分析结论 | "Unknown" |
-| `confidence_score` | `overall_assessment.confidence_score` | Float | 可信度评估 | 0 |
 | `behavior_type` | `kline_behavior_analysis.behavior_type` | String | 技术形态 | "Unknown" |
 | `buying_force` | `key_forces.buying_force` | Array | 买方参与者分析 | [] |
 | `selling_force` | `key_forces.selling_force` | Array | 卖方参与者分析 | [] |
