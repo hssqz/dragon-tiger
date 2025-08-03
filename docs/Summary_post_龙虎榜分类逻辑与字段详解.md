@@ -194,7 +194,7 @@ stock_entry = {
     'interpretation': interpretation,       # 情绪解释
     'behavior_type': behavior_type,        # K线行为类型
     'core_players': core_players,          # 核心参与者分析结果
-    'title': stock_title                   # 生成的标题（模拟）
+    'title': stock_title                   # 模拟生成的标题（通过generate_stock_title函数生成，用于展示分类能力）
 }
 ```
 
@@ -251,26 +251,100 @@ error_files.append({
 })
 ```
 
-## 🎨 标题生成逻辑（模拟，到时候直接填充即可）
+## 🎨 标题生成逻辑（模拟生成）
+
+### 标题生成函数（generate_stock_title）
+
+系统通过 `generate_stock_title` 函数模拟生成标题，用于展示系统的分类能力。该函数根据情绪级别、参与者类型和行为特征生成模拟的个性化标题。
+
+**注意**：这些标题是系统自动生成的模拟标题，不是从原始数据中提取的。主要用于：
+1. 展示系统对数据的理解和分类能力
+2. 提供更直观的信息展示
+3. 方便用户快速理解个股特征
+
+```python
+# 标题生成核心逻辑：market_sentiment_stats.py:31-76
+def generate_stock_title(stock_name, level, verdict, behavior_type, core_players, ts_code):
+    """生成个股分析标题"""
+    # 情绪emoji映射
+    emoji_map = {
+        '亢奋': '🚀',
+        '恐慌': '😰',
+        '分歧': '🤔'
+    }
+    
+    emotion_emoji = emoji_map.get(level, '📊')
+    players_summary = core_players.get('summary', '普通散户')
+```
 
 ### 标题生成决策树
 
 ```python
-# 标题生成核心逻辑：market_sentiment_stats.py:45-70
-title_generation_tree = {
-    "机构+游资博弈": f"{emoji} {stock_name}：机构游资激烈博弈，{behavior_type}态势明确",
-    "纯机构买入": f"{emoji} {stock_name}：机构重金抄底，{behavior_type}信号强烈", 
-    "纯机构卖出": f"{emoji} {stock_name}：机构大举减仓，{behavior_type}趋势确立",
-    "游资博弈": f"{emoji} {stock_name}：知名游资对决升级，{behavior_type}成关键",
-    "游资买入": f"{emoji} {stock_name}：游资大佬重仓出击，{behavior_type}爆发在即",
-    "游资卖出": f"{emoji} {stock_name}：游资高位派发，{behavior_type}风险加剧",
-    "散户亢奋": f"{emoji} {stock_name}：散户情绪高涨，{behavior_type}值得关注",
-    "散户恐慌": f"{emoji} {stock_name}：恐慌抛售加剧，{behavior_type}底部显现",
-    "散户分歧": f"{emoji} {stock_name}：多空分歧严重，{behavior_type}方向待定"
+# 标题生成决策逻辑：market_sentiment_stats.py:46-70
+title_generation_logic = {
+    # 1. 机构+游资博弈场景
+    "机构+游资博弈": {
+        "条件": "'机构' in players_summary and any(trader in players_summary for trader in ['买', '卖', '博弈'])",
+        "模板": f"{emotion_emoji} {stock_name}：机构游资激烈博弈，{behavior_type}态势明确"
+    },
+    
+    # 2. 纯机构参与场景
+    "机构买入": {
+        "条件": "'机构' in players_summary and '买' in players_summary",
+        "模板": f"{emotion_emoji} {stock_name}：机构重金抄底，{behavior_type}信号强烈"
+    },
+    "机构卖出": {
+        "条件": "'机构' in players_summary and not '买' in players_summary",
+        "模板": f"{emotion_emoji} {stock_name}：机构大举减仓，{behavior_type}趋势确立"
+    },
+    
+    # 3. 知名游资参与场景
+    "游资博弈": {
+        "条件": "any(famous_trader in players_summary for famous_trader in ['佛山', '淮海', '东莞', '华鑫', '光大']) and '博弈' in players_summary",
+        "模板": f"{emotion_emoji} {stock_name}：知名游资对决升级，{behavior_type}成关键"
+    },
+    "游资买入": {
+        "条件": "知名游资存在 and '买' in players_summary",
+        "模板": f"{emotion_emoji} {stock_name}：游资大佬重仓出击，{behavior_type}爆发在即"
+    },
+    "游资卖出": {
+        "条件": "知名游资存在 and not '买' in players_summary",
+        "模板": f"{emotion_emoji} {stock_name}：游资高位派发，{behavior_type}风险加剧"
+    },
+    
+    # 4. 散户为主场景（根据情绪级别区分）
+    "散户亢奋": {
+        "条件": "level == '亢奋' and 无机构无知名游资",
+        "模板": f"{emotion_emoji} {stock_name}：散户情绪高涨，{behavior_type}值得关注"
+    },
+    "散户恐慌": {
+        "条件": "level == '恐慌' and 无机构无知名游资",
+        "模板": f"{emotion_emoji} {stock_name}：恐慌抛售加剧，{behavior_type}底部显现"
+    },
+    "散户分歧": {
+        "条件": "level == '分歧' and 无机构无知名游资",
+        "模板": f"{emotion_emoji} {stock_name}：多空分歧严重，{behavior_type}方向待定"
+    }
 }
 ```
 
-*注：标题是模拟生成的，主要用于演示分类逻辑和字段整合能力*
+### 标题链接生成
+
+```python
+# 生成文件链接：market_sentiment_stats.py:73-76
+link_url = f"./analysis/{ts_code}_analysis.html"
+# 返回Markdown链接格式
+return f"[{title}]({link_url})"
+```
+
+### 模拟标题的作用
+
+1. **信息整合**：将股票名称、情绪级别、K线形态、参与者信息整合成一句话
+2. **快速理解**：帮助用户快速理解该股票的核心特征
+3. **分类展示**：体现系统对不同类型股票的分类和理解能力
+4. **用户友好**：比单纯的数据字段更加直观易懂
+
+**重要说明**：所有标题都是基于提取的数据字段（情绪级别、参与者、K线形态等）模拟生成的，不是原始数据中的字段。
 
 ## 📈 统计分析逻辑
 
@@ -336,6 +410,89 @@ stock_name = stock_info.get('name', 'Unknown')
 level = market_sentiment.get('level', 'Unknown')
 ```
 
+## 📱 移动端报告生成功能
+
+### save_mobile_version 函数
+
+系统新增了专门为移动端优化的报告生成功能，通过 `save_mobile_version` 函数实现。
+
+```python
+# 移动端报告生成函数：market_sentiment_stats.py:348-488
+def save_mobile_version(daily_stats, total_stocks):
+    """保存移动端友好的统计结果到Markdown文件"""
+    output_file = f"每日汇总帖子_mobile.md"
+```
+
+### 移动端优化特点
+
+1. **简化表格结构**
+   ```python
+   # 情绪分布表格（简化版）：market_sentiment_stats.py:375-390
+   md_content.append("| 情绪 | 数量 | 占比 |")
+   md_content.append("|------|------|------|")
+   # 去掉了"代表个股"列，让表格更紧凑
+   ```
+
+2. **卡片式个股展示**
+   ```python
+   # 移动端个股展示格式：market_sentiment_stats.py:459-464
+   md_content.append(f"{title_link}  ")
+   md_content.append(f"**结论**: {verdict} | **形态**: {behavior_type}  ")
+   md_content.append(f"**参与者**: {players_summary}")
+   md_content.append("")
+   md_content.append("---")
+   ```
+
+3. **数量限制与提示**
+   ```python
+   # 只显示前10只股票：market_sentiment_stats.py:439
+   display_count = min(10, len(stocks))
+   
+   # 超出部分提示：market_sentiment_stats.py:467-470
+   if len(stocks) > display_count:
+       remaining = len(stocks) - display_count
+       md_content.append(f"> 注：为节省空间，其余{remaining}只{level}情绪个股请在GushenAI中查看完整表格")
+   ```
+
+4. **标题去emoji处理**
+   ```python
+   # 提取标题文本并去掉emoji：market_sentiment_stats.py:449-455
+   if '[' in title and ']' in title:
+       title_parts = title.split(']')[0][1:].split(' ', 1)
+       if len(title_parts) > 1 and title_parts[0] in ['🚀', '😰', '🤔']:
+           clean_title = title_parts[1]
+       else:
+           clean_title = title_parts[0] if title_parts else stock['name']
+       title_link = f"[**{clean_title}**](./analysis/{stock['ts_code']}_analysis.html)"
+   ```
+
+### 移动端报告结构
+
+```markdown
+# 📊 龙虎榜每日分析汇总
+
+## 📅 2025-07-02 龙虎榜分析
+
+### 情绪分布
+| 情绪 | 数量 | 占比 |
+
+### 🎯 关键洞察
+**主导情绪**: 亢奋 (40只, 58.8%)  
+**整体特征**: 个股情绪普遍高涨，多头氛围浓厚  
+**风险等级**: 中等偏高
+
+## 🚀 亢奋情绪个股 (40只)
+
+[**大烨智能：机构游资激烈博弈，趋势加速态势明确**](./analysis/300670.SZ_analysis.html)  
+**结论**: 多方获胜 | **形态**: 趋势加速  
+**参与者**: 机构(卖) vs 量化打板,瑞鹤仙(博弈)
+
+---
+
+### 更多股票...
+> 注：为节省空间，其余30只亢奋情绪个股请在GushenAI中查看完整表格
+```
+
 ## 📋 字段映射总表
 
 | 系统内部字段 | JSON数据路径 | 数据类型 | 用途 | 默认值 |
@@ -350,6 +507,51 @@ level = market_sentiment.get('level', 'Unknown')
 | `buying_force` | `key_forces.buying_force` | Array | 买方参与者分析 | [] |
 | `selling_force` | `key_forces.selling_force` | Array | 卖方参与者分析 | [] |
 
+## 📄 输出文件格式
+
+### 1. PC端完整版报告（已停用）
+```python
+# 原save_to_file函数生成：market_sentiment_stats.py:491-617
+output_file = f"lhb_daily_analysis_summary_{timestamp}.md"
+# 包含完整表格格式，所有股票详情
+```
+
+### 2. 移动端优化版报告（当前使用）
+```python
+# save_mobile_version函数生成：market_sentiment_stats.py:348-488
+output_file = f"每日汇总帖子_mobile.md"
+# 特点：
+# - 固定文件名，方便自动化处理
+# - 卡片式布局，移动端友好
+# - 限制每个情绪级别显示10只股票
+# - 标题直接可点击跳转
+```
+
+## 🚀 主函数逻辑
+
+### 更新后的执行流程
+
+```python
+# 主函数：market_sentiment_stats.py:620-636
+def main():
+    """主函数"""
+    # 1. 扫描并统计
+    daily_stats, total_stocks, error_files = scan_market_sentiment_levels()
+    
+    # 2. 显示结果
+    display_statistics(daily_stats, total_stocks, error_files)
+    
+    # 3. 保存到文件
+    if total_stocks > 0:
+        # 只生成移动端版报告
+        save_mobile_version(daily_stats, total_stocks)
+```
+
+### 关键变化
+1. **移除了PC端报告生成**：不再调用 `save_to_file()`
+2. **专注移动端优化**：只生成移动端友好的报告格式
+3. **固定输出文件名**：便于自动化集成和发布
+
 ## 🎯 分类逻辑总结
 
 系统采用**多维度分类体系**：
@@ -359,11 +561,22 @@ level = market_sentiment.get('level', 'Unknown')
 3. **统计分类**：按日期、占比、数量进行汇总分类
 4. **输出分类**：按风险等级、市场特征进行结果分类
 
-整个系统通过**字段提取→参与者分析→情绪分类→统计汇总**的完整数据流，实现对龙虎榜数据的智能化分类和分析。
+整个系统通过**字段提取→参与者分析→情绪分类→统计汇总→移动端优化输出**的完整数据流，实现对龙虎榜数据的智能化分类和分析。
+
+## 🔄 版本更新说明
+
+### v2.0 更新内容（2025-08-03）
+1. **新增移动端报告生成功能**：`save_mobile_version` 函数
+2. **优化标题生成逻辑**：去除emoji，适配移动端显示
+3. **更新主函数**：只生成移动端版本报告
+4. **修改提示文字**：从"PC端"改为"GushenAI"
+
+### v1.1 原始版本（2025-07-30）
+- 初始版本，包含PC端完整报告生成功能
 
 ---
 
 *本文档详细阐述了龙虎榜AI系统的分类逻辑核心机制，为系统维护、扩展和优化提供技术参考。*
 
-*文档版本：v1.1*  
-*更新时间：2025-07-30*
+*文档版本：v2.0*  
+*更新时间：2025-08-03*

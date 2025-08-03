@@ -345,6 +345,149 @@ def display_statistics(daily_stats, total_stocks, error_files):
             print(f"   {error['file']}: {error['error']}")
 
 
+def save_mobile_version(daily_stats, total_stocks):
+    """保存移动端友好的统计结果到Markdown文件"""
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    output_file = f"每日汇总帖子_mobile.md"
+    
+    # 生成移动端优化的Markdown内容
+    current_time = datetime.now()
+    md_content = []
+    
+    # 报告标题
+    md_content.append("# 📊 龙虎榜每日分析汇总")
+    md_content.append("")
+    
+    # 生成每日报告
+    for date in sorted(daily_stats.keys()):
+        date_stats = daily_stats[date]
+        daily_total = sum(len(stocks) for stocks in date_stats.values())
+        formatted_date = f"{date[:4]}-{date[4:6]}-{date[6:8]}"
+        
+        md_content.append(f"## 📅 {formatted_date} 龙虎榜分析")
+        md_content.append("")
+        md_content.append(f"**📊 当日统计**: 共分析 {daily_total} 只个股")
+        md_content.append("")
+        
+        # 统计当日情绪分布
+        sorted_levels = sorted(date_stats.items(), key=lambda x: len(x[1]), reverse=True)
+        
+        # 情绪分布表格（简化版）
+        md_content.append("### 情绪分布")
+        md_content.append("")
+        md_content.append("| 情绪 | 数量 | 占比 |")
+        md_content.append("|------|------|------|")
+        
+        for level, stocks in sorted_levels:
+            percentage = (len(stocks) / daily_total * 100) if daily_total > 0 else 0
+            emoji = {
+                '亢奋': '🚀',
+                '恐慌': '😰', 
+                '分歧': '🤔',
+                'Unknown': '❓'
+            }.get(level, '📊')
+            
+            md_content.append(f"| {emoji} {level} | {len(stocks)}只 | {percentage:.1f}% |")
+        
+        md_content.append("")
+        
+        # 生成关键洞察
+        if sorted_levels:
+            dominant_level = sorted_levels[0][0]
+            dominant_count = len(sorted_levels[0][1])
+            dominant_percentage = (dominant_count / daily_total * 100) if daily_total > 0 else 0
+            
+            md_content.append("### 🎯 关键洞察")
+            md_content.append("")
+            md_content.append(f"**主导情绪**: {dominant_level} ({dominant_count}只, {dominant_percentage:.1f}%)")
+            md_content.append("")
+            
+            # 个股情绪判断
+            if dominant_level == "亢奋" and dominant_percentage > 50:
+                market_mood = "个股情绪普遍高涨，多头氛围浓厚"
+                risk_level = "中等偏高"
+            elif dominant_level == "恐慌" and dominant_percentage > 40:
+                market_mood = "个股恐慌情绪蔓延，空头压制明显"
+                risk_level = "高风险"
+            elif dominant_level == "分歧":
+                market_mood = "个股分歧严重，多空博弈激烈"
+                risk_level = "高波动"
+            else:
+                market_mood = "个股情绪相对均衡"
+                risk_level = "中等"
+            
+            md_content.append(f"**整体特征**: {market_mood}  ")
+            md_content.append(f"**风险等级**: {risk_level}")
+            md_content.append("")
+        
+        md_content.append("---")
+        md_content.append("")
+        
+        # 详细个股列表（移动端优化版）
+        for level, stocks in sorted_levels:
+            emoji = {
+                '亢奋': '🚀',
+                '恐慌': '😰', 
+                '分歧': '🤔',
+                'Unknown': '❓'
+            }.get(level, '📊')
+            
+            md_content.append(f"## {emoji} {level}情绪个股 ({len(stocks)}只)")
+            md_content.append("")
+            
+            # 只显示前10只股票
+            display_count = min(10, len(stocks))
+            for i, stock in enumerate(stocks[:display_count]):
+                verdict = stock.get('verdict', 'Unknown')
+                behavior_type = stock.get('behavior_type', 'Unknown')
+                core_players = stock.get('core_players', {})
+                players_summary = core_players.get('summary', '普通散户')
+                
+                # 获取标题（去掉emoji）
+                title = stock.get('title', f"[{stock['name']}分析](./analysis/{stock['ts_code']}_analysis.html)")
+                # 提取标题文本并去掉emoji
+                if '[' in title and ']' in title:
+                    title_parts = title.split(']')[0][1:].split(' ', 1)
+                    if len(title_parts) > 1 and title_parts[0] in ['🚀', '😰', '🤔']:
+                        clean_title = title_parts[1]
+                    else:
+                        clean_title = title_parts[0] if title_parts else stock['name']
+                    title_link = f"[**{clean_title}**](./analysis/{stock['ts_code']}_analysis.html)"
+                else:
+                    title_link = f"[**{stock['name']}分析**](./analysis/{stock['ts_code']}_analysis.html)"
+                
+                md_content.append(f"{title_link}  ")
+                md_content.append(f"**结论**: {verdict} | **形态**: {behavior_type}  ")
+                md_content.append(f"**参与者**: {players_summary}")
+                md_content.append("")
+                md_content.append("---")
+                md_content.append("")
+            
+            # 如果股票太多，显示提示
+            if len(stocks) > display_count:
+                remaining = len(stocks) - display_count
+                md_content.append("### 更多股票...")
+                md_content.append(f"> 注：为节省空间，其余{remaining}只{level}情绪个股请在GushenAI中查看完整表格")
+                md_content.append("")
+                md_content.append("---")
+                md_content.append("")
+    
+    # 添加报告结尾
+    md_content.append("*本报告由 Gushen AI 自动生成，仅供参考，不构成投资建议*")
+    md_content.append("")
+    md_content.append(f"*报告生成时间: {current_time.strftime('%Y-%m-%d %H:%M:%S')}*")
+    
+    # 保存Markdown文件
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    output_path = os.path.join(current_dir, output_file)
+    
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(md_content))
+    
+    print(f"📱 移动端报告已保存到: {output_file}")
+    return output_path
+
+
 def save_to_file(daily_stats, total_stocks):
     """保存每日报告格式的统计结果到Markdown文件"""
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -487,7 +630,8 @@ def main():
     
     # 保存到文件
     if total_stocks > 0:
-        save_to_file(daily_stats, total_stocks)
+        # 只生成移动端版报告
+        save_mobile_version(daily_stats, total_stocks)
     
     print("\n✅ 每日分析报告生成完成! 🎉")
 
