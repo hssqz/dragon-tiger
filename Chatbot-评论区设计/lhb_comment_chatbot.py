@@ -374,41 +374,10 @@ class LongHuBangCommentChatbot:
 # ====== 使用示例和测试代码 ======
 if __name__ == "__main__":
     try:
-        # 示例JSON数据（使用提供的华盛锂电数据）
-        sample_json_data = {
-            "stock_info": {
-                "ts_code": "688353.SH",
-                "name": "华盛锂电",
-                "trade_date": "20250703"
-            },
-            "analysis_report": {
-                "listing_reason_analysis": {
-                    "reasons": ["有价格涨跌幅限制的日收盘价格涨幅达到15%的前五只证券"],
-                    "interpretation": "该上榜原因表明股票价格在单日内大幅上涨15%，突破了涨跌幅限制，这反映了强劲的买方动力和显著的短期投机热情。"
-                },
-                "overall_assessment": {
-                    "verdict": "多方胜利",
-                    "confidence_score": 0.85,
-                    "market_sentiment": {
-                        "level": "亢奋",
-                        "interpretation": "股价涨幅高达15.36%，换手率达21.64%，显示市场交易活跃且情绪亢奋。"
-                    }
-                },
-                "key_forces": {
-                    "buying_force": [
-                        {
-                            "seat_name": "中信证券股份有限公司上海溧阳路证券营业部",
-                            "player_type": "知名游资",
-                            "player_name": "上海溧阳路",
-                            "buy_amount": "0.22亿元",
-                            "style_profile": {
-                                "summary": "执行标准超短隔夜战法，今日买入龙头股，后市可能反复做T或快速获利了结。"
-                            }
-                        }
-                    ]
-                }
-            }
-        }
+        # 加载sample_data.json文件
+        sample_data_path = os.path.join(os.path.dirname(__file__), "sample_data.json")
+        with open(sample_data_path, 'r', encoding='utf-8') as f:
+            sample_json_data = json.load(f)
         
         print("\n===== 龙虎榜评论Chatbot测试 =====")
         
