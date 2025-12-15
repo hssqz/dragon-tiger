@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-龙虎榜资金博弈分析系统
+龙虎榜资金博弈分析系统 - 火山引擎版本
 基于PRD Gemini方案实现的模块化LLM分析流水线
+使用火山引擎DeepSeek接口
 """
 
 import json
@@ -14,27 +15,38 @@ from typing import Dict, Any, Optional
 # 添加项目根目录到路径
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-# 导入DeepSeek接口
+# 导入火山引擎DeepSeek接口
 try:
-    from .deepseek_interface import DeepSeekInterface
+    from core.huoshan_deepseek_interface import HuoshanDeepSeekInterface
 except ImportError:
-    from deepseek_interface import DeepSeekInterface
+    try:
+        from huoshan_deepseek_interface import HuoshanDeepSeekInterface
+    except ImportError:
+        # 尝试导入文件名带括号的版本
+        import importlib.util
+        spec = importlib.util.spec_from_file_location(
+            "huoshan_deepseek_interface", 
+            os.path.join(os.path.dirname(__file__), "deepseek_interface(huoshan).py")
+        )
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        HuoshanDeepSeekInterface = module.HuoshanDeepSeekInterface
 
 # 配置日志
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-logger = logging.getLogger('funding_battle_analyzer')
+logger = logging.getLogger('funding_battle_analyzer_huoshan')
 
 
-class FundingBattleAnalyzer:
+class FundingBattleAnalyzerHuoshan:
     """
-    龙虎榜资金博弈分析器
+    龙虎榜资金博弈分析器 - 火山引擎版本
     实现优化的5模块分析流水线（合并模块一+二，模块四+五）
     """
     
     def __init__(self):
         """初始化分析器"""
-        self.deepseek = DeepSeekInterface()
-        logger.info("龙虎榜资金博弈分析器初始化完成")
+        self.deepseek = HuoshanDeepSeekInterface()
+        logger.info("龙虎榜资金博弈分析器（火山引擎版本）初始化完成")
     
     def load_seat_data(self, file_path: str) -> Optional[Dict[str, Any]]:
         """
@@ -89,7 +101,7 @@ class FundingBattleAnalyzer:
 基于以下JSON格式的龙虎榜核心摘要数据，进行三维度综合评估：
 
 1. **战局定性**: 给出多空胜负的最终判断
-2. **市场情绪评估**: 基于`pct_change`和`turnover_rate`，评估市场的真实情绪。请从以下词汇中选择最贴切的一个进行描述：**亢奋、乐观、分歧、博弈、悲观、恐慌**。
+2. **市场情绪评估**: 基于`pct_change`和`turnover_rate`，评估市场的真实情绪是亢奋、分歧还是恐慌
 3. **资金对抗评估**: 基于所有资金相关数据（如`l_buy`, `l_sell`, `net_amount`等），评估主力资金的控盘力度和多空对抗的激烈程度
 4. **核心结论**: 用一句话点出今天战局的核心看点
 
@@ -109,11 +121,11 @@ class FundingBattleAnalyzer:
     "verdict": "string",
     "confidence_score": "float",
     "market_sentiment": {
-      "level": "string, must be one of ['亢奋', '乐观', '分歧', '博弈', '悲观', '恐慌']",
+      "level": "string, must be one of ['亢奋', '乐观', '分歧', '博弈', '观望', '悲观', '恐慌', '退潮']",
       "interpretation": "string"
     },
     "capital_confrontation": {
-      "level": "string",
+      "level": "string, must be one of ['亢奋', '乐观', '分歧', '博弈', '观望', '悲观', '恐慌', '退潮']",
       "interpretation": "string"
     },
     "key_takeaway": "string"
@@ -261,17 +273,11 @@ class FundingBattleAnalyzer:
             
             prompt = f"""你是一位精通"量价时空"的K线分析专家。你的任务是基于该股近期的日K线数据，分析龙虎榜当天（即数据中的最后一天）的上榜行为。
 
-**输出要求:**
+**分析要求:**
 
-1.  **龙虎榜当天K线数据 (lhb_day_kline):** 提取K线数据中最后一天（龙虎榜日期）的完整OHLC数据，包括：
-    *   日期信息（date, date_display）
-    *   四个价格（open, high, low, close）
-    *   成交量和成交额（volume, amount）
-    *   涨跌幅（pct_change）
+1.  **行为定性 (behavior_type):** 对本次上榜行为给出一个清晰、简洁的定性判断。
 
-2.  **行为定性 (behavior_type):** 对本次上榜行为给出一个清晰、简洁的定性判断。
-
-3.  **趋势解读 (trend_interpretation):** 详细解读你的判断依据。
+2.  **趋势解读 (trend_interpretation):** 详细解读你的判断依据。  
     *   **要点:**
         *   **当前阶段:** 说明当前股价处于整个短期趋势的哪个阶段（例如：上涨初期、主升浪、上涨末期、下跌通道、筑底阶段等）。
         *   **量价关系:** 结合上榜日及前几日的成交量变化，分析量价配合情况（例如：放量上涨、缩量上涨、价涨量缩、放量下跌等）。
@@ -286,17 +292,6 @@ class FundingBattleAnalyzer:
 请严格按照下面的JSON格式输出你的分析结果。"""
 
             json_schema = """{
-  "lhb_day_kline": {
-    "date": "string",
-    "date_display": "string",
-    "open": "float",
-    "high": "float",
-    "low": "float",
-    "close": "float",
-    "volume": "string",
-    "amount": "string",
-    "pct_change": "string"
-  },
   "trend_analysis": {
     "behavior_type": "string",
     "trend_interpretation": "string"
@@ -350,7 +345,7 @@ class FundingBattleAnalyzer:
         返回:
             完整的分析报告JSON
         """
-        logger.info("开始执行龙虎榜资金博弈分析流水线（优化合并模式）")
+        logger.info("开始执行龙虎榜资金博弈分析流水线（火山引擎优化合并模式）")
         
         # 加载数据
         data = self.load_seat_data(data_file_path)
@@ -399,7 +394,8 @@ class FundingBattleAnalyzer:
                 "trade_date": trade_date
             },
             "analysis_report": analysis_results,
-            "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "api_provider": "huoshan_deepseek"
         }
         
         # 保存结果
@@ -411,7 +407,7 @@ class FundingBattleAnalyzer:
             except Exception as e:
                 logger.error(f"保存报告失败: {e}")
         
-        logger.info("龙虎榜资金博弈分析流水线执行完成，共调用5次API")
+        logger.info("龙虎榜资金博弈分析流水线（火山引擎版本）执行完成，共调用5次API")
         return final_report
 
 
@@ -419,7 +415,7 @@ def main():
     """主函数"""
     import argparse
     
-    parser = argparse.ArgumentParser(description='龙虎榜资金博弈分析系统（优化版）')
+    parser = argparse.ArgumentParser(description='龙虎榜资金博弈分析系统（火山引擎优化版）')
     parser.add_argument('input_file', help='输入的龙虎榜数据文件路径')
     parser.add_argument('-o', '--output', help='输出分析报告文件路径', default=None)
     parser.add_argument('--verbose', action='store_true', help='显示详细日志')
@@ -430,14 +426,14 @@ def main():
         logging.getLogger().setLevel(logging.DEBUG)
     
     # 初始化分析器
-    analyzer = FundingBattleAnalyzer()
+    analyzer = FundingBattleAnalyzerHuoshan()
     
     # 执行分析
     result = analyzer.analyze_complete_report(args.input_file, args.output)
     
     if result:
         print("="*60)
-        print("龙虎榜资金博弈分析报告")
+        print("龙虎榜资金博弈分析报告（火山引擎版本）")
         print("="*60)
         print(json.dumps(result, ensure_ascii=False, indent=2))
     else:
@@ -445,4 +441,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main() 
+    main()

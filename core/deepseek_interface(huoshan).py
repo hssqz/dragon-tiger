@@ -44,7 +44,7 @@ class HuoshanDeepSeekInterface:
             base_url="https://ark.cn-beijing.volces.com/api/v3",
         )
     
-    def generate_text_with_thinking(self, prompt, max_tokens=65536, temperature=1.3, timeout=180):
+    def generate_text_with_thinking(self, prompt, max_tokens=32768, temperature=1.3, timeout=180):
         """
         使用火山引擎DeepSeek生成文本并展示思考过程
         注意：对于deepseek-r1模型，推理过程在流式输出中体现
@@ -118,7 +118,7 @@ class HuoshanDeepSeekInterface:
                 return f"生成失败: API请求超时，请尝试减小输入数据量或增加超时设置", ""
             return f"生成失败: API请求异常 - {error_message}", ""
     
-    def generate_text_simple(self, prompt, max_tokens=65536, temperature=0.7, timeout=180):
+    def generate_text_simple(self, prompt, max_tokens=32768, temperature=0.7, timeout=180):
         """
         简单的非流式文本生成（不获取推理过程）
         
@@ -157,7 +157,7 @@ class HuoshanDeepSeekInterface:
             logger.error(f"API请求异常: {error_message}")
             return f"生成失败: API请求异常 - {error_message}"
     
-    def stream_output_with_thinking(self, prompt, callback_thinking=None, callback_answer=None, max_tokens=65536, temperature=0.7, timeout=180):
+    def stream_output_with_thinking(self, prompt, callback_thinking=None, callback_answer=None, max_tokens=32768, temperature=0.7, timeout=180):
         """
         流式输出推理过程和回答，通过回调函数实时处理
         
@@ -227,7 +227,7 @@ class HuoshanDeepSeekInterface:
                 callback_answer(f"\n生成失败: {error_message}")
             return f"生成失败: API请求异常 - {error_message}", ""
 
-    def generate_json_output(self, prompt, json_schema_example, max_tokens=65536, temperature=1.0, timeout=180, max_retries=3):
+    def generate_json_output(self, prompt, json_schema_example, max_tokens=32768, temperature=0.5, timeout=180, max_retries=3):
         """
         使用火山引擎DeepSeek生成结构化JSON输出
         
@@ -426,7 +426,7 @@ if __name__ == "__main__":
         json_result = huoshan_interface.generate_json_output(
             json_prompt,
             json_example,
-            max_tokens=65536,
+            max_tokens=32768,
             temperature=1.0
         )
         

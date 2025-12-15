@@ -611,7 +611,7 @@ def main():
     processor = DataProcessor()
     
     # 测试处理单个交易日数据
-    test_date = '20250617'
+    test_date = '20250805'
     processed_data = processor.process_single_date_data(test_date, days_back=10)
     
     print(f"处理{test_date}数据完成")
